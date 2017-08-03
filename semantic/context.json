@@ -1,0 +1,15 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "http://schema.org/",
+    "wp": "https://www.wikidata.org/wiki/Property:",
+    "q": "https://wikiapi.org/objects/",
+    "@vocab": "https://wikiapi.org/semantic/properties:",
+    "name": "rdfs:label",
+    "description": {
+      "@id": "rdfs:comment",
+      "@langage": "fr"
+    },
+    "children": { "@reverse": "rdfs:subClassOf" }
+  }
+}

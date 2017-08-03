@@ -1,0 +1,20 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q144",
+  "@type": "q:Q132",
+  "generatedBy": "q:Q101",
+  "name": "Consommation de gaz",
+  "description": "Un relevé de consommation de gaz, transmis par EDF.",
+  "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
+  "sourceDataController": "EDF",
+  "typology": "Domicile",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "cozyIndex": "[\"statementReason\"]",
+  "cozySelector": "{\"statementReason\": { \"$nin\":[\"EdeliaYearlyElecConsumption\", \"EdeliaYearlyElecConsumption\"]}}",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    "q:Q110", "q:Q111", "q:Q112", "q:Q113","q:Q114","q:Q115","q:Q117",
+    "q:Q136", "q:Q137","q:Q135"
+  ]
+}

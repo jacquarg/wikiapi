@@ -1,0 +1,12 @@
+{
+  "name": "wikiapi",
+  "version": "0.0.1",
+  "description": "Un wiki pour les API publiques (et pas ^^ ?)",
+  "scripts": {
+    "build": "node scripts/build_mesinfosdev.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+     "jsonld": "0.4.12"
+  }
+}

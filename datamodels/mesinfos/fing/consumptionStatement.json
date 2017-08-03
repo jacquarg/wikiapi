@@ -1,0 +1,181 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q132",
+  "@type": "q:Q102",
+  "name": "ConsumptionStatement",
+  "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
+  "hasOptionalProperty": [
+    "q:Q133", "q:Q134", "q:Q109",
+    {
+      "name": "contractNumber",
+      "@id": "q:Q110",
+      "@type": "q:Q104",
+      "description": "Numéro du contrat",
+      "exampleValue": "1234654321",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "billNumber",
+      "@id": "q:Q111",
+      "@type": "q:Q104",
+      "description": "Numéro de la facture associé à la consommation",
+      "exampleValue": "12346897654",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "start",
+      "@id": "q:Q112",
+      "@type": "q:Q104",
+      "description": "Début de période de relevé de consommation",
+      "exampleValue": "2016-01-08",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "end",
+      "@id": "q:Q113",
+      "@type": "q:Q104",
+      "description": "Fin de période de relevé de consommation",
+      "exampleValue": "2016-07-01",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "value",
+      "@id": "q:Q114",
+      "@type": "q:Q104",
+      "description": "Consommation estimée ou réelle",
+      "exampleValue": "648.0",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "statementType",
+      "@id": "q:Q115",
+      "@type": "q:Q104",
+      "description": "Type de relève associé à la consommation (réelle ou estimée)",
+      "exampleValue": "REEL",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "statementCategory",
+      "@id": "q:Q116",
+      "@type": "q:Q104",
+      "description": "Catégorie de relève associée à la consommation (complète statementType)",
+      "exampleValue": "RELEVE_REEL_PAR_ERD_GRD",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "statementReason",
+      "@id": "q:Q117",
+      "@type": "q:Q104",
+      "description": "Motif de relève associé à la consommation",
+      "exampleValue": "RELEVE_PERIODIQUE",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "period",
+      "@id": "q:Q118",
+      "@type": "q:Q104",
+      "description": "Désignation de la période de consommation : mois de la consommation mensuelle, année de la consommation annuelle. (pour clients edelia)",
+      "exampleValue": "",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "cost",
+      "@id": "q:Q122",
+      "@type": "q:Q104",
+      "description": "Coût total de la période. (relevés Edelia)",
+      "exampleValue": "",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "costByCategory",
+      "@id": "q:Q123",
+      "@type": "q:Q104",
+      "description": "Coût sur la période, par catégory (BASE, Heures creuses,abonnement ...)  (relevés Edelia)",
+      "exampleValue": "{\n      \"BASE\": 350,\n      \"standing\": 55\n    }",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "costByCategory/BASE",
+      "@id": "q:Q124",
+      "@type": "q:Q104",
+      "description": "Coût sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
+      "exampleValue": "",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "costByCategory/standing",
+      "@id": "q:Q125",
+      "@type": "q:Q104",
+      "description": "Part abonnement de la période en euros  (relevés Edelia)",
+      "exampleValue": "",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "valuesByCatergory/BASE",
+      "@id": "q:Q126",
+      "@type": "q:Q104",
+      "description": "Consommation sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
+      "exampleValue": "",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "similarHomes",
+      "@id": "q:Q127",
+      "@type": "q:Q104",
+      "description": "Comparaison avec des habitations similaires (relevé annuels Edelia)",
+      "exampleValue": "{\n      \"site\": 2144,\n      \"average\": 2335,\n      \"least\": 1030\n    }",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "similarHomes/average",
+      "@id": "q:Q128",
+      "@type": "q:Q104",
+      "description": "Comparaison avec des habitations similaires : moyenne (relevé annuels Edelia)",
+      "exampleValue": "2335",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "similarHomes/least",
+      "@id": "q:Q129",
+      "@type": "q:Q104",
+      "description": "Comparaison avec des habitations similaires : le moins consommateur (relevé annuels Edelia)",
+      "exampleValue": "1030",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "similarHomes/site",
+      "@id": "q:Q130",
+      "@type": "q:Q104",
+      "description": "Comparaison avec des habitations similaires : cette habitation (relevé annuels Edelia)",
+      "exampleValue": "2144",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "statements",
+      "@id": "q:Q131",
+      "@type": "q:Q104",
+      "description": "Releves de consommation (relevés Edelia)",
+      "exampleValue": "{\n        \"date\": \"2016-10-01\",\n        \"indexesByLabel\": {\n          \"BASE\": 70800\n        }",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    }
+  ]
+}

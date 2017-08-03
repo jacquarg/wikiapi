@@ -1,0 +1,35 @@
+{
+  "@context": "semantic/context.json",
+
+  "@id": "q:Q104",
+  "@type": "wq:Q937228",
+  "name": "property",
+  "description": "Un champ d'un doctype cozy.",
+  "children": [
+    {
+      "name": "_id",
+      "@id": "q:Q133",
+      "@type": "q:Q104",
+      "description": "id dans la base CouchDB de Cozy",
+      "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+      "kind": "Metadata"
+    },
+    {
+      "name": "_rev",
+      "@id": "q:Q134",
+      "@type": "q:Q104",
+      "description": "Revision dans la base CouchDB de Cozy",
+      "exampleValue": "2-b4d36d1b7d8e56b63afeaf3ce71de0cf",
+      "kind": "Metadata"
+    },
+    {
+      "name": "docTypeVersion",
+      "@id": "q:Q109",
+      "@type": "q:Q104",
+      "description": "Origine du document, et version de format du document, ",
+      "exampleValue": "EDFKonnector-0.0.0-draft",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q142",
+  "@type": "q:Q132",
+  "generatedBy": "q:Q101",
+  "name": "Éstimations de consommation de gaz",
+  "description": "Éstimations de consommation de gaz, du service e.quilibre, transmises par Edelia.",
+  "typology": "Domicile",
+  "sourceDataController": "EDF",
+  "updateFrequency": "P1M",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
+  "cozyIndex": "[\"statementReason\"]",
+  "cozySelector": "{\"statementReason\": { \"$in\":[\"EdeliaYearlyGazConsumption\", \"EdeliaYearlyGazConsumption\"]}}",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    "q:Q110", "q:Q112", "q:Q113","q:Q114","q:Q115","q:Q117",
+    {
+      "name": "statementType",
+      "@id": "q:Q139",
+      "@type": "q:Q115",
+      "description": "Type de relève associé à la consommation, edelia.",
+      "exampleValue": "estime",
+      "values": [ "estime"]
+    },
+    {
+      "name": "statementReason",
+      "@id": "q:Q140",
+      "@type": "q:Q117",
+      "description": "Motif de relève associé à la consommation.",
+      "exampleValue": "EdeliaMonthlyGasConsumption",
+      "values": ["EdeliaMonthlyGasConsumption", "EdeliaYearlyGasConsumption"]
+    },
+    {
+      "name": "statementCategory",
+      "@id": "q:Q141",
+      "@type": "q:Q116",
+      "description": "Type de relève associé à la consommation.",
+      "exampleValue": "edelia",
+      "values": ["edelia"]
+    },
+    "q:Q118", "q:Q122", "q:Q123", "q:Q124", "q:Q125", "q:Q126",
+    "q:Q131",
+    "q:Q127","q:Q128","q:Q129", "q:Q130"
+  ],
+  "help": "'similarHomes' seulement sur les relevés 'EdeliaYearlyGasConsumption'. 'statements', seulement sur les relevés EdeliaMonthlyGasConsumption."
+}
