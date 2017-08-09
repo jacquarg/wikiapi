@@ -1,5 +1,5 @@
 #!/bin/node
-var qIndex = require('../items.json').lastIndex;
+var qIndex = require('../indexes/last_item_index.json').lastIndex;
 
 var rowToProperty = function (row) {
   return {
@@ -15,9 +15,9 @@ var rowToProperty = function (row) {
 };
 
 
-var list = require('../tableaux_MI.json')['Liste des données'];
+var list = require('../../../Bureau/tableaux_MI.json')['Liste des données'];
 
-var filtered = list.filter((item) => item.DocType === "ConsumptionStatement");
+var filtered = list.filter((item) => item.DocType === "InsuranceClaim" && item.Détenteur === "Maif");
 var properties = filtered.map(rowToProperty);
 console.log(JSON.stringify(properties, null, 2));
 console.log(filtered.length)

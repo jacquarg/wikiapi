@@ -11,11 +11,11 @@
   "updateFrequency": "P6M",
   "updateLatency": "P1D",
   "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
-  "cozyIndex": "[\"statementReason\"]",
-  "cozySelector": "{\"statementReason\": { \"$nin\":[\"EdeliaYearlyElecConsumption\", \"EdeliaYearlyElecConsumption\"]}}",
+  "cozyIndex": "[\"_id\", \"statementCategory\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null }, \"statementCategory\": { \"$ne\": \"edelia\" } }",
   "hasProperty": [
     "q:Q133", "q:Q134",
-    "q:Q110", "q:Q111", "q:Q112", "q:Q113","q:Q114","q:Q115","q:Q117",
+    "q:Q110", "q:Q111", "q:Q112", "q:Q113","q:Q114","q:Q117",
     {
       "name": "statementType",
       "@id": "q:Q136",

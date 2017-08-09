@@ -1,0 +1,236 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q226",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Sociétaire Maif",
+  "description": "Identification et moyen de contact du souscripteur : Nom, prénom, adresse, date de naissance, ...",
+  "typology": "Profil",
+  "sourceDataController": "Maif",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.maif.maifuser.societaire",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/societaire_maif.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "name": "societaire",
+      "@id": "q:Q189",
+      "@type": "object",
+      "description": "Identification et moyen de contact du souscripteur : Nom, prénom, adresse, date de naissance, ...",
+      "hasProperty": [
+        {
+          "name": "name",
+          "@id": "q:Q225",
+          "@type": "object",
+          "description": "Nom de la personne",
+          "hasProperty": [
+            {
+              "name": "codeTitrePersonne",
+              "@id": "q:Q227",
+              "@type": "q:Q104",
+              "description": "Code interne Maif : civilités de la personne",
+              "exampleValue": "2",
+              "kind": "Metadata",
+              "availability": "2016-09"
+            },
+            {
+              "name": "prefix",
+              "@id": "q:Q194",
+              "@type": "q:Q104",
+              "description": "Civilités de la personne",
+              "exampleValue": "MME.",
+              "kind": "Caractérisation",
+              "availability": "2016-09"
+            },
+            {
+              "name": "family",
+              "@id": "q:Q195",
+              "@type": "q:Q104",
+              "description": "Nom de famille de la personne",
+              "exampleValue": "DUPOND",
+              "kind": "Caractérisation",
+              "availability": "2016-09"
+            },
+            {
+              "name": "given",
+              "@id": "q:Q196",
+              "@type": "q:Q104",
+              "description": "Prénom de la personne",
+              "exampleValue": "GERMAINE",
+              "kind": "Caractérisation",
+              "availability": "2016-09"
+            },
+            {
+              "name": "maiden",
+              "@id": "q:Q197",
+              "@type": "q:Q104",
+              "description": "Nom de Jeune Fille",
+              "exampleValue": "MARTIN",
+              "kind": "Caractérisation",
+              "availability": "2016-09"
+            }
+          ]
+        },
+        {
+          "name": "email",
+          "@id": "q:Q198",
+          "@type": "q:Q104",
+          "description": "Email",
+          "exampleValue": "germainedupondmesinfos@gmail.com",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "telMobile",
+          "@id": "q:Q199",
+          "@type": "q:Q104",
+          "description": "NumeroTelephonePortable",
+          "exampleValue": "+330723456789",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "telHome",
+          "@id": "q:Q200",
+          "@type": "q:Q104",
+          "description": "Numero de Telephone Domicile",
+          "exampleValue": "+330123456789",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "telPro",
+          "@id": "q:Q201",
+          "@type": "q:Q104",
+          "description": "NumeroTelephoneProfessionnel",
+          "exampleValue": "+330123456789",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "telFax",
+          "@id": "q:Q202",
+          "@type": "q:Q104",
+          "description": "NumeroFax",
+          "exampleValue": "+330123456789",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "birthdate",
+          "@id": "q:Q203",
+          "@type": "q:Q104",
+          "description": "Date de naissance de la personne",
+          "exampleValue": "1972-03-18",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "birthplace",
+          "@id": "q:Q204",
+          "@type": ["q:Q154", "object"],
+          "description": "Commune de naissance",
+          "kind": "Caractérisation",
+          "availability": "2016-09",
+          "hasProperty": [
+            "q:Q167", "q:Q168", "q:Q171",
+            {
+              "name": "region",
+              "@id": "q:Q205",
+              "@type": "q:Q104",
+              "description": "Departement de Naissance",
+
+              "kind": "Caractérisation",
+              "availability": "2016-09"
+            }
+          ]
+        },
+        {
+          "name": "codeProfessionSocietaire",
+          "@id": "q:Q228",
+          "@type": "q:Q104",
+          "description": "Code interne Maif : profession",
+          "exampleValue": "13",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        },
+        {
+          "name": "profession",
+          "@id": "q:Q211",
+          "@type": "q:Q104",
+          "description": "Profession",
+          "exampleValue": "13 Agent, employé",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "codeFamilySituation",
+          "@id": "q:Q229",
+          "@type": "q:Q104",
+          "description": "Code interne Maif : SituationFamiliale",
+          "exampleValue": "U",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        },
+        {
+          "name": "familySituation",
+          "@id": "q:Q212",
+          "@type": "q:Q104",
+          "description": "SituationFamiliale",
+          "exampleValue": "union libre",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "codeActif",
+          "@id": "q:Q208",
+          "@type": "q:Q104",
+          "description": "actif / retraité",
+          "exampleValue": "A Actif",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        },
+        {
+          "name": "codeEtat",
+          "@id": "q:Q209",
+          "@type": "q:Q104",
+          "description": "décédé / vide",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        },
+        {
+          "name": "dateEtat",
+          "@id": "q:Q210",
+          "@type": "q:Q104",
+          "description": "Date du décès, le cas échéant.",
+          "exampleValue": "",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        },
+        {
+          "name": "referenceClient",
+          "@id": "q:Q213",
+          "@type": "q:Q148",
+          "description": "Numéro de sociétaire",
+          "exampleValue": "1234567",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        },
+        {
+          "name": "timestampModification",
+          "@id": "q:Q214",
+          "@type": "q:Q230",
+          "description": "Horodatage de dernière modification",
+          "exampleValue": "10/04/2011",
+          "kind": "Metadata",
+          "availability": "2016-09"
+        }
+      ]
+    }
+  ],
+  "help": "Un seul document par sociétaire Maif, le tableau *societaire* comporte toujours un élément."
+}

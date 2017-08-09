@@ -1,5 +1,5 @@
 {
-  "@context": "assets/context.json",
+  "@context": "semantic/context.json",
   "@id": "q:Q132",
   "@type": "q:Q102",
   "name": "ConsumptionStatement",
@@ -28,7 +28,7 @@
       "name": "start",
       "@id": "q:Q112",
       "@type": "q:Q104",
-      "description": "Début de période de relevé de consommation",
+      "description": "Instant de début de période.",
       "exampleValue": "2016-01-08",
       "kind": "Transaction",
       "availability": "2016-10"
@@ -37,7 +37,7 @@
       "name": "end",
       "@id": "q:Q113",
       "@type": "q:Q104",
-      "description": "Fin de période de relevé de consommation",
+      "description": "Instant de fin de période.",
       "exampleValue": "2016-07-01",
       "kind": "Transaction",
       "availability": "2016-10"

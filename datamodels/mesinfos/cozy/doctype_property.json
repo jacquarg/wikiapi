@@ -30,6 +30,37 @@
       "exampleValue": "EDFKonnector-0.0.0-draft",
       "kind": "Metadata",
       "availability": "2016-10"
+    },
+    {
+      "name": "arrayProperty",
+      "@id": "q:Q159",
+      "@type": ["q:Q104", "array"],
+      "description": "Cette propriété porte un tableau. Élément de structuration de l'arbre du doctype.",
+      "kind": "Metadata"
+    },
+    {
+      "name": "lastModified",
+      "@id": "q:Q230",
+      "@type": "q:Q104",
+      "description": "Instant de dernière modification du document.",
+      "exampleValue": "2016-02-25T01:06:12Z",
+      "kind": "Metadata"
+    },
+    {
+      "name": "createdAt",
+      "@id": "q:Q296",
+      "@type": "q:Q104",
+      "description": "Instant de création du document.",
+      "exampleValue": "2016-02-25T01:06:12Z",
+      "kind": "Metadata"
+    },
+    {
+      "name": "timestamp",
+      "@id": "q:Q297",
+      "@type": "q:Q296",
+      "description": "Instant de création du document.",
+      "exampleValue": "2016-02-25T01:06:12Z",
+      "kind": "Metadata"
     }
   ]
 }

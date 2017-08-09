@@ -11,8 +11,8 @@
   "updateFrequency": "P1M",
   "updateLatency": "P1D",
   "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
-  "cozyIndex": "[\"statementReason\"]",
-  "cozySelector": "{\"statementReason\": { \"$in\":[\"EdeliaYearlyElecConsumption\", \"EdeliaYearlyElecConsumption\"]}}",
+  "cozyIndex": "[\"_id\", \"statementReason\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null }, \"statementReason\": { \"$in\":[\"EdeliaYearlyElecConsumption\", \"EdeliaYearlyElecConsumption\"]}}",
   "hasProperty": [
     "q:Q133", "q:Q134",
     "q:Q110", "q:Q112", "q:Q113","q:Q114","q:Q115","q:Q117",

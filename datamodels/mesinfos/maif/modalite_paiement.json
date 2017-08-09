@@ -1,0 +1,66 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q265",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Modalités de paiement Maif",
+  "description": "Qualifie le mode de paiement pour l'assuré (mensualité, RIB, échéancier, ...).",
+  "typology": "Finance",
+  "sourceDataController": "Maif",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.maif.maifuser.paymentterms",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/modalites_paiement_maif.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "name": "paymentterms",
+      "@id": "q:Q309",
+      "@type": "object",
+      "description": "Qualifie le mode de paiement pour l'assuré (mensualité, RIB, échéancier, ...).",
+      "hasProperty": [
+        {
+          "name": "rib",
+          "@id": "q:Q270",
+          "@type": "object",
+          "description": "Relevé d'identité bancaire",
+          "kind": "Caractérisation",
+          "availability": "2017-01",
+          "hasProperty": [
+            {
+              "name": "bic",
+              "@id": "q:Q267",
+              "@type": "q:Q104",
+              "description": "Code BIC",
+              "exampleValue": "SOGEFRPP",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "iban",
+              "@id": "q:Q268",
+              "@type": "q:Q104",
+              "description": "Code IBAN",
+              "exampleValue": "FR76300039876087612",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            }
+          ]
+        },
+        {
+          "name": "modePaiement",
+          "@id": "q:Q269",
+          "@type": "q:Q104",
+          "description": "Mode de paiement",
+          "exampleValue": "Prélèvement (1 fois)",
+          "kind": "Caractérisation",
+          "availability": "2017-01"
+        },
+        "q:Q148"
+      ]
+    }
+  ]
+}

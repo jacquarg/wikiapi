@@ -3,10 +3,13 @@
   "version": "0.0.1",
   "description": "Un wiki pour les API publiques (et pas ^^ ?)",
   "scripts": {
-    "build": "node scripts/build_mesinfosdev.js"
+    "deduplicateids": "node scripts/check_ids.js",
+    "build": "npm run deduplicateids && node scripts/build_mesinfosdev.js"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "devDependencies": {
-     "jsonld": "0.4.12"
+    "glob": "^7.1.2",
+    "jsonld": "0.4.12"
   }
 }

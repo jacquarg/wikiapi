@@ -1,0 +1,190 @@
+{
+  "@context": {
+    "@base": "https://wikiapi.org/semantic/properties:",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "wp": "https://www.wikidata.org/wiki/Property:",
+    "wq": "https://www.wikidata.org/wiki/",
+
+    "rdfs:subClassOf": { "@type": "@id" },
+
+    "name": "rdfs:label",
+    "description": {
+        "@id": "rdfs:comment",
+        "@langage": "fr"
+    },
+    "children": { "@reverse": "rdfs:subClassOf" },
+    "subjectType": "wp:P1629"
+  },
+  "@id": "wq:Q35120",
+  "children": [
+    {
+      "@id": "entity",
+      "@type": "wq:Q175263",
+      "name": "entity",
+      "descrition": "An entity in a data model",
+      "children": [
+        {
+          "@id": "object",
+          "@type": "wq:Q488383",
+          "name": "object"
+        },
+        {
+          "@id": "array",
+          "@type": "wq:Q186152",
+          "name": "array"
+        }
+      ]
+    },
+    {
+      "@id": "property",
+      "@type": "rdfs:Class",
+      "name": "property",
+      "children": [
+        {
+          "@id": "generatedBy",
+          "name": "generatedBy",
+          "description": "Le programme qui produit ces données.",
+          "subjectType": "wq:Q7397"
+        },
+        {
+          "@id": "usedBy",
+          "name": "usedBy",
+          "description": "Les programmes qui utilisent ces données.",
+          "subjectType": "wq:Q7397"
+        },
+        {
+          "@id": "hasProperty",
+          "description": "L'objet présente cette propriété."
+        },
+        {
+          "@id": "hasOptionalProperty",
+          "description": "L'objet peut présenter cette propriété."
+        },
+        {
+          "@id": "exampleValue",
+          "description": "Un exemple de valeur pour la propriété."
+        },
+        {
+          "@id": "kind",
+          "name": {
+            "@value": "nature",
+            "@language": "fr"
+          },
+          "description": "Un exemple de valeur pour la propriété."
+        },
+        {
+          "@id": "availability",
+          "name": {
+            "@value": "mise à disposition",
+            "@language": "fr"
+          },
+          "description": "Un exemple de valeur pour la propriété."
+        },
+        {
+          "@id": "format",
+          "name": {
+            "@value": "format",
+            "@language": "fr"
+          },
+          "description": "Data type, à préciser."
+        },
+        {
+          "@id": "help",
+          "name": {
+            "@value": "aide",
+            "@language": "fr"
+          },
+          "description": "Aide, informations pour réutiliser au mieux."
+        },
+        {
+          "@id": "values",
+          "name": {
+            "@value": "valeurs",
+            "@language": "fr"
+          },
+          "description": "Liste des valeurs possible pour cette propriété."
+        },
+        {
+          "@id": "forMesInfos",
+          "name": {
+            "@value": "pourMesInfos",
+            "@language": "fr"
+          },
+          "description": "Si vrai, ces données ont été mises à disposition dans le cadre de MesInfos."
+        },
+        {
+          "@id": "cozyDoctypeName",
+          "name": {
+            "@value": "doctype",
+            "@language": "fr"
+          },
+          "description": "Le nom complètement qualifier d'un doctype Cozy.io. ex : io.cozy.accounts ."
+        },
+        {
+          "@id": "cozyIndex",
+          "name": {
+            "@value": "index",
+            "@language": "fr"
+          },
+          "description": "Valeur a fournir a cozy-client-js#index, pour récupérer seulement les document de cet ensemble."
+        },
+        {
+          "@id": "cozySelector",
+          "name": {
+            "@value": "selector",
+            "@language": "fr"
+          },
+          "description": "Valeur a fournir en selector a cozy-client-js#query, pour récupérer seulement les document de cet ensemble."
+        },
+        {
+          "@id": "sourceDataController",
+          "name": {
+            "@value": "responsable de traitement original",
+            "@language": "fr"
+          },
+          "description": "Le responsable de traitement, fournisseur de cette donnée."
+        },
+        {
+          "@id": "typology",
+          "name": {
+            "@value": "typologie",
+            "@language": "fr"
+          },
+          "description": "Typologie, catégorie de cette donnée."
+        },
+        {
+          "@id": "syntheticSet",
+          "name": {
+            "@value": "jeu de synthèse",
+            "@language": "fr"
+          },
+          "description": "Un jeu de données de synthèse."
+        },
+        {
+          "@id": "updateFrequency",
+          "name": {
+            "@value": "fréquence",
+            "@language": "fr"
+          },
+          "description": "Fréquence de mise à jour des données."
+        },
+        {
+          "@id": "updateLatency",
+          "name": {
+            "@value": "latence",
+            "@language": "fr"
+          },
+          "description": "Latence de mise à jour des données."
+        },
+        {
+          "@id": "items",
+          "name": {
+            "@value": "éléments",
+            "@language": "fr"
+          },
+          "description": "Meta éléments d'un tableau."
+        }
+      ]
+    }
+  ]
+}

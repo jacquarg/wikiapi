@@ -1,0 +1,111 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q179",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Habitations assurées",
+  "description": "Qualifie l'habitat assuré (nombre de pièces, standing).",
+  "typology": "Domicile",
+  "sourceDataController": "Maif",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.maif.maifuser.home",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/domicile_maif.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "name": "home",
+      "@id": "q:Q307",
+      "@type": ["q:Q159", "array"],
+      "description": "Liste des habitats assurés.",
+      "items": [
+        {
+          "name": "homeItem",
+          "@id": "q:Q158",
+          "@type": "q:Q102",
+          "description": "Qualifie l'habitat assuré (nombre de pièces, standing).",
+          "hasProperty": [
+            "q:Q154",
+            "q:Q148",
+            {
+              "name": "codeNatureLieuRisque",
+              "@id": "q:Q308",
+              "@type": "q:Q104",
+              "description": "Code interne Maif : nature lieu",
+              "exampleValue": "2",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "natureLieu",
+              "@id": "q:Q185",
+              "@type": "q:Q104",
+              "description": "Nature lieu : appartement, maison, ...",
+              "exampleValue": "Appartement",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "codeJuridique",
+              "@id": "q:Q190",
+              "@type": "q:Q104",
+              "description": "Code interne Maif : situation juridique lieu assuré.",
+              "exampleValue": "1",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "situationJuridiqueLieu",
+              "@id": "q:Q186",
+              "@type": "q:Q104",
+              "description": "Situation juridique lieu assuré.",
+              "exampleValue": "Locataire ou occupant à  titre gratuit",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "codePieceLieuRisque",
+              "@id": "q:Q191",
+              "@type": "q:Q104",
+              "description": "Code interne Maif : tranche nombre de pièces lieu",
+              "exampleValue": "2",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "nombrePieces",
+              "@id": "q:Q187",
+              "@type": "q:Q104",
+              "description": "Tranche nombre de pièces lieu",
+              "exampleValue": "1 à 2 Pièces (ou 2 Pièces)",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "codeTrancheMobilier",
+              "@id": "q:Q192",
+              "@type": "q:Q104",
+              "description": "Code interne Maif : tranche patrimoine mobilier lieu",
+              "exampleValue": "3",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            },
+            {
+              "name": "patrimoineMobilier",
+              "@id": "q:Q188",
+              "@type": "q:Q104",
+              "description": "Tranche patrimoine mobilier lieu",
+              "exampleValue": "3 501 à 6 800 ",
+              "kind": "Caractérisation",
+              "availability": "2017-01"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Un seul document pour tous les habitats Maif d'un sociétaire. Il y a un sous-objet home par habitat."
+}

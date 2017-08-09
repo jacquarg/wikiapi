@@ -1,0 +1,120 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q295",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "name": "Sinistre Maif",
+  "description": "Les sinistres sur mon habitation, ou mon véchiule (date, lieu, immatriculation, conducteur, ...)",
+  "typology": "Finance",
+  "sourceDataController": "Maif",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.maif.maifuser.sinistre",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/sinistre_maif.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "name": "insuranceClaim",
+      "@id": "q:Q299",
+      "@type": ["q:Q159", "array"],
+      "description": "Liste des sinistres du sociétaire.",
+      "items": [
+        {
+          "name": "insuranceClaimItem",
+          "@id": "q:Q300",
+          "@type": "q:Q160",
+          "description": "Un sinistre sur mon habitation, ou mon véchiule (date, lieu, immatriculation, conducteur, ...).",
+          "hasProperty": [
+            {
+              "name": "type",
+              "@id": "q:Q273",
+              "@type": "q:Q104",
+              "description": "Type du sinistre (véhicule, habitation, ...)",
+              "exampleValue": "Vehicule",
+              "values": ["Vehicule", "Habitation"],
+              "kind": "Metadata",
+              "availability": "2016-09"
+            },
+            "q:Q148",
+            {
+              "name": "horodatage",
+              "@id": "q:Q275",
+              "@type": "q:Q296",
+              "description": "Date et heure de survenance du sinistre.",
+              "exampleValue": "2015-07-20T19:00",
+              "kind": "Transaction",
+              "availability": "2016-09"
+            },
+            {
+              "name": "lieuSurvenance",
+              "@id": "q:Q278",
+              "@type": "q:Q104",
+              "description": "Lieu de survenance (champ libre : une commune, un numéro d’autoroute, …)",
+              "exampleValue": "LYON 06",
+              "kind": "Transaction",
+              "availability": "2016-09"
+            },
+            {
+              "name": "referenceSinistre",
+              "@id": "q:Q279",
+              "@type": "q:Q104",
+              "description": "Référence de l’événement, communiquée au sociétaire pour les relations avec la MAIF (appels, documents …)",
+              "exampleValue": "F150181177B",
+              "kind": "Metadata",
+              "availability": "2016-09"
+            },
+            {
+              "name": "typeLieuSurvenance",
+              "@id": "q:Q280",
+              "@type": "q:Q104",
+              "description": "Code interne Maif : type du lieu de survenance.",
+              "kind": "Metadata",
+              "availability": "2016-09"
+            },
+            {
+              "name": "libelleTypeLieuSurvenance",
+              "@id": "q:Q298",
+              "@type": "q:Q104",
+              "description": "Type du lieu de survenance.",
+              "values": [ "Sans information", "Agglomération", "Rase campagne" ],
+              "exampleValue": "Agglomération",
+              "kind": "Transaction",
+              "availability": "2016-09"
+            }
+          ],
+          "hasOptionalProperty": [
+            "q:Q154",
+            {
+              "name": "immatriculationVehicule",
+              "@id": "q:Q286",
+              "@type": "q:Q104",
+              "description": "Immatriculation du véhicule assurée.",
+              "exampleValue": "AA-123-XD",
+              "kind": "Transaction",
+              "availability": "2016-09"
+            },
+            {
+              "name": "driverNumber",
+              "@id": "q:Q293",
+              "@type": "q:Q104",
+              "description": "TODO",
+              "kind": "Metadata"
+            },
+            {
+              "name": "driver",
+              "@id": "q:Q288",
+              "@type": "q:Q225",
+              "description": "Nom du conducteur, lors du sinistre.",
+              "hasProperty": [
+                "q:Q194","q:Q195", "q:Q196"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Les deux types de sinistre présentent des propriétées propres : _Vehicule_ présente les propriété immatriculationVehicule, driver et driverNumber ; alors que _Habitation_ présente address."
+}

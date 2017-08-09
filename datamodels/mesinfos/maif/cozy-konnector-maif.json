@@ -1,0 +1,5 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q146",
+  "wq:Q3133368": "https://github.com/cozy/cozy-konnector-maif"
+}

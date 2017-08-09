@@ -1,0 +1,117 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q231",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Foyer",
+  "description": "Désigne les membres du foyer et leur rôle dans le foyer",
+  "typology": "Profil",
+  "sourceDataController": "Maif",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.maif.maifuser.foyer",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/foyer_maif.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133","q:Q134",
+    {
+      "name": "foyer",
+      "@id": "q:Q262",
+      "@type": "object",
+      "description": "Désigne les membres du foyer et leur rôle dans le foyer.",
+      "hasProperty": [
+        {
+          "name": "name",
+          "@id": "q:Q236",
+          "@type": "q:Q104",
+          "description": "Nom du foyer (nom de famille + nom de la comune)",
+          "exampleValue": "DUPOND LYON",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "address",
+          "@id": "q:Q301",
+          "@type": "object",
+          "description": "Adresse postale du foyer.",
+          "hasProperty": [
+            "q:Q167","q:Q168","q:Q169","q:Q170","q:Q171",
+            {
+              "name": "deliveryOffice",
+              "@id": "q:Q302",
+              "@type": "q:Q104",
+              "description": "Commune, du bureau de poste de livraison.",
+              "exampleValue": "LYON",
+              "kind": "Metadata",
+              "availability": "2016-09"
+            },
+            {
+              "name": "inseeCode",
+              "@id": "q:Q303",
+              "@type": "q:Q104",
+              "description": "Code INSEE de la commune.",
+              "exampleValue": "69386",
+              "kind": "Metadata",
+              "availability": "2016-09"
+            },
+            {
+              "name": "residence",
+              "@id": "q:Q304",
+              "@type": "q:Q104",
+              "description": "Complément d'adresse, dans la propriété privé.",
+              "kind": "Metadata",
+              "availability": "2016-09"
+            }
+          ]
+        },
+        {
+          "name": "membres",
+          "@id": "q:Q243",
+          "@type": ["q:Q104", "array"],
+          "description": "Personnes composant le foyer",
+          "kind": "Caractérisation",
+          "availability": "2016-09",
+          "items": [
+            {
+              "name": "membresItem",
+              "@id": "q:Q244",
+              "@type": "q:Q104",
+              "description": "Personne composant le foyer",
+              "kind": "Caractérisation",
+              "availability": "2016-09",
+              "hasProperty": [
+                "q:Q225"
+              ],
+              "hasOptionalProperty": [
+                "q:Q198","q:Q199","q:Q200","q:Q201","q:Q202","q:Q203",
+                "q:Q204",
+                "q:Q228", "q:Q211",
+                {
+                  "name": "codeQualityPersonne",
+                  "@id": "q:Q264",
+                  "@type": "q:Q104",
+                  "description": "Code interne Maif : Rôle du membre dans le foyer (enfant, ...)",
+                  "exampleValue": "08",
+                  "kind": "Caractérisation",
+                  "availability": "2016-09"
+                },
+                {
+                  "name": "quality",
+                  "@id": "q:Q261",
+                  "@type": "q:Q104",
+                  "description": "Rôle du membre dans le foyer (enfant, ...)",
+                  "exampleValue": "Membre principal",
+                  "kind": "Caractérisation",
+                  "availability": "2016-09"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "help": "Un seul document par sociétaire Maif, le tableau *societaire* comporte toujours un élément."
+}

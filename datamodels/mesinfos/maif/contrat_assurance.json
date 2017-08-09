@@ -1,0 +1,224 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q155",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Contrat d'assurance Maif",
+  "description": "Désigne le type de contrat d'assurance, son tarif, et les risques assurés.",
+  "typology": "Finance",
+  "sourceDataController": "Maif",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.maif.maifuser.contrat",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/contrat_maif.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "name": "contrat",
+      "@id": "q:Q157",
+      "@type": ["q:Q159", "array"],
+      "description": "Liste des contrats du sociétaire",
+      "items": [
+        {
+          "name": "contratItem",
+          "@id": "q:Q305",
+          "@type": "q:Q160",
+          "description": "Désigne le type de contrat d'assurance, son tarif, et les risques assurés.",
+          "hasProperty": [
+            {
+              "name": "societaire",
+              "@id": "q:Q148",
+              "@type": "q:Q161",
+              "description": "Numéro du sociétaire souscripteur du contrat.",
+              "exampleValue": "1234567",
+              "kind": "Caractérisation",
+              "availability": "2016-09"
+             },
+             {
+               "name": "name",
+               "@id": "q:Q149",
+               "@type": "q:Q162",
+               "description": "Nom du produit.",
+               "exampleValue": "VAM",
+               "kind": "Caractérisation",
+               "availability": "2016-09"
+             },
+             {
+               "name": "formuleBase",
+               "@id": "q:Q150",
+               "@type": "q:Q104",
+               "description": "Formule souscrite dans le contrat",
+               "exampleValue": "VAM Assistance panne 0km",
+               "kind": "Caractérisation",
+               "availability": "2016-09"
+             },
+             {
+               "name": "codeFormuleReference",
+               "@id": "q:Q172",
+               "@type": "q:Q104",
+               "description": "Code interne Maif de la formule de référence du contrat.",
+               "kind": "Metadata",
+               "availability": "2016-09"
+             },
+             {
+               "name": "startDate",
+               "@id": "q:Q151",
+               "@type": "q:Q104",
+               "description": "Date de souscription au contrat",
+               "exampleValue": "1989-04-29",
+               "kind": "Caractérisation",
+               "availability": "2016-09"
+             },
+             {
+               "name": "montantTarifTtc",
+               "@id": "q:Q152",
+               "@type": "q:Q104",
+               "description": "Tarif annuel TTC",
+               "exampleValue": 233.21,
+               "kind": "Caractérisation",
+               "availability": "2017-01"
+             },
+             {
+              "name": "objects",
+              "@id": "q:Q163",
+              "@type": ["q:Q102", "object"],
+              "description": "Objet du contrat d'assurance (véhicule, domicile ou bateau",
+              "hasProperty": [
+                {
+                  "name": "startDate",
+                  "@id": "q:Q306",
+                  "@type": "q:Q112",
+                  "description": "Date d'ajout, pour chaque nouvel objet (véhicule ou habitation) ajouté au contrat.",
+                  "exampleValue": "2016-02-22T00:00:00",
+                  "kind": "Caractérisation",
+                  "availability": "2016-09"
+                },
+                "q:Q148"
+              ],
+              "hasOptionalProperty": [
+                {
+                  "name": "vehicule",
+                  "@id": "q:Q173",
+                  "@type": ["q:Q159", "array"],
+                  "description": "Véhicule assurée (toujours un élément).",
+                  "items": [
+                    {
+                      "name": "vehiculeItem",
+                      "@id": "q:Q174",
+                      "@type": "object",
+                      "description": "Décrit le véhicule assuré.",
+                      "hasProperty": [
+                        {
+                          "name": "immatriculationVehicule",
+                          "@id": "q:Q175",
+                          "@type": "q:A104",
+                          "description": "Immatriculation du véhicule assuré.",
+                          "exampleValue": "AA-123-XD"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "bateau",
+                  "@id": "q:Q176",
+                  "@type": ["q:Q159", "array"],
+                  "description": "Bateau assurée (toujours un élément).",
+                  "items": [
+                    {
+                      "name": "bateauItem",
+                      "@id": "q:Q177",
+                      "@type": "object",
+                      "description": "Décrit le bateau assuré.",
+                      "hasProperty": [
+                        {
+                          "name": "immatriculationBateau",
+                          "@id": "q:Q178",
+                          "@type": "q:A104",
+                          "description": "Immatriculation du bateau assuré."
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "name": "lieu",
+                  "@id": "q:Q165",
+                  "@type": ["q:Q159", "array"],
+                  "description": "Habitation assurée (toujours un élément).",
+                  "items": [
+                    {
+                      "name": "lieuItem",
+                      "@id": "q:Q166",
+                      "@type": "object",
+                      "description": "Décrit le lieu assuré.",
+                      "hasProperty": [
+                        {
+                          "name": "address",
+                          "@id": "q:Q154",
+                          "@type": "object",
+                          "description": "Adresse postale du lieu assuré.",
+                          "hasProperty": [
+                            {
+                              "name": "city",
+                              "@id": "q:Q167",
+                              "@type": "q:Q104",
+                              "description": "Ville",
+                              "exampleValue": "LYON",
+                              "kind": "Caractérisation",
+                              "availability": "2016-09"
+                            },
+                            {
+                              "name": "country",
+                              "@id": "q:Q168",
+                              "@type": "q:Q104",
+                              "description": "Pays",
+                              "exampleValue": "FRANCE",
+                              "kind": "Caractérisation",
+                              "availability": "2016-09"
+                            },
+                            {
+                              "name": "postCode",
+                              "@id": "q:Q169",
+                              "@type": "q:Q104",
+                              "description": "Code postal",
+                              "exampleValue": "69006",
+                              "kind": "Caractérisation",
+                              "availability": "2016-09"
+                            },
+                            {
+                              "name": "street",
+                              "@id": "q:Q170",
+                              "@type": "q:Q104",
+                              "description": "Numéro de voie, voie.",
+                              "exampleValue": "2 BOULEVARD DES BELGES",
+                              "kind": "Caractérisation",
+                              "availability": "2016-09"
+                            },
+                            {
+                              "name": "numeroPays",
+                              "@id": "q:Q171",
+                              "@type": "q:Q104",
+                              "description": "Numéro du pays, dans un référentiel interne Maif.",
+                              "exampleValue": "0",
+                              "kind": "Metadata",
+                              "availability": "2016-09"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+           ]
+         }
+      ]
+    }
+  ],
+  "help": "Un seul document pour tous les contract Maif d'un sociétaire. Il y a un sous-objet contrat par objet assuré. Donc la liste objects contient toujours un et un seul élément."
+}

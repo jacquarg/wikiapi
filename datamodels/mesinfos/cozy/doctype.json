@@ -1,8 +1,8 @@
 {
-  "@context": "assets/context.json",
+  "@context": "semantic/context.json",
 
   "@id": "q:Q102",
-  "@type": "wq:Q1397073",
+  "@type": ["object", "wq:Q1397073"],
   "name": "doctype",
   "description": "Doctypes utilisés dans Cozy. Doc en cours ici : https://github.com/cozy/cozy-doctypes"
 }
