@@ -1,0 +1,108 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q311",
+  "@type": "q:Q104",
+  "name": "Client",
+  "cozyDoctypeName": "org.fing.mesinfos.client",
+  "hasOptionalProperty": [
+    "q:Q133", "q:Q134", "q:Q109",
+    "q:Q161",
+    {
+      "name": "address",
+      "@id": "q:Q314",
+      "@type": "object",
+      "description": "Adresse postale du lieu assuré.",
+      "hasProperty": [
+        {
+          "name": "city",
+          "@id": "q:Q167",
+          "@type": "q:Q104",
+          "description": "Ville",
+          "exampleValue": "LYON",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "country",
+          "@id": "q:Q168",
+          "@type": "q:Q104",
+          "description": "Pays",
+          "exampleValue": "FRANCE",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "postCode",
+          "@id": "q:Q169",
+          "@type": "q:Q104",
+          "description": "Code postal",
+          "exampleValue": "69006",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "street",
+          "@id": "q:Q170",
+          "@type": "q:Q104",
+          "description": "Numéro de voie, voie.",
+          "exampleValue": "2 BOULEVARD DES BELGES",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "formated",
+          "@id": "q:Q328",
+          "@type": "q:Q104",
+          "description": "Adresse complète.",
+          "exampleValue": "24 RUE PAUL BERT\n75011 PARIS",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        }
+      ]
+    },
+    {
+      "name": "name",
+      "@id": "q:Q315",
+      "@type": "object",
+      "description": "Nom de la personne",
+      "hasProperty": [
+        {
+          "name": "prefix",
+          "@id": "q:Q194",
+          "@type": "q:Q104",
+          "description": "Civilités de la personne",
+          "exampleValue": "MME.",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "family",
+          "@id": "q:Q195",
+          "@type": "q:Q104",
+          "description": "Nom de famille de la personne",
+          "exampleValue": "DUPOND",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "given",
+          "@id": "q:Q196",
+          "@type": "q:Q104",
+          "description": "Prénom de la personne",
+          "exampleValue": "GERMAINE",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        },
+        {
+          "name": "formated",
+          "@id": "q:Q326",
+          "@type": "q:Q104",
+          "description": "Nom complet de la personne.",
+          "exampleValue": "GERMAINE DUPOND",
+          "kind": "Caractérisation",
+          "availability": "2016-09"
+        }
+      ]
+    }
+  ]
+}

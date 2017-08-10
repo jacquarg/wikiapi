@@ -1,0 +1,129 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q435",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q101",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Profil énergétique d'habitation",
+  "description": "Profil de consommation Edelia (EDF) de l'habitation. L'utilisateur doit avoir activer le service Edelia auprès d'EDF pour obtenir ces données.",
+  "typology": "Domicile",
+  "sourceDataController": "EDF",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "org.fing.mesinfos.home",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/profile_energetique_habitat.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "name": "beginTs",
+      "@id": "q:Q423",
+      "@type": "q:Q296",
+      "description": "Horodatage de début de validité du profil.",
+      "exampleValue": "2016-09-27T12:30:14Z",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "isProfileValidated",
+      "@id": "q:Q424",
+      "@type": "q:Q104",
+      "description": "Determine si le profil a déjà été validé par l'utilisateur.",
+      "exampleValue": "true",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "housingType",
+      "@id": "q:Q425",
+      "@type": "q:Q104",
+      "description": "Type de logement parmi : Appartement, Maison",
+      "exampleValue": "Appartement",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "residenceType",
+      "@id": "q:Q426",
+      "@type": "q:Q104",
+      "description": "Type de résidence parmi : Principale, Secondaire",
+      "exampleValue": "Principale",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "occupationType",
+      "@id": "q:Q427",
+      "@type": "q:Q104",
+      "description": "Type d'occupation parmi : Proprietaire, Locataire",
+      "exampleValue": "Locataire",
+      "values": ["Proprietaire", "Locataire"],
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "constructionDate",
+      "@id": "q:Q428",
+      "@type": "q:Q104",
+      "description": "Année de construction.",
+      "exampleValue": "2001",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "isBBC",
+      "@id": "q:Q429",
+      "@type": "q:Q104",
+      "description": "Bâtiment basse consommation  ",
+      "exampleValue": "true",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "surface",
+      "@id": "q:Q430",
+      "@type": "q:Q104",
+      "description": "Surface du logement en m².",
+      "exampleValue": "69",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "occupantsCount",
+      "@id": "q:Q431",
+      "@type": "q:Q104",
+      "description": "Nombre d'occupants du logement.",
+      "exampleValue": "4",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "principalHeatingSystemType",
+      "@id": "q:Q432",
+      "@type": "q:Q104",
+      "description": "Energie de chauffage principal",
+      "exampleValue": "Electricite",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "sanitoryHotWaterType",
+      "@id": "q:Q433",
+      "@type": "q:Q104",
+      "description": "Type d'eau chaude sanitaire parmi",
+      "exampleValue": "Electricite",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "origin",
+      "@id": "q:Q434",
+      "@type": "q:Q329",
+      "description": "Fournisseur, source du document",
+      "exampleValue": "EDF",
+      "kind": "Metadata"
+    }
+  ],
+  "help": "Pas de moyen fiable de relier l'habitat à un lieu !"
+}

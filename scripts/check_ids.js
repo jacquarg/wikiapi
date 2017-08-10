@@ -16,6 +16,9 @@ const processFiles = (files) => {
   return Promise.all(files.map(processAFile))
   .then((idsLists) => {
     const ids = idsLists.reduce((res, list) => res.concat(list), []).sort((a, b) => a.id > b.id ? -1 : 1)
+
+    fs.writeFileSync('indexes/last_item_index.json', JSON.stringify({ lastIndex: Number(ids[0].id.match(/[0-9]+/)[0]) }), null, 2)
+
     const duplicates = ids.reduce((res, item) => {
       if (item.id === res.previous.id) {
         res.duplicates.push(res.previous)

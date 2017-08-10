@@ -61,6 +61,14 @@
       "description": "Instant de création du document.",
       "exampleValue": "2016-02-25T01:06:12Z",
       "kind": "Metadata"
+    },
+    {
+      "name": "vendor",
+      "@id": "q:Q329",
+      "@type": "q:Q104",
+      "description": "Fournisseur, source du document",
+      "exampleValue": "EDF",
+      "kind": "Metadata"
     }
   ]
 }

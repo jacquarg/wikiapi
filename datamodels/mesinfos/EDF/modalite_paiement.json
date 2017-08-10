@@ -1,0 +1,208 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q330",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q101",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Modalités de paiement EDF",
+  "description": "Mode de paiement : mensualités, échéancier, RIB, date de paiement.",
+  "typology": "Finance",
+  "sourceDataController": "EDF",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "org.fing.mesinfos.paymentterms",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/modalites_paiement_edf.json"],
+  "cozyIndex": "[\"_id\", \"vendor\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null }, \"vendor\": \"EDF\" }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q161",
+    {
+      "name": "balance",
+      "@id": "q:Q343",
+      "@type": "q:Q104",
+      "description": "Montant restant dû ou à recevoir",
+      "exampleValue": "0.0",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "billFrequency",
+      "@id": "q:Q349",
+      "@type": "q:Q104",
+      "description": "Périodicité de la facture (mensuel, bimestriel, semestriel, annuelle, ...)",
+      "exampleValue": "ANNU",
+      "values": ["MENS", "BIME", "SEME", "ANNU"],
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "dernierReglement",
+      "@id": "q:Q360",
+      "@type": "object",
+      "description": "Dernier réglement effectué.",
+      "kind": "Transaction",
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "name": "date",
+          "@id": "q:Q346",
+          "@type": "q:Q104",
+          "description": "Date du dernier réglement effectué.",
+          "exampleValue": "2017-06-12T00:00:00.000+02:00",
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "name": "amount",
+          "@id": "q:Q347",
+          "@type": "q:Q104",
+          "description": "Montant du dernier règlement effectué",
+          "exampleValue": "39.26",
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "name": "type",
+          "@id": "q:Q348",
+          "@type": "q:Q104",
+          "description": "Type du dernier règlement",
+          "exampleValue": "ENCAISSEMENT_PRELEVEMENT",
+          "kind": "Transaction",
+          "availability": "2016-10"
+        }
+      ]
+    },
+    {
+      "name": "encryptedBankDetails",
+      "@id": "q:Q335",
+      "@type": "q:Q270",
+      "description": "Les informations bancaires du client : nom de la banque, numéro de compte, code guichet...",
+      "exampleValue": "{\"bank\": \"STE GENERALE\", \"bankAddress\": { \"street\": \"1 BD DES BROTTEAUX\", \"city\": \"LYON 69006\", \"country\": \"France\", \"formated\": \"1 BD DES BROTTEAUX\nLYON 69006 France\" }, \"iban\": \"FR76300039876087612\", \"holder\": \"Mme GERMAINE DUPOND\" }",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "nextBillDate",
+      "@id": "q:Q350",
+      "@type": "q:Q104",
+      "description": "Date de la prochaine facture",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "idPayer",
+      "@id": "q:Q351",
+      "@type": "q:Q104",
+      "description": "NumeroBP du payeur",
+      "exampleValue": "087609078098",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "modifBankDetailsAllowed",
+      "@id": "q:Q345",
+      "@type": "q:Q104",
+      "description": "Le RIB du client peut-il être modifié ou non.",
+      "exampleValue": "true",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "paymentMeans",
+      "@id": "q:Q344",
+      "@type": "q:Q269",
+      "description": "Mode d'encaissement (prélèvement, ...)",
+      "exampleValue": "PRELEVEMENT",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "payerDivergent",
+      "@id": "q:Q352",
+      "@type": "q:Q104",
+      "description": "Si le payeur n'est pas le titulaire du contrat.",
+      "exampleValue": "false",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "paymentSchedules",
+      "@id": "q:Q361",
+      "@type": "array",
+      "description": "Échéancier, liste des acomptes.",
+      "availability": "2016-10",
+      "items": {
+        "name": "paymentSchedulesItem",
+        "@id": "q:Q362",
+        "@type": "object",
+        "description": "Détails d'un acompte EDF.",
+        "availability": "2016-10",
+        "hasProperty": [
+          {
+            "name": "amount",
+            "@id": "q:Q357",
+            "@type": "q:Q104",
+            "description": "Montant total de l'échéance (amountElectricity + amountGas)",
+            "exampleValue": "69",
+            "kind": "Metadata",
+            "availability": "2016-10"
+          },
+          {
+            "name": "amountElectricity",
+            "@id": "q:Q358",
+            "@type": "q:Q104",
+            "description": "Montant pour l'electricité",
+            "exampleValue": "69",
+            "kind": "Transaction",
+            "availability": "2016-10"
+          },
+          {
+            "name": "amountGas",
+            "@id": "q:Q359",
+            "@type": "q:Q104",
+            "description": "Montant pour le gaz",
+            "exampleValue": "0",
+            "kind": "Transaction",
+            "availability": "2016-10"
+          },
+          {
+            "name": "number",
+            "@id": "q:Q353",
+            "@type": "q:Q104",
+            "description": "Numéro dans l'échéancier",
+            "exampleValue": "1",
+            "kind": "Metadata",
+            "availability": "2016-10"
+          },
+          {
+            "name": "receiptDate",
+            "@id": "q:Q354",
+            "@type": "q:Q104",
+            "description": "Date d'encaissement de l'échéance",
+            "exampleValue": "2016-04-11",
+            "kind": "Metadata",
+            "availability": "2016-10"
+          },
+          {
+            "name": "scheduleDate",
+            "@id": "q:Q355",
+            "@type": "q:Q104",
+            "description": "Date de l'échance",
+            "exampleValue": "2016-04-11",
+            "kind": "Transaction",
+            "availability": "2016-10"
+          },
+          {
+            "name": "paid",
+            "@id": "q:Q356",
+            "@type": "q:Q104",
+            "description": "Déjà payée",
+            "exampleValue": "true",
+            "kind": "Transaction",
+            "availability": "2016-10"
+          }
+        ]
+      }
+    }
+  ]
+}

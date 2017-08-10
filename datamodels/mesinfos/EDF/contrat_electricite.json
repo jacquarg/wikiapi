@@ -1,0 +1,347 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q377",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q146",
+  "usedBy": ["https://github.com/jacquarg/monlogis"],
+  "name": "Contrats électricité EDF",
+  "description": "Les caractéristiques principales de contrat d'électricité chez EDF.",
+  "typology": "Finance",
+  "sourceDataController": "EDF",
+  "updateFrequency": "P1Y",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "org.fing.mesinfos.contract",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/contrat_electricite.json"],
+  "cozyIndex": "[\"_id\", \"vendor\", \"energie\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null }, \"vendor\": \"EDF\", \"energie\": \"Électricité\" }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q329",
+    {
+      "name": "clientId",
+      "@id": "q:Q379",
+      "@type": "q:Q161",
+      "description": "Numéro client",
+      "exampleValue": "6012345678",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "number",
+      "@id": "q:Q381",
+      "@type": "q:Q104",
+      "description": "Numéro de contrat (différent numéroAcc, numéro d'accord commercial)",
+      "exampleValue": "1234654321",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "start",
+      "@id": "q:Q382",
+      "@type": "q:Q104",
+      "description": "Date de début de contrat",
+      "exampleValue": "2013-03-01",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "status",
+      "@id": "q:Q383",
+      "@type": "q:Q104",
+      "description": "Status du contrat",
+      "exampleValue": "CONTRAT_ACTIF",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "pdl",
+      "@id": "q:Q386",
+      "@type": "q:Q104",
+      "description": "Point de livraison",
+      "exampleValue": "1324654321",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "energie",
+      "@id": "q:Q387",
+      "@type": "q:Q104",
+      "description": "Electricité ou Gaz",
+      "exampleValue": "Électricité",
+      "values": ["Électricit", "Gaz"],
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "name",
+      "@id": "q:Q388",
+      "@type": "q:Q104",
+      "description": "Nom de l'offre commerciale",
+      "exampleValue": "Tarif Bleu",
+      "values": [
+        "Electricite Pro", "Mon Contrat Electricite", "Electricite Pro a Prix Fixe", "Essentiel Pro", "Heures Creuses Souples", "Presence Pro", "Souplesse Pro", "Tarif Bleu",
+        "Offre Gaz naturel", "Mon Contrat gaz naturel", "Mon Contrat Gaz Naturel a prix fixe",
+        "Essentiel Gaz", "Gaz Naturel a Prix Fixe", "Presence Gaz", "Souplesse Gaz", "Gaz Naturel",
+        "EJP", "TPN"],
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "contractSubcategory1",
+      "@id": "q:Q389",
+      "@type": "q:Q104",
+      "description": "Strucure tarifaire (prix constant, spécifique heures creuses, ...), si ernergie == Électricité",
+      "exampleValue": "OPTION_BASE",
+      "values": [
+        "OPTION_BASE", "OPTION_EJP", "OPTION_HEURES_CREUSES", "OPTION_HC_LE_WE", "OPTION_HC_LE_WE", "OPTION_HC_LE_WE", "OPTION_LIBERTE_WE", "OPTION_HEURES_CREUSES", "OPTION_TEMPO"
+      ],
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "power",
+      "@id": "q:Q391",
+      "@type": "q:Q104",
+      "description": "Puissance compteur si energie = Électricité",
+      "exampleValue": "6 kVA",
+      "kind": "Caractérisation",
+      "values": [ "0 kVA", "3 kVA", "6 kVA", "9 kVA", "12 kVA",
+        "15 kVA", "18 kVA", "24 kVA", "30 kVA", "36 kVA" ],
+      "availability": "2016-10"
+    },
+    {
+      "name": "counter",
+      "@id": "q:Q393",
+      "@type": "object",
+      "description": "Caractéristiques du compteur.",
+      "kind": "Caractérisation",
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "name": "type",
+          "@id": "q:Q398",
+          "@type": "q:Q104",
+          "description": "Type du compteur (ÉlectroMéCanique, ...)",
+          "exampleValue": "EMC",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "nombreRoues",
+          "@id": "q:Q395",
+          "@type": "q:Q104",
+          "description": "Caractéristique compteur (TODO)",
+          "exampleValue": "005",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "dernierIndex",
+          "@id": "q:Q396",
+          "@type": "q:Q104",
+          "description": "Dernier relevé du compteur",
+          "exampleValue": "67481.0",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "annualConsumption",
+          "@id": "q:Q397",
+          "@type": "q:Q104",
+          "description": "Consommation annuelle (kWh)",
+          "exampleValue": "2125",
+          "kind": "Caractérisation",
+          "availability": "2016-10"
+        }
+      ],
+      "hasOptionalProperty": [
+        {
+          "name": "peakHours",
+          "@id": "q:Q399",
+          "@type": "q:Q104",
+          "description": "Horraire heures creuses",
+          "kind": "Caractérisation",
+          "availability": "2016-10"
+        }
+      ]
+    },
+    {
+      "name": "statement",
+      "@id": "q:Q400",
+      "@type": "object",
+      "description": "Caractéristiques des relevés",
+      "exampleValue": "",
+      "kind": "Caractérisation",
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "name": "prochainReleve",
+          "@id": "q:Q401",
+          "@type": "q:Q104",
+          "description": "Date de prochain relevé",
+          "exampleValue": "2017-01-11",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "saisieReleveConfiance",
+          "@id": "q:Q402",
+          "@type": "q:Q104",
+          "description": "Releve.SaisieRc : Statut de la saisie dans le cadre de Suivi Conso",
+          "exampleValue": "SAISIE_IMPOSSIBLE_NON_ELIGIBLE_RC",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "prochaineDateFermetureReelle",
+          "@id": "q:Q406",
+          "@type": "q:Q104",
+          "description": "Date prévue de la fermeture de la prochaine relève réelle des index.",
+          "exampleValue": "2017-01-11",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "saisieSuiviConso",
+          "@id": "q:Q407",
+          "@type": "q:Q104",
+          "description": "Statut de la saisie dans le cadre de Suivi Conso",
+          "exampleValue": "SAISIE_IMPOSSIBLE_SC_NON_SOUSCRIT",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        }
+      ],
+      "hasOptionalProperty": [
+        {
+          "name": "dateFermetureReleveConfiance",
+          "@id": "q:Q403",
+          "@type": "q:Q104",
+          "description": "Date de fermeture de la période de saisie relevé confiance en cours.",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "prochaineDateOuvertureReleveConfiance",
+          "@id": "q:Q404",
+          "@type": "q:Q104",
+          "description": "Date d’ouverture de la prochaine période de saisie index en relevé confiance.",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "prochaineDateFermetureReleveConfiance",
+          "@id": "q:Q405",
+          "@type": "q:Q104",
+          "description": "Date de fermeture de la prochaine période de saisie index en relevé confiance.",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "prochaineDateOuvertureSaisieConso",
+          "@id": "q:Q408",
+          "@type": "q:Q104",
+          "description": "Date de prochaine saisie possible Suivi Conso",
+          "exampleValue": "",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "@id": "q:Q409",
+      "@type": "array",
+      "description": "Liste des services inscrits au contrat.",
+      "kind": "Caractérisation",
+      "items": {
+        "name": "servicesItem",
+        "@id": "q:Q421",
+        "@type": "object",
+        "description": "Un service inscrit au contrat.",
+        "kind": "Caractérisation",
+        "hasOptionalProperty": [
+          {
+            "name": "name",
+            "@id": "q:Q410",
+            "@type": "q:Q104",
+            "description": "Nom du service",
+            "exampleValue": "SER_BILANCONSO",
+            "kind": "Metadata",
+            "availability": "asbent"
+          },
+          {
+            "name": "status",
+            "@id": "q:Q411",
+            "@type": "q:Q104",
+            "description": "En cours",
+            "exampleValue": "true",
+            "kind": "Metadata",
+            "availability": "asbent"
+          },
+          {
+            "name": "activ",
+            "@id": "q:Q412",
+            "@type": "q:Q104",
+            "description": "En cours",
+            "exampleValue": "true",
+            "kind": "Metadata",
+            "availability": "asbent"
+          },
+          {
+            "name": "start",
+            "@id": "q:Q413",
+            "@type": "q:Q104",
+            "description": "Début de mise en service",
+            "exampleValue": "2016-05-18T00:00:00+02:00",
+            "kind": "Metadata",
+            "availability": "asbent"
+          },
+          {
+            "name": "valueSubscribed",
+            "@id": "q:Q414",
+            "@type": "q:Q104",
+            "description": "Indique si le service est souscrit, et avec quelle option.",
+            "exampleValue": "OUI",
+            "kind": "Metadata",
+            "availability": "asbent"
+          },
+          {
+            "name": "valueAvailable",
+            "@id": "q:Q415",
+            "@type": "q:Q104",
+            "description": "Valeurs possible pour ce services.",
+            "kind": "Metadata"
+          }
+        ]
+      }
+    },
+    {
+      "name": "troubleshootingPhone",
+      "@id": "q:Q416",
+      "@type": "q:Q104",
+      "description": "Numéro de téléphone de dépannage",
+      "exampleValue": "09 726 750 75",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    }
+  ],
+  "hasOptionalProperty": [
+    {
+      "name": "end",
+      "@id": "q:Q384",
+      "@type": "q:Q104",
+      "description": "Fin du contrat (le cas échéant)",
+      "exampleValue": "2016-10-01",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "terminationGrounds",
+      "@id": "q:Q385",
+      "@type": "q:Q104",
+      "description": "Motif de résiliation (le cas échéant)",
+      "exampleValue": "TODO",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    }
+  ]
+}

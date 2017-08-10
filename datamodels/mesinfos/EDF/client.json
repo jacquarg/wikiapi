@@ -1,0 +1,95 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q310",
+  "@type": "q:Q132",
+  "generatedBy": "q:Q101",
+  "name": "Client EDF",
+  "description": "Identification et moyen de contact du souscripteur : adresse, email, téléphone fixe et portable ...",
+  "cozyDoctypeName": "org.fing.mesinfos.client",
+  "sourceDataController": "EDF",
+  "typology": "Profil",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/client_edf.json"],
+  "cozyIndex": "[\"_id\", \"vendor\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null }, \"vendor\": \"EDF\" }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q329",
+    {
+      "name": "numeroAcc",
+      "@id": "q:Q312",
+      "@type": "q:Q104",
+      "description": "Numéro d'accord commercial (~numéro de contrat)",
+      "exampleValue": "00123456879",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    "q:Q161","q:Q314","q:Q315","q:Q198",
+    {
+      "name": "cellPhone",
+      "@id": "q:Q317",
+      "@type": "q:Q199",
+      "description": "téléphone mobile du client",
+      "exampleValue": "0665022841",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "homePhone",
+      "@id": "q:Q318",
+      "@type": "q:Q200",
+      "description": "téléphone fixe du client",
+      "exampleValue": "0123456789",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "loginEmail",
+      "@id": "q:Q320",
+      "@type": "q:Q198",
+      "description": "Email de connexion à l'interface client EDF",
+      "exampleValue": "germainedupondmesinfos@gmail.com",
+      "kind": "Caractérisation",
+      "availability": "2016-10"
+    },
+    {
+      "name": "coHolder",
+      "@id": "q:Q321",
+      "description": "Co-titulaire du contrat",
+      "@type": ["q:Q315", "object"],
+      "kind": "Caractérisation",
+      "availability": "2016-10",
+      "hasProperty": [
+        "q:Q195", "q:Q196", "q:Q326"
+      ]
+    },
+    {
+      "name": "commercialContat",
+      "@id": "q:Q327",
+      "@type": "object",
+      "description": "Contact EDF (commercial).",
+      "kind": "Caractérisation",
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "name": "title",
+          "@id": "q:Q322",
+          "@type": "q:Q104",
+          "description": "Nom du contact EDF (commercial), nom du groupe régional duquel dépend le client.",
+          "exampleValue": "Paris Pyramide",
+          "kind": "Caractérisation",
+          "availability": "2016-10"
+        }, "q:Q314",
+        {
+          "name": "phone",
+          "@id": "q:Q324",
+          "@type": "q:Q104",
+          "description": "Numéro de téléphone du contact EDF (commercial)",
+          "exampleValue": "09 69 32 15 15",
+          "kind": "Caractérisation",
+          "availability": "2016-10"
+        }
+      ]
+    }
+  ]
+}

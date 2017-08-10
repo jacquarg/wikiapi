@@ -25,7 +25,7 @@
         {
           "name": "name",
           "@id": "q:Q225",
-          "@type": "object",
+          "@type": ["object", "q:Q315"],
           "description": "Nom de la personne",
           "hasProperty": [
             {
@@ -37,33 +37,7 @@
               "kind": "Metadata",
               "availability": "2016-09"
             },
-            {
-              "name": "prefix",
-              "@id": "q:Q194",
-              "@type": "q:Q104",
-              "description": "Civilités de la personne",
-              "exampleValue": "MME.",
-              "kind": "Caractérisation",
-              "availability": "2016-09"
-            },
-            {
-              "name": "family",
-              "@id": "q:Q195",
-              "@type": "q:Q104",
-              "description": "Nom de famille de la personne",
-              "exampleValue": "DUPOND",
-              "kind": "Caractérisation",
-              "availability": "2016-09"
-            },
-            {
-              "name": "given",
-              "@id": "q:Q196",
-              "@type": "q:Q104",
-              "description": "Prénom de la personne",
-              "exampleValue": "GERMAINE",
-              "kind": "Caractérisation",
-              "availability": "2016-09"
-            },
+            "q:Q194","q:Q195","q:Q196",
             {
               "name": "maiden",
               "@id": "q:Q197",

@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "Un wiki pour les API publiques (et pas ^^ ?)",
   "scripts": {
-    "deduplicateids": "node scripts/check_ids.js",
-    "build": "npm run deduplicateids && node scripts/build_mesinfosdev.js"
+    "checkids": "node scripts/check_ids.js",
+    "build": "npm run checkids && node scripts/build_mesinfosdev.js"
   },
   "dependencies": {
   },
