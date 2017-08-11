@@ -4,7 +4,7 @@ var qIndex = require('../indexes/last_item_index.json').lastIndex;
 var rowToProperty = function (row) {
   return {
     "name": row.Nom,
-    "@id": `q:Q${qIndex++}`,
+    "@id": `q:Q${++qIndex}`,
     "@type": "q:Q104",
     "description": row.Description,
     "exampleValue": row.Exemple,
@@ -17,7 +17,7 @@ var rowToProperty = function (row) {
 
 var list = require('../../../Bureau/tableaux_MI.json')['Liste des données'];
 
-var filtered = list.filter((item) => item.DocType === "Home" && item.Détenteur === "EDF");
+var filtered = list.filter((item) => item.DocType === "VideoStream" && item.Détenteur === "Orange");
 var properties = filtered.map(rowToProperty);
 console.log(JSON.stringify(properties, null, 2));
 console.log(filtered.length)

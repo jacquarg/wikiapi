@@ -1,0 +1,55 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q436",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q444",
+  "name": "Géolocalisation Mobile",
+  "description": "La géolocalisation de mon téléphone Mobile Orange : latitude, longitude, horodatage, rayon de précision de la position.",
+  "typology": "Déplacement",
+  "sourceDataController": "Orange",
+  "updateFrequency": "PT1H",
+  "updateLatency": "PT1H",
+  "cozyDoctypeName": "fr.orange.geopoint",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/geoloc.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q109", "q:Q297",
+    {
+      "name": "msisdn",
+      "@id": "q:Q438",
+      "@type": "q:Q104",
+      "description": "Numéro de téléphone du mobile.",
+      "exampleValue": "33612345678",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "latitude",
+      "@id": "q:Q440",
+      "@type": "q:Q104",
+      "description": "Latitude du point.",
+      "exampleValue": "48.8504",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "longitude",
+      "@id": "q:Q441",
+      "@type": "q:Q104",
+      "description": "Longitude du point",
+      "exampleValue": "2.3799",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "radius",
+      "@id": "q:Q442",
+      "@type": "q:Q104",
+      "description": "Rayon de précision de la position.",
+      "exampleValue": "339",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    }
+  ]
+}

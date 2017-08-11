@@ -1,0 +1,92 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q445",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q444",
+  "name": "Détails d'appel  téléphonique",
+  "description": "Type d'appel (entrant, sortant, sms..), horodatage, numéro, position géographique pendant la communication",
+  "typology": "Communication",
+  "sourceDataController": "Orange",
+  "updateFrequency": "PT1H",
+  "updateLatency": "PT1H",
+  "cozyDoctypeName": "fr.orange.phonecommunicatiolog",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/donnees_d_appel_telephonique.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q109", "q:Q297", "q:Q438",
+
+    {
+      "name": "type",
+      "@id": "q:Q446",
+      "@type": "q:Q104",
+      "description": "Type de communication (appel entrant, appel sortant, SMS entrant, SMS sortant, etc)",
+      "exampleValue": "SMS sortant",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "partner",
+      "@id": "q:Q449",
+      "@type": "q:Q104",
+      "description": "Numéro du correspondant.",
+      "exampleValue": "33634567891",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "length",
+      "@id": "q:Q450",
+      "@type": "q:Q104",
+      "description": "Durée de l'appel, ou longueur du message (unité définie par chipType)",
+      "exampleValue": "55",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "chipType",
+      "@id": "q:Q451",
+      "@type": "q:Q104",
+      "description": "Unité de longueur de la communication (seconde, nombre de messages, nombre de caractères, ...)",
+      "exampleValue": "s",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "latitude",
+      "@id": "q:Q454",
+      "@type": "q:Q104",
+      "description": "Position géographique pendant la communication (latitude)",
+      "exampleValue": "48.8504",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "longitude",
+      "@id": "q:Q455",
+      "@type": "q:Q104",
+      "description": "Position géographique pendant la communication (longitude)",
+      "exampleValue": "2.3799",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+    {
+      "name": "endCause",
+      "@id": "q:Q456",
+      "@type": "q:Q104",
+      "description": "Cause de terminaison de l'appel si l'appel est efficace (libération normale, échec distant, incident radio...).",
+      "exampleValue": "0",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "networkType",
+      "@id": "q:Q462",
+      "@type": "q:Q104",
+      "description": "Type de couverture. Indique la couverture réseau utilisée (GSM/GPRS ou UMTS).",
+      "exampleValue": "3G",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    }
+  ]
+}

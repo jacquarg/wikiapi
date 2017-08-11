@@ -3056,5 +3056,500 @@
     "updateFrequency": "P1Y",
     "updateLatency": "P1D",
     "usedBy": "https://github.com/jacquarg/monlogis"
+  },
+  "q:Q436": {
+    "@id": "q:Q436",
+    "@type": "q:Q102",
+    "description": "La géolocalisation de mon téléphone Mobile Orange : latitude, longitude, horodatage, rayon de précision de la position.",
+    "name": "Géolocalisation Mobile",
+    "cozyDoctypeName": "fr.orange.geopoint",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q444",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134",
+      "q:Q109",
+      "q:Q297",
+      {
+        "@id": "q:Q438"
+      },
+      {
+        "@id": "q:Q440"
+      },
+      {
+        "@id": "q:Q441"
+      },
+      {
+        "@id": "q:Q442"
+      }
+    ],
+    "sourceDataController": "Orange",
+    "syntheticSet": "https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/geoloc.json",
+    "typology": "Déplacement",
+    "updateFrequency": "PT1H",
+    "updateLatency": "PT1H"
+  },
+  "q:Q438": {
+    "@id": "q:Q438",
+    "@type": "q:Q104",
+    "description": "Numéro de téléphone du mobile.",
+    "name": "msisdn",
+    "availability": "2016-10",
+    "exampleValue": "33612345678",
+    "kind": "Metadata"
+  },
+  "q:Q440": {
+    "@id": "q:Q440",
+    "@type": "q:Q104",
+    "description": "Latitude du point.",
+    "name": "latitude",
+    "availability": "2016-10",
+    "exampleValue": "48.8504",
+    "kind": "Transaction"
+  },
+  "q:Q441": {
+    "@id": "q:Q441",
+    "@type": "q:Q104",
+    "description": "Longitude du point",
+    "name": "longitude",
+    "availability": "2016-10",
+    "exampleValue": "2.3799",
+    "kind": "Transaction"
+  },
+  "q:Q442": {
+    "@id": "q:Q442",
+    "@type": "q:Q104",
+    "description": "Rayon de précision de la position.",
+    "name": "radius",
+    "availability": "2016-10",
+    "exampleValue": "339",
+    "kind": "Metadata"
+  },
+  "q:Q445": {
+    "@id": "q:Q445",
+    "@type": "q:Q102",
+    "description": "Type d'appel (entrant, sortant, sms..), horodatage, numéro, position géographique pendant la communication",
+    "name": "Détails d'appel  téléphonique",
+    "cozyDoctypeName": "fr.orange.phonecommunicatiolog",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q444",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134",
+      "q:Q109",
+      "q:Q297",
+      "q:Q438",
+      {
+        "@id": "q:Q446"
+      },
+      {
+        "@id": "q:Q449"
+      },
+      {
+        "@id": "q:Q450"
+      },
+      {
+        "@id": "q:Q451"
+      },
+      {
+        "@id": "q:Q454"
+      },
+      {
+        "@id": "q:Q455"
+      },
+      {
+        "@id": "q:Q456"
+      },
+      {
+        "@id": "q:Q462"
+      }
+    ],
+    "sourceDataController": "Orange",
+    "syntheticSet": "https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/donnees_d_appel_telephonique.json",
+    "typology": "Communication",
+    "updateFrequency": "PT1H",
+    "updateLatency": "PT1H"
+  },
+  "q:Q446": {
+    "@id": "q:Q446",
+    "@type": "q:Q104",
+    "description": "Type de communication (appel entrant, appel sortant, SMS entrant, SMS sortant, etc)",
+    "name": "type",
+    "availability": "2016-10",
+    "exampleValue": "SMS sortant",
+    "kind": "Metadata"
+  },
+  "q:Q449": {
+    "@id": "q:Q449",
+    "@type": "q:Q104",
+    "description": "Numéro du correspondant.",
+    "name": "partner",
+    "availability": "2016-10",
+    "exampleValue": "33634567891",
+    "kind": "Transaction"
+  },
+  "q:Q450": {
+    "@id": "q:Q450",
+    "@type": "q:Q104",
+    "description": "Durée de l'appel, ou longueur du message (unité définie par chipType)",
+    "name": "length",
+    "availability": "2016-10",
+    "exampleValue": "55",
+    "kind": "Transaction"
+  },
+  "q:Q451": {
+    "@id": "q:Q451",
+    "@type": "q:Q104",
+    "description": "Unité de longueur de la communication (seconde, nombre de messages, nombre de caractères, ...)",
+    "name": "chipType",
+    "availability": "2016-10",
+    "exampleValue": "s",
+    "kind": "Transaction"
+  },
+  "q:Q454": {
+    "@id": "q:Q454",
+    "@type": "q:Q104",
+    "description": "Position géographique pendant la communication (latitude)",
+    "name": "latitude",
+    "availability": "2016-10",
+    "exampleValue": "48.8504",
+    "kind": "Transaction"
+  },
+  "q:Q455": {
+    "@id": "q:Q455",
+    "@type": "q:Q104",
+    "description": "Position géographique pendant la communication (longitude)",
+    "name": "longitude",
+    "availability": "2016-10",
+    "exampleValue": "2.3799",
+    "kind": "Transaction"
+  },
+  "q:Q456": {
+    "@id": "q:Q456",
+    "@type": "q:Q104",
+    "description": "Cause de terminaison de l'appel si l'appel est efficace (libération normale, échec distant, incident radio...).",
+    "name": "endCause",
+    "availability": "2016-10",
+    "exampleValue": "0",
+    "kind": "Metadata"
+  },
+  "q:Q462": {
+    "@id": "q:Q462",
+    "@type": "q:Q104",
+    "description": "Type de couverture. Indique la couverture réseau utilisée (GSM/GPRS ou UMTS).",
+    "name": "networkType",
+    "availability": "2016-10",
+    "exampleValue": "3G",
+    "kind": "Metadata"
+  },
+  "q:Q466": {
+    "@id": "q:Q466",
+    "@type": "object",
+    "description": "Informations sur le contenue visionné",
+    "name": "content",
+    "availability": "2016-10",
+    "hasOptionalProperty": {
+      "@id": "q:Q484"
+    },
+    "hasProperty": [
+      {
+        "@id": "q:Q474"
+      },
+      {
+        "@id": "q:Q475"
+      },
+      {
+        "@id": "q:Q477"
+      },
+      {
+        "@id": "q:Q478"
+      },
+      {
+        "@id": "q:Q479"
+      },
+      {
+        "@id": "q:Q491"
+      },
+      {
+        "@id": "q:Q480"
+      },
+      {
+        "@id": "q:Q481"
+      },
+      {
+        "@id": "q:Q482"
+      },
+      {
+        "@id": "q:Q483"
+      }
+    ],
+    "kind": "Transaction"
+  },
+  "q:Q468": {
+    "@id": "q:Q468",
+    "@type": "q:Q104",
+    "description": "Commande d'une VOD ou visionnage",
+    "name": "action",
+    "availability": "2016-10",
+    "exampleValue": "Commande",
+    "kind": "Metadata"
+  },
+  "q:Q469": {
+    "@id": "q:Q469",
+    "@type": "q:Q104",
+    "description": "Prix de la vidéo (cas d'une VOD payante)",
+    "name": "price",
+    "availability": "2016-10",
+    "exampleValue": "2.99",
+    "kind": "Transaction"
+  },
+  "q:Q470": {
+    "@id": "q:Q470",
+    "@type": "q:Q104",
+    "description": "Durée de visionnage.",
+    "name": "viewingDuration",
+    "availability": "2016-10",
+    "exampleValue": "17100",
+    "kind": "Transaction"
+  },
+  "q:Q472": {
+    "@id": "q:Q472",
+    "@type": "q:Q104",
+    "description": "Details sur la transmission de la vidéo",
+    "name": "details",
+    "availability": "2016-10",
+    "hasProperty": [
+      {
+        "@id": "q:Q476"
+      },
+      {
+        "@id": "q:Q485"
+      },
+      {
+        "@id": "q:Q486"
+      },
+      {
+        "@id": "q:Q487"
+      },
+      {
+        "@id": "q:Q488"
+      },
+      {
+        "@id": "q:Q489"
+      },
+      {
+        "@id": "q:Q490"
+      }
+    ],
+    "kind": "Metadata"
+  },
+  "q:Q474": {
+    "@id": "q:Q474",
+    "@type": "q:Q104",
+    "description": "Titre du programme visionné",
+    "name": "title",
+    "availability": "2016-10",
+    "exampleValue": "Affaire bettina beau : la secrétaire a-t-elle...",
+    "kind": "Transaction"
+  },
+  "q:Q475": {
+    "@id": "q:Q475",
+    "@type": "q:Q104",
+    "description": "Complément de titre.",
+    "name": "subTitle",
+    "availability": "2016-10",
+    "exampleValue": "0-Enquêtes criminelles",
+    "kind": "Transaction"
+  },
+  "q:Q476": {
+    "@id": "q:Q476",
+    "@type": "q:Q104",
+    "description": "Catégorie de l'offre commerciale, dont est issue ce programme.",
+    "name": "offer",
+    "availability": "2016-10",
+    "exampleValue": "Free VOD",
+    "kind": "Metadata"
+  },
+  "q:Q477": {
+    "@id": "q:Q477",
+    "@type": "q:Q104",
+    "description": "Replay, visionnage live, ...",
+    "name": "type",
+    "availability": "2016-10",
+    "exampleValue": "Video",
+    "kind": "Metadata"
+  },
+  "q:Q478": {
+    "@id": "q:Q478",
+    "@type": "q:Q104",
+    "description": "Durée du programme visionné en secondes.",
+    "name": "duration",
+    "availability": "2016-10",
+    "exampleValue": "5698",
+    "kind": "Metadata"
+  },
+  "q:Q479": {
+    "@id": "q:Q479",
+    "@type": "q:Q104",
+    "description": "Qualité de la vidéo (HD, ...).",
+    "name": "quality",
+    "availability": "2016-10",
+    "exampleValue": "HD",
+    "kind": "Metadata"
+  },
+  "q:Q480": {
+    "@id": "q:Q480",
+    "@type": "q:Q104",
+    "description": "Pays d'origine de l'oeuvre.",
+    "name": "country",
+    "availability": "2016-10",
+    "exampleValue": "USA",
+    "kind": "Metadata"
+  },
+  "q:Q481": {
+    "@id": "q:Q481",
+    "@type": "q:Q104",
+    "description": "Identifiant du programme, dans un catalogue interne Orange.",
+    "name": "id",
+    "availability": "2016-10",
+    "exampleValue": "MONEYMONSTEW0104939",
+    "kind": "Metadata"
+  },
+  "q:Q482": {
+    "@id": "q:Q482",
+    "@type": "q:Q104",
+    "description": "Identifiant complet (long) du programme, dans un catalogue interne Orange.",
+    "name": "longId",
+    "availability": "2016-10",
+    "exampleValue": "MONEYMONSTEW0104939_H_ESTTVQW_1",
+    "kind": "Metadata"
+  },
+  "q:Q483": {
+    "@id": "q:Q483",
+    "@type": "q:Q104",
+    "description": "Niveau de signalétique de protection des mineurs sur le programme.",
+    "name": "csaCode",
+    "availability": "2016-10",
+    "exampleValue": "1",
+    "kind": "Metadata"
+  },
+  "q:Q484": {
+    "@id": "q:Q484",
+    "@type": "q:Q104",
+    "description": "Pour les contenus _adulte_",
+    "name": "adultLevel",
+    "availability": "2016-10",
+    "exampleValue": "charme",
+    "kind": "Metadata",
+    "values": [
+      "charme",
+      "adult"
+    ]
+  },
+  "q:Q485": {
+    "@id": "q:Q485",
+    "@type": "q:Q104",
+    "description": "Nom de l'offre commerciale, dont est issue ce programme.",
+    "name": "offerName",
+    "availability": "2016-10",
+    "exampleValue": "Orange Cinema Series",
+    "kind": "Metadata"
+  },
+  "q:Q486": {
+    "@id": "q:Q486",
+    "@type": "q:Q104",
+    "description": "Service permettant le visionnage de la video",
+    "name": "service",
+    "availability": "2016-10",
+    "exampleValue": "VOD TV",
+    "kind": "Metadata"
+  },
+  "q:Q487": {
+    "@id": "q:Q487",
+    "@type": "q:Q104",
+    "description": "Designation du réseau d'acheminement de la vidéo.",
+    "name": "network",
+    "availability": "2016-10",
+    "exampleValue": "Very High Home BroadBand",
+    "kind": "Metadata",
+    "values": [
+      "Very High Home BroadBand",
+      "Wireless Network"
+    ]
+  },
+  "q:Q488": {
+    "@id": "q:Q488",
+    "@type": "q:Q104",
+    "description": "Details techniques.",
+    "name": "techno",
+    "availability": "2016-10",
+    "exampleValue": "Bearer not provided",
+    "kind": "Metadata"
+  },
+  "q:Q489": {
+    "@id": "q:Q489",
+    "@type": "q:Q104",
+    "description": "Le terminal sur lequel le programme à été visionné (souvent indisponible)",
+    "name": "device",
+    "availability": "2016-10",
+    "exampleValue": "Sony : i1 III (D6603) - Android - HLS",
+    "kind": "Metadata"
+  },
+  "q:Q490": {
+    "@id": "q:Q490",
+    "@type": "q:Q104",
+    "description": "Details techniques Orange.",
+    "name": "platform",
+    "availability": "2016-10",
+    "exampleValue": "Orca",
+    "kind": "Metadata"
+  },
+  "q:Q491": {
+    "@id": "q:Q491",
+    "@type": "q:Q104",
+    "description": "Année de plublication de l'oeuvre.",
+    "name": "publicationYear",
+    "availability": "2016-10",
+    "exampleValue": "2016",
+    "kind": "Metadata"
+  },
+  "q:Q492": {
+    "@id": "q:Q492",
+    "@type": "q:Q102",
+    "description": "Les détails des vidéos que j'ai commandées ou visionnées via les services Orange (VoD, replay, ...) (date, prix, titre de la vidéo, ...).",
+    "name": "Historique VOD / IPTV",
+    "cozyDoctypeName": "fr.orange.videostream",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q444",
+    "hasOptionalProperty": {
+      "@id": "q:Q470"
+    },
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134",
+      "q:Q109",
+      "q:Q297",
+      "q:Q161",
+      {
+        "@id": "q:Q468"
+      },
+      {
+        "@id": "q:Q469"
+      },
+      {
+        "@id": "q:Q466"
+      },
+      {
+        "@id": "q:Q472"
+      }
+    ],
+    "sourceDataController": "Orange",
+    "syntheticSet": "https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/vod_iptv.json",
+    "typology": "Domicile",
+    "updateFrequency": "PT1H",
+    "updateLatency": "PT1H"
   }
 }

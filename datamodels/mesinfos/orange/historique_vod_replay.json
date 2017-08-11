@@ -1,0 +1,235 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q492",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q444",
+  "name": "Historique VOD / IPTV",
+  "description": "Les détails des vidéos que j'ai commandées ou visionnées via les services Orange (VoD, replay, ...) (date, prix, titre de la vidéo, ...).",
+  "typology": "Domicile",
+  "sourceDataController": "Orange",
+  "updateFrequency": "PT1H",
+  "updateLatency": "PT1H",
+  "cozyDoctypeName": "fr.orange.videostream",
+  "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/vod_iptv.json"],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q109", "q:Q297", "q:Q161",
+    {
+      "name": "action",
+      "@id": "q:Q468",
+      "@type": "q:Q104",
+      "description": "Commande d'une VOD ou visionnage",
+      "exampleValue": "Commande",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "name": "price",
+      "@id": "q:Q469",
+      "@type": "q:Q104",
+      "description": "Prix de la vidéo (cas d'une VOD payante)",
+      "exampleValue": "2.99",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    },
+
+    {
+      "name": "content",
+      "@id": "q:Q466",
+      "@type": "object",
+      "description": "Informations sur le contenue visionné",
+      "kind": "Transaction",
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "name": "title",
+          "@id": "q:Q474",
+          "@type": "q:Q104",
+          "description": "Titre du programme visionné",
+          "exampleValue": "Affaire bettina beau : la secrétaire a-t-elle...",
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "name": "subTitle",
+          "@id": "q:Q475",
+          "@type": "q:Q104",
+          "description": "Complément de titre.",
+          "exampleValue": "0-Enquêtes criminelles",
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "name": "type",
+          "@id": "q:Q477",
+          "@type": "q:Q104",
+          "description": "Replay, visionnage live, ...",
+          "exampleValue": "Video",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "duration",
+          "@id": "q:Q478",
+          "@type": "q:Q104",
+          "description": "Durée du programme visionné en secondes.",
+          "exampleValue": "5698",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "quality",
+          "@id": "q:Q479",
+          "@type": "q:Q104",
+          "description": "Qualité de la vidéo (HD, ...).",
+          "exampleValue": "HD",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "publicationYear",
+          "@id": "q:Q491",
+          "@type": "q:Q104",
+          "description": "Année de plublication de l'oeuvre.",
+          "exampleValue": "2016",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "country",
+          "@id": "q:Q480",
+          "@type": "q:Q104",
+          "description": "Pays d'origine de l'oeuvre.",
+          "exampleValue": "USA",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "id",
+          "@id": "q:Q481",
+          "@type": "q:Q104",
+          "description": "Identifiant du programme, dans un catalogue interne Orange.",
+          "exampleValue": "MONEYMONSTEW0104939",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "longId",
+          "@id": "q:Q482",
+          "@type": "q:Q104",
+          "description": "Identifiant complet (long) du programme, dans un catalogue interne Orange.",
+          "exampleValue": "MONEYMONSTEW0104939_H_ESTTVQW_1",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "csaCode",
+          "@id": "q:Q483",
+          "@type": "q:Q104",
+          "description": "Niveau de signalétique de protection des mineurs sur le programme.",
+          "exampleValue": "1",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        }
+      ],
+      "hasOptionalProperty": [
+        {
+          "name": "adultLevel",
+          "@id": "q:Q484",
+          "@type": "q:Q104",
+          "description": "Pour les contenus _adulte_",
+          "exampleValue": "charme",
+          "values": ["charme", "adult"],
+          "kind": "Metadata",
+          "availability": "2016-10"
+        }
+      ]
+    },
+    {
+      "name": "details",
+      "@id": "q:Q472",
+      "@type": "q:Q104",
+      "description": "Details sur la transmission de la vidéo",
+      "kind": "Metadata",
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "name": "offer",
+          "@id": "q:Q476",
+          "@type": "q:Q104",
+          "description": "Catégorie de l'offre commerciale, dont est issue ce programme.",
+          "exampleValue": "Free VOD",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "offerName",
+          "@id": "q:Q485",
+          "@type": "q:Q104",
+          "description": "Nom de l'offre commerciale, dont est issue ce programme.",
+          "exampleValue": "Orange Cinema Series",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "service",
+          "@id": "q:Q486",
+          "@type": "q:Q104",
+          "description": "Service permettant le visionnage de la video",
+          "exampleValue": "VOD TV",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "network",
+          "@id": "q:Q487",
+          "@type": "q:Q104",
+          "description": "Designation du réseau d'acheminement de la vidéo.",
+          "exampleValue": "Very High Home BroadBand",
+          "values": ["Very High Home BroadBand", "Wireless Network"],
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "techno",
+          "@id": "q:Q488",
+          "@type": "q:Q104",
+          "description": "Details techniques.",
+          "exampleValue": "Bearer not provided",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "device",
+          "@id": "q:Q489",
+          "@type": "q:Q104",
+          "description": "Le terminal sur lequel le programme à été visionné (souvent indisponible)",
+          "exampleValue": "Sony : i1 III (D6603) - Android - HLS",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        },
+        {
+          "name": "platform",
+          "@id": "q:Q490",
+          "@type": "q:Q104",
+          "description": "Details techniques Orange.",
+          "exampleValue": "Orca",
+          "kind": "Metadata",
+          "availability": "2016-10"
+        }
+      ]
+    }
+  ],
+  "hasOptionalProperty": [
+    {
+      "name": "viewingDuration",
+      "@id": "q:Q470",
+      "@type": "q:Q104",
+      "description": "Durée de visionnage.",
+      "exampleValue": "17100",
+      "kind": "Transaction",
+      "availability": "2016-10"
+    }
+  ]
+}
