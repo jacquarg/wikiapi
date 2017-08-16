@@ -3,7 +3,7 @@
   "@id": "q:Q492",
   "@type": "q:Q102",
   "generatedBy": "q:Q444",
-  "name": "Historique VOD / IPTV",
+  "label": "Historique VOD / IPTV",
   "description": "Les détails des vidéos que j'ai commandées ou visionnées via les services Orange (VoD, replay, ...) (date, prix, titre de la vidéo, ...).",
   "typology": "Domicile",
   "sourceDataController": "Orange",
@@ -16,7 +16,8 @@
   "hasProperty": [
     "q:Q133", "q:Q134", "q:Q109", "q:Q297", "q:Q161",
     {
-      "name": "action",
+      "label": "action",
+ "propName": "action",
       "@id": "q:Q468",
       "@type": "q:Q104",
       "description": "Commande d'une VOD ou visionnage",
@@ -25,7 +26,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "price",
+      "label": "price",
+ "propName": "price",
       "@id": "q:Q469",
       "@type": "q:Q104",
       "description": "Prix de la vidéo (cas d'une VOD payante)",
@@ -35,7 +37,8 @@
     },
 
     {
-      "name": "content",
+      "label": "content",
+ "propName": "content",
       "@id": "q:Q466",
       "@type": "object",
       "description": "Informations sur le contenue visionné",
@@ -43,7 +46,8 @@
       "availability": "2016-10",
       "hasProperty": [
         {
-          "name": "title",
+          "label": "title",
+ "propName": "title",
           "@id": "q:Q474",
           "@type": "q:Q104",
           "description": "Titre du programme visionné",
@@ -52,7 +56,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "subTitle",
+          "label": "subTitle",
+ "propName": "subTitle",
           "@id": "q:Q475",
           "@type": "q:Q104",
           "description": "Complément de titre.",
@@ -61,7 +66,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "type",
+          "label": "type",
+ "propName": "type",
           "@id": "q:Q477",
           "@type": "q:Q104",
           "description": "Replay, visionnage live, ...",
@@ -70,7 +76,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "duration",
+          "label": "duration",
+ "propName": "duration",
           "@id": "q:Q478",
           "@type": "q:Q104",
           "description": "Durée du programme visionné en secondes.",
@@ -79,7 +86,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "quality",
+          "label": "quality",
+ "propName": "quality",
           "@id": "q:Q479",
           "@type": "q:Q104",
           "description": "Qualité de la vidéo (HD, ...).",
@@ -88,7 +96,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "publicationYear",
+          "label": "publicationYear",
+ "propName": "publicationYear",
           "@id": "q:Q491",
           "@type": "q:Q104",
           "description": "Année de plublication de l'oeuvre.",
@@ -97,7 +106,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "country",
+          "label": "country",
+ "propName": "country",
           "@id": "q:Q480",
           "@type": "q:Q104",
           "description": "Pays d'origine de l'oeuvre.",
@@ -106,7 +116,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "id",
+          "label": "id",
+ "propName": "id",
           "@id": "q:Q481",
           "@type": "q:Q104",
           "description": "Identifiant du programme, dans un catalogue interne Orange.",
@@ -115,7 +126,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "longId",
+          "label": "longId",
+ "propName": "longId",
           "@id": "q:Q482",
           "@type": "q:Q104",
           "description": "Identifiant complet (long) du programme, dans un catalogue interne Orange.",
@@ -124,7 +136,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "csaCode",
+          "label": "csaCode",
+ "propName": "csaCode",
           "@id": "q:Q483",
           "@type": "q:Q104",
           "description": "Niveau de signalétique de protection des mineurs sur le programme.",
@@ -135,7 +148,8 @@
       ],
       "hasOptionalProperty": [
         {
-          "name": "adultLevel",
+          "label": "adultLevel",
+ "propName": "adultLevel",
           "@id": "q:Q484",
           "@type": "q:Q104",
           "description": "Pour les contenus _adulte_",
@@ -147,7 +161,8 @@
       ]
     },
     {
-      "name": "details",
+      "label": "details",
+ "propName": "details",
       "@id": "q:Q472",
       "@type": "q:Q104",
       "description": "Details sur la transmission de la vidéo",
@@ -155,7 +170,8 @@
       "availability": "2016-10",
       "hasProperty": [
         {
-          "name": "offer",
+          "label": "offer",
+ "propName": "offer",
           "@id": "q:Q476",
           "@type": "q:Q104",
           "description": "Catégorie de l'offre commerciale, dont est issue ce programme.",
@@ -164,7 +180,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "offerName",
+          "label": "offerName",
+ "propName": "offerName",
           "@id": "q:Q485",
           "@type": "q:Q104",
           "description": "Nom de l'offre commerciale, dont est issue ce programme.",
@@ -173,7 +190,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "service",
+          "label": "service",
+ "propName": "service",
           "@id": "q:Q486",
           "@type": "q:Q104",
           "description": "Service permettant le visionnage de la video",
@@ -182,7 +200,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "network",
+          "label": "network",
+ "propName": "network",
           "@id": "q:Q487",
           "@type": "q:Q104",
           "description": "Designation du réseau d'acheminement de la vidéo.",
@@ -192,7 +211,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "techno",
+          "label": "techno",
+ "propName": "techno",
           "@id": "q:Q488",
           "@type": "q:Q104",
           "description": "Details techniques.",
@@ -201,7 +221,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "device",
+          "label": "device",
+ "propName": "device",
           "@id": "q:Q489",
           "@type": "q:Q104",
           "description": "Le terminal sur lequel le programme à été visionné (souvent indisponible)",
@@ -210,7 +231,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "platform",
+          "label": "platform",
+ "propName": "platform",
           "@id": "q:Q490",
           "@type": "q:Q104",
           "description": "Details techniques Orange.",
@@ -223,7 +245,8 @@
   ],
   "hasOptionalProperty": [
     {
-      "name": "viewingDuration",
+      "label": "viewingDuration",
+ "propName": "viewingDuration",
       "@id": "q:Q470",
       "@type": "q:Q104",
       "description": "Durée de visionnage.",

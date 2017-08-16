@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q101",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Modalités de paiement EDF",
+  "label": "Modalités de paiement EDF",
   "description": "Mode de paiement : mensualités, échéancier, RIB, date de paiement.",
   "typology": "Finance",
   "sourceDataController": "EDF",
@@ -17,7 +17,8 @@
   "hasProperty": [
     "q:Q133", "q:Q134", "q:Q161",
     {
-      "name": "balance",
+      "label": "balance",
+ "propName": "balance",
       "@id": "q:Q343",
       "@type": "q:Q104",
       "description": "Montant restant dû ou à recevoir",
@@ -26,7 +27,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "billFrequency",
+      "label": "billFrequency",
+ "propName": "billFrequency",
       "@id": "q:Q349",
       "@type": "q:Q104",
       "description": "Périodicité de la facture (mensuel, bimestriel, semestriel, annuelle, ...)",
@@ -36,7 +38,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "dernierReglement",
+      "label": "dernierReglement",
+ "propName": "dernierReglement",
       "@id": "q:Q360",
       "@type": "object",
       "description": "Dernier réglement effectué.",
@@ -44,7 +47,8 @@
       "availability": "2016-10",
       "hasProperty": [
         {
-          "name": "date",
+          "label": "date",
+ "propName": "date",
           "@id": "q:Q346",
           "@type": "q:Q104",
           "description": "Date du dernier réglement effectué.",
@@ -53,7 +57,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "amount",
+          "label": "amount",
+ "propName": "amount",
           "@id": "q:Q347",
           "@type": "q:Q104",
           "description": "Montant du dernier règlement effectué",
@@ -62,7 +67,8 @@
           "availability": "2016-10"
         },
         {
-          "name": "type",
+          "label": "type",
+ "propName": "type",
           "@id": "q:Q348",
           "@type": "q:Q104",
           "description": "Type du dernier règlement",
@@ -73,7 +79,8 @@
       ]
     },
     {
-      "name": "encryptedBankDetails",
+      "label": "encryptedBankDetails",
+ "propName": "encryptedBankDetails",
       "@id": "q:Q335",
       "@type": "q:Q270",
       "description": "Les informations bancaires du client : nom de la banque, numéro de compte, code guichet...",
@@ -82,7 +89,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "nextBillDate",
+      "label": "nextBillDate",
+ "propName": "nextBillDate",
       "@id": "q:Q350",
       "@type": "q:Q104",
       "description": "Date de la prochaine facture",
@@ -90,7 +98,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "idPayer",
+      "label": "idPayer",
+ "propName": "idPayer",
       "@id": "q:Q351",
       "@type": "q:Q104",
       "description": "NumeroBP du payeur",
@@ -99,7 +108,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "modifBankDetailsAllowed",
+      "label": "modifBankDetailsAllowed",
+ "propName": "modifBankDetailsAllowed",
       "@id": "q:Q345",
       "@type": "q:Q104",
       "description": "Le RIB du client peut-il être modifié ou non.",
@@ -108,7 +118,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "paymentMeans",
+      "label": "paymentMeans",
+ "propName": "paymentMeans",
       "@id": "q:Q344",
       "@type": "q:Q269",
       "description": "Mode d'encaissement (prélèvement, ...)",
@@ -117,7 +128,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "payerDivergent",
+      "label": "payerDivergent",
+ "propName": "payerDivergent",
       "@id": "q:Q352",
       "@type": "q:Q104",
       "description": "Si le payeur n'est pas le titulaire du contrat.",
@@ -126,20 +138,23 @@
       "availability": "2016-10"
     },
     {
-      "name": "paymentSchedules",
+      "label": "paymentSchedules",
+ "propName": "paymentSchedules",
       "@id": "q:Q361",
       "@type": "array",
       "description": "Échéancier, liste des acomptes.",
       "availability": "2016-10",
       "items": {
-        "name": "paymentSchedulesItem",
+        "label": "paymentSchedulesItem",
+ "propName": "paymentSchedulesItem",
         "@id": "q:Q362",
         "@type": "object",
         "description": "Détails d'un acompte EDF.",
         "availability": "2016-10",
         "hasProperty": [
           {
-            "name": "amount",
+            "label": "amount",
+ "propName": "amount",
             "@id": "q:Q357",
             "@type": "q:Q104",
             "description": "Montant total de l'échéance (amountElectricity + amountGas)",
@@ -148,7 +163,8 @@
             "availability": "2016-10"
           },
           {
-            "name": "amountElectricity",
+            "label": "amountElectricity",
+ "propName": "amountElectricity",
             "@id": "q:Q358",
             "@type": "q:Q104",
             "description": "Montant pour l'electricité",
@@ -157,7 +173,8 @@
             "availability": "2016-10"
           },
           {
-            "name": "amountGas",
+            "label": "amountGas",
+ "propName": "amountGas",
             "@id": "q:Q359",
             "@type": "q:Q104",
             "description": "Montant pour le gaz",
@@ -166,7 +183,8 @@
             "availability": "2016-10"
           },
           {
-            "name": "number",
+            "label": "number",
+ "propName": "number",
             "@id": "q:Q353",
             "@type": "q:Q104",
             "description": "Numéro dans l'échéancier",
@@ -175,7 +193,8 @@
             "availability": "2016-10"
           },
           {
-            "name": "receiptDate",
+            "label": "receiptDate",
+ "propName": "receiptDate",
             "@id": "q:Q354",
             "@type": "q:Q104",
             "description": "Date d'encaissement de l'échéance",
@@ -184,7 +203,8 @@
             "availability": "2016-10"
           },
           {
-            "name": "scheduleDate",
+            "label": "scheduleDate",
+ "propName": "scheduleDate",
             "@id": "q:Q355",
             "@type": "q:Q104",
             "description": "Date de l'échance",
@@ -193,7 +213,8 @@
             "availability": "2016-10"
           },
           {
-            "name": "paid",
+            "label": "paid",
+ "propName": "paid",
             "@id": "q:Q356",
             "@type": "q:Q104",
             "description": "Déjà payée",

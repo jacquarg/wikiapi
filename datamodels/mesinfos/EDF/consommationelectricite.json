@@ -3,7 +3,7 @@
   "@id": "q:Q100",
   "@type": "q:Q132",
   "generatedBy": "q:Q101",
-  "name": "Consommation d'électricité",
+  "label": "Consommation d'électricité",
   "description": "Un relevé de consommation d'électricité, transmis par EDF.",
   "sourceDataController": "EDF",
   "typology": "Domicile",
@@ -17,7 +17,8 @@
     "q:Q133", "q:Q134",
     "q:Q110", "q:Q111", "q:Q112", "q:Q113","q:Q114","q:Q117",
     {
-      "name": "statementType",
+      "label": "statementType",
+ "propName": "statementType",
       "@id": "q:Q136",
       "@type": "q:Q115",
       "description": "Type de relève associé à la consommation (réelle ou estimée), consommation d'électricité EDF.",
@@ -25,7 +26,8 @@
       "values": [ "REEL"]
     },
     {
-      "name": "statementReason",
+      "label": "statementReason",
+ "propName": "statementReason",
       "@id": "q:Q137",
       "@type": "q:Q117",
       "description": "Motif de relève associé à la consommation, consommation d'électricité EDF.",
@@ -33,7 +35,8 @@
       "values": ["RELEVE_PERIODIQUE", "RELEVE_INTERMEDIAIRE_CALC_FACT"]
     },
     {
-      "name": "statementCategory",
+      "label": "statementCategory",
+ "propName": "statementCategory",
       "@id": "q:Q135",
       "@type": "q:Q116",
       "description": "Type de relève associé à la consommation (réelle ou estimée) d'un relevé vourni par EDF.",

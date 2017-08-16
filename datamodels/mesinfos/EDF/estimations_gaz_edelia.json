@@ -3,7 +3,7 @@
   "@id": "q:Q142",
   "@type": "q:Q132",
   "generatedBy": "q:Q101",
-  "name": "Éstimations de consommation de gaz",
+  "label": "Éstimations de consommation de gaz",
   "description": "Éstimations de consommation de gaz, du service e.quilibre, transmises par Edelia.",
   "typology": "Domicile",
   "sourceDataController": "EDF",

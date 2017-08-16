@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q146",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Modalités de paiement Maif",
+  "label": "Modalités de paiement Maif",
   "description": "Qualifie le mode de paiement pour l'assuré (mensualité, RIB, échéancier, ...).",
   "typology": "Finance",
   "sourceDataController": "Maif",
@@ -17,13 +17,15 @@
   "hasProperty": [
     "q:Q133", "q:Q134",
     {
-      "name": "paymentterms",
+      "label": "paymentterms",
+ "propName": "paymentterms",
       "@id": "q:Q309",
       "@type": "object",
       "description": "Qualifie le mode de paiement pour l'assuré (mensualité, RIB, échéancier, ...).",
       "hasProperty": [
         {
-          "name": "rib",
+          "label": "rib",
+ "propName": "rib",
           "@id": "q:Q270",
           "@type": "object",
           "description": "Relevé d'identité bancaire",
@@ -31,7 +33,8 @@
           "availability": "2017-01",
           "hasProperty": [
             {
-              "name": "bic",
+              "label": "bic",
+ "propName": "bic",
               "@id": "q:Q267",
               "@type": "q:Q104",
               "description": "Code BIC",
@@ -40,7 +43,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "iban",
+              "label": "iban",
+ "propName": "iban",
               "@id": "q:Q268",
               "@type": "q:Q104",
               "description": "Code IBAN",
@@ -51,7 +55,8 @@
           ]
         },
         {
-          "name": "modePaiement",
+          "label": "modePaiement",
+ "propName": "modePaiement",
           "@id": "q:Q269",
           "@type": "q:Q104",
           "description": "Mode de paiement",

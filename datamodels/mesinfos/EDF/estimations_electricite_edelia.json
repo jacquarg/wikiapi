@@ -3,7 +3,7 @@
   "@id": "q:Q138",
   "@type": "q:Q132",
   "generatedBy": "q:Q101",
-  "name": "Éstimations de consommation d'électricité",
+  "label": "Éstimations de consommation d'électricité",
   "description": "Éstimations de consommation d'électricité, du service e.quilibre, transmises par Edelia.",
   "typology": "Domicile",
   "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/estimation_consommation_edelia.json"],
@@ -17,7 +17,8 @@
     "q:Q133", "q:Q134",
     "q:Q110", "q:Q112", "q:Q113","q:Q114","q:Q115","q:Q117",
     {
-      "name": "statementType",
+      "label": "statementType",
+ "propName": "statementType",
       "@id": "q:Q139",
       "@type": "q:Q115",
       "description": "Type de relève associé à la consommation, edelia.",
@@ -25,7 +26,8 @@
       "values": [ "estime"]
     },
     {
-      "name": "statementReason",
+      "label": "statementReason",
+ "propName": "statementReason",
       "@id": "q:Q140",
       "@type": "q:Q117",
       "description": "Motif de relève associé à la consommation.",
@@ -33,7 +35,8 @@
       "values": ["EdeliaMonthlyElecConsumption", "EdeliaYearlyElecConsumption"]
     },
     {
-      "name": "statementCategory",
+      "label": "statementCategory",
+ "propName": "statementCategory",
       "@id": "q:Q141",
       "@type": "q:Q116",
       "description": "Type de relève associé à la consommation.",

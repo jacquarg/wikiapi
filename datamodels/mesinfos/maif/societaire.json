@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q146",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Sociétaire Maif",
+  "label": "Sociétaire Maif",
   "description": "Identification et moyen de contact du souscripteur : Nom, prénom, adresse, date de naissance, ...",
   "typology": "Profil",
   "sourceDataController": "Maif",
@@ -17,19 +17,22 @@
   "hasProperty": [
     "q:Q133", "q:Q134",
     {
-      "name": "societaire",
+      "label": "societaire",
+ "propName": "societaire",
       "@id": "q:Q189",
       "@type": "object",
       "description": "Identification et moyen de contact du souscripteur : Nom, prénom, adresse, date de naissance, ...",
       "hasProperty": [
         {
-          "name": "name",
+          "label": "name",
+ "propName": "name",
           "@id": "q:Q225",
           "@type": ["object", "q:Q315"],
           "description": "Nom de la personne",
           "hasProperty": [
             {
-              "name": "codeTitrePersonne",
+              "label": "codeTitrePersonne",
+ "propName": "codeTitrePersonne",
               "@id": "q:Q227",
               "@type": "q:Q104",
               "description": "Code interne Maif : civilités de la personne",
@@ -39,7 +42,8 @@
             },
             "q:Q194","q:Q195","q:Q196",
             {
-              "name": "maiden",
+              "label": "maiden",
+ "propName": "maiden",
               "@id": "q:Q197",
               "@type": "q:Q104",
               "description": "Nom de Jeune Fille",
@@ -50,7 +54,8 @@
           ]
         },
         {
-          "name": "email",
+          "label": "email",
+ "propName": "email",
           "@id": "q:Q198",
           "@type": "q:Q104",
           "description": "Email",
@@ -59,7 +64,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "telMobile",
+          "label": "telMobile",
+ "propName": "telMobile",
           "@id": "q:Q199",
           "@type": "q:Q104",
           "description": "NumeroTelephonePortable",
@@ -68,7 +74,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "telHome",
+          "label": "telHome",
+ "propName": "telHome",
           "@id": "q:Q200",
           "@type": "q:Q104",
           "description": "Numero de Telephone Domicile",
@@ -77,7 +84,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "telPro",
+          "label": "telPro",
+ "propName": "telPro",
           "@id": "q:Q201",
           "@type": "q:Q104",
           "description": "NumeroTelephoneProfessionnel",
@@ -86,7 +94,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "telFax",
+          "label": "telFax",
+ "propName": "telFax",
           "@id": "q:Q202",
           "@type": "q:Q104",
           "description": "NumeroFax",
@@ -95,7 +104,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "birthdate",
+          "label": "birthdate",
+ "propName": "birthdate",
           "@id": "q:Q203",
           "@type": "q:Q104",
           "description": "Date de naissance de la personne",
@@ -104,7 +114,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "birthplace",
+          "label": "birthplace",
+ "propName": "birthplace",
           "@id": "q:Q204",
           "@type": ["q:Q154", "object"],
           "description": "Commune de naissance",
@@ -113,7 +124,8 @@
           "hasProperty": [
             "q:Q167", "q:Q168", "q:Q171",
             {
-              "name": "region",
+              "label": "region",
+ "propName": "region",
               "@id": "q:Q205",
               "@type": "q:Q104",
               "description": "Departement de Naissance",
@@ -124,7 +136,8 @@
           ]
         },
         {
-          "name": "codeProfessionSocietaire",
+          "label": "codeProfessionSocietaire",
+ "propName": "codeProfessionSocietaire",
           "@id": "q:Q228",
           "@type": "q:Q104",
           "description": "Code interne Maif : profession",
@@ -133,7 +146,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "profession",
+          "label": "profession",
+ "propName": "profession",
           "@id": "q:Q211",
           "@type": "q:Q104",
           "description": "Profession",
@@ -142,7 +156,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "codeFamilySituation",
+          "label": "codeFamilySituation",
+ "propName": "codeFamilySituation",
           "@id": "q:Q229",
           "@type": "q:Q104",
           "description": "Code interne Maif : SituationFamiliale",
@@ -151,7 +166,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "familySituation",
+          "label": "familySituation",
+ "propName": "familySituation",
           "@id": "q:Q212",
           "@type": "q:Q104",
           "description": "SituationFamiliale",
@@ -160,7 +176,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "codeActif",
+          "label": "codeActif",
+ "propName": "codeActif",
           "@id": "q:Q208",
           "@type": "q:Q104",
           "description": "actif / retraité",
@@ -169,7 +186,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "codeEtat",
+          "label": "codeEtat",
+ "propName": "codeEtat",
           "@id": "q:Q209",
           "@type": "q:Q104",
           "description": "décédé / vide",
@@ -177,7 +195,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "dateEtat",
+          "label": "dateEtat",
+ "propName": "dateEtat",
           "@id": "q:Q210",
           "@type": "q:Q104",
           "description": "Date du décès, le cas échéant.",
@@ -186,7 +205,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "referenceClient",
+          "label": "referenceClient",
+ "propName": "referenceClient",
           "@id": "q:Q213",
           "@type": "q:Q148",
           "description": "Numéro de sociétaire",
@@ -195,7 +215,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "timestampModification",
+          "label": "timestampModification",
+ "propName": "timestampModification",
           "@id": "q:Q214",
           "@type": "q:Q230",
           "description": "Horodatage de dernière modification",

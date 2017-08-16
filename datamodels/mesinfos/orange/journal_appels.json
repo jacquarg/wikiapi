@@ -3,7 +3,7 @@
   "@id": "q:Q445",
   "@type": "q:Q102",
   "generatedBy": "q:Q444",
-  "name": "Détails d'appel  téléphonique",
+  "label": "Détails d'appel  téléphonique",
   "description": "Type d'appel (entrant, sortant, sms..), horodatage, numéro, position géographique pendant la communication",
   "typology": "Communication",
   "sourceDataController": "Orange",
@@ -17,7 +17,8 @@
     "q:Q133", "q:Q134", "q:Q109", "q:Q297", "q:Q438",
 
     {
-      "name": "type",
+      "label": "type",
+ "propName": "type",
       "@id": "q:Q446",
       "@type": "q:Q104",
       "description": "Type de communication (appel entrant, appel sortant, SMS entrant, SMS sortant, etc)",
@@ -26,7 +27,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "partner",
+      "label": "partner",
+ "propName": "partner",
       "@id": "q:Q449",
       "@type": "q:Q104",
       "description": "Numéro du correspondant.",
@@ -35,7 +37,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "length",
+      "label": "length",
+ "propName": "length",
       "@id": "q:Q450",
       "@type": "q:Q104",
       "description": "Durée de l'appel, ou longueur du message (unité définie par chipType)",
@@ -44,7 +47,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "chipType",
+      "label": "chipType",
+ "propName": "chipType",
       "@id": "q:Q451",
       "@type": "q:Q104",
       "description": "Unité de longueur de la communication (seconde, nombre de messages, nombre de caractères, ...)",
@@ -53,7 +57,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "latitude",
+      "label": "latitude",
+ "propName": "latitude",
       "@id": "q:Q454",
       "@type": "q:Q104",
       "description": "Position géographique pendant la communication (latitude)",
@@ -62,7 +67,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "longitude",
+      "label": "longitude",
+ "propName": "longitude",
       "@id": "q:Q455",
       "@type": "q:Q104",
       "description": "Position géographique pendant la communication (longitude)",
@@ -71,7 +77,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "endCause",
+      "label": "endCause",
+ "propName": "endCause",
       "@id": "q:Q456",
       "@type": "q:Q104",
       "description": "Cause de terminaison de l'appel si l'appel est efficace (libération normale, échec distant, incident radio...).",
@@ -80,7 +87,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "networkType",
+      "label": "networkType",
+ "propName": "networkType",
       "@id": "q:Q462",
       "@type": "q:Q104",
       "description": "Type de couverture. Indique la couverture réseau utilisée (GSM/GPRS ou UMTS).",

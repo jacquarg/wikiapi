@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q101",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Profil énergétique d'habitation",
+  "label": "Profil énergétique d'habitation",
   "description": "Profil de consommation Edelia (EDF) de l'habitation. L'utilisateur doit avoir activer le service Edelia auprès d'EDF pour obtenir ces données.",
   "typology": "Domicile",
   "sourceDataController": "EDF",
@@ -17,7 +17,8 @@
   "hasProperty": [
     "q:Q133", "q:Q134",
     {
-      "name": "beginTs",
+      "label": "beginTs",
+ "propName": "beginTs",
       "@id": "q:Q423",
       "@type": "q:Q296",
       "description": "Horodatage de début de validité du profil.",
@@ -26,7 +27,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "isProfileValidated",
+      "label": "isProfileValidated",
+ "propName": "isProfileValidated",
       "@id": "q:Q424",
       "@type": "q:Q104",
       "description": "Determine si le profil a déjà été validé par l'utilisateur.",
@@ -35,7 +37,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "housingType",
+      "label": "housingType",
+ "propName": "housingType",
       "@id": "q:Q425",
       "@type": "q:Q104",
       "description": "Type de logement parmi : Appartement, Maison",
@@ -44,7 +47,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "residenceType",
+      "label": "residenceType",
+ "propName": "residenceType",
       "@id": "q:Q426",
       "@type": "q:Q104",
       "description": "Type de résidence parmi : Principale, Secondaire",
@@ -53,7 +57,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "occupationType",
+      "label": "occupationType",
+ "propName": "occupationType",
       "@id": "q:Q427",
       "@type": "q:Q104",
       "description": "Type d'occupation parmi : Proprietaire, Locataire",
@@ -63,7 +68,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "constructionDate",
+      "label": "constructionDate",
+ "propName": "constructionDate",
       "@id": "q:Q428",
       "@type": "q:Q104",
       "description": "Année de construction.",
@@ -72,7 +78,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "isBBC",
+      "label": "isBBC",
+ "propName": "isBBC",
       "@id": "q:Q429",
       "@type": "q:Q104",
       "description": "Bâtiment basse consommation  ",
@@ -81,7 +88,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "surface",
+      "label": "surface",
+ "propName": "surface",
       "@id": "q:Q430",
       "@type": "q:Q104",
       "description": "Surface du logement en m².",
@@ -90,7 +98,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "occupantsCount",
+      "label": "occupantsCount",
+ "propName": "occupantsCount",
       "@id": "q:Q431",
       "@type": "q:Q104",
       "description": "Nombre d'occupants du logement.",
@@ -99,7 +108,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "principalHeatingSystemType",
+      "label": "principalHeatingSystemType",
+ "propName": "principalHeatingSystemType",
       "@id": "q:Q432",
       "@type": "q:Q104",
       "description": "Energie de chauffage principal",
@@ -108,7 +118,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "sanitoryHotWaterType",
+      "label": "sanitoryHotWaterType",
+ "propName": "sanitoryHotWaterType",
       "@id": "q:Q433",
       "@type": "q:Q104",
       "description": "Type d'eau chaude sanitaire parmi",
@@ -117,7 +128,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "origin",
+      "label": "origin",
+ "propName": "origin",
       "@id": "q:Q434",
       "@type": "q:Q329",
       "description": "Fournisseur, source du document",

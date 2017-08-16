@@ -3,7 +3,7 @@
   "@id": "q:Q310",
   "@type": "q:Q132",
   "generatedBy": "q:Q101",
-  "name": "Client EDF",
+  "label": "Client EDF",
   "description": "Identification et moyen de contact du souscripteur : adresse, email, téléphone fixe et portable ...",
   "cozyDoctypeName": "org.fing.mesinfos.client",
   "sourceDataController": "EDF",
@@ -16,7 +16,8 @@
   "hasProperty": [
     "q:Q133", "q:Q134", "q:Q329",
     {
-      "name": "numeroAcc",
+      "label": "numeroAcc",
+ "propName": "numeroAcc",
       "@id": "q:Q312",
       "@type": "q:Q104",
       "description": "Numéro d'accord commercial (~numéro de contrat)",
@@ -26,7 +27,8 @@
     },
     "q:Q161","q:Q314","q:Q315","q:Q198",
     {
-      "name": "cellPhone",
+      "label": "cellPhone",
+ "propName": "cellPhone",
       "@id": "q:Q317",
       "@type": "q:Q199",
       "description": "téléphone mobile du client",
@@ -35,7 +37,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "homePhone",
+      "label": "homePhone",
+ "propName": "homePhone",
       "@id": "q:Q318",
       "@type": "q:Q200",
       "description": "téléphone fixe du client",
@@ -44,7 +47,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "loginEmail",
+      "label": "loginEmail",
+ "propName": "loginEmail",
       "@id": "q:Q320",
       "@type": "q:Q198",
       "description": "Email de connexion à l'interface client EDF",
@@ -53,7 +57,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "coHolder",
+      "label": "coHolder",
+ "propName": "coHolder",
       "@id": "q:Q321",
       "description": "Co-titulaire du contrat",
       "@type": ["q:Q315", "object"],
@@ -64,7 +69,8 @@
       ]
     },
     {
-      "name": "commercialContat",
+      "label": "commercialContat",
+ "propName": "commercialContat",
       "@id": "q:Q327",
       "@type": "object",
       "description": "Contact EDF (commercial).",
@@ -72,7 +78,8 @@
       "availability": "2016-10",
       "hasProperty": [
         {
-          "name": "title",
+          "label": "title",
+ "propName": "title",
           "@id": "q:Q322",
           "@type": "q:Q104",
           "description": "Nom du contact EDF (commercial), nom du groupe régional duquel dépend le client.",
@@ -81,7 +88,8 @@
           "availability": "2016-10"
         }, "q:Q314",
         {
-          "name": "phone",
+          "label": "phone",
+ "propName": "phone",
           "@id": "q:Q324",
           "@type": "q:Q104",
           "description": "Numéro de téléphone du contact EDF (commercial)",

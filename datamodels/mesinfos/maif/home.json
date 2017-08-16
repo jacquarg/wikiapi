@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q146",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Habitations assurées",
+  "label": "Habitations assurées",
   "description": "Qualifie l'habitat assuré (nombre de pièces, standing).",
   "typology": "Domicile",
   "sourceDataController": "Maif",
@@ -17,13 +17,15 @@
   "hasProperty": [
     "q:Q133", "q:Q134",
     {
-      "name": "home",
+      "label": "home",
+ "propName": "home",
       "@id": "q:Q307",
       "@type": ["q:Q159", "array"],
       "description": "Liste des habitats assurés.",
       "items": [
         {
-          "name": "homeItem",
+          "label": "homeItem",
+ "propName": "homeItem",
           "@id": "q:Q158",
           "@type": "q:Q102",
           "description": "Qualifie l'habitat assuré (nombre de pièces, standing).",
@@ -31,7 +33,8 @@
             "q:Q154",
             "q:Q148",
             {
-              "name": "codeNatureLieuRisque",
+              "label": "codeNatureLieuRisque",
+ "propName": "codeNatureLieuRisque",
               "@id": "q:Q308",
               "@type": "q:Q104",
               "description": "Code interne Maif : nature lieu",
@@ -40,7 +43,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "natureLieu",
+              "label": "natureLieu",
+ "propName": "natureLieu",
               "@id": "q:Q185",
               "@type": "q:Q104",
               "description": "Nature lieu : appartement, maison, ...",
@@ -49,7 +53,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "codeJuridique",
+              "label": "codeJuridique",
+ "propName": "codeJuridique",
               "@id": "q:Q190",
               "@type": "q:Q104",
               "description": "Code interne Maif : situation juridique lieu assuré.",
@@ -58,7 +63,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "situationJuridiqueLieu",
+              "label": "situationJuridiqueLieu",
+ "propName": "situationJuridiqueLieu",
               "@id": "q:Q186",
               "@type": "q:Q104",
               "description": "Situation juridique lieu assuré.",
@@ -67,7 +73,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "codePieceLieuRisque",
+              "label": "codePieceLieuRisque",
+ "propName": "codePieceLieuRisque",
               "@id": "q:Q191",
               "@type": "q:Q104",
               "description": "Code interne Maif : tranche nombre de pièces lieu",
@@ -76,7 +83,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "nombrePieces",
+              "label": "nombrePieces",
+ "propName": "nombrePieces",
               "@id": "q:Q187",
               "@type": "q:Q104",
               "description": "Tranche nombre de pièces lieu",
@@ -85,7 +93,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "codeTrancheMobilier",
+              "label": "codeTrancheMobilier",
+ "propName": "codeTrancheMobilier",
               "@id": "q:Q192",
               "@type": "q:Q104",
               "description": "Code interne Maif : tranche patrimoine mobilier lieu",
@@ -94,7 +103,8 @@
               "availability": "2017-01"
             },
             {
-              "name": "patrimoineMobilier",
+              "label": "patrimoineMobilier",
+ "propName": "patrimoineMobilier",
               "@id": "q:Q188",
               "@type": "q:Q104",
               "description": "Tranche patrimoine mobilier lieu",

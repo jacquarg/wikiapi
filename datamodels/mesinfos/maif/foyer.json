@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q146",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Foyer",
+  "label": "Foyer",
   "description": "Désigne les membres du foyer et leur rôle dans le foyer",
   "typology": "Profil",
   "sourceDataController": "Maif",
@@ -17,13 +17,15 @@
   "hasProperty": [
     "q:Q133","q:Q134",
     {
-      "name": "foyer",
+      "label": "foyer",
+ "propName": "foyer",
       "@id": "q:Q262",
       "@type": "object",
       "description": "Désigne les membres du foyer et leur rôle dans le foyer.",
       "hasProperty": [
         {
-          "name": "name",
+          "label": "name",
+ "propName": "name",
           "@id": "q:Q236",
           "@type": "q:Q104",
           "description": "Nom du foyer (nom de famille + nom de la comune)",
@@ -32,14 +34,16 @@
           "availability": "2016-09"
         },
         {
-          "name": "address",
+          "label": "address",
+ "propName": "address",
           "@id": "q:Q301",
           "@type": "object",
           "description": "Adresse postale du foyer.",
           "hasProperty": [
             "q:Q167","q:Q168","q:Q169","q:Q170","q:Q171",
             {
-              "name": "deliveryOffice",
+              "label": "deliveryOffice",
+ "propName": "deliveryOffice",
               "@id": "q:Q302",
               "@type": "q:Q104",
               "description": "Commune, du bureau de poste de livraison.",
@@ -48,7 +52,8 @@
               "availability": "2016-09"
             },
             {
-              "name": "inseeCode",
+              "label": "inseeCode",
+ "propName": "inseeCode",
               "@id": "q:Q303",
               "@type": "q:Q104",
               "description": "Code INSEE de la commune.",
@@ -57,7 +62,8 @@
               "availability": "2016-09"
             },
             {
-              "name": "residence",
+              "label": "residence",
+ "propName": "residence",
               "@id": "q:Q304",
               "@type": "q:Q104",
               "description": "Complément d'adresse, dans la propriété privé.",
@@ -67,7 +73,8 @@
           ]
         },
         {
-          "name": "membres",
+          "label": "membres",
+ "propName": "membres",
           "@id": "q:Q243",
           "@type": ["q:Q104", "array"],
           "description": "Personnes composant le foyer",
@@ -75,7 +82,8 @@
           "availability": "2016-09",
           "items": [
             {
-              "name": "membresItem",
+              "label": "membresItem",
+ "propName": "membresItem",
               "@id": "q:Q244",
               "@type": "q:Q104",
               "description": "Personne composant le foyer",
@@ -89,7 +97,8 @@
                 "q:Q204",
                 "q:Q228", "q:Q211",
                 {
-                  "name": "codeQualityPersonne",
+                  "label": "codeQualityPersonne",
+ "propName": "codeQualityPersonne",
                   "@id": "q:Q264",
                   "@type": "q:Q104",
                   "description": "Code interne Maif : Rôle du membre dans le foyer (enfant, ...)",
@@ -98,7 +107,8 @@
                   "availability": "2016-09"
                 },
                 {
-                  "name": "quality",
+                  "label": "quality",
+ "propName": "quality",
                   "@id": "q:Q261",
                   "@type": "q:Q104",
                   "description": "Rôle du membre dans le foyer (enfant, ...)",

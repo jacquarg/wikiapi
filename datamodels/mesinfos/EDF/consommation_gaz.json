@@ -3,7 +3,7 @@
   "@id": "q:Q144",
   "@type": "q:Q132",
   "generatedBy": "q:Q101",
-  "name": "Consommation de gaz",
+  "label": "Consommation de gaz",
   "description": "Un relevé de consommation de gaz, transmis par EDF.",
   "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
   "sourceDataController": "EDF",

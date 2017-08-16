@@ -2,12 +2,13 @@
   "@context": "semantic/context.json",
   "@id": "q:Q160",
   "@type": "q:Q104",
-  "name": "Contract",
+  "label": "Contract",
   "cozyDoctypeName": "org.fing.mesinfos.contract",
   "hasOptionalProperty": [
     "q:Q133", "q:Q134", "q:Q109",
     {
-      "name": "clientId",
+      "label": "clientId",
+ "propName": "clientId",
       "@id": "q:Q161",
       "@type": "q:Q104",
       "description": "Numéro du client, chez le fournisseur.",
@@ -15,7 +16,8 @@
       "kind": "Caractérisation"
      },
      {
-       "name": "name",
+       "label": "name",
+ "propName": "name",
        "@id": "q:Q162",
        "@type": "q:Q104",
        "description": "Nom.",

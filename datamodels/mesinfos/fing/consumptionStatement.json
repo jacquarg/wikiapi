@@ -2,12 +2,13 @@
   "@context": "semantic/context.json",
   "@id": "q:Q132",
   "@type": "q:Q102",
-  "name": "ConsumptionStatement",
+  "label": "ConsumptionStatement",
   "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
   "hasOptionalProperty": [
     "q:Q133", "q:Q134", "q:Q109",
     {
-      "name": "contractNumber",
+      "label": "contractNumber",
+ "propName": "contractNumber",
       "@id": "q:Q110",
       "@type": "q:Q104",
       "description": "Numéro du contrat",
@@ -16,7 +17,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "billNumber",
+      "label": "billNumber",
+ "propName": "billNumber",
       "@id": "q:Q111",
       "@type": "q:Q104",
       "description": "Numéro de la facture associé à la consommation",
@@ -25,7 +27,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "start",
+      "label": "start",
+ "propName": "start",
       "@id": "q:Q112",
       "@type": "q:Q104",
       "description": "Instant de début de période.",
@@ -34,7 +37,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "end",
+      "label": "end",
+ "propName": "end",
       "@id": "q:Q113",
       "@type": "q:Q104",
       "description": "Instant de fin de période.",
@@ -43,7 +47,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "value",
+      "label": "value",
+ "propName": "value",
       "@id": "q:Q114",
       "@type": "q:Q104",
       "description": "Consommation estimée ou réelle",
@@ -52,7 +57,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "statementType",
+      "label": "statementType",
+ "propName": "statementType",
       "@id": "q:Q115",
       "@type": "q:Q104",
       "description": "Type de relève associé à la consommation (réelle ou estimée)",
@@ -61,7 +67,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "statementCategory",
+      "label": "statementCategory",
+ "propName": "statementCategory",
       "@id": "q:Q116",
       "@type": "q:Q104",
       "description": "Catégorie de relève associée à la consommation (complète statementType)",
@@ -70,7 +77,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "statementReason",
+      "label": "statementReason",
+ "propName": "statementReason",
       "@id": "q:Q117",
       "@type": "q:Q104",
       "description": "Motif de relève associé à la consommation",
@@ -79,7 +87,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "period",
+      "label": "period",
+ "propName": "period",
       "@id": "q:Q118",
       "@type": "q:Q104",
       "description": "Désignation de la période de consommation : mois de la consommation mensuelle, année de la consommation annuelle. (pour clients edelia)",
@@ -88,7 +97,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "cost",
+      "label": "cost",
+ "propName": "cost",
       "@id": "q:Q122",
       "@type": "q:Q104",
       "description": "Coût total de la période. (relevés Edelia)",
@@ -97,7 +107,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "costByCategory",
+      "label": "costByCategory",
+ "propName": "costByCategory",
       "@id": "q:Q123",
       "@type": "q:Q104",
       "description": "Coût sur la période, par catégory (BASE, Heures creuses,abonnement ...)  (relevés Edelia)",
@@ -106,7 +117,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "costByCategory/BASE",
+      "label": "costByCategory/BASE",
+ "propName": "costByCategory/BASE",
       "@id": "q:Q124",
       "@type": "q:Q104",
       "description": "Coût sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
@@ -115,7 +127,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "costByCategory/standing",
+      "label": "costByCategory/standing",
+ "propName": "costByCategory/standing",
       "@id": "q:Q125",
       "@type": "q:Q104",
       "description": "Part abonnement de la période en euros  (relevés Edelia)",
@@ -124,7 +137,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "valuesByCatergory/BASE",
+      "label": "valuesByCatergory/BASE",
+ "propName": "valuesByCatergory/BASE",
       "@id": "q:Q126",
       "@type": "q:Q104",
       "description": "Consommation sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
@@ -133,7 +147,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "similarHomes",
+      "label": "similarHomes",
+ "propName": "similarHomes",
       "@id": "q:Q127",
       "@type": "q:Q104",
       "description": "Comparaison avec des habitations similaires (relevé annuels Edelia)",
@@ -142,7 +157,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "similarHomes/average",
+      "label": "similarHomes/average",
+ "propName": "similarHomes/average",
       "@id": "q:Q128",
       "@type": "q:Q104",
       "description": "Comparaison avec des habitations similaires : moyenne (relevé annuels Edelia)",
@@ -151,7 +167,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "similarHomes/least",
+      "label": "similarHomes/least",
+ "propName": "similarHomes/least",
       "@id": "q:Q129",
       "@type": "q:Q104",
       "description": "Comparaison avec des habitations similaires : le moins consommateur (relevé annuels Edelia)",
@@ -160,7 +177,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "similarHomes/site",
+      "label": "similarHomes/site",
+ "propName": "similarHomes/site",
       "@id": "q:Q130",
       "@type": "q:Q104",
       "description": "Comparaison avec des habitations similaires : cette habitation (relevé annuels Edelia)",
@@ -169,7 +187,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "statements",
+      "label": "statements",
+ "propName": "statements",
       "@id": "q:Q131",
       "@type": "q:Q104",
       "description": "Releves de consommation (relevés Edelia)",

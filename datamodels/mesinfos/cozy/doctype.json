@@ -3,6 +3,6 @@
 
   "@id": "q:Q102",
   "@type": ["object", "wq:Q1397073"],
-  "name": "doctype",
+  "label": "doctype",
   "description": "Doctypes utilisés dans Cozy. Doc en cours ici : https://github.com/cozy/cozy-doctypes"
 }

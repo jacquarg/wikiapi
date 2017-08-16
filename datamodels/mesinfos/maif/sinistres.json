@@ -3,7 +3,7 @@
   "@id": "q:Q295",
   "@type": "q:Q102",
   "generatedBy": "q:Q146",
-  "name": "Sinistre Maif",
+  "label": "Sinistre Maif",
   "description": "Les sinistres sur mon habitation, ou mon véchiule (date, lieu, immatriculation, conducteur, ...)",
   "typology": "Finance",
   "sourceDataController": "Maif",
@@ -16,19 +16,22 @@
   "hasProperty": [
     "q:Q133", "q:Q134",
     {
-      "name": "insuranceClaim",
+      "label": "insuranceClaim",
+ "propName": "insuranceClaim",
       "@id": "q:Q299",
       "@type": ["q:Q159", "array"],
       "description": "Liste des sinistres du sociétaire.",
       "items": [
         {
-          "name": "insuranceClaimItem",
+          "label": "insuranceClaimItem",
+ "propName": "insuranceClaimItem",
           "@id": "q:Q300",
           "@type": "q:Q160",
           "description": "Un sinistre sur mon habitation, ou mon véchiule (date, lieu, immatriculation, conducteur, ...).",
           "hasProperty": [
             {
-              "name": "type",
+              "label": "type",
+ "propName": "type",
               "@id": "q:Q273",
               "@type": "q:Q104",
               "description": "Type du sinistre (véhicule, habitation, ...)",
@@ -39,7 +42,8 @@
             },
             "q:Q148",
             {
-              "name": "horodatage",
+              "label": "horodatage",
+ "propName": "horodatage",
               "@id": "q:Q275",
               "@type": "q:Q296",
               "description": "Date et heure de survenance du sinistre.",
@@ -48,7 +52,8 @@
               "availability": "2016-09"
             },
             {
-              "name": "lieuSurvenance",
+              "label": "lieuSurvenance",
+ "propName": "lieuSurvenance",
               "@id": "q:Q278",
               "@type": "q:Q104",
               "description": "Lieu de survenance (champ libre : une commune, un numéro d’autoroute, …)",
@@ -57,7 +62,8 @@
               "availability": "2016-09"
             },
             {
-              "name": "referenceSinistre",
+              "label": "referenceSinistre",
+ "propName": "referenceSinistre",
               "@id": "q:Q279",
               "@type": "q:Q104",
               "description": "Référence de l’événement, communiquée au sociétaire pour les relations avec la MAIF (appels, documents …)",
@@ -66,7 +72,8 @@
               "availability": "2016-09"
             },
             {
-              "name": "typeLieuSurvenance",
+              "label": "typeLieuSurvenance",
+ "propName": "typeLieuSurvenance",
               "@id": "q:Q280",
               "@type": "q:Q104",
               "description": "Code interne Maif : type du lieu de survenance.",
@@ -74,7 +81,8 @@
               "availability": "2016-09"
             },
             {
-              "name": "libelleTypeLieuSurvenance",
+              "label": "libelleTypeLieuSurvenance",
+ "propName": "libelleTypeLieuSurvenance",
               "@id": "q:Q298",
               "@type": "q:Q104",
               "description": "Type du lieu de survenance.",
@@ -87,7 +95,8 @@
           "hasOptionalProperty": [
             "q:Q154",
             {
-              "name": "immatriculationVehicule",
+              "label": "immatriculationVehicule",
+ "propName": "immatriculationVehicule",
               "@id": "q:Q286",
               "@type": "q:Q104",
               "description": "Immatriculation du véhicule assurée.",
@@ -96,14 +105,16 @@
               "availability": "2016-09"
             },
             {
-              "name": "driverNumber",
+              "label": "driverNumber",
+ "propName": "driverNumber",
               "@id": "q:Q293",
               "@type": "q:Q104",
               "description": "TODO",
               "kind": "Metadata"
             },
             {
-              "name": "driver",
+              "label": "driver",
+ "propName": "driver",
               "@id": "q:Q288",
               "@type": "q:Q225",
               "description": "Nom du conducteur, lors du sinistre.",

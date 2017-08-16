@@ -4,7 +4,7 @@
   "@type": "q:Q102",
   "generatedBy": "q:Q101",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
-  "name": "Factures EDF",
+  "label": "Factures EDF",
   "description": "Mes factures EDF (notamment de régularisation annuelle).",
   "typology": "Finance",
   "sourceDataController": "EDF",
@@ -17,7 +17,8 @@
   "hasProperty": [
     "q:Q133", "q:Q134", "q:Q161",  "q:Q329",
     {
-      "name": "balanceBeforeInvoice",
+      "label": "balanceBeforeInvoice",
+ "propName": "balanceBeforeInvoice",
       "@id": "q:Q365",
       "@type": "q:Q104",
       "description": "Solde du compte client, avant la facture.",
@@ -26,7 +27,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "date",
+      "label": "date",
+ "propName": "date",
       "@id": "q:Q367",
       "@type": "q:Q104",
       "description": "Date de la facture",
@@ -35,7 +37,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "number",
+      "label": "number",
+ "propName": "number",
       "@id": "q:Q366",
       "@type": "q:Q104",
       "description": "Numéro de facture",
@@ -44,7 +47,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "paymentDueDate",
+      "label": "paymentDueDate",
+ "propName": "paymentDueDate",
       "@id": "q:Q371",
       "@type": "q:Q104",
       "description": "Date limite de paiement de la facture",
@@ -53,7 +57,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "pdfurl",
+      "label": "pdfurl",
+ "propName": "pdfurl",
       "@id": "q:Q372",
       "@type": "q:Q104",
       "description": "URL de la facture.",
@@ -62,7 +67,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "scheduledPaymentDate",
+      "label": "scheduledPaymentDate",
+ "propName": "scheduledPaymentDate",
       "@id": "q:Q373",
       "@type": "q:Q104",
       "description": "Date prévue du paimeent.",
@@ -71,7 +77,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "title",
+      "label": "title",
+ "propName": "title",
       "@id": "q:Q374",
       "@type": "q:Q104",
       "description": "Titre de la facture.",
@@ -81,7 +88,8 @@
       "values": ["FACTURE_CYCLIQUE", "FACTURE_INTERMEDIAIRE", "FACTURE_RESILIATION", "FACTURE_REDRESSEMENT", "FACTURE_RECTIVICATIVE", "FACTURE_ANNULATION", "FACTURE_SOUSCRIPTION", "FACTURE_REGUL_ECHEANCIER", "FACTURE_SERVICES", "FACTURE_DEMENSUALISATION"]
     },
     {
-      "name": "totalPaymentDue",
+      "label": "totalPaymentDue",
+ "propName": "totalPaymentDue",
       "@id": "q:Q375",
       "@type": "q:Q104",
       "description": "Montant total de la facture, y compris le solde avant facture.",
@@ -90,7 +98,8 @@
       "availability": "2016-10"
     },
     {
-      "name": "value",
+      "label": "value",
+ "propName": "value",
       "@id": "q:Q368",
       "@type": "q:Q104",
       "description": "Montant de la facture, à payer.",

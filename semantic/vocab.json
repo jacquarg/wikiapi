@@ -7,7 +7,7 @@
 
     "rdfs:subClassOf": { "@type": "@id" },
 
-    "name": "rdfs:label",
+    "label": "rdfs:label",
     "description": {
         "@id": "rdfs:comment",
         "@langage": "fr"
@@ -20,35 +20,35 @@
     {
       "@id": "entity",
       "@type": "wq:Q175263",
-      "name": "entity",
+      "label": "entity",
       "descrition": "An entity in a data model",
       "children": [
         {
           "@id": "object",
           "@type": "wq:Q488383",
-          "name": "object"
+          "label": "object"
         },
         {
           "@id": "array",
           "@type": "wq:Q186152",
-          "name": "array"
+          "label": "array"
         }
       ]
     },
     {
       "@id": "property",
       "@type": "rdfs:Class",
-      "name": "property",
+      "label": "property",
       "children": [
         {
           "@id": "generatedBy",
-          "name": "generatedBy",
+          "label": "generatedBy",
           "description": "Le programme qui produit ces données.",
           "subjectType": "wq:Q7397"
         },
         {
           "@id": "usedBy",
-          "name": "usedBy",
+          "label": "usedBy",
           "description": "Les programmes qui utilisent ces données.",
           "subjectType": "wq:Q7397"
         },
@@ -66,7 +66,7 @@
         },
         {
           "@id": "kind",
-          "name": {
+          "label": {
             "@value": "nature",
             "@language": "fr"
           },
@@ -74,7 +74,7 @@
         },
         {
           "@id": "availability",
-          "name": {
+          "label": {
             "@value": "mise à disposition",
             "@language": "fr"
           },
@@ -82,7 +82,7 @@
         },
         {
           "@id": "format",
-          "name": {
+          "label": {
             "@value": "format",
             "@language": "fr"
           },
@@ -90,7 +90,7 @@
         },
         {
           "@id": "help",
-          "name": {
+          "label": {
             "@value": "aide",
             "@language": "fr"
           },
@@ -98,7 +98,7 @@
         },
         {
           "@id": "values",
-          "name": {
+          "label": {
             "@value": "valeurs",
             "@language": "fr"
           },
@@ -106,7 +106,7 @@
         },
         {
           "@id": "forMesInfos",
-          "name": {
+          "label": {
             "@value": "pourMesInfos",
             "@language": "fr"
           },
@@ -114,7 +114,7 @@
         },
         {
           "@id": "cozyDoctypeName",
-          "name": {
+          "label": {
             "@value": "doctype",
             "@language": "fr"
           },
@@ -122,7 +122,7 @@
         },
         {
           "@id": "cozyIndex",
-          "name": {
+          "label": {
             "@value": "index",
             "@language": "fr"
           },
@@ -130,7 +130,7 @@
         },
         {
           "@id": "cozySelector",
-          "name": {
+          "label": {
             "@value": "selector",
             "@language": "fr"
           },
@@ -138,7 +138,7 @@
         },
         {
           "@id": "sourceDataController",
-          "name": {
+          "label": {
             "@value": "responsable de traitement original",
             "@language": "fr"
           },
@@ -146,7 +146,7 @@
         },
         {
           "@id": "typology",
-          "name": {
+          "label": {
             "@value": "typologie",
             "@language": "fr"
           },
@@ -154,7 +154,7 @@
         },
         {
           "@id": "syntheticSet",
-          "name": {
+          "label": {
             "@value": "jeu de synthèse",
             "@language": "fr"
           },
@@ -162,7 +162,7 @@
         },
         {
           "@id": "updateFrequency",
-          "name": {
+          "label": {
             "@value": "fréquence",
             "@language": "fr"
           },
@@ -170,7 +170,7 @@
         },
         {
           "@id": "updateLatency",
-          "name": {
+          "label": {
             "@value": "latence",
             "@language": "fr"
           },
@@ -178,12 +178,16 @@
         },
         {
           "@id": "items",
-          "name": {
+          "label": {
             "@value": "éléments",
             "@language": "fr"
           },
           "description": "Meta éléments d'un tableau."
-        }
+        },
+        {
+          "@id": "propertyName",
+          "description": "Nom de la propriété par exemple dans un object JSON."
+        },
       ]
     }
   ]

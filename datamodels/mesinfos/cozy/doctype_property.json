@@ -3,11 +3,12 @@
 
   "@id": "q:Q104",
   "@type": "wq:Q937228",
-  "name": "property",
+  "label": "property",
   "description": "Un champ d'un doctype cozy.",
   "children": [
     {
-      "name": "_id",
+      "label": "_id",
+      "propName": "_id",
       "@id": "q:Q133",
       "@type": "q:Q104",
       "description": "id dans la base CouchDB de Cozy",
@@ -15,7 +16,8 @@
       "kind": "Metadata"
     },
     {
-      "name": "_rev",
+      "label": "_rev",
+      "propName": "_rev",
       "@id": "q:Q134",
       "@type": "q:Q104",
       "description": "Revision dans la base CouchDB de Cozy",
@@ -23,7 +25,8 @@
       "kind": "Metadata"
     },
     {
-      "name": "docTypeVersion",
+      "label": "docTypeVersion",
+ "propName": "docTypeVersion",
       "@id": "q:Q109",
       "@type": "q:Q104",
       "description": "Origine du document, et version de format du document, ",
@@ -32,14 +35,16 @@
       "availability": "2016-10"
     },
     {
-      "name": "arrayProperty",
+      "label": "arrayProperty",
+ "propName": "arrayProperty",
       "@id": "q:Q159",
       "@type": ["q:Q104", "array"],
       "description": "Cette propriété porte un tableau. Élément de structuration de l'arbre du doctype.",
       "kind": "Metadata"
     },
     {
-      "name": "lastModified",
+      "label": "lastModified",
+ "propName": "lastModified",
       "@id": "q:Q230",
       "@type": "q:Q104",
       "description": "Instant de dernière modification du document.",
@@ -47,7 +52,8 @@
       "kind": "Metadata"
     },
     {
-      "name": "createdAt",
+      "label": "createdAt",
+ "propName": "createdAt",
       "@id": "q:Q296",
       "@type": "q:Q104",
       "description": "Instant de création du document.",
@@ -55,7 +61,8 @@
       "kind": "Metadata"
     },
     {
-      "name": "timestamp",
+      "label": "timestamp",
+ "propName": "timestamp",
       "@id": "q:Q297",
       "@type": "q:Q296",
       "description": "Instant de création du document.",
@@ -63,7 +70,8 @@
       "kind": "Metadata"
     },
     {
-      "name": "vendor",
+      "label": "vendor",
+ "propName": "vendor",
       "@id": "q:Q329",
       "@type": "q:Q104",
       "description": "Fournisseur, source du document",

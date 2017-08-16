@@ -2,19 +2,21 @@
   "@context": "semantic/context.json",
   "@id": "q:Q311",
   "@type": "q:Q104",
-  "name": "Client",
+  "label": "Client",
   "cozyDoctypeName": "org.fing.mesinfos.client",
   "hasOptionalProperty": [
     "q:Q133", "q:Q134", "q:Q109",
     "q:Q161",
     {
-      "name": "address",
+      "label": "address",
+ "propName": "address",
       "@id": "q:Q314",
       "@type": "object",
       "description": "Adresse postale du lieu assuré.",
       "hasProperty": [
         {
-          "name": "city",
+          "label": "city",
+ "propName": "city",
           "@id": "q:Q167",
           "@type": "q:Q104",
           "description": "Ville",
@@ -23,7 +25,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "country",
+          "label": "country",
+ "propName": "country",
           "@id": "q:Q168",
           "@type": "q:Q104",
           "description": "Pays",
@@ -32,7 +35,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "postCode",
+          "label": "postCode",
+ "propName": "postCode",
           "@id": "q:Q169",
           "@type": "q:Q104",
           "description": "Code postal",
@@ -41,7 +45,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "street",
+          "label": "street",
+ "propName": "street",
           "@id": "q:Q170",
           "@type": "q:Q104",
           "description": "Numéro de voie, voie.",
@@ -50,7 +55,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "formated",
+          "label": "formated",
+ "propName": "formated",
           "@id": "q:Q328",
           "@type": "q:Q104",
           "description": "Adresse complète.",
@@ -61,13 +67,15 @@
       ]
     },
     {
-      "name": "name",
+      "label": "name",
+ "propName": "name",
       "@id": "q:Q315",
       "@type": "object",
       "description": "Nom de la personne",
       "hasProperty": [
         {
-          "name": "prefix",
+          "label": "prefix",
+ "propName": "prefix",
           "@id": "q:Q194",
           "@type": "q:Q104",
           "description": "Civilités de la personne",
@@ -76,7 +84,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "family",
+          "label": "family",
+ "propName": "family",
           "@id": "q:Q195",
           "@type": "q:Q104",
           "description": "Nom de famille de la personne",
@@ -85,7 +94,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "given",
+          "label": "given",
+ "propName": "given",
           "@id": "q:Q196",
           "@type": "q:Q104",
           "description": "Prénom de la personne",
@@ -94,7 +104,8 @@
           "availability": "2016-09"
         },
         {
-          "name": "formated",
+          "label": "formated",
+ "propName": "formated",
           "@id": "q:Q326",
           "@type": "q:Q104",
           "description": "Nom complet de la personne.",

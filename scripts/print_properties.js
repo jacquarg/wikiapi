@@ -3,7 +3,7 @@ var qIndex = require('../indexes/last_item_index.json').lastIndex;
 
 var rowToProperty = function (row) {
   return {
-    "name": row.Nom,
+    "label": row.Nom,
     "@id": `q:Q${++qIndex}`,
     "@type": "q:Q104",
     "description": row.Description,

@@ -2,7 +2,7 @@
   "@context": "semantic/context.json",
   "@id": "q:Q143",
   "@type": "schema:ItemList",
-  "name": "MesInfosData",
+  "label": "MesInfosData",
   "description": "Liste des données MesInfos",
   "schema:itemListElement": [
     "q:Q155", "q:Q231", "q:Q179", "q:Q265", "q:Q295", "q:Q226",
