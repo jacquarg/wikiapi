@@ -18,9 +18,9 @@
     "q:Q139",
     "q:Q140",
     "q:Q141",
-    "q:Q118", "q:Q122", "q:Q123", "q:Q124", "q:Q125", "q:Q126",
+    "q:Q118", "q:Q122", "q:Q123", "q:Q126",
     "q:Q131",
-    "q:Q127","q:Q128","q:Q129", "q:Q130"
+    "q:Q127"
   ],
   "help": "'similarHomes' seulement sur les relevés 'EdeliaYearlyGasConsumption'. 'statements', seulement sur les relevés EdeliaMonthlyGasConsumption."
 }

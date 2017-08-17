@@ -110,35 +110,36 @@
       "label": "costByCategory",
  "propName": "costByCategory",
       "@id": "q:Q123",
-      "@type": "q:Q104",
+      "@type": "object",
       "description": "Coût sur la période, par catégory (BASE, Heures creuses,abonnement ...)  (relevés Edelia)",
-      "exampleValue": "{\n      \"BASE\": 350,\n      \"standing\": 55\n    }",
       "kind": "Transaction",
-      "availability": "2016-10"
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "label": "BASE",
+          "propName": "BASE",
+          "@id": "q:Q124",
+          "@type": "q:Q104",
+          "description": "Coût sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
+          "exampleValue": 350,
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "label": "standing",
+          "propName": "standing",
+          "@id": "q:Q125",
+          "@type": "q:Q104",
+          "description": "Part abonnement de la période en euros  (relevés Edelia)",
+          "exampleValue": 55,
+          "kind": "Transaction",
+          "availability": "2016-10"
+        }
+      ]
     },
     {
-      "label": "costByCategory/BASE",
- "propName": "costByCategory/BASE",
-      "@id": "q:Q124",
-      "@type": "q:Q104",
-      "description": "Coût sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
-      "exampleValue": "",
-      "kind": "Transaction",
-      "availability": "2016-10"
-    },
-    {
-      "label": "costByCategory/standing",
- "propName": "costByCategory/standing",
-      "@id": "q:Q125",
-      "@type": "q:Q104",
-      "description": "Part abonnement de la période en euros  (relevés Edelia)",
-      "exampleValue": "",
-      "kind": "Transaction",
-      "availability": "2016-10"
-    },
-    {
-      "label": "valuesByCatergory/BASE",
- "propName": "valuesByCatergory/BASE",
+      "label": "valuesByCatergory",
+ "propName": "valuesByCatergory",
       "@id": "q:Q126",
       "@type": "q:Q104",
       "description": "Consommation sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
@@ -150,45 +151,46 @@
       "label": "similarHomes",
  "propName": "similarHomes",
       "@id": "q:Q127",
-      "@type": "q:Q104",
+      "@type": "object",
       "description": "Comparaison avec des habitations similaires (relevé annuels Edelia)",
-      "exampleValue": "{\n      \"site\": 2144,\n      \"average\": 2335,\n      \"least\": 1030\n    }",
       "kind": "Transaction",
-      "availability": "2016-10"
-    },
-    {
-      "label": "similarHomes/average",
- "propName": "similarHomes/average",
-      "@id": "q:Q128",
-      "@type": "q:Q104",
-      "description": "Comparaison avec des habitations similaires : moyenne (relevé annuels Edelia)",
-      "exampleValue": "2335",
-      "kind": "Transaction",
-      "availability": "2016-10"
-    },
-    {
-      "label": "similarHomes/least",
- "propName": "similarHomes/least",
-      "@id": "q:Q129",
-      "@type": "q:Q104",
-      "description": "Comparaison avec des habitations similaires : le moins consommateur (relevé annuels Edelia)",
-      "exampleValue": "1030",
-      "kind": "Transaction",
-      "availability": "2016-10"
-    },
-    {
-      "label": "similarHomes/site",
- "propName": "similarHomes/site",
-      "@id": "q:Q130",
-      "@type": "q:Q104",
-      "description": "Comparaison avec des habitations similaires : cette habitation (relevé annuels Edelia)",
-      "exampleValue": "2144",
-      "kind": "Transaction",
-      "availability": "2016-10"
+      "availability": "2016-10",
+      "hasProperty": [
+        {
+          "label": "average",
+          "propName": "average",
+          "@id": "q:Q128",
+          "@type": "q:Q104",
+          "description": "Comparaison avec des habitations similaires : moyenne (relevé annuels Edelia)",
+          "exampleValue": 2335,
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "label": "least",
+          "propName": "least",
+          "@id": "q:Q129",
+          "@type": "q:Q104",
+          "description": "Comparaison avec des habitations similaires : le moins consommateur (relevé annuels Edelia)",
+          "exampleValue": 1030,
+          "kind": "Transaction",
+          "availability": "2016-10"
+        },
+        {
+          "label": "site",
+          "propName": "site",
+          "@id": "q:Q130",
+          "@type": "q:Q104",
+          "description": "Comparaison avec des habitations similaires : cette habitation (relevé annuels Edelia)",
+          "exampleValue": 2144,
+          "kind": "Transaction",
+          "availability": "2016-10"
+        }
+      ]
     },
     {
       "label": "statements",
- "propName": "statements",
+      "propName": "statements",
       "@id": "q:Q131",
       "@type": "q:Q104",
       "description": "Releves de consommation (relevés Edelia)",

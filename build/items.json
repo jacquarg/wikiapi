@@ -179,11 +179,18 @@
   },
   "q:Q123": {
     "@id": "q:Q123",
-    "@type": "q:Q104",
+    "@type": "object",
     "description": "Coût sur la période, par catégory (BASE, Heures creuses,abonnement ...)  (relevés Edelia)",
     "label": "costByCategory",
     "availability": "2016-10",
-    "exampleValue": "{\n      \"BASE\": 350,\n      \"standing\": 55\n    }",
+    "hasProperty": [
+      {
+        "@id": "q:Q124"
+      },
+      {
+        "@id": "q:Q125"
+      }
+    ],
     "kind": "Transaction",
     "propName": "costByCategory"
   },
@@ -191,39 +198,49 @@
     "@id": "q:Q124",
     "@type": "q:Q104",
     "description": "Coût sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
-    "label": "costByCategory/BASE",
+    "label": "BASE",
     "availability": "2016-10",
-    "exampleValue": "",
+    "exampleValue": 350,
     "kind": "Transaction",
-    "propName": "costByCategory/BASE"
+    "propName": "BASE"
   },
   "q:Q125": {
     "@id": "q:Q125",
     "@type": "q:Q104",
     "description": "Part abonnement de la période en euros  (relevés Edelia)",
-    "label": "costByCategory/standing",
+    "label": "standing",
     "availability": "2016-10",
-    "exampleValue": "",
+    "exampleValue": 55,
     "kind": "Transaction",
-    "propName": "costByCategory/standing"
+    "propName": "standing"
   },
   "q:Q126": {
     "@id": "q:Q126",
     "@type": "q:Q104",
     "description": "Consommation sur la période, par catégory (BASE, Heures creuses, ...)  (relevés Edelia)",
-    "label": "valuesByCatergory/BASE",
+    "label": "valuesByCatergory",
     "availability": "2016-10",
     "exampleValue": "",
     "kind": "Transaction",
-    "propName": "valuesByCatergory/BASE"
+    "propName": "valuesByCatergory"
   },
   "q:Q127": {
     "@id": "q:Q127",
-    "@type": "q:Q104",
+    "@type": "object",
     "description": "Comparaison avec des habitations similaires (relevé annuels Edelia)",
     "label": "similarHomes",
     "availability": "2016-10",
-    "exampleValue": "{\n      \"site\": 2144,\n      \"average\": 2335,\n      \"least\": 1030\n    }",
+    "hasProperty": [
+      {
+        "@id": "q:Q128"
+      },
+      {
+        "@id": "q:Q129"
+      },
+      {
+        "@id": "q:Q130"
+      }
+    ],
     "kind": "Transaction",
     "propName": "similarHomes"
   },
@@ -231,31 +248,31 @@
     "@id": "q:Q128",
     "@type": "q:Q104",
     "description": "Comparaison avec des habitations similaires : moyenne (relevé annuels Edelia)",
-    "label": "similarHomes/average",
+    "label": "average",
     "availability": "2016-10",
-    "exampleValue": "2335",
+    "exampleValue": 2335,
     "kind": "Transaction",
-    "propName": "similarHomes/average"
+    "propName": "average"
   },
   "q:Q129": {
     "@id": "q:Q129",
     "@type": "q:Q104",
     "description": "Comparaison avec des habitations similaires : le moins consommateur (relevé annuels Edelia)",
-    "label": "similarHomes/least",
+    "label": "least",
     "availability": "2016-10",
-    "exampleValue": "1030",
+    "exampleValue": 1030,
     "kind": "Transaction",
-    "propName": "similarHomes/least"
+    "propName": "least"
   },
   "q:Q130": {
     "@id": "q:Q130",
     "@type": "q:Q104",
     "description": "Comparaison avec des habitations similaires : cette habitation (relevé annuels Edelia)",
-    "label": "similarHomes/site",
+    "label": "site",
     "availability": "2016-10",
-    "exampleValue": "2144",
+    "exampleValue": 2144,
     "kind": "Transaction",
-    "propName": "similarHomes/site"
+    "propName": "site"
   },
   "q:Q131": {
     "@id": "q:Q131",
@@ -310,25 +327,10 @@
         "@id": "q:Q123"
       },
       {
-        "@id": "q:Q124"
-      },
-      {
-        "@id": "q:Q125"
-      },
-      {
         "@id": "q:Q126"
       },
       {
         "@id": "q:Q127"
-      },
-      {
-        "@id": "q:Q128"
-      },
-      {
-        "@id": "q:Q129"
-      },
-      {
-        "@id": "q:Q130"
       },
       {
         "@id": "q:Q131"
@@ -457,14 +459,9 @@
       "q:Q118",
       "q:Q122",
       "q:Q123",
-      "q:Q124",
-      "q:Q125",
       "q:Q126",
       "q:Q131",
-      "q:Q127",
-      "q:Q128",
-      "q:Q129",
-      "q:Q130"
+      "q:Q127"
     ],
     "help": "'similarHomes' seulement sur les relevés 'EdeliaYearlyElecConsumption'. 'statements', seulement sur les relevés EdeliaMonthlyElecConsumption.",
     "sourceDataController": "EDF",
@@ -527,14 +524,9 @@
       "q:Q118",
       "q:Q122",
       "q:Q123",
-      "q:Q124",
-      "q:Q125",
       "q:Q126",
       "q:Q131",
-      "q:Q127",
-      "q:Q128",
-      "q:Q129",
-      "q:Q130"
+      "q:Q127"
     ],
     "help": "'similarHomes' seulement sur les relevés 'EdeliaYearlyGasConsumption'. 'statements', seulement sur les relevés EdeliaMonthlyGasConsumption.",
     "sourceDataController": "EDF",
