@@ -85,7 +85,7 @@
               "label": "membresItem",
  "propName": "membresItem",
               "@id": "q:Q244",
-              "@type": "q:Q104",
+              "@type": ["object", "q:Q104"],
               "description": "Personne composant le foyer",
               "kind": "Caractérisation",
               "availability": "2016-09",

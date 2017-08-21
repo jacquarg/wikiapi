@@ -1,7 +1,7 @@
 {
   "@context": "assets/context.json",
   "@id": "q:Q144",
-  "@type": "q:Q132",
+  "@type": ["q:Q102", "q:Q132"],
   "generatedBy": "q:Q101",
   "label": "Consommation de gaz",
   "description": "Un relevé de consommation de gaz, transmis par EDF.",

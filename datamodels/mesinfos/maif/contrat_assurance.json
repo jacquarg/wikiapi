@@ -27,7 +27,7 @@
           "label": "contratItem",
  "propName": "contratItem",
           "@id": "q:Q305",
-          "@type": "q:Q160",
+          "@type": ["object", "q:Q160"],
           "description": "Désigne le type de contrat d'assurance, son tarif, et les risques assurés.",
           "hasProperty": [
             {

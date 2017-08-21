@@ -17,7 +17,10 @@
   },
   "q:Q100": {
     "@id": "q:Q100",
-    "@type": "q:Q132",
+    "@type": [
+      "q:Q102",
+      "q:Q132"
+    ],
     "description": "Un relevé de consommation d'électricité, transmis par EDF.",
     "label": "Consommation d'électricité",
     "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
@@ -431,7 +434,10 @@
   },
   "q:Q138": {
     "@id": "q:Q138",
-    "@type": "q:Q132",
+    "@type": [
+      "q:Q102",
+      "q:Q132"
+    ],
     "description": "Éstimations de consommation d'électricité, du service e.quilibre, transmises par Edelia.",
     "label": "Éstimations de consommation d'électricité",
     "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
@@ -502,7 +508,10 @@
   },
   "q:Q142": {
     "@id": "q:Q142",
-    "@type": "q:Q132",
+    "@type": [
+      "q:Q102",
+      "q:Q132"
+    ],
     "description": "Éstimations de consommation de gaz, du service e.quilibre, transmises par Edelia.",
     "label": "Éstimations de consommation de gaz",
     "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
@@ -536,7 +545,10 @@
   },
   "q:Q144": {
     "@id": "q:Q144",
-    "@type": "q:Q132",
+    "@type": [
+      "q:Q102",
+      "q:Q132"
+    ],
     "description": "Un relevé de consommation de gaz, transmis par EDF.",
     "label": "Consommation de gaz",
     "cozyDoctypeName": "org.fing.mesinfos.consumptionstatement",
@@ -723,7 +735,7 @@
   },
   "q:Q160": {
     "@id": "q:Q160",
-    "@type": "q:Q104",
+    "@type": "q:Q102",
     "label": "Contract",
     "cozyDoctypeName": "org.fing.mesinfos.contract",
     "hasOptionalProperty": [
@@ -1415,7 +1427,10 @@
   },
   "q:Q244": {
     "@id": "q:Q244",
-    "@type": "q:Q104",
+    "@type": [
+      "object",
+      "q:Q104"
+    ],
     "description": "Personne composant le foyer",
     "label": "membresItem",
     "availability": "2016-09",
@@ -1708,7 +1723,7 @@
   },
   "q:Q300": {
     "@id": "q:Q300",
-    "@type": "q:Q160",
+    "@type": "object",
     "description": "Un sinistre sur mon habitation, ou mon véchiule (date, lieu, immatriculation, conducteur, ...).",
     "label": "insuranceClaimItem",
     "hasOptionalProperty": [
@@ -1800,7 +1815,10 @@
   },
   "q:Q305": {
     "@id": "q:Q305",
-    "@type": "q:Q160",
+    "@type": [
+      "object",
+      "q:Q160"
+    ],
     "description": "Désigne le type de contrat d'assurance, son tarif, et les risques assurés.",
     "label": "contratItem",
     "hasProperty": [
@@ -1879,7 +1897,7 @@
   },
   "q:Q310": {
     "@id": "q:Q310",
-    "@type": "q:Q132",
+    "@type": "q:Q102",
     "description": "Identification et moyen de contact du souscripteur : adresse, email, téléphone fixe et portable ...",
     "label": "Client EDF",
     "cozyDoctypeName": "org.fing.mesinfos.client",
@@ -1921,7 +1939,7 @@
   },
   "q:Q311": {
     "@id": "q:Q311",
-    "@type": "q:Q104",
+    "@type": "q:Q102",
     "label": "Client",
     "cozyDoctypeName": "org.fing.mesinfos.client",
     "hasOptionalProperty": [
@@ -2560,7 +2578,10 @@
   },
   "q:Q377": {
     "@id": "q:Q377",
-    "@type": "q:Q102",
+    "@type": [
+      "q:Q102",
+      "q:Q132"
+    ],
     "description": "Les caractéristiques principales de contrat d'électricité chez EDF.",
     "label": "Contrats électricité EDF",
     "cozyDoctypeName": "org.fing.mesinfos.contract",

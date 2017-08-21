@@ -26,7 +26,7 @@
           "label": "insuranceClaimItem",
  "propName": "insuranceClaimItem",
           "@id": "q:Q300",
-          "@type": "q:Q160",
+          "@type": "object",
           "description": "Un sinistre sur mon habitation, ou mon véchiule (date, lieu, immatriculation, conducteur, ...).",
           "hasProperty": [
             {

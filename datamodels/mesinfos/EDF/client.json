@@ -1,7 +1,7 @@
 {
   "@context": "assets/context.json",
   "@id": "q:Q310",
-  "@type": "q:Q132",
+  "@type": "q:Q102",
   "generatedBy": "q:Q101",
   "label": "Client EDF",
   "description": "Identification et moyen de contact du souscripteur : adresse, email, téléphone fixe et portable ...",

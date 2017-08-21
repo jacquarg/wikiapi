@@ -1,7 +1,7 @@
 {
   "@context": "semantic/context.json",
   "@id": "q:Q377",
-  "@type": "q:Q102",
+  "@type": ["q:Q102", "q:Q132"],
   "generatedBy": "q:Q146",
   "usedBy": ["https://github.com/jacquarg/monlogis"],
   "label": "Contrats électricité EDF",

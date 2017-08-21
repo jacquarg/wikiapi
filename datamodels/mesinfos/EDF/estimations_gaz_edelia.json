@@ -1,7 +1,7 @@
 {
   "@context": "assets/context.json",
   "@id": "q:Q142",
-  "@type": "q:Q132",
+  "@type": ["q:Q102", "q:Q132"],
   "generatedBy": "q:Q101",
   "label": "Éstimations de consommation de gaz",
   "description": "Éstimations de consommation de gaz, du service e.quilibre, transmises par Edelia.",

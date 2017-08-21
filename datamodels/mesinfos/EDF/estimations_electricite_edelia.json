@@ -1,7 +1,7 @@
 {
   "@context": "assets/context.json",
   "@id": "q:Q138",
-  "@type": "q:Q132",
+  "@type": ["q:Q102", "q:Q132"],
   "generatedBy": "q:Q101",
   "label": "Éstimations de consommation d'électricité",
   "description": "Éstimations de consommation d'électricité, du service e.quilibre, transmises par Edelia.",

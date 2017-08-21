@@ -1,7 +1,7 @@
 {
   "@context": "semantic/context.json",
   "@id": "q:Q311",
-  "@type": "q:Q104",
+  "@type": "q:Q102",
   "label": "Client",
   "cozyDoctypeName": "org.fing.mesinfos.client",
   "hasOptionalProperty": [
