@@ -1,0 +1,17 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q505",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q504",
+  "label": "Consommation d'eau",
+  "description": "Litres d'eau consommés par jour.",
+  "cozyDoctypeName": "org.mesinfos.fing.consumptionstatement",
+  "sourceDataController": "GrandLyon",
+  "typology": "Domicile",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "availability": "soon",
+  "hasProperty": [
+    "q:Q133", "q:Q134"
+  ]
+}

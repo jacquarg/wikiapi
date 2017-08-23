@@ -12,7 +12,7 @@
   "updateLatency": "P1D",
   "cozyIndex": "[\"_id\"]",
   "cozySelector": "{\"_id\": { \"$gte\": null } }",
-  "availability": "2017-10",
+  "availability": "soon",
   "hasProperty": [
     "q:Q133", "q:Q134"
   ]

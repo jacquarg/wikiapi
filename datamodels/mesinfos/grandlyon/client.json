@@ -1,0 +1,17 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q503",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q504",
+  "label": "Client Eau du Grand Lyon",
+  "description": "Identification d'un client Eau du Gradn Lyon (adresse, numéro de contrat ...",
+  "cozyDoctypeName": "org.fing.mesinfos.client",
+  "sourceDataController": "GrandLyon",
+  "typology": "Profil",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "availability": "soon",
+  "hasProperty": [
+    "q:Q133", "q:Q134"
+  ]
+}
