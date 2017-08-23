@@ -4,10 +4,9 @@
   "description": "Un wiki pour les API publiques (et pas ^^ ?)",
   "scripts": {
     "checkids": "node scripts/check_ids.js",
-    "build": "npm run checkids && npm run build:mi && npm run build:list_data && npm run build:indexes",
+    "build": "rm -R build/* && npm run checkids && npm run build:mi && npm run build:indexes",
     "deploymi": "node scripts/deploy_mesinfos_datapilote.js",
 
-    "build:list_data": "node scripts/build_list_data.js",
     "build:mi": "node scripts/build_mesinfosdev.js",
     "build:indexes": "cp -R indexes build"
   },

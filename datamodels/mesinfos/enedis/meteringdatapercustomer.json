@@ -1,0 +1,19 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q502",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q494",
+  "label": "Relevé de consommation électrique journalier",
+  "description": "Courbe de charge (pas 30'), énergie consommée et puissance maximale journalière.",
+  "cozyDoctypeName": "fr.enedis.api.meteringdata.percustomer",
+  "sourceDataController": "Enedis",
+  "typology": "Domicile",
+  "updateFrequency": "P1D",
+  "updateLatency": "P1D",
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "availability": "2017-10",
+  "hasProperty": [
+    "q:Q133", "q:Q134"
+  ]
+}

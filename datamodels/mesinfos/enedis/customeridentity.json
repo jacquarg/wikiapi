@@ -1,0 +1,19 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q495",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q494",
+  "label": "Compteur Enedis",
+  "description": "Point de livraison (raccordement au réseau) d'un client Enedis.",
+  "cozyDoctypeName": "fr.enedis.api.customers.usage_points",
+  "sourceDataController": "Enedis",
+  "typology": "Domicile",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "availability": "2017-10",
+  "hasProperty": [
+    "q:Q133", "q:Q134"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q499",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q494",
+  "label": "Courbe de charge journalière",
+  "description": "Consommation d'électricité, au pas de 30 minutes.",
+  "cozyDoctypeName": "fr.enedis.api.meteringdata.percustomer.loadcurve",
+  "sourceDataController": "Enedis",
+  "typology": "Domicile",
+  "updateFrequency": "P1D",
+  "updateLatency": "P1D",
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "availability": "2017-10",
+  "hasProperty": [
+    "q:Q133", "q:Q134"
+  ]
+}

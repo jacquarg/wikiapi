@@ -3807,5 +3807,157 @@
     "typology": "Domicile",
     "updateFrequency": "PT1H",
     "updateLatency": "PT1H"
+  },
+  "q:Q495": {
+    "@id": "q:Q495",
+    "@type": "q:Q102",
+    "description": "Point de livraison (raccordement au réseau) d'un client Enedis.",
+    "label": "Compteur Enedis",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.customers.usage_points",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Domicile",
+    "updateFrequency": "P6M",
+    "updateLatency": "P1D"
+  },
+  "q:Q496": {
+    "@id": "q:Q496",
+    "@type": "q:Q102",
+    "description": "Adresse où se situe le compteur électrique Enedis du client.",
+    "label": "Adresse du compteur électrique",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.customers.usagepointaddress",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Domicile²",
+    "updateFrequency": "P6M",
+    "updateLatency": "P1D"
+  },
+  "q:Q497": {
+    "@id": "q:Q497",
+    "@type": "q:Q102",
+    "description": "Identification et catégorisation du client.",
+    "label": "Identité du client Enedis",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.customers.identity",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Profil",
+    "updateFrequency": "P6M",
+    "updateLatency": "P1D"
+  },
+  "q:Q498": {
+    "@id": "q:Q498",
+    "@type": "q:Q102",
+    "description": "Informations sur le client, et sur le point de livraison (compteur) Enedis.",
+    "label": "Client et compteur Enedis",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.customers",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Profil",
+    "updateFrequency": "P6M",
+    "updateLatency": "P1D"
+  },
+  "q:Q499": {
+    "@id": "q:Q499",
+    "@type": "q:Q102",
+    "description": "Consommation d'électricité, au pas de 30 minutes.",
+    "label": "Courbe de charge journalière",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.meteringdata.percustomer.loadcurve",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Domicile",
+    "updateFrequency": "P1D",
+    "updateLatency": "P1D"
+  },
+  "q:Q500": {
+    "@id": "q:Q500",
+    "@type": "q:Q102",
+    "description": "Consommation d'électricité sur 24 heurs.",
+    "label": "Électricité cosommée en 1 jour.",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.meteringdata.percustomer.energy",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Domicile",
+    "updateFrequency": "P1D",
+    "updateLatency": "P1D"
+  },
+  "q:Q501": {
+    "@id": "q:Q501",
+    "@type": "q:Q102",
+    "description": "Puissance maximale atteinte sur un jour.",
+    "label": "Pic de puissance",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.meteringdata.percustomer.maxpower",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Domicile",
+    "updateFrequency": "P1D",
+    "updateLatency": "P1D"
+  },
+  "q:Q502": {
+    "@id": "q:Q502",
+    "@type": "q:Q102",
+    "description": "Courbe de charge (pas 30'), énergie consommée et puissance maximale journalière.",
+    "label": "Relevé de consommation électrique journalier",
+    "availability": "2017-10",
+    "cozyDoctypeName": "fr.enedis.api.meteringdata.percustomer",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q494",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134"
+    ],
+    "sourceDataController": "Enedis",
+    "typology": "Domicile",
+    "updateFrequency": "P1D",
+    "updateLatency": "P1D"
   }
 }

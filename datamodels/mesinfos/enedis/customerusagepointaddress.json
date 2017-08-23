@@ -1,0 +1,19 @@
+{
+  "@context": "assets/context.json",
+  "@id": "q:Q496",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q494",
+  "label": "Adresse du compteur électrique",
+  "description": "Adresse où se situe le compteur électrique Enedis du client.",
+  "cozyDoctypeName": "fr.enedis.api.customers.usagepointaddress",
+  "sourceDataController": "Enedis",
+  "typology": "Domicile²",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "availability": "2017-10",
+  "hasProperty": [
+    "q:Q133", "q:Q134"
+  ]
+}
