@@ -6,7 +6,6 @@
     "checkids": "node scripts/check_ids.js",
     "build": "rm -R build/* && npm run checkids && npm run build:mi && npm run build:indexes",
     "deploymi": "node scripts/deploy_mesinfos_datapilote.js",
-
     "build:mi": "node scripts/build_mesinfosdev.js",
     "build:indexes": "cp -R indexes build"
   },
@@ -16,6 +15,7 @@
     "glob": "^7.1.2",
     "jsonld": "0.4.12",
     "moment": "^2.18.1",
-    "node.extend": "^2.0.0"
+    "node.extend": "^2.0.0",
+    "prototype-ld": "git+https://github.com/jacquarg/prototype-ld.git"
   }
 }

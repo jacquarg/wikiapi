@@ -18,7 +18,7 @@
     "q:Q133", "q:Q134",
     {
       "label": "societaire",
- "propName": "societaire",
+      "propName": "societaire",
       "@id": "q:Q189",
       "@type": "object",
       "description": "Identification et moyen de contact du souscripteur : Nom, prénom, adresse, date de naissance, ...",

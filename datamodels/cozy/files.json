@@ -1,0 +1,207 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q523",
+  "@type": "q:Q102",
+  "usedBy": [
+    "https://github.com/cozy/cozy-drive",
+    "https://github.com/jacquarg/monlogis"
+  ],
+  "label": "file",
+  "description": "Doctype de sfichiers et dossier dans Cozy.",
+  "cozyDoctypeName": "io.cozy.files",
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    {
+      "label": "_id",
+      "propName": "_id",
+      "@id": "q:Q509",
+      "@type": "q:Q133",
+      "description": "id dans la base CouchDB de Cozy. Specific value for trash: 'io.cozy.files.root-dir' and root dir: 'io.cozy.files.trash-dir'.",
+      "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+      "values": [
+        "io.cozy.files.root-dir",
+        "io.cozy.files.trash-dir"
+      ],
+      "kind": "Metadata"
+    },
+    "q:Q134",
+    {
+      "label": "type",
+      "propName": "type",
+      "@id": "q:Q511",
+      "@type": "q:Q104",
+      "description": "Is it metadata of a file or a directory.",
+      "exampleValue": "file",
+      "values": [
+        "file",
+        "directory"
+      ],
+      "kind": "Metadata"
+    },
+    "q:Q162",
+    {
+      "label": "dir_id",
+      "propName": "dir_id",
+      "@id": "q:Q513",
+      "@type": "q:Q104",
+      "description": "Id of the files documents of the directory conaining this file.",
+      "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+      "kind": "Metadata"
+    },
+    {
+      "label": "created_at",
+      "propName": "created_at",
+      "@id": "q:Q514",
+      "@type": "q:Q296",
+      "description": "Instant de création du document.",
+      "exampleValue": "2016-02-25T01:06:12Z",
+      "kind": "Metadata"
+    },
+    {
+      "label": "updated_at",
+      "propName": "updated_at",
+      "@id": "q:Q515",
+      "@type": "q:Q230",
+      "description": "Instant de dernière modification du document.",
+      "exampleValue": "2016-02-25T01:06:12Z",
+      "kind": "Metadata"
+    }
+  ],
+  "hasOptionalProperty": [
+    {
+      "label": "taille",
+      "propName": "size",
+      "@id": "q:Q517",
+      "@type": "q:Q104",
+      "description": "Taille du fichier, en octets (seulement pour les type: file)",
+      "exampleValue": "380432",
+      "kind": "Metadata"
+    },
+    {
+      "label": "Somme de contrôle",
+      "propName": "md5sum",
+      "@id": "q:Q518",
+      "@type": "q:Q104",
+      "description": "Hash du fichier (seulement pour type: file)",
+      "exampleValue": "sG+D0LkCnIPH03/LaFj61g==",
+      "kind": "Metadata"
+    },
+    {
+      "label": "mime",
+      "propName": "mime",
+      "@id": "q:Q519",
+      "@type": "q:Q104",
+      "description": "Type mime du fichier (seulement pour type: file)",
+      "exampleValue": "image/jpeg",
+      "values": [
+        "image/jpeg"
+      ],
+      "kind": "Metadata"
+    },
+    {
+      "label": "Classe",
+      "propName": "class",
+      "@id": "q:Q520",
+      "@type": "q:Q104",
+      "description": "Categorie de fichier (seulement pour type: file)",
+      "exampleValue": "image",
+      "values": [
+        "image"
+      ],
+      "kind": "Metadata"
+    },
+    {
+      "label": "flag executable",
+      "propName": "executable",
+      "@id": "q:Q521",
+      "@type": "q:Q104",
+      "description": "Flag fichier exécutable ou non (seulement pour les type: file)",
+      "exampleValue": false,
+      "values": [
+        true,
+        false
+      ],
+      "kind": "Metadata"
+    },
+    {
+      "label": "supprimé",
+      "propName": "trashed",
+      "@id": "q:Q522",
+      "@type": "q:Q104",
+      "description": "Drapeau, indiquant si un fichier est supprimé (corbeille), seulement pour les type: file",
+      "exampleValue": [
+        false
+      ],
+      "values": [
+        true,
+        false
+      ],
+      "kind": "Metadata"
+    },
+    {
+      "label": "Chemin d'accès",
+      "propName": "path",
+      "@id": "q:Q516",
+      "@type": "q:Q104",
+      "description": "Chemin d'accès du répertoire (seulement type: directory)",
+      "exampleValue": "/Administrative",
+      "values": [
+        "/Administrative",
+        "/Photos",
+        "/Photos/Uploaded from Cozy Photos",
+        "/Photos/Backed up from my mobile",
+        "/",
+        "/.cozy_trash"
+      ],
+      "kind": "Metadata"
+    },
+    {
+      "label": "metadata",
+      "propName": "metadata",
+      "@id": "q:Q524",
+      "@type": "object",
+      "description": "Metadonnées d'un fichier (seulement type: file)",
+      "kind": "Metadata",
+      "hasProperty": [],
+      "hasOptionalProperty": [
+        {
+          "label": "datetime",
+          "propName": "datetime",
+          "@id": "q:Q525",
+          "@type": "q:Q296",
+          "description": "Date de création de l'image",
+          "exampleValue": "2017-07-25T13:20:33.833629543+02:00",
+          "kind": "Metadata"
+        },
+        {
+          "label": "extractor_version",
+          "propName": "extractor_version",
+          "@id": "q:Q526",
+          "@type": "q:Q104",
+          "description": "TODO",
+          "exampleValue": 2,
+          "kind": "Metadata"
+        },
+        {
+          "label": "height",
+          "propName": "height",
+          "@id": "q:Q527",
+          "@type": "q:Q104",
+          "description": "Hauteur de l'image en pixels. Seulement pour les type: file et classe: image",
+          "exampleValue": 800,
+          "kind": "Metadata"
+        },
+        {
+          "label": "width",
+          "propName": "width",
+          "@id": "q:Q528",
+          "@type": "q:Q104",
+          "description": "Hauteur de l'image en pixels. Seulement pour les type: file et classe: image",
+          "exampleValue": 588,
+          "kind": "Metadata"
+        }
+      ]
+    },
+  ]
+}

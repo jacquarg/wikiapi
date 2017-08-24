@@ -78,5 +78,15 @@
       "exampleValue": "EDF",
       "kind": "Metadata"
     }
+
+    {
+      "label": "tags",
+      "propName": "tags",
+      "@id": "q:Q517",
+      "@type": "q:Q104",
+      "description": "Liste des tags",
+      "exampleValue": "[ \"Perso\"]",
+      "kind": "Metadata"
+    }
   ]
 }
