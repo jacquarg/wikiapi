@@ -1,56 +1,8 @@
 #!/bin/node
-const PLD = require('prototype-ld')
-const fs = require('fs')
 // From a list of document of the same doctype, build documentation tree :
 
-
-
-// TODO next : find . suggest re-use properties !
-
-PLD.where = (queries, items) => {
-  items = items || Object.keys(PLD.allItems).map(id => PLD.allItems[id])
-
-  return items.filter(item =>
-    Object.keys(queries).every(predicate => item[predicate] == queries[predicate])
-  )
-}
-
-
-PLD.getUpperClasses = item => PLD.mapOnObject(item['@type'], (classId) => {
-  try {
-    return PLD.getItem(classId)
-  } catch(e) {
-    console.info(`Can't find item: ${classId} locally, fallback to schema:Thing`)
-    return { '@type': 'schema:Thing', '@id': 'schema:Thing' }
-  }
-})
-
-
-
-PLD.isSubclassOf = (item, classId) => {
-  try {
-    item = PLD.getItem(item)
-  } catch(e) {
-    console.info(`Can't find item: ${item} locally, abort`)
-    // or fallback to 'schema:Thing' ?
-    return false
-  }
-  // if (PLD.isType(item, 'schema:Thing')) return false
-
-  if (!PLD.isType(item, classId)) {
-    const res = PLD.mapOnObject(item['@type'], upperClass => PLD.isSubclassOf(upperClass, classId))
-
-    return res === true || res instanceof Array && res.some(v => v)
-  }
-
-  return true
-}
-
-PLD.listInstanceOf = (classId, items) => {
-  items = items || Object.keys(PLD.allItems).map(id => PLD.allItems[id])
-  return items.filter((item) => PLD.isSubclassOf(item, classId))
-}
-
+const PLD = require('prototype-ld')
+const fs = require('fs')
 
 let lastIndex = require('../indexes/last_item_index.json').lastIndex
 

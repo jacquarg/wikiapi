@@ -77,8 +77,7 @@
       "description": "Fournisseur, source du document",
       "exampleValue": "EDF",
       "kind": "Metadata"
-    }
-
+    },
     {
       "label": "tags",
       "propName": "tags",

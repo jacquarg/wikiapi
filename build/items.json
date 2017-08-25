@@ -3842,7 +3842,7 @@
       "q:Q134"
     ],
     "sourceDataController": "Enedis",
-    "typology": "Domicile²",
+    "typology": "Domicile",
     "updateFrequency": "P6M",
     "updateLatency": "P1D"
   },
@@ -4027,5 +4027,17 @@
     "typology": "Domicile",
     "updateFrequency": "P6M",
     "updateLatency": "P1D"
+  },
+  "q:Q517": {
+    "@id": "q:Q517",
+    "@type": "q:Q104",
+    "description": "Liste des tags",
+    "label": "tags",
+    "rdfs:subClassOf": {
+      "@id": "q:Q104"
+    },
+    "exampleValue": "[ \"Perso\"]",
+    "kind": "Metadata",
+    "propName": "tags"
   }
 }
