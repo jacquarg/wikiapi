@@ -4028,6 +4028,76 @@
     "updateFrequency": "P6M",
     "updateLatency": "P1D"
   },
+  "q:Q509": {
+    "@id": "q:Q509",
+    "@type": "q:Q133",
+    "description": "id dans la base CouchDB de Cozy. Specific value for trash: 'io.cozy.files.root-dir' and root dir: 'io.cozy.files.trash-dir'.",
+    "label": "_id",
+    "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+    "kind": "Metadata",
+    "propName": "_id",
+    "values": [
+      "io.cozy.files.root-dir",
+      "io.cozy.files.trash-dir"
+    ]
+  },
+  "q:Q511": {
+    "@id": "q:Q511",
+    "@type": "q:Q104",
+    "description": "Is it metadata of a file or a directory.",
+    "label": "type",
+    "exampleValue": "file",
+    "kind": "Metadata",
+    "propName": "type",
+    "values": [
+      "file",
+      "directory"
+    ]
+  },
+  "q:Q513": {
+    "@id": "q:Q513",
+    "@type": "q:Q104",
+    "description": "Id of the files documents of the directory conaining this file.",
+    "label": "dir_id",
+    "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+    "kind": "Metadata",
+    "propName": "dir_id"
+  },
+  "q:Q514": {
+    "@id": "q:Q514",
+    "@type": "q:Q296",
+    "description": "Instant de création du document.",
+    "label": "created_at",
+    "exampleValue": "2016-02-25T01:06:12Z",
+    "kind": "Metadata",
+    "propName": "created_at"
+  },
+  "q:Q515": {
+    "@id": "q:Q515",
+    "@type": "q:Q230",
+    "description": "Instant de dernière modification du document.",
+    "label": "updated_at",
+    "exampleValue": "2016-02-25T01:06:12Z",
+    "kind": "Metadata",
+    "propName": "updated_at"
+  },
+  "q:Q516": {
+    "@id": "q:Q516",
+    "@type": "q:Q104",
+    "description": "Chemin d'accès du répertoire (seulement type: directory)",
+    "label": "Chemin d'accès",
+    "exampleValue": "/Administrative",
+    "kind": "Metadata",
+    "propName": "path",
+    "values": [
+      "/Administrative",
+      "/Photos",
+      "/Photos/Uploaded from Cozy Photos",
+      "/Photos/Backed up from my mobile",
+      "/",
+      "/.cozy_trash"
+    ]
+  },
   "q:Q517": {
     "@id": "q:Q517",
     "@type": "q:Q104",
@@ -4039,5 +4109,177 @@
     "exampleValue": "[ \"Perso\"]",
     "kind": "Metadata",
     "propName": "tags"
+  },
+  "q:Q518": {
+    "@id": "q:Q518",
+    "@type": "q:Q104",
+    "description": "Hash du fichier (seulement pour type: file)",
+    "label": "Somme de contrôle",
+    "exampleValue": "sG+D0LkCnIPH03/LaFj61g==",
+    "kind": "Metadata",
+    "propName": "md5sum"
+  },
+  "q:Q519": {
+    "@id": "q:Q519",
+    "@type": "q:Q104",
+    "description": "Type mime du fichier (seulement pour type: file)",
+    "label": "mime",
+    "exampleValue": "image/jpeg",
+    "kind": "Metadata",
+    "propName": "mime",
+    "values": "image/jpeg"
+  },
+  "q:Q520": {
+    "@id": "q:Q520",
+    "@type": "q:Q104",
+    "description": "Categorie de fichier (seulement pour type: file)",
+    "label": "Classe",
+    "exampleValue": "image",
+    "kind": "Metadata",
+    "propName": "class",
+    "values": "image"
+  },
+  "q:Q521": {
+    "@id": "q:Q521",
+    "@type": "q:Q104",
+    "description": "Flag fichier exécutable ou non (seulement pour les type: file)",
+    "label": "flag executable",
+    "exampleValue": false,
+    "kind": "Metadata",
+    "propName": "executable",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "q:Q522": {
+    "@id": "q:Q522",
+    "@type": "q:Q104",
+    "description": "Drapeau, indiquant si un fichier est supprimé (corbeille), seulement pour les type: file",
+    "label": "supprimé",
+    "exampleValue": false,
+    "kind": "Metadata",
+    "propName": "trashed",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "q:Q523": {
+    "@id": "q:Q523",
+    "@type": "q:Q102",
+    "description": "Doctype des fichiers et dossier dans Cozy.",
+    "label": "file",
+    "cozyDoctypeName": "io.cozy.files",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "hasOptionalProperty": [
+      {
+        "@id": "q:Q517"
+      },
+      {
+        "@id": "q:Q518"
+      },
+      {
+        "@id": "q:Q519"
+      },
+      {
+        "@id": "q:Q520"
+      },
+      {
+        "@id": "q:Q521"
+      },
+      {
+        "@id": "q:Q522"
+      },
+      {
+        "@id": "q:Q516"
+      },
+      {
+        "@id": "q:Q524"
+      }
+    ],
+    "hasProperty": [
+      {
+        "@id": "q:Q509"
+      },
+      "q:Q134",
+      {
+        "@id": "q:Q511"
+      },
+      "q:Q162",
+      {
+        "@id": "q:Q513"
+      },
+      {
+        "@id": "q:Q514"
+      },
+      {
+        "@id": "q:Q515"
+      }
+    ],
+    "usedBy": [
+      "https://github.com/cozy/cozy-drive",
+      "https://github.com/jacquarg/monlogis"
+    ]
+  },
+  "q:Q524": {
+    "@id": "q:Q524",
+    "@type": "object",
+    "description": "Metadonnées d'un fichier (seulement type: file)",
+    "label": "metadata",
+    "hasOptionalProperty": [
+      {
+        "@id": "q:Q525"
+      },
+      {
+        "@id": "q:Q526"
+      },
+      {
+        "@id": "q:Q527"
+      },
+      {
+        "@id": "q:Q528"
+      }
+    ],
+    "hasProperty": [],
+    "kind": "Metadata",
+    "propName": "metadata"
+  },
+  "q:Q525": {
+    "@id": "q:Q525",
+    "@type": "q:Q296",
+    "description": "Date de création de l'image",
+    "label": "datetime",
+    "exampleValue": "2017-07-25T13:20:33.833629543+02:00",
+    "kind": "Metadata",
+    "propName": "datetime"
+  },
+  "q:Q526": {
+    "@id": "q:Q526",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "extractor_version",
+    "exampleValue": 2,
+    "kind": "Metadata",
+    "propName": "extractor_version"
+  },
+  "q:Q527": {
+    "@id": "q:Q527",
+    "@type": "q:Q104",
+    "description": "Hauteur de l'image en pixels. Seulement pour les type: file et classe: image",
+    "label": "height",
+    "exampleValue": 800,
+    "kind": "Metadata",
+    "propName": "height"
+  },
+  "q:Q528": {
+    "@id": "q:Q528",
+    "@type": "q:Q104",
+    "description": "Hauteur de l'image en pixels. Seulement pour les type: file et classe: image",
+    "label": "width",
+    "exampleValue": 588,
+    "kind": "Metadata",
+    "propName": "width"
   }
 }

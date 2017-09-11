@@ -60,7 +60,7 @@ const processFiles = (files) => {
   // .then(data => console.log(JSON.stringify(res, null, 2)))
 }
 
-glob('datamodels/mesinfos/**/*.json', { absolute: true }, (err, files) => {
+glob('datamodels/**/*.json', { absolute: true }, (err, files) => {
   if (err) { return console.error(err) }
   processFiles(files)
 })

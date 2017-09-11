@@ -7,7 +7,7 @@
     "https://github.com/jacquarg/monlogis"
   ],
   "label": "file",
-  "description": "Doctype de sfichiers et dossier dans Cozy.",
+  "description": "Doctype des fichiers et dossier dans Cozy.",
   "cozyDoctypeName": "io.cozy.files",
   "cozyIndex": "[\"_id\"]",
   "cozySelector": "{\"_id\": { \"$gte\": null } }",
@@ -202,6 +202,6 @@
           "kind": "Metadata"
         }
       ]
-    },
+    }
   ]
 }
