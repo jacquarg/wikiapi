@@ -1,5 +1,6 @@
 #!/bin/node
-// From a list of document of the same doctype, build documentation tree :
+// From a list of document of the same doctype, build documentation tree.
+// usage : node scripts/doctypes2docs inDoctypes outJSONLD [syntheticset]
 
 const PLD = require('prototype-ld')
 const fs = require('fs')
@@ -151,7 +152,12 @@ init = () => {
 
 init()
 const rawDocuments = require(process.argv[2])
-const documents = rawDocuments.rows.map(item => item.doc)
+let documents = null
+if (process.argv[4] === 'syntheticset') {
+  documents = rawDocuments
+} else {
+  documents = rawDocuments.rows.map(item => item.doc)
+}
 indexProperties(documents)
 
 fs.writeFileSync(process.argv[3], JSON.stringify(buildDoc(), null, 2))

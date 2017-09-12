@@ -1,0 +1,141 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q585",
+  "@type": "q:Q102",
+  "usedBy": [
+    "https://github.com/cozy/cozy-collect",
+    "https://github.com/jacquarg/monlogis"
+  ],
+  "label": "Compte en ligne",
+  "description": "Descripteur de compte en ligne pour un connecteur.",
+  "typology": "Profil",
+  "updateFrequency": "T0S",
+  "updateLatency": "T0S",
+  "cozyDoctypeName": "io.cozy.accounts",
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134",
+    {
+      "label": "account_type",
+      "propName": "account_type",
+      "@id": "q:Q545",
+      "@type": "q:Q104",
+      "description": "Fournisseur, slug du connecteur permettant de récupérer les données auprès du fournisseur.",
+      "exampleValue": "free",
+      "kind": "Caractérisation"
+    },
+    {
+      "label": "ident/authentification",
+      "propName": "auth",
+      "@id": "q:Q546",
+      "@type": "object",
+      "description": "Données permettant au connceteur de s'identifier et s'authentifier sur le compte.",
+      "kind": "Metadata",
+      "hasOptionalProperty": [
+        {
+          "label": "access_token",
+          "propName": "access_token",
+          "@id": "q:Q547",
+          "@type": "q:Q104",
+          "description": "access_token, notamment dans le cas d'une API OAuth 2.0",
+          "exampleValue":             "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1OTZlMTg4MjhmNjgzZjA1MmI3NTUwYzMiLCJ0b2tlbl90eXBlIjoiZml4ZSJ9.44pmloBX_7r01N3h2lcROpSiWTqGPC73uZ_1BxWMbZs",
+          "kind": "Metadata"
+        },
+        {
+          "label": "Mot de passe",
+          "propName": "password",
+          "@id": "q:Q550",
+          "@type": "q:Q104",
+          "description": "Mot de passe du compte.",
+          "exampleValue": "toto1234",
+          "kind": "Metadata"
+        },
+        {
+          "label": "login",
+          "propName": "login",
+          "@id": "q:Q553",
+          "@type": "q:Q104",
+          "description": "Identifiant du compte.",
+          "exampleValue": "toto@example.com",
+          "kind": "Metadata"
+        },
+        {
+          "label": "orangeGeolocOptin",
+          "propName": "orangeGeolocOptin",
+          "@id": "q:Q555",
+          "@type": "q:Q104",
+          "description": "Connecteur Flag de souscription au service de géolocalisation du mobile, proposé par Orange dans le cadre du pilote MesInfos.",
+          "exampleValue": true,
+          "values": [
+            true, false
+          ],
+          "usedBy": "cozy-konnector-orangemobile",
+          "kind": "Metadata"
+        }
+      ]
+    },
+    {
+      "label": "status",
+      "propName": "status",
+      "@id": "q:Q549",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "PENDING",
+      "kind": "Metadata"
+    }
+  ],
+  "hasOptionalProperty": [
+    {
+      "label": "folderId",
+      "propName": "folderId",
+      "@id": "q:Q551",
+      "@type": "q:Q532",
+      "description": "Id du dossier lié.",
+      "exampleValue": "a3df0082d08e1d09c75ec0b7dc001573",
+      "kind": "Metadata"
+    },
+    {
+      "label": "remember",
+      "propName": "remember",
+      "@id": "q:Q556",
+      "@type": "object",
+      "description": "Données de travail du connecteur.",
+      "kind": "Metadata",
+      "hasProperty": [],
+      "hasOptionalProperty": [
+        {
+          "label": "lastPhoneCommunicationLog",
+          "propName": "lastPhoneCommunicationLog",
+          "@id": "q:Q557",
+          "@type": "q:Q230",
+          "description": "Date du dernier document phonecommunication log récupéré.",
+          "usedBy": "cozy-konnector-orangemobile",
+          "exampleValue": "2016-10-02T10:49:25Z",
+          "kind": "Metadata"
+        },
+        {
+          "label": "orangeGeolocOptinPreviousState",
+          "propName": "orangeGeolocOptinPreviousState",
+          "@id": "q:Q558",
+          "@type": "q:Q555",
+          "description": "État du flag de souscription au service de géolocalisation.",
+          "usedBy": "cozy-konnector-orangemobile",
+          "exampleValue": true,
+          "values": [
+            true, false
+          ],
+          "kind": "Metadata"
+        }
+      ]
+    },
+    {
+      "label": "error",
+      "propName": "error",
+      "@id": "q:Q554",
+      "@type": "q:Q104",
+      "description": "Derninère erreur à l'exécution du connecteur.",
+      "kind": "Metadata"
+    }
+  ]
+}

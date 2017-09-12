@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q524",
+  "@id": "q:Q534",
   "@type": "schema:ItemList",
   "label": "CozyData",
   "description": "Les données personnelles ré-utilisables dans Cozy",
@@ -16,7 +16,7 @@
 
     "q:Q506", "q:Q508",
 
-    "q:Q523"
+    "q:Q523", "q:Q542", "q:Q585"
 
   ]
 }

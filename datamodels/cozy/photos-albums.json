@@ -1,0 +1,42 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q542",
+  "@type": "q:Q102",
+  "usedBy": [
+    "https://github.com/cozy/cozy-photos-v3"
+  ],
+  "label": "Album photos",
+  "description": "Un album photos : titre et objet de références des photos qui le compose.",
+  "typology": "Loisir",
+  "updateFrequency": "T0S",
+  "updateLatency": "T0S",
+  "cozyDoctypeName": "io.cozy.photos.albums",
+  "syntheticSet": [
+    "https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/album_photo_v3.json"
+  ],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    "q:Q133", "q:Q134", "q:Q514",
+    {
+      "label": "id",
+      "propName": "id",
+      "@id": "q:Q539",
+      "@type": "q:Q133",
+      "description": "Duplication de l'id CouchDB",
+      "exampleValue": "636b9e7a5022de164cf5714102000f8c",
+      "kind": "Metadata"
+    },
+    {
+      "label": "doctype",
+      "propName": "type",
+      "@id": "q:Q541",
+      "@type": "q:Q104",
+      "description": "Doctype du document.",
+      "exampleValue": "io.cozy.photos.albums",
+      "values": "io.cozy.photos.albums",
+      "kind": "Metadata"
+    },
+    "q:Q162"
+  ]
+}

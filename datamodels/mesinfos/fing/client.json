@@ -16,7 +16,7 @@
       "hasProperty": [
         {
           "label": "city",
- "propName": "city",
+          "propName": "city",
           "@id": "q:Q167",
           "@type": "q:Q104",
           "description": "Ville",
@@ -26,7 +26,7 @@
         },
         {
           "label": "country",
- "propName": "country",
+          "propName": "country",
           "@id": "q:Q168",
           "@type": "q:Q104",
           "description": "Pays",
@@ -36,7 +36,7 @@
         },
         {
           "label": "postCode",
- "propName": "postCode",
+          "propName": "postCode",
           "@id": "q:Q169",
           "@type": "q:Q104",
           "description": "Code postal",

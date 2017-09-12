@@ -35,7 +35,7 @@ const processFiles = (files) => {
   })
 }
 
-glob('datamodels/mesinfos/**/*.json', { absolute: true }, (err, files) => {
+glob('datamodels/**/**/*.json', { absolute: true }, (err, files) => {
   if (err) { return console.error(err) }
   processFiles(files)
   .catch(() => process.exit(1))

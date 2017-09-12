@@ -6,11 +6,12 @@
     "https://github.com/cozy/cozy-drive",
     "https://github.com/jacquarg/monlogis"
   ],
-  "label": "file",
+  "label": "Fichier ou dossier",
   "description": "Doctype des fichiers et dossier dans Cozy.",
   "cozyDoctypeName": "io.cozy.files",
   "cozyIndex": "[\"_id\"]",
   "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "typology": "Loisir",
   "hasProperty": [
     {
       "label": "_id",
@@ -72,7 +73,7 @@
     {
       "label": "taille",
       "propName": "size",
-      "@id": "q:Q517",
+      "@id": "q:Q529",
       "@type": "q:Q104",
       "description": "Taille du fichier, en octets (seulement pour les type: file)",
       "exampleValue": "380432",
@@ -155,6 +156,44 @@
         "/.cozy_trash"
       ],
       "kind": "Metadata"
+    },
+    {
+      "label": "Référencer par",
+      "propName": "referenced_by",
+      "@id": "q:Q530",
+      "@type": ["q:Q104", "array"],
+      "description": "Une référence à un autre document dans Cozy (ex : album photo).",
+      "kind": "Caractérisation",
+      "items": [
+        {
+          "label": "referenceItem",
+          "propName": "referenceItem",
+          "@id": "q:Q531",
+          "@type": "object",
+          "description": "Une référence à un autre document dans Cozy.",
+          "kind": "Caractérisation",
+          "hasProperty": [
+            {
+              "@id": "q:Q532",
+              "@type": "q:Q539",
+              "label": "id",
+              "description": "id d'un autre document",
+              "propName": "id",
+              "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+              "kind": "Metadata"
+            },
+            {
+              "@id": "q:Q533",
+              "@type": "q:Q541",
+              "label": "doctype",
+              "description": "Doctype d'un document en référence.",
+              "propName": "type",
+              "exampleValue": "io.cozy.photos.albums",
+              "kind": "Metadata"
+            }
+          ]
+        }
+      ]
     },
     {
       "label": "metadata",

@@ -4175,7 +4175,7 @@
     "cozySelector": "{\"_id\": { \"$gte\": null } }",
     "hasOptionalProperty": [
       {
-        "@id": "q:Q517"
+        "@id": "q:Q529"
       },
       {
         "@id": "q:Q518"
@@ -4194,6 +4194,9 @@
       },
       {
         "@id": "q:Q516"
+      },
+      {
+        "@id": "q:Q530"
       },
       {
         "@id": "q:Q524"
@@ -4218,6 +4221,7 @@
         "@id": "q:Q515"
       }
     ],
+    "typology": "Loisir",
     "usedBy": [
       "https://github.com/cozy/cozy-drive",
       "https://github.com/jacquarg/monlogis"
@@ -4281,5 +4285,286 @@
     "exampleValue": 588,
     "kind": "Metadata",
     "propName": "width"
+  },
+  "q:Q529": {
+    "@id": "q:Q529",
+    "@type": "q:Q104",
+    "description": "Taille du fichier, en octets (seulement pour les type: file)",
+    "label": "taille",
+    "exampleValue": "380432",
+    "kind": "Metadata",
+    "propName": "size"
+  },
+  "q:Q530": {
+    "@id": "q:Q530",
+    "@type": [
+      "q:Q104",
+      "array"
+    ],
+    "description": "Une référence à un autre document dans Cozy (ex : album photo).",
+    "label": "Référencer par",
+    "items": {
+      "@id": "q:Q531"
+    },
+    "kind": "Caractérisation",
+    "propName": "referenced_by"
+  },
+  "q:Q531": {
+    "@id": "q:Q531",
+    "@type": "object",
+    "description": "Une référence à un autre document dans Cozy.",
+    "label": "referenceItem",
+    "hasProperty": [
+      {
+        "@id": "q:Q532"
+      },
+      {
+        "@id": "q:Q533"
+      }
+    ],
+    "kind": "Caractérisation",
+    "propName": "referenceItem"
+  },
+  "q:Q532": {
+    "@id": "q:Q532",
+    "@type": "q:Q539",
+    "description": "id d'un autre document",
+    "label": "id",
+    "exampleValue": "118e185e102c69fecea6f8404c2a5e0b",
+    "kind": "Metadata",
+    "propName": "id"
+  },
+  "q:Q533": {
+    "@id": "q:Q533",
+    "@type": "q:Q541",
+    "description": "Doctype d'un document en référence.",
+    "label": "doctype",
+    "exampleValue": "io.cozy.photos.albums",
+    "kind": "Metadata",
+    "propName": "type"
+  },
+  "q:Q539": {
+    "@id": "q:Q539",
+    "@type": "q:Q133",
+    "description": "Duplication de l'id CouchDB",
+    "label": "id",
+    "exampleValue": "636b9e7a5022de164cf5714102000f8c",
+    "kind": "Metadata",
+    "propName": "id"
+  },
+  "q:Q541": {
+    "@id": "q:Q541",
+    "@type": "q:Q104",
+    "description": "Doctype du document.",
+    "label": "doctype",
+    "exampleValue": "io.cozy.photos.albums",
+    "kind": "Metadata",
+    "propName": "type",
+    "values": "io.cozy.photos.albums"
+  },
+  "q:Q542": {
+    "@id": "q:Q542",
+    "@type": "q:Q102",
+    "description": "Un album photos : titre et objet de références des photos qui le compose.",
+    "label": "Album photos",
+    "cozyDoctypeName": "io.cozy.photos.albums",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134",
+      "q:Q514",
+      {
+        "@id": "q:Q539"
+      },
+      {
+        "@id": "q:Q541"
+      },
+      "q:Q162"
+    ],
+    "syntheticSet": "https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/album_photo_v3.json",
+    "typology": "Loisir",
+    "updateFrequency": "T0S",
+    "updateLatency": "T0S",
+    "usedBy": "https://github.com/cozy/cozy-photos-v3"
+  },
+  "q:Q545": {
+    "@id": "q:Q545",
+    "@type": "q:Q104",
+    "description": "Fournisseur, slug du connecteur permettant de récupérer les données auprès du fournisseur.",
+    "label": "account_type",
+    "exampleValue": "free",
+    "kind": "Caractérisation",
+    "propName": "account_type"
+  },
+  "q:Q546": {
+    "@id": "q:Q546",
+    "@type": "object",
+    "description": "Données permettant au connceteur de s'identifier et s'authentifier sur le compte.",
+    "label": "ident/authentification",
+    "hasOptionalProperty": [
+      {
+        "@id": "q:Q547"
+      },
+      {
+        "@id": "q:Q550"
+      },
+      {
+        "@id": "q:Q553"
+      },
+      {
+        "@id": "q:Q555"
+      }
+    ],
+    "kind": "Metadata",
+    "propName": "auth"
+  },
+  "q:Q547": {
+    "@id": "q:Q547",
+    "@type": "q:Q104",
+    "description": "access_token, notamment dans le cas d'une API OAuth 2.0",
+    "label": "access_token",
+    "exampleValue": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiI1OTZlMTg4MjhmNjgzZjA1MmI3NTUwYzMiLCJ0b2tlbl90eXBlIjoiZml4ZSJ9.44pmloBX_7r01N3h2lcROpSiWTqGPC73uZ_1BxWMbZs",
+    "kind": "Metadata",
+    "propName": "access_token"
+  },
+  "q:Q549": {
+    "@id": "q:Q549",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "status",
+    "exampleValue": "PENDING",
+    "kind": "Metadata",
+    "propName": "status"
+  },
+  "q:Q550": {
+    "@id": "q:Q550",
+    "@type": "q:Q104",
+    "description": "Mot de passe du compte.",
+    "label": "Mot de passe",
+    "exampleValue": "toto1234",
+    "kind": "Metadata",
+    "propName": "password"
+  },
+  "q:Q551": {
+    "@id": "q:Q551",
+    "@type": "q:Q532",
+    "description": "Id du dossier lié.",
+    "label": "folderId",
+    "exampleValue": "a3df0082d08e1d09c75ec0b7dc001573",
+    "kind": "Metadata",
+    "propName": "folderId"
+  },
+  "q:Q553": {
+    "@id": "q:Q553",
+    "@type": "q:Q104",
+    "description": "Identifiant du compte.",
+    "label": "login",
+    "exampleValue": "toto@example.com",
+    "kind": "Metadata",
+    "propName": "login"
+  },
+  "q:Q554": {
+    "@id": "q:Q554",
+    "@type": "q:Q104",
+    "description": "Derninère erreur à l'exécution du connecteur.",
+    "label": "error",
+    "kind": "Metadata",
+    "propName": "error"
+  },
+  "q:Q555": {
+    "@id": "q:Q555",
+    "@type": "q:Q104",
+    "description": "Connecteur Flag de souscription au service de géolocalisation du mobile, proposé par Orange dans le cadre du pilote MesInfos.",
+    "label": "orangeGeolocOptin",
+    "exampleValue": true,
+    "kind": "Metadata",
+    "propName": "orangeGeolocOptin",
+    "usedBy": "cozy-konnector-orangemobile",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "q:Q556": {
+    "@id": "q:Q556",
+    "@type": "object",
+    "description": "Données de travail du connecteur.",
+    "label": "remember",
+    "hasOptionalProperty": [
+      {
+        "@id": "q:Q557"
+      },
+      {
+        "@id": "q:Q558"
+      }
+    ],
+    "hasProperty": [],
+    "kind": "Metadata",
+    "propName": "remember"
+  },
+  "q:Q557": {
+    "@id": "q:Q557",
+    "@type": "q:Q230",
+    "description": "Date du dernier document phonecommunication log récupéré.",
+    "label": "lastPhoneCommunicationLog",
+    "exampleValue": "2016-10-02T10:49:25Z",
+    "kind": "Metadata",
+    "propName": "lastPhoneCommunicationLog",
+    "usedBy": "cozy-konnector-orangemobile"
+  },
+  "q:Q558": {
+    "@id": "q:Q558",
+    "@type": "q:Q555",
+    "description": "État du flag de souscription au service de géolocalisation.",
+    "label": "orangeGeolocOptinPreviousState",
+    "exampleValue": true,
+    "kind": "Metadata",
+    "propName": "orangeGeolocOptinPreviousState",
+    "usedBy": "cozy-konnector-orangemobile",
+    "values": [
+      true,
+      false
+    ]
+  },
+  "q:Q585": {
+    "@id": "q:Q585",
+    "@type": "q:Q102",
+    "description": "Descripteur de compte en ligne pour un connecteur.",
+    "label": "Compte en ligne",
+    "cozyDoctypeName": "io.cozy.accounts",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "hasOptionalProperty": [
+      {
+        "@id": "q:Q551"
+      },
+      {
+        "@id": "q:Q556"
+      },
+      {
+        "@id": "q:Q554"
+      }
+    ],
+    "hasProperty": [
+      "q:Q133",
+      "q:Q134",
+      {
+        "@id": "q:Q545"
+      },
+      {
+        "@id": "q:Q546"
+      },
+      {
+        "@id": "q:Q549"
+      }
+    ],
+    "typology": "Profil",
+    "updateFrequency": "T0S",
+    "updateLatency": "T0S",
+    "usedBy": [
+      "https://github.com/cozy/cozy-collect",
+      "https://github.com/jacquarg/monlogis"
+    ]
   }
 }

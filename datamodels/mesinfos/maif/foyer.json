@@ -74,7 +74,7 @@
         },
         {
           "label": "membres",
- "propName": "membres",
+          "propName": "membres",
           "@id": "q:Q243",
           "@type": ["q:Q104", "array"],
           "description": "Personnes composant le foyer",
@@ -83,7 +83,7 @@
           "items": [
             {
               "label": "membresItem",
- "propName": "membresItem",
+              "propName": "membresItem",
               "@id": "q:Q244",
               "@type": ["object", "q:Q104"],
               "description": "Personne composant le foyer",
