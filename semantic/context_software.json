@@ -1,0 +1,16 @@
+{
+  "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "doap": "http://usefulinc.com/ns/doap#",
+    "label": "rdfs:label",
+    "@vocab": {
+      "@base": "http://mesinfos.fing.org/cartographies/wikiapi/semantic/context_software.json",
+      "hasFeatures": {
+        "label": "Features of the software"
+      },
+      "howItWorks": {
+        "label": "Comment cette fonctionnalité opère"
+      }
+    }
+  }
+}

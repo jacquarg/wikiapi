@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "doap": "http://usefulinc.com/ns/doap#",
+    "name": "doap:name",
+    "description": "doap:description",
+    "author": "doap:maintainter",
+    "license": "doap:license",
+    "url": "@id",
+    "homepage": {
+      "@id": "doap:homepage",
+      "@type": "@id"
+    }
+  },
+  "related": [
+    "https://github.com/digitalbazaar/jsonld.js/issues/39",
+    "https://github.com/ewilderj/doap"
+  ]
+}

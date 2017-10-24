@@ -4169,7 +4169,7 @@
     "@id": "q:Q523",
     "@type": "q:Q102",
     "description": "Doctype des fichiers et dossier dans Cozy.",
-    "label": "file",
+    "label": "Fichier ou dossier",
     "cozyDoctypeName": "io.cozy.files",
     "cozyIndex": "[\"_id\"]",
     "cozySelector": "{\"_id\": { \"$gte\": null } }",

@@ -205,5 +205,5 @@
       ]
     }
   ],
-  "help": "Un seul document pour tous les contract Maif d'un sociétaire. Il y a un sous-objet contrat par objet assuré. Donc la liste objects contient toujours un et un seul élément."
+  "help": "Un seul document pour tous les contrats Maif d'un sociétaire. Il y a un sous-objet contrat par objet assuré. Donc la liste objects contient toujours un et un seul élément."
 }

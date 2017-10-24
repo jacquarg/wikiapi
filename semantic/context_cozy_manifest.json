@@ -1,0 +1,9 @@
+{
+  "@context": {
+    "doap": "http://usefulinc.com/ns/doap#",
+    "name": "doap:name",
+    "description": "doap:description",
+    "developer": "doap:maintainter",
+    "license": "doap:license"
+  }
+}
