@@ -6,6 +6,15 @@ const jsonld = require('jsonld').promises
 
 const context = require('../semantic/context.json')
 
+const enedisbaseuri = 'http://127.0.0.1:8081/docs/data_models/'
+const remote = [
+  enedisbaseuri + 'customers_identity.json-ld',
+  enedisbaseuri + 'customers_usagepointaddress.json-ld',
+  enedisbaseuri + 'customers_usagepoints.json-ld',
+  enedisbaseuri + 'enedis_energy.json-ld',
+  enedisbaseuri + 'enedis_loadcurve.json-ld',
+  enedisbaseuri + 'enedis_maxpower.json-ld',
+]
 // walk the all tree, and, each times, add flatten.
 
 // const files = [
@@ -31,13 +40,21 @@ const processFiles = (files) => {
 
   Promise.all(files.map((path) => {
     console.log(path)
-    let doc = require(path)
-    doc['@context'] = context['@context']
-    return jsonld.flatten(doc)
+    let doc
+    if (path.indexOf('http://') === 0) {
+      doc = path
+    } else {
+      doc = require(path)
+      doc['@context'] = context['@context']
+    }
+
+    return jsonld.expand(doc)
+    .then(edoc => jsonld.flatten(edoc))
     // .then(d => jsonld.compact(d, context['@context'] ))
   }))
   // .then(data => console.log(JSON.stringify(data[3], null, 2)))
   .then(flats => flats.forEach(flat => flat.forEach(item => res[item['@id']] = item )))
+  // .then(() => result)
   .then(() => jsonld.compact(result, context['@context'] ))
 
   // // Works, and looks compliant.
@@ -62,5 +79,6 @@ const processFiles = (files) => {
 
 glob('datamodels/**/*.json', { absolute: true }, (err, files) => {
   if (err) { return console.error(err) }
+  files = remote.concat(files)
   processFiles(files)
 })

@@ -118,7 +118,7 @@
             "@value": "doctype",
             "@language": "fr"
           },
-          "description": "Le nom complètement qualifier d'un doctype Cozy.io. ex : io.cozy.accounts ."
+          "description": "Le nom complètement qualifié d'un doctype Cozy.io. ex : io.cozy.accounts ."
         },
         {
           "@id": "cozyIndex",
@@ -188,6 +188,10 @@
           "@id": "propertyName",
           "description": "Nom de la propriété par exemple dans un object JSON."
         },
+        {
+          "@id": "sameAs",
+          "description": "Propriétés désignant la même chose (réel), dans d'autres sets de données, "
+        }
       ]
     }
   ]

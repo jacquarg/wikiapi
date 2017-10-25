@@ -272,14 +272,14 @@
     },
     {
       "label": "services",
- "propName": "services",
+      "propName": "services",
       "@id": "q:Q409",
       "@type": "array",
       "description": "Liste des services inscrits au contrat.",
       "kind": "Caractérisation",
       "items": {
         "label": "servicesItem",
- "propName": "servicesItem",
+        "propName": "servicesItem",
         "@id": "q:Q421",
         "@type": "object",
         "description": "Un service inscrit au contrat.",
