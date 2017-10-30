@@ -6,7 +6,7 @@ const jsonld = require('jsonld').promises
 
 const context = require('../semantic/context.json')
 
-const enedisbaseuri = 'http://127.0.0.1:8081/docs/data_models/'
+const enedisbaseuri = 'https://gitlab.cozycloud.cc/gjacquart/cozy-konnector-enedis/raw/master/docs/data_models/'
 const remote = [
   enedisbaseuri + 'customers_identity.json-ld',
   enedisbaseuri + 'customers_usagepointaddress.json-ld',
@@ -41,7 +41,7 @@ const processFiles = (files) => {
   Promise.all(files.map((path) => {
     console.log(path)
     let doc
-    if (path.indexOf('http://') === 0) {
+    if (path.indexOf('http') === 0) {
       doc = path
     } else {
       doc = require(path)

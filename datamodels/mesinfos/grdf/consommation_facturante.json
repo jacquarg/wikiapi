@@ -1,0 +1,194 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q621",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q507",
+  "label": "Consommation de gaz (facturante)",
+  "description": "Consommation de gaz, facturante. Donnée mensuelles.",
+  "typology": "Domicile",
+  "availability": "soon",
+  "sourceDataController": "GRDF",
+  "updateFrequency": "P1M",
+  "updateLatency": "P2D",
+  "cozyDoctypeName": "fr.grdf.api.adict.pce.consommationinformative",
+  "syntheticSet": [
+  ],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    {
+      "label": "Début de consommation",
+      "propName": "dateDebutConso",
+      "@id": "q:Q624",
+      "@type": "q:Q104",
+      "description": "Correspond à la date de fin du précédent relevé. Non renseignée pour les relevés de mise en service ou de pose de compteur.",
+      "exampleValue": "TODO",
+      "sameAs": "q:Q112",
+      "kind": "Transaction"
+    },
+    {
+      "label": "Fin de consommation",
+      "propName": "dateFinConso",
+      "@id": "q:Q625",
+      "@type": "q:Q104",
+      "description": "Date de fin de la période de consommation",
+      "exampleValue": "TODO",
+      "sameAs": "q:Q113",
+      "kind": "Transaction"
+    },
+    {
+      "label": "Type de relevé.",
+      "propName": "typeReleve",
+      "@id": "q:Q626",
+      "@type": "q:Q104",
+      "description": "Type du relevé de la consommation de gaz. Cyclique (N), Spéciale (S), Corrigée (C), Annulée (A), Intermédiaire (D)",
+      "exampleValue": "N",
+      "values": ["N", "S", "C", "A", "D"],
+      "kind": "Transaction"
+    },
+    {
+      "label": "Raison du relevé",
+      "propName": "raisonReleve",
+      "@id": "q:Q627",
+      "@type": "q:Q104",
+      "description": "Raison ayant entraîné le relevé",
+      "exampleValue": "Relevé normal",
+      "values": [
+        "Relevé normal",
+        "Nouvelle situation ",
+        "Changement de fournisseur (nouveau)",
+        "Changement de fréquence de relevé",
+        "Changement de compteur",
+        "Fin de situation",
+        "Changement de fournisseur (ancien)",
+        "Changement de tarif",
+        "Passage à l’état communicant ",
+        "Relevé spécial pour autre motif",
+        "Extrapolation"
+      ],
+      "kind": "Transaction"
+    },
+    {
+      "label": "Fréquence de relève",
+      "propName": "frequenceReleve",
+      "@id": "q:Q628",
+      "@type": "q:Q104",
+      "description": "Fréquence à de ces relevé facturants. Les compteurs Gazpar sont mensuel (1M). Les anciens compteurs des particuliers étaient semestriels (6M).",
+      "exampleValue": "1M",
+      "values": [
+        "6M", "1M", "MM", "JJ"
+      ],
+      "kind": "Caracterisation"
+    },
+    {
+      "label": "Date du relevé",
+      "propName": "dateReleve",
+      "@id": "q:Q629",
+      "@type": "q:Q104",
+      "description": "Date contractuelle de relevé",
+      "exampleValue": "TODO",
+      "kind": "Transaction"
+    },
+    {
+      "label": "index en début de période",
+      "propName": "indexBrutDebut",
+      "@id": "q:Q630",
+      "@type": "q:Q104",
+      "description": "Index du compteur, au début de la période. Correspond à l’index brut de fin du précédentrelevé. Non présent pour les relevés de MES ou de pose de compteur.",
+      "exampleValue": "TODO",
+      "kind": "Transaction"
+    },
+    {
+      "label": "index en fin de période",
+      "propName": "indexBrutFin",
+      "@id": "q:Q631",
+      "@type": "q:Q104",
+      "description": "Index du compteur, à la fin de la période de relève..",
+      "exampleValue": "TODO",
+      "kind": "Transaction"
+    },
+    {
+      "label": "Drapeau tour de compteur",
+      "propName": "flagRetourZero",
+      "@id": "q:Q632",
+      "@type": "q:Q104",
+      "description": "Lorsque le compteur est repassé par 0 durant la période de consommation",
+      "exampleValue": "TODO",
+      "kind": "Transaction"
+    },
+    {
+      "label": "Volume brut",
+      "propName": "volumeBrut",
+      "@id": "q:Q633",
+      "@type": "q:Q104",
+      "description": "Donnée calculée par différence des index brut de début et de fin. Valeur en m³",
+      "exampleValue": "TODO",
+      "kind": "Transaction"
+    },
+    {
+      "label": "Volume converti",
+      "propName": "volumeConverti",
+      "@id": "q:Q634",
+      "@type": "q:Q104",
+      "description": "Volume de gaz consommé sur la période en conditions normales (c'est à dire sous une pression de 1 bar (105 Pa), à une température de 273°K (0°C). Valeur en m³",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "Énergie consommée",
+      "propName": "energieKwh",
+      "@id": "q:Q635",
+      "@type": "q:Q104",
+      "description": "Produit du volume brut et du coefficient de conversion (ou du volume brut et PCS et PTA selon le compteur). Ce chiffre est provisoire tant que le coefficient de conversion n’est pas définitif. La facturation s'appuie sur cette valeur. Valeuren kWh.",
+      "exampleValue": "TODO",
+      "kind": "Transaction"
+    },
+    {
+      "label": "qualifConso",
+      "propName": "qualifConso",
+      "@id": "q:Q636",
+      "@type": "q:Q104",
+      "description": "Mesuré (M), Estimé (E), Corrigé (C), Rectifié (K), Télérelevé (T), Auto-relevé (A)",
+      "exampleValue": "M",
+      "values": [ "M", "E", "C", "K", "T", "A"],
+      "kind": "Metadata"
+    },
+    {
+      "label": "Coefficient de température et altitude.",
+      "propName": "pta",
+      "@id": "q:Q637",
+      "@type": "q:Q104",
+      "description": "Coefficient décrivant les conditions de température, pression et altitude au moment du relevé. Pour la normalisation du volume de gaz.",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "Pouvoir calorifique.",
+      "propName": "pcs",
+      "@id": "q:Q638",
+      "@type": "q:Q104",
+      "description": "Pouvoir Calorifique Supérieur du Gaz",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "Coeff de conversion",
+      "propName": "coeffConversion",
+      "@id": "q:Q639",
+      "@type": "q:Q104",
+      "description": "Coefficient produit du PTA et PCS, calculé suivant la valeur moyenne sur la période de consommation.",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "journeeGaziere",
+      "propName": "journeeGaziere",
+      "@id": "q:Q640",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    }
+  ],
+  "hasOptionalProperty": []
+}

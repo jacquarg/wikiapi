@@ -6,9 +6,15 @@ const jsonld = require('jsonld').promises
 
 const context = require('../semantic/context.json')
 
+const findIdDeclaration = (fileData) => {
+  // return fileData.match(/"@id": "q:Q[0-9]+"/g)
+  return fileData.replace(/{\s*"@id": "q:Q[0-9]+"\s*}/g, '')
+    .match(/"@id": "q:Q[0-9]+"/g)
+}
+
 const processAFile = (filePath) => {
   return new Promise((resolve, reject) => fs.readFile(filePath, {encoding: 'utf-8'}, (err, data) => (err) ? reject(err) : resolve(data)))
-  .then((data) => data.match(/"@id": "q:Q[0-9]+"/g).map(id => ({ id, filePath})))
+  .then(fileData => findIdDeclaration(fileData).map(id => ({ id, filePath})))
 }
 
 const processFiles = (files) => {

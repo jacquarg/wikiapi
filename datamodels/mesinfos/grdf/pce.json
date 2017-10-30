@@ -1,0 +1,306 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q587",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q507",
+  "label": "Point de comptage et d'estimation",
+  "description": "Retourne les données contractuelles et techniques du PCE (compteur de gaz).",
+  "typology": "Domicile",
+  "availability": "soon",
+  "sourceDataController": "GRDF",
+  "updateFrequency": "P6M",
+  "updateLatency": "P1D",
+  "cozyDoctypeName": "fr.grdf.api.adict.pce",
+  "syntheticSet": [],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": [
+    {
+      "label": "Adresse du compteur",
+      "propName": "adressePCE",
+      "@id": "q:Q588",
+      "@type": "array",
+      "description": "Adresse du compteur Gaz.",
+      "kind": "Caracterisation",
+      "items": {
+        "label": "adressePCEItem",
+        "@id": "q:Q589",
+        "@type": "object",
+        "description": "Adresse du compteur.",
+        "kind": "Caracterisation",
+        "hasProperty": [
+          {
+            "label": "Numéro de voie",
+            "propName": "numeroVoie",
+            "@id": "q:Q590",
+            "@type": "q:Q104",
+            "description": "Numéro dans la voie (rue, avenue, ...).",
+            "exampleValue": "2",
+            "kind": "Caracterisation"
+          },
+          {
+            "label": "Nom de voie",
+            "propName": "nomVoie",
+            "@id": "q:Q591",
+            "@type": "q:Q104",
+            "description": "Nom de la voie.",
+            "exampleValue": "BOULEVARD DES BELGES",
+            "kind": "Caracterisation"
+          },
+          {
+            "label": "lieuDit",
+            "propName": "lieuDit",
+            "@id": "q:Q592",
+            "@type": "q:Q104",
+            "description": "",
+            "kind": "Metadata"
+          },
+          {
+            "label": "cedex",
+            "propName": "cedex",
+            "@id": "q:Q593",
+            "@type": "q:Q104",
+            "description": "TODO",
+            "kind": "Metadata"
+          },
+          {
+            "label": "codeInsee",
+            "propName": "codeInsee",
+            "@id": "q:Q594",
+            "@type": "q:Q104",
+            "description": "Code INSEE de la commune.",
+            "exampleValue": "69386",
+            "sameAs": "q:Q303",
+            "kind": "Metadata"
+          },
+          {
+            "label": "Code postal",
+            "propName": "codePostal",
+            "@id": "q:Q595",
+            "@type": "q:Q104",
+            "sameAs": "q:Q169",
+            "description": "Code postal",
+            "exampleValue": "69006",
+            "kind": "Caracterisation"
+          },
+          {
+            "label": "Localite",
+            "propName": "localite",
+            "@id": "q:Q596",
+            "@type": "q:Q104",
+            "description": "Ville",
+            "exampleValue": "LYON",
+            "kind": "Caracterisation"
+          },
+          {
+            "label": "complementVoie",
+            "propName": "complementVoie",
+            "@id": "q:Q597",
+            "@type": "q:Q104",
+            "description": "TODO",
+            "kind": "Caracterisation"
+          }
+        ],
+        "hasOptionalProperty": []
+      }
+    },
+    {
+      "label": "frequenceReleve",
+      "propName": "frequenceReleve",
+      "@id": "q:Q598",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "Caracterisation"
+    },
+    {
+      "label": "car",
+      "propName": "car",
+      "@id": "q:Q599",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "cja",
+      "propName": "cja",
+      "@id": "q:Q600",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "profilType",
+      "propName": "profilType",
+      "@id": "q:Q601",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "dateDebutProfil",
+      "propName": "dateDebutProfil",
+      "@id": "q:Q602",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Caracterisation"
+    },
+    {
+      "label": "dateFinProfil",
+      "propName": "dateFinProfil",
+      "@id": "q:Q603",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Caracterisation"
+    },
+    {
+      "label": "tarifAcheminement",
+      "propName": "tarifAcheminement",
+      "@id": "q:Q604",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "idPitd",
+      "propName": "idPitd",
+      "@id": "q:Q605",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "libellePitd",
+      "propName": "libellePitd",
+      "@id": "q:Q606",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "dateMes",
+      "propName": "dateMes",
+      "@id": "q:Q607",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "dateMhs",
+      "propName": "dateMhs",
+      "@id": "q:Q608",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "cld",
+      "propName": "cld",
+      "@id": "q:Q609",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "debitCompteur",
+      "propName": "debitCompteur",
+      "@id": "q:Q610",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "matriculeCompteur",
+      "propName": "matriculeCompteur",
+      "@id": "q:Q611",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    { "@id": "q:Q395" },
+    {
+      "label": "pressionAlimentation",
+      "propName": "pressionAlimentation",
+      "@id": "q:Q613",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "regimeProprieteCompteur",
+      "propName": "regimeProprieteCompteur",
+      "@id": "q:Q614",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "convertisseur",
+      "propName": "convertisseur",
+      "@id": "q:Q615",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "regimeProprieteConvertisseur",
+      "propName": "regimeProprieteConvertisseur",
+      "@id": "q:Q616",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "enregistreur",
+      "propName": "enregistreur",
+      "@id": "q:Q617",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "regimeProprieteEnregistreur",
+      "propName": "regimeProprieteEnregistreur",
+      "@id": "q:Q618",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "typeEnregistreur",
+      "propName": "typeEnregistreur",
+      "@id": "q:Q619",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    },
+    {
+      "label": "natureEnregistreur",
+      "propName": "natureEnregistreur",
+      "@id": "q:Q620",
+      "@type": "q:Q104",
+      "description": "TODO",
+      "exampleValue": "TODO",
+      "kind": "Metadata"
+    }
+  ]
+}

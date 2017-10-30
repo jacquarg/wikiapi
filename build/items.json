@@ -4650,40 +4650,6 @@
     "updateFrequency": "P6M",
     "updateLatency": "P1D"
   },
-  "q:Q506": {
-    "@id": "q:Q506",
-    "@type": "q:Q102",
-    "description": "Identification d'un client GrDF, infos sur le compteur Gazpar ...",
-    "label": "Client GrDF",
-    "availability": "soon",
-    "cozyDoctypeName": "org.fing.mesinfos.client",
-    "generatedBy": "q:Q507",
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134"
-    ],
-    "sourceDataController": "GRDF",
-    "typology": "Profil",
-    "updateFrequency": "P6M",
-    "updateLatency": "P1D"
-  },
-  "q:Q508": {
-    "@id": "q:Q508",
-    "@type": "q:Q102",
-    "description": "Consommation de gaz, relevé par le compteur connecté Gazpar.",
-    "label": "Consommation de Gaz",
-    "availability": "soon",
-    "cozyDoctypeName": "org.mesinfos.fing.consumptionstatement",
-    "generatedBy": "q:Q507",
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134"
-    ],
-    "sourceDataController": "GRDF",
-    "typology": "Domicile",
-    "updateFrequency": "P6M",
-    "updateLatency": "P1D"
-  },
   "q:Q509": {
     "@id": "q:Q509",
     "@type": "q:Q133",
@@ -5222,5 +5188,764 @@
       "https://github.com/cozy/cozy-collect",
       "https://github.com/jacquarg/monlogis"
     ]
+  },
+  "q:Q587": {
+    "@id": "q:Q587",
+    "@type": "q:Q102",
+    "description": "Retourne les données contractuelles et techniques du PCE (compteur de gaz).",
+    "label": "Point de comptage et d'estimation",
+    "availability": "soon",
+    "cozyDoctypeName": "fr.grdf.api.adict.pce",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q507",
+    "hasProperty": [
+      {
+        "@id": "q:Q588"
+      },
+      {
+        "@id": "q:Q598"
+      },
+      {
+        "@id": "q:Q599"
+      },
+      {
+        "@id": "q:Q600"
+      },
+      {
+        "@id": "q:Q601"
+      },
+      {
+        "@id": "q:Q602"
+      },
+      {
+        "@id": "q:Q603"
+      },
+      {
+        "@id": "q:Q604"
+      },
+      {
+        "@id": "q:Q605"
+      },
+      {
+        "@id": "q:Q606"
+      },
+      {
+        "@id": "q:Q607"
+      },
+      {
+        "@id": "q:Q608"
+      },
+      {
+        "@id": "q:Q609"
+      },
+      {
+        "@id": "q:Q610"
+      },
+      {
+        "@id": "q:Q611"
+      },
+      {
+        "@id": "q:Q395"
+      },
+      {
+        "@id": "q:Q613"
+      },
+      {
+        "@id": "q:Q614"
+      },
+      {
+        "@id": "q:Q615"
+      },
+      {
+        "@id": "q:Q616"
+      },
+      {
+        "@id": "q:Q617"
+      },
+      {
+        "@id": "q:Q618"
+      },
+      {
+        "@id": "q:Q619"
+      },
+      {
+        "@id": "q:Q620"
+      }
+    ],
+    "sourceDataController": "GRDF",
+    "syntheticSet": [],
+    "typology": "Domicile",
+    "updateFrequency": "P6M",
+    "updateLatency": "P1D"
+  },
+  "q:Q588": {
+    "@id": "q:Q588",
+    "@type": "array",
+    "description": "Adresse du compteur Gaz.",
+    "label": "Adresse du compteur",
+    "items": {
+      "@id": "q:Q589"
+    },
+    "kind": "Caracterisation",
+    "propName": "adressePCE"
+  },
+  "q:Q589": {
+    "@id": "q:Q589",
+    "@type": "object",
+    "description": "Adresse du compteur.",
+    "label": "adressePCEItem",
+    "hasOptionalProperty": [],
+    "hasProperty": [
+      {
+        "@id": "q:Q590"
+      },
+      {
+        "@id": "q:Q591"
+      },
+      {
+        "@id": "q:Q592"
+      },
+      {
+        "@id": "q:Q593"
+      },
+      {
+        "@id": "q:Q594"
+      },
+      {
+        "@id": "q:Q595"
+      },
+      {
+        "@id": "q:Q596"
+      },
+      {
+        "@id": "q:Q597"
+      }
+    ],
+    "kind": "Caracterisation"
+  },
+  "q:Q590": {
+    "@id": "q:Q590",
+    "@type": "q:Q104",
+    "description": "Numéro dans la voie (rue, avenue, ...).",
+    "label": "Numéro de voie",
+    "exampleValue": "2",
+    "kind": "Caracterisation",
+    "propName": "numeroVoie"
+  },
+  "q:Q591": {
+    "@id": "q:Q591",
+    "@type": "q:Q104",
+    "description": "Nom de la voie.",
+    "label": "Nom de voie",
+    "exampleValue": "BOULEVARD DES BELGES",
+    "kind": "Caracterisation",
+    "propName": "nomVoie"
+  },
+  "q:Q592": {
+    "@id": "q:Q592",
+    "@type": "q:Q104",
+    "description": "",
+    "label": "lieuDit",
+    "kind": "Metadata",
+    "propName": "lieuDit"
+  },
+  "q:Q593": {
+    "@id": "q:Q593",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "cedex",
+    "kind": "Metadata",
+    "propName": "cedex"
+  },
+  "q:Q594": {
+    "@id": "q:Q594",
+    "@type": "q:Q104",
+    "description": "Code INSEE de la commune.",
+    "label": "codeInsee",
+    "exampleValue": "69386",
+    "kind": "Metadata",
+    "propName": "codeInsee",
+    "sameAs": "q:Q303"
+  },
+  "q:Q595": {
+    "@id": "q:Q595",
+    "@type": "q:Q104",
+    "description": "Code postal",
+    "label": "Code postal",
+    "exampleValue": "69006",
+    "kind": "Caracterisation",
+    "propName": "codePostal",
+    "sameAs": "q:Q169"
+  },
+  "q:Q596": {
+    "@id": "q:Q596",
+    "@type": "q:Q104",
+    "description": "Ville",
+    "label": "Localite",
+    "exampleValue": "LYON",
+    "kind": "Caracterisation",
+    "propName": "localite"
+  },
+  "q:Q597": {
+    "@id": "q:Q597",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "complementVoie",
+    "kind": "Caracterisation",
+    "propName": "complementVoie"
+  },
+  "q:Q598": {
+    "@id": "q:Q598",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "frequenceReleve",
+    "exampleValue": "Caracterisation",
+    "propName": "frequenceReleve"
+  },
+  "q:Q599": {
+    "@id": "q:Q599",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "car",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "car"
+  },
+  "q:Q600": {
+    "@id": "q:Q600",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "cja",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "cja"
+  },
+  "q:Q601": {
+    "@id": "q:Q601",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "profilType",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "profilType"
+  },
+  "q:Q602": {
+    "@id": "q:Q602",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "dateDebutProfil",
+    "exampleValue": "TODO",
+    "kind": "Caracterisation",
+    "propName": "dateDebutProfil"
+  },
+  "q:Q603": {
+    "@id": "q:Q603",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "dateFinProfil",
+    "exampleValue": "TODO",
+    "kind": "Caracterisation",
+    "propName": "dateFinProfil"
+  },
+  "q:Q604": {
+    "@id": "q:Q604",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "tarifAcheminement",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "tarifAcheminement"
+  },
+  "q:Q605": {
+    "@id": "q:Q605",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "idPitd",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "idPitd"
+  },
+  "q:Q606": {
+    "@id": "q:Q606",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "libellePitd",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "libellePitd"
+  },
+  "q:Q607": {
+    "@id": "q:Q607",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "dateMes",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "dateMes"
+  },
+  "q:Q608": {
+    "@id": "q:Q608",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "dateMhs",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "dateMhs"
+  },
+  "q:Q609": {
+    "@id": "q:Q609",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "cld",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "cld"
+  },
+  "q:Q610": {
+    "@id": "q:Q610",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "debitCompteur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "debitCompteur"
+  },
+  "q:Q611": {
+    "@id": "q:Q611",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "matriculeCompteur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "matriculeCompteur"
+  },
+  "q:Q613": {
+    "@id": "q:Q613",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "pressionAlimentation",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "pressionAlimentation"
+  },
+  "q:Q614": {
+    "@id": "q:Q614",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "regimeProprieteCompteur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "regimeProprieteCompteur"
+  },
+  "q:Q615": {
+    "@id": "q:Q615",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "convertisseur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "convertisseur"
+  },
+  "q:Q616": {
+    "@id": "q:Q616",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "regimeProprieteConvertisseur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "regimeProprieteConvertisseur"
+  },
+  "q:Q617": {
+    "@id": "q:Q617",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "enregistreur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "enregistreur"
+  },
+  "q:Q618": {
+    "@id": "q:Q618",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "regimeProprieteEnregistreur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "regimeProprieteEnregistreur"
+  },
+  "q:Q619": {
+    "@id": "q:Q619",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "typeEnregistreur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "typeEnregistreur"
+  },
+  "q:Q620": {
+    "@id": "q:Q620",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "natureEnregistreur",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "natureEnregistreur"
+  },
+  "q:Q621": {
+    "@id": "q:Q621",
+    "@type": "q:Q102",
+    "description": "Consommation de gaz, facturante. Donnée mensuelles.",
+    "label": "Consommation de gaz (facturante)",
+    "availability": "soon",
+    "cozyDoctypeName": "fr.grdf.api.adict.pce.consommationinformative",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q507",
+    "hasOptionalProperty": [],
+    "hasProperty": [
+      {
+        "@id": "q:Q624"
+      },
+      {
+        "@id": "q:Q625"
+      },
+      {
+        "@id": "q:Q626"
+      },
+      {
+        "@id": "q:Q627"
+      },
+      {
+        "@id": "q:Q628"
+      },
+      {
+        "@id": "q:Q629"
+      },
+      {
+        "@id": "q:Q630"
+      },
+      {
+        "@id": "q:Q631"
+      },
+      {
+        "@id": "q:Q632"
+      },
+      {
+        "@id": "q:Q633"
+      },
+      {
+        "@id": "q:Q634"
+      },
+      {
+        "@id": "q:Q635"
+      },
+      {
+        "@id": "q:Q636"
+      },
+      {
+        "@id": "q:Q637"
+      },
+      {
+        "@id": "q:Q638"
+      },
+      {
+        "@id": "q:Q639"
+      },
+      {
+        "@id": "q:Q640"
+      }
+    ],
+    "sourceDataController": "GRDF",
+    "syntheticSet": [],
+    "typology": "Domicile",
+    "updateFrequency": "P1M",
+    "updateLatency": "P2D"
+  },
+  "q:Q624": {
+    "@id": "q:Q624",
+    "@type": "q:Q104",
+    "description": "Correspond à la date de fin du précédent relevé. Non renseignée pour les relevés de mise en service ou de pose de compteur.",
+    "label": "Début de consommation",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "dateDebutConso",
+    "sameAs": "q:Q112"
+  },
+  "q:Q625": {
+    "@id": "q:Q625",
+    "@type": "q:Q104",
+    "description": "Date de fin de la période de consommation",
+    "label": "Fin de consommation",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "dateFinConso",
+    "sameAs": "q:Q113"
+  },
+  "q:Q626": {
+    "@id": "q:Q626",
+    "@type": "q:Q104",
+    "description": "Type du relevé de la consommation de gaz. Cyclique (N), Spéciale (S), Corrigée (C), Annulée (A), Intermédiaire (D)",
+    "label": "Type de relevé.",
+    "exampleValue": "N",
+    "kind": "Transaction",
+    "propName": "typeReleve",
+    "values": [
+      "N",
+      "S",
+      "C",
+      "A",
+      "D"
+    ]
+  },
+  "q:Q627": {
+    "@id": "q:Q627",
+    "@type": "q:Q104",
+    "description": "Raison ayant entraîné le relevé",
+    "label": "Raison du relevé",
+    "exampleValue": "Relevé normal",
+    "kind": "Transaction",
+    "propName": "raisonReleve",
+    "values": [
+      "Relevé normal",
+      "Nouvelle situation ",
+      "Changement de fournisseur (nouveau)",
+      "Changement de fréquence de relevé",
+      "Changement de compteur",
+      "Fin de situation",
+      "Changement de fournisseur (ancien)",
+      "Changement de tarif",
+      "Passage à l’état communicant ",
+      "Relevé spécial pour autre motif",
+      "Extrapolation"
+    ]
+  },
+  "q:Q628": {
+    "@id": "q:Q628",
+    "@type": "q:Q104",
+    "description": "Fréquence à de ces relevé facturants. Les compteurs Gazpar sont mensuel (1M). Les anciens compteurs des particuliers étaient semestriels (6M).",
+    "label": "Fréquence de relève",
+    "exampleValue": "1M",
+    "kind": "Caracterisation",
+    "propName": "frequenceReleve",
+    "values": [
+      "6M",
+      "1M",
+      "MM",
+      "JJ"
+    ]
+  },
+  "q:Q629": {
+    "@id": "q:Q629",
+    "@type": "q:Q104",
+    "description": "Date contractuelle de relevé",
+    "label": "Date du relevé",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "dateReleve"
+  },
+  "q:Q630": {
+    "@id": "q:Q630",
+    "@type": "q:Q104",
+    "description": "Index du compteur, au début de la période. Correspond à l’index brut de fin du précédentrelevé. Non présent pour les relevés de MES ou de pose de compteur.",
+    "label": "index en début de période",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "indexBrutDebut"
+  },
+  "q:Q631": {
+    "@id": "q:Q631",
+    "@type": "q:Q104",
+    "description": "Index du compteur, à la fin de la période de relève..",
+    "label": "index en fin de période",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "indexBrutFin"
+  },
+  "q:Q632": {
+    "@id": "q:Q632",
+    "@type": "q:Q104",
+    "description": "Lorsque le compteur est repassé par 0 durant la période de consommation",
+    "label": "Drapeau tour de compteur",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "flagRetourZero"
+  },
+  "q:Q633": {
+    "@id": "q:Q633",
+    "@type": "q:Q104",
+    "description": "Donnée calculée par différence des index brut de début et de fin. Valeur en m³",
+    "label": "Volume brut",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "volumeBrut"
+  },
+  "q:Q634": {
+    "@id": "q:Q634",
+    "@type": "q:Q104",
+    "description": "Volume de gaz consommé sur la période en conditions normales (c'est à dire sous une pression de 1 bar (105 Pa), à une température de 273°K (0°C). Valeur en m³",
+    "label": "Volume converti",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "volumeConverti"
+  },
+  "q:Q635": {
+    "@id": "q:Q635",
+    "@type": "q:Q104",
+    "description": "Produit du volume brut et du coefficient de conversion (ou du volume brut et PCS et PTA selon le compteur). Ce chiffre est provisoire tant que le coefficient de conversion n’est pas définitif. La facturation s'appuie sur cette valeur. Valeuren kWh.",
+    "label": "Énergie consommée",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "energieKwh"
+  },
+  "q:Q636": {
+    "@id": "q:Q636",
+    "@type": "q:Q104",
+    "description": "Mesuré (M), Estimé (E), Corrigé (C), Rectifié (K), Télérelevé (T), Auto-relevé (A)",
+    "label": "qualifConso",
+    "exampleValue": "M",
+    "kind": "Metadata",
+    "propName": "qualifConso",
+    "values": [
+      "M",
+      "E",
+      "C",
+      "K",
+      "T",
+      "A"
+    ]
+  },
+  "q:Q637": {
+    "@id": "q:Q637",
+    "@type": "q:Q104",
+    "description": "Coefficient décrivant les conditions de température, pression et altitude au moment du relevé. Pour la normalisation du volume de gaz.",
+    "label": "Coefficient de température et altitude.",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "pta"
+  },
+  "q:Q638": {
+    "@id": "q:Q638",
+    "@type": "q:Q104",
+    "description": "Pouvoir Calorifique Supérieur du Gaz",
+    "label": "Pouvoir calorifique.",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "pcs"
+  },
+  "q:Q639": {
+    "@id": "q:Q639",
+    "@type": "q:Q104",
+    "description": "Coefficient produit du PTA et PCS, calculé suivant la valeur moyenne sur la période de consommation.",
+    "label": "Coeff de conversion",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "coeffConversion"
+  },
+  "q:Q640": {
+    "@id": "q:Q640",
+    "@type": "q:Q104",
+    "description": "TODO",
+    "label": "journeeGaziere",
+    "exampleValue": "TODO",
+    "kind": "Metadata",
+    "propName": "journeeGaziere"
+  },
+  "q:Q641": {
+    "@id": "q:Q641",
+    "@type": "q:Q102",
+    "description": "Consommation de gaz, informative. Donnée quotidienne (ou horraire sur options payante).",
+    "label": "Consommation de gaz informative",
+    "availability": "soon",
+    "cozyDoctypeName": "fr.grdf.api.adict.pce.consommationinformative",
+    "cozyIndex": "[\"_id\"]",
+    "cozySelector": "{\"_id\": { \"$gte\": null } }",
+    "generatedBy": "q:Q507",
+    "hasProperty": {
+      "@id": "q:Q642"
+    },
+    "sourceDataController": "GRDF",
+    "syntheticSet": [],
+    "typology": "Domicile",
+    "updateFrequency": "P1D",
+    "updateLatency": "P2D"
+  },
+  "q:Q642": {
+    "@id": "q:Q642",
+    "@type": "array",
+    "description": "TODO",
+    "label": "/pce/{idPce}/consommationInformative",
+    "items": {
+      "@id": "q:Q643"
+    },
+    "kind": "TODO",
+    "propName": "/pce/{idPce}/consommationInformative"
+  },
+  "q:Q643": {
+    "@id": "q:Q643",
+    "@type": "object",
+    "description": "TODO",
+    "label": "/pce/{idPce}/consommationInformativeItem",
+    "hasOptionalProperty": [],
+    "hasProperty": [
+      {
+        "@id": "q:Q644"
+      },
+      {
+        "@id": "q:Q630"
+      },
+      {
+        "@id": "q:Q646"
+      },
+      {
+        "@id": "q:Q631"
+      },
+      {
+        "@id": "q:Q632"
+      },
+      {
+        "@id": "q:Q633"
+      },
+      {
+        "@id": "q:Q634"
+      },
+      {
+        "@id": "q:Q635"
+      },
+      {
+        "@id": "q:Q636"
+      },
+      {
+        "@id": "q:Q637"
+      },
+      {
+        "@id": "q:Q638"
+      },
+      {
+        "@id": "q:Q639"
+      }
+    ],
+    "kind": "TODO",
+    "propName": "/pce/{idPce}/consommationInformativeItem"
+  },
+  "q:Q644": {
+    "@id": "q:Q644",
+    "@type": "q:Q104",
+    "TODO : candiates existing properties": [],
+    "description": "TODO",
+    "label": "horodateIndexBrutDebut",
+    "exampleValue": [],
+    "kind": "TODO",
+    "propName": "horodateIndexBrutDebut",
+    "values": []
+  },
+  "q:Q646": {
+    "@id": "q:Q646",
+    "@type": "q:Q104",
+    "description": "Horodatage de fin de période de relève.",
+    "label": "Horodatage de fin de période",
+    "exampleValue": "TODO",
+    "kind": "Transaction",
+    "propName": "horodateIndexBrutFin"
   }
 }

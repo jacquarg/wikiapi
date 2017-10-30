@@ -1,0 +1,70 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q641",
+  "@type": "q:Q102",
+  "generatedBy": "q:Q507",
+  "label": "Consommation de gaz informative",
+  "description": "Consommation de gaz, informative. Donnée quotidienne (ou horraire sur options payante).",
+  "typology": "Domicile",
+  "availability": "soon",
+  "sourceDataController": "GRDF",
+  "updateFrequency": "P1D",
+  "updateLatency": "P2D",
+  "cozyDoctypeName": "fr.grdf.api.adict.pce.consommationinformative",
+  "syntheticSet": [],
+  "cozyIndex": "[\"_id\"]",
+  "cozySelector": "{\"_id\": { \"$gte\": null } }",
+  "hasProperty": {
+    "label": "/pce/{idPce}/consommationInformative",
+    "propName": "/pce/{idPce}/consommationInformative",
+    "@id": "q:Q642",
+    "@type": "array",
+    "description": "TODO",
+    "kind": "TODO",
+    "items": {
+      "label": "/pce/{idPce}/consommationInformativeItem",
+      "propName": "/pce/{idPce}/consommationInformativeItem",
+      "@id": "q:Q643",
+      "@type": "object",
+      "description": "TODO",
+      "kind": "TODO",
+      "hasProperty": [
+        {
+          "label": "horodateIndexBrutDebut",
+          "propName": "horodateIndexBrutDebut",
+          "@id": "q:Q644",
+          "@type": "q:Q104",
+          "description": "TODO",
+          "exampleValue": [
+            null
+          ],
+          "values": [
+            null
+          ],
+          "kind": "TODO",
+          "TODO : candiates existing properties": []
+        },
+        { "@id": "q:Q630" },
+        {
+          "label": "Horodatage de fin de période",
+          "propName": "horodateIndexBrutFin",
+          "@id": "q:Q646",
+          "@type": "q:Q104",
+          "description": "Horodatage de fin de période de relève.",
+          "exampleValue": "TODO",
+          "kind": "Transaction"
+        },
+        { "@id": "q:Q631" },
+        { "@id": "q:Q632"},
+        { "@id": "q:Q633" },
+        { "@id": "q:Q634"},
+        { "@id": "q:Q635"},
+        { "@id": "q:Q636"},
+        { "@id": "q:Q637"},
+        { "@id": "q:Q638"},
+        { "@id": "q:Q639"}
+      ],
+      "hasOptionalProperty": []
+    }
+  }
+}

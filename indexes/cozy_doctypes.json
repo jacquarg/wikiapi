@@ -9,7 +9,9 @@
     "q:Q155", "q:Q231", "q:Q179", "q:Q265", "q:Q295", "q:Q226", "q:Q310", "q:Q377", "q:Q370", "q:Q330", "q:Q435",
     "q:Q492", "q:Q445", "q:Q436",
 
-     "q:Q506", "q:Q508",
+    "q:Q523", "q:Q542", "q:Q585",
+
+    "q:Q587", "q:Q621", "q:Q641",
 
      "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q108",
      "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q121",
