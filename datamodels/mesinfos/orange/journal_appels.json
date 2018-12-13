@@ -9,7 +9,7 @@
   "sourceDataController": "Orange",
   "updateFrequency": "PT1H",
   "updateLatency": "PT1H",
-  "cozyDoctypeName": "fr.orange.phonecommunicatiolog",
+  "cozyDoctypeName": "fr.orange.phonecommunicationlog",
   "syntheticSet": ["https://raw.githubusercontent.com/jacquarg/mesinfos-dev3/master/data/donnees_d_appel_telephonique.json"],
   "cozyIndex": "[\"_id\"]",
   "cozySelector": "{\"_id\": { \"$gte\": null } }",
@@ -83,6 +83,36 @@
       "@type": "q:Q104",
       "description": "Cause de terminaison de l'appel si l'appel est efficace (libération normale, échec distant, incident radio...).",
       "exampleValue": "0",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "label": "endCauseLabel",
+ "propName": "endCauseLabel",
+      "@id": "q:Q647",
+      "@type": "q:Q104",
+      "description": "Cause de terminaison de l'appel si l'appel est efficace (libération normale, échec distant, incident radio...).",
+      "exampleValue": "Libération normale",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "label": "deviceLabel",
+ "propName": "deviceLabel",
+      "@id": "q:Q648",
+      "@type": "q:Q104",
+      "description": "Modèle de terminal utilisé pour la communication.",
+      "exampleValue": "SAMSUNG SM-G935F - GALAXY S7 EDGE",
+      "kind": "Metadata",
+      "availability": "2016-10"
+    },
+    {
+      "label": "deviceTac",
+      "propName": "deviceTac",
+      "@id": "q:Q649",
+      "@type": "q:Q104",
+      "description": "Code interne du modèle de terminal utilisé pour la communication.",
+      "exampleValue": "35880907",
       "kind": "Metadata",
       "availability": "2016-10"
     },
