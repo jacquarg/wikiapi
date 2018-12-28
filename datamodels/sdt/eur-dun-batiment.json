@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q760",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "déperdition de chaleur d’un bâtiment",
+  "description": "",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

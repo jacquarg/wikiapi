@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q720",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "état socio-économique du quartier, carte scolaire, taux de décrochage scolaire, réussite au brevet/au bac (et nombre de mentions), perception de l’ambiance, \n",
+  "description": "",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q739",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date de péremption",
+  "description": "Date Limite de Consommation ",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "?",
+  "accessMediator": "?",
+  "defi": "Mesurer les déchets et le gaspillage",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q667",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pièce d'identité enfant & parent",
+  "description": "nom, prénom, date de naissance, lieu de naissance, adresse, date de validité, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

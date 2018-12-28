@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q657",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "coût des titres de transport",
+  "description": "Coût d’un ticket, grille tarifaire des titres de transports",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "coût d'un trajet (en transports en communs)",
+  "defi": "Déplacements",
+  "information": "Délégataire de transport ?",
+  "access": "",
+  "kind": "Référentiel",
+  "portable": ""
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q654",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "caractéristiques véhicule",
+  "description": "modèle, marque, puissance, age, immatriculation, ...",
+  "thematique": "",
+  "typology": "Déplacements",
+  "sourceDataController": "assureur",
+  "accessMediator": "",
+  "defi": "",
+  "information": "prix de revient kilométrique",
+  "access": "art 20?",
+  "kind": "Personnelles - caractéristiques",
+  "portable": "portables"
+}

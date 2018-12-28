@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q697",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique Instagram",
+  "description": "photos, vidéos, stories, profil, commentaires, messages privés, personnes suivies/bloquées/followers, historique de recherche...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Instagram",
+  "accessMediator": "Téléchargement\n",
+  "defi": "Evaluer autrement",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

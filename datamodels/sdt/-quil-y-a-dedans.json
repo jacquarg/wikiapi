@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q718",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "CGU : comprendre les infos qu'il y a dedans",
+  "description": "",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q701",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques jeux vidéos",
+  "description": "Nom du jeu joué, nombre d'heures jouées, ...",
+  "thematique": "Ados",
+  "typology": "loisirs",
+  "sourceDataController": "Plateformes d'achats de jeux (Steam), Editeurs de jeux (Epic Game), ... ",
+  "accessMediator": "Espace personnel du site web/de l'application",
+  "defi": "Evaluer autrement",
+  "information": "Jeux joués",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

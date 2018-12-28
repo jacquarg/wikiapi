@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q655",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "référentiel PRK",
+  "description": "Prix de revient kilométrique moyen",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Argus",
+  "accessMediator": "",
+  "defi": "",
+  "information": "prix de revient kilométrique",
+  "access": "",
+  "kind": "Référentiel",
+  "portable": ""
+}

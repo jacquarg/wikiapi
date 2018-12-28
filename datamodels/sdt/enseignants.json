@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q715",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Enseignants",
+  "description": "",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

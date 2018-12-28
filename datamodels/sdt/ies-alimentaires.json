@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q747",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "allergies alimentaires",
+  "description": "liste des allergies (individuelle, foyer)",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

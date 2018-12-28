@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q763",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "potentiel de production géothermique",
+  "description": "",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

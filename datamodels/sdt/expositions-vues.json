@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q692",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Expositions vues",
+  "description": "Nom de l'exposition, Musée, date, prix",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Métropole de Lyon",
+  "accessMediator": "Pass traboule ",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

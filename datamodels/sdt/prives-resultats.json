@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q690",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours privés : résultats",
+  "description": "Progression, résultats et activités sur la plateforme",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

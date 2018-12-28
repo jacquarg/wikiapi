@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q663",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contact ",
+  "description": "Numéro national d’identification (INE), nom, prénom, date de naissance",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "accessMediator": "Dossier inscription élève",
+  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "information": "Qui a le droit de venir chercher mon enfant",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

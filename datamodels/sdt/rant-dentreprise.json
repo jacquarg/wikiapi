@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q736",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation au restaurant d'entreprise",
+  "description": "Date, montant",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Comptabilité, Trésor Public, prestataire",
+  "accessMediator": "",
+  "defi": "Consommation hors domicile",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

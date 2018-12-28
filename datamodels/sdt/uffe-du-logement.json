@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q751",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation pour la chauffe du logement",
+  "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Banque",
+  "accessMediator": "facture, relevé bancaire",
+  "defi": "",
+  "information": "consommation d'énergie selon mon comportement",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

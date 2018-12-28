@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q679",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Travail à réaliser",
+  "description": "Date, matière, contenu",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "accessMediator": "ENT - LaClasse.com",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

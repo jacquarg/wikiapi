@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q699",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique Youtube",
+  "description": "URL, Horodotage",
+  "thematique": "Ados",
+  "typology": "loisirs",
+  "sourceDataController": "Youtube",
+  "accessMediator": "Téléchargement\n",
+  "defi": "Evaluer autrement",
+  "information": "Vidéos et tutoriels regardés",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

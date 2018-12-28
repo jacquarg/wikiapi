@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q678",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Agenda des cours",
+  "description": "Heures des cours, matière suivie, nom de l'enseignant",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "accessMediator": "ENT - LaClasse.com",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

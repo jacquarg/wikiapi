@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q737",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Menus",
+  "description": "Menu ",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Cantines",
+  "accessMediator": "",
+  "defi": "",
+  "information": "Référentiel",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

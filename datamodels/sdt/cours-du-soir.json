@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q675",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours du soir ",
+  "description": "Inscrit à l'étude O/N",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

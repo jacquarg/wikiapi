@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q665",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Livret famille",
+  "description": "",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

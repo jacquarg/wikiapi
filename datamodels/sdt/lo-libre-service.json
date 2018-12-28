@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q658",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "coût location vélo libre service",
+  "description": "Grile tarifaire des vélo en livre service (coût de prise en charge, durée, …)",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "coût d'un trajet (en transports en communs)",
+  "defi": "Déplacements",
+  "information": "Yelo",
+  "access": "",
+  "kind": "Référentiel",
+  "portable": ""
+}

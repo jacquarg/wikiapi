@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q742",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Lieux pour le tri à Nantes",
+  "description": "type de structure (réemploi, conteneurs, déchèteries/écopoints, composteurs, conteneurs vêtements, vente vrac, trisac, collecteurs bouchons), nombre de structures par type, Nom, Adresse, horaires d'ouverture, statut, coordonnées tel, mail, site, réseaux sociaux",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "mieuxtrieranantes.fr",
+  "accessMediator": "OpenDataNantes",
+  "defi": "Mesurer les déchets et le gaspillage",
+  "information": "référentiel",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

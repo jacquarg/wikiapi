@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q696",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Liste des comptes en ligne ouverts",
+  "description": "Identifiants, mots de passe",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Individu",
+  "accessMediator": "Trousseau du navigateur",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q688",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours privés : contrat",
+  "description": "Forfait choisi, prix, particuliers/en groupe, heures de cours dispensées, crédit d’heures de cours, solde",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
+  "accessMediator": "Espace personnel du site web/de l'application",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": "Oui"
+}

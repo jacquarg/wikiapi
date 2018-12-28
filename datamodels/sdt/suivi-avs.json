@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q670",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Suivi AVS",
+  "description": "",
+  "thematique": "Ados",
+  "typology": "santé",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "information": "Santé de l'enfant",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

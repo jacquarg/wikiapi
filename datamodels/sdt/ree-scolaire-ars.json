@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q677",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Allocation de rentrée scolaire (ARS)",
+  "description": "Date de versement",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

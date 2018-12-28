@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q684",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Langues vivantes étrangères",
+  "description": "Nom de la LV1, Nom de la LV2",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

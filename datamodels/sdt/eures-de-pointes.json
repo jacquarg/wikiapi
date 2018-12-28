@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q659",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "heures de pointes",
+  "description": "Fréquentation temporel de stransports en communs, ex : nombre d’usager par 10’",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "Niveau de confort dans les transports en commun",
+  "defi": "Déplacements",
+  "information": "Délégataire de transport ?",
+  "access": "",
+  "kind": "Statistiques",
+  "portable": "donnée d’intérêt général ?"
+}

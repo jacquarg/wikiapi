@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q733",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Utilisation de l'électroménager",
+  "description": "objets connectés",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Thermomix (Vorwek, présent à Nantes), Cookéo (Seb, Moulinex, etc).",
+  "accessMediator": "App, compte utilisateur",
+  "defi": "consommation à domicile",
+  "information": "Usages culinaire",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

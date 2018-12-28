@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q758",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "aides disponibles selon profil",
+  "description": "crédits d'impôts, subventions, montant, selon profil (caractéristiques de votre logement (surface, année de construction...),des devis d'entreprises, Revenu Fiscal de Référence (RFR)), type de travaux envisagés",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "ADEME",
+  "accessMediator": "simulaide",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

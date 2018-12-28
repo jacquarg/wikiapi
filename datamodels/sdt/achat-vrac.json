@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q740",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Achat vrac",
+  "description": "Nom du produit, prix, poids",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+  "accessMediator": "carte fidélité, espace client",
+  "defi": "Mesurer les déchets et le gaspillage",
+  "information": "produits achetés sans emballage/ emballages évités",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

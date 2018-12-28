@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q744",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "production potager",
+  "description": "produits acheté (graines, plants, terreau, engrais, pesticide,...)",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Distributeurs de produits de jardin (Jardiland, GammVert, Truffaut, ...) et marketplace (monpotager.com), Lilo",
+  "accessMediator": "carte de fidélité, espace client",
+  "defi": "empreinte carbone des achats alimentaires",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": "oui"
+}

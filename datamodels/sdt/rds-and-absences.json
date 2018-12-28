@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q686",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Retards & Absences ",
+  "description": "Date, heure et matière concernée, justifiée/injustifiée, motif",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "accessMediator": "ENT - LaClasse.com",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

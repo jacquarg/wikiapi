@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q741",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Achat de sacs réutilisables",
+  "description": "Nombre de sacs réutilisables achetés, date d'achat, prix, lieu d'achat",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+  "accessMediator": "carte fidélité, espace client",
+  "defi": "Mesurer les déchets et le gaspillage",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

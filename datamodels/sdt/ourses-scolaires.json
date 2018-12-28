@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q676",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Bourses scolaires",
+  "description": "Boursier O/N, montant, date de versement, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

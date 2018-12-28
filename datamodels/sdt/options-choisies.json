@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q685",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Options choisies",
+  "description": "Latin, Grec ancien, filière européenne, LV3, théâtre...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

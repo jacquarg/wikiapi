@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q660",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Indemnité kilométrique",
+  "description": "Montant des indemnité kilométriques remboursées sur ma fiche de paie",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "indemnité kilométrique",
+  "defi": "",
+  "information": "Moi / Mon employeur",
+  "access": "Analyser PDF",
+  "kind": "Personnelles – transaction",
+  "portable": "?"
+}

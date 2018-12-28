@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q732",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "empreinte carbone alimentaire",
+  "description": "kgCO2/ kg de poids vif ou kg de matière brute ou kg de produit fini",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Ademe",
+  "accessMediator": "AGRIBALYSE,  Base Carbone®",
+  "defi": "consommation à domicile",
+  "information": "Référentiel environnemental",
+  "access": "",
+  "kind": "open data",
+  "portable": ""
+}

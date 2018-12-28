@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q656",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "itinéraire multimodal",
+  "description": "liste des étapes et moyens de transports à prendre pour effectuer le trajet",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "coût d'un trajet (en transports en communs)",
+  "defi": "Déplacements",
+  "information": "Google (et beaucoup d’autres !)",
+  "access": "",
+  "kind": "Référentiel",
+  "portable": ""
+}

@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q662",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Indemnité au kilomètre",
+  "description": "Indemnité kilométrique à laquelle je peut prétendre par kilomètre parcourus",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "indemnité kilométrique",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

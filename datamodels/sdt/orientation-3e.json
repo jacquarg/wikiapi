@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q703",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Orientation 3e ",
+  "description": "Choix des lycées, souhaits pour les enseignements au choix, avis/conseil d'orientation",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

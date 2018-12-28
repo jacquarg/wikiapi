@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q691",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Livres empruntés",
+  "description": "ISBN du livre emprunté, date de l’emprunt, date du retour ",
+  "thematique": "Ados",
+  "typology": "loisirs",
+  "sourceDataController": "Médiathèque, Collège - Métropole de Lyon",
+  "accessMediator": "Pass traboule - SI du CDI",
+  "defi": "",
+  "information": "goût de lecture",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

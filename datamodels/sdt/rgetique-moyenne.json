@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q749",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation énergétique moyenne ",
+  "description": "consommation annuelle d'un IRIS",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Enedis, GRDF",
+  "accessMediator": "open data",
+  "defi": "",
+  "information": "open data",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

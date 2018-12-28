@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q700",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique Netflix",
+  "description": "",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Netflix",
+  "accessMediator": "Espace personnel du site web/de l'application",
+  "defi": "Evaluer autrement",
+  "information": "",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

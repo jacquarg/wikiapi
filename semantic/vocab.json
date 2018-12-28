@@ -191,6 +191,54 @@
         {
           "@id": "sameAs",
           "description": "Propriétés désignant la même chose (réel), dans d'autres sets de données, "
+        },
+        {
+          "@id": "thematique",
+          "label": {
+            "@value": "thématique",
+            "@language": "fr"
+          },
+          "description": "Thématique traité dans le cadre du projet Self Data Territorial (Fing 2018)."
+        },
+        {
+          "@id": "accessMediator",
+          "label": {
+            "@value": "intermediaire d'accès",
+            "@language": "fr"
+          },
+          "description": "Intermédiaire d'accès à la donnée. Ex: un aggrégateur de prix."
+        },
+        {
+          "@id": "defi",
+          "label": {
+            "@value": "défi",
+            "@language": "fr"
+          },
+          "description": "Défi formulé dans le cadre du projet Self Data Territorial (Fing 2018)."
+        },
+        {
+          "@id": "information",
+          "label": {
+            "@value": "information",
+            "@language": "fr"
+          },
+          "description": "Une information recherchée dans le cadre du projet Self Data Territorial (Fing 2018)."
+        },
+        {
+          "@id": "access",
+          "label": {
+            "@value": "accès",
+            "@language": "fr"
+          },
+          "description": "Moyen d'accès à la donnée (API, ...)."
+        },
+        {
+          "@id": "portable",
+          "label": {
+            "@value": "portable",
+            "@language": "fr"
+          },
+          "description": "Cette données est-elle portable dans le cadre de l'article 20 du RGPD ?"
         }
       ]
     }

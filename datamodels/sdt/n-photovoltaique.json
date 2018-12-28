@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q762",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "potentiel de production photovoltaïque",
+  "description": "type de bâtiment, coe postal, nombre de chambre, montant de la facture annuelle, fournisseur d'électricité, installation de chauffage (type, nombre), facture, type et nombre d'équipement possédé (dont voiture électrique), simulation d'économies réalisées",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Comwatt, In Sun We Trust, Open Solar Map",
+  "accessMediator": "simulateur",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

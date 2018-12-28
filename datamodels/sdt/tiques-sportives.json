@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q748",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "pratiques sportives",
+  "description": "sport pratiqué, fréquence des entraînements, durée, ...",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "objets connectés (trackers, Wtithings...), clubs de sport (club med gym, gym suédoise,...)",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

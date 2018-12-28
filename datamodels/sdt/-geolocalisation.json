@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q721",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": ": agenda, offre culturelle et sportive, horaires d’ouverture, géolocalisation,",
+  "description": "",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "",
+  "accessMediator": "",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

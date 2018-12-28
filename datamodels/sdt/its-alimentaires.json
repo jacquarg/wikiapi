@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q729",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Caractéristiques des produits alimentaires",
+  "description": "Caractéristiques du produit (quantité, packaging (bouteille, plastique, green dot, ...), marque, catégorie (boisson, smoothie,..), magasin, pays de distribution), Ingrédients(liste d'ingérdients, NOVA group), Informations nutritionnelles (NutriScore, analyse nutritionnelle pour 100g, serving size, comparaison par rapport à des produits équivalents), ",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "accessMediator": "Site ou app",
+  "defi": "consommation à domicile",
+  "information": "Référentiel culinaire",
+  "access": "",
+  "kind": "open data",
+  "portable": ""
+}

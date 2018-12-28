@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q661",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "distance trajet domicile travail",
+  "description": "Distance en voiture de mon trajet domicile travail",
+  "thematique": "",
+  "typology": "Google Map",
+  "sourceDataController": "",
+  "accessMediator": "indemnité kilométrique",
+  "defi": "",
+  "information": "Google",
+  "access": "API trajet",
+  "kind": "Référentiel",
+  "portable": ""
+}

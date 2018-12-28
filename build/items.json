@@ -228,6 +228,9 @@
       },
       {
         "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q120"
+      },
+      {
+        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q154"
       }
     ],
     "propName": "usage_points"
@@ -4164,7 +4167,7 @@
     "@type": "q:Q102",
     "description": "Type d'appel (entrant, sortant, sms..), horodatage, numéro, position géographique pendant la communication",
     "label": "Détails d'appel  téléphonique",
-    "cozyDoctypeName": "fr.orange.phonecommunicatiolog",
+    "cozyDoctypeName": "fr.orange.phonecommunicationlog",
     "cozyIndex": "[\"_id\"]",
     "cozySelector": "{\"_id\": { \"$gte\": null } }",
     "generatedBy": "q:Q444",
@@ -4194,6 +4197,15 @@
       },
       {
         "@id": "q:Q456"
+      },
+      {
+        "@id": "q:Q647"
+      },
+      {
+        "@id": "q:Q648"
+      },
+      {
+        "@id": "q:Q649"
       },
       {
         "@id": "q:Q462"
@@ -5947,5 +5959,1799 @@
     "exampleValue": "TODO",
     "kind": "Transaction",
     "propName": "horodateIndexBrutFin"
+  },
+  "q:Q647": {
+    "@id": "q:Q647",
+    "@type": "q:Q104",
+    "description": "Cause de terminaison de l'appel si l'appel est efficace (libération normale, échec distant, incident radio...).",
+    "label": "endCauseLabel",
+    "availability": "2016-10",
+    "exampleValue": "Libération normale",
+    "kind": "Metadata",
+    "propName": "endCauseLabel"
+  },
+  "q:Q648": {
+    "@id": "q:Q648",
+    "@type": "q:Q104",
+    "description": "Modèle de terminal utilisé pour la communication.",
+    "label": "deviceLabel",
+    "availability": "2016-10",
+    "exampleValue": "SAMSUNG SM-G935F - GALAXY S7 EDGE",
+    "kind": "Metadata",
+    "propName": "deviceLabel"
+  },
+  "q:Q649": {
+    "@id": "q:Q649",
+    "@type": "q:Q104",
+    "description": "Code interne du modèle de terminal utilisé pour la communication.",
+    "label": "deviceTac",
+    "availability": "2016-10",
+    "exampleValue": "35880907",
+    "kind": "Metadata",
+    "propName": "deviceTac"
+  },
+  "q:Q653": {
+    "@id": "q:Q653",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Ma position  géographique sur une période de temps (Latitude, Longitude, horodatage)",
+    "label": "géolocalisation",
+    "access": "Google Take Out",
+    "accessMediator": "",
+    "defi": "Maîtriser son budget mobilité",
+    "information": "Ma position",
+    "kind": "Personnelles - transaction",
+    "portable": "portable",
+    "sourceDataController": "Google, Waze, ",
+    "thematique": "",
+    "typology": "Déplacements"
+  },
+  "q:Q654": {
+    "@id": "q:Q654",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "modèle, marque, puissance, age, immatriculation, ...",
+    "label": "caractéristiques véhicule",
+    "access": "art 20?",
+    "accessMediator": "",
+    "defi": "",
+    "information": "prix de revient kilométrique",
+    "kind": "Personnelles - caractéristiques",
+    "portable": "portables",
+    "sourceDataController": "assureur",
+    "thematique": "",
+    "typology": "Déplacements"
+  },
+  "q:Q655": {
+    "@id": "q:Q655",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Prix de revient kilométrique moyen",
+    "label": "référentiel PRK",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "prix de revient kilométrique",
+    "kind": "Référentiel",
+    "portable": "",
+    "sourceDataController": "Argus",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q656": {
+    "@id": "q:Q656",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "liste des étapes et moyens de transports à prendre pour effectuer le trajet",
+    "label": "itinéraire multimodal",
+    "access": "",
+    "accessMediator": "coût d'un trajet (en transports en communs)",
+    "defi": "Déplacements",
+    "information": "Google (et beaucoup d’autres !)",
+    "kind": "Référentiel",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q657": {
+    "@id": "q:Q657",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Coût d’un ticket, grille tarifaire des titres de transports",
+    "label": "coût des titres de transport",
+    "access": "",
+    "accessMediator": "coût d'un trajet (en transports en communs)",
+    "defi": "Déplacements",
+    "information": "Délégataire de transport ?",
+    "kind": "Référentiel",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q658": {
+    "@id": "q:Q658",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Grile tarifaire des vélo en livre service (coût de prise en charge, durée, …)",
+    "label": "coût location vélo libre service",
+    "access": "",
+    "accessMediator": "coût d'un trajet (en transports en communs)",
+    "defi": "Déplacements",
+    "information": "Yelo",
+    "kind": "Référentiel",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q659": {
+    "@id": "q:Q659",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Fréquentation temporel de stransports en communs, ex : nombre d’usager par 10’",
+    "label": "heures de pointes",
+    "access": "",
+    "accessMediator": "Niveau de confort dans les transports en commun",
+    "defi": "Déplacements",
+    "information": "Délégataire de transport ?",
+    "kind": "Statistiques",
+    "portable": "donnée d’intérêt général ?",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q660": {
+    "@id": "q:Q660",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Montant des indemnité kilométriques remboursées sur ma fiche de paie",
+    "label": "Indemnité kilométrique",
+    "access": "Analyser PDF",
+    "accessMediator": "indemnité kilométrique",
+    "defi": "",
+    "information": "Moi / Mon employeur",
+    "kind": "Personnelles – transaction",
+    "portable": "?",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q661": {
+    "@id": "q:Q661",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Distance en voiture de mon trajet domicile travail",
+    "label": "distance trajet domicile travail",
+    "access": "API trajet",
+    "accessMediator": "indemnité kilométrique",
+    "defi": "",
+    "information": "Google",
+    "kind": "Référentiel",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": "Google Map"
+  },
+  "q:Q662": {
+    "@id": "q:Q662",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Indemnité kilométrique à laquelle je peut prétendre par kilomètre parcourus",
+    "label": "Indemnité au kilomètre",
+    "access": "",
+    "accessMediator": "indemnité kilométrique",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q663": {
+    "@id": "q:Q663",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Numéro national d’identification (INE), nom, prénom, date de naissance",
+    "label": "Contact ",
+    "access": "",
+    "accessMediator": "Dossier inscription élève",
+    "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+    "information": "Qui a le droit de venir chercher mon enfant",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q664": {
+    "@id": "q:Q664",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom, prénom, téléphone domicile/travail/portable, n° sécurité sociale dont dépend l'enfant",
+    "label": "Contact responsable du mineur",
+    "access": "",
+    "accessMediator": "Dossier inscription élève - Fiche sanitaire de liaison",
+    "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+    "information": "Qui a le droit de venir chercher mon enfant",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège ",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q665": {
+    "@id": "q:Q665",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Livret famille",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q666": {
+    "@id": "q:Q666",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Justificatif domicile",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q667": {
+    "@id": "q:Q667",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "nom, prénom, date de naissance, lieu de naissance, adresse, date de validité, ...",
+    "label": "Pièce d'identité enfant & parent",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q668": {
+    "@id": "q:Q668",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Allergies alimentaires, au pollen, ... ",
+    "label": "Allergies",
+    "access": "PDF",
+    "accessMediator": "https://www.mesanalyses.fr/",
+    "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+    "information": "Santé de l'enfant",
+    "kind": "Personnelle",
+    "portable": "Oui",
+    "sourceDataController": "Laboratoire d'analyse",
+    "thematique": "Ados",
+    "typology": "santé"
+  },
+  "q:Q670": {
+    "@id": "q:Q670",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Suivi AVS",
+    "access": "",
+    "accessMediator": "",
+    "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+    "information": "Santé de l'enfant",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": "santé"
+  },
+  "q:Q671": {
+    "@id": "q:Q671",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": " ",
+    "label": "Arrêts maladies ",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q672": {
+    "@id": "q:Q672",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Photo d'identité ",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q673": {
+    "@id": "q:Q673",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Droit à l’image",
+    "access": "",
+    "accessMediator": "Dossier inscription élève",
+    "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+    "information": "Qui a le droit de venir chercher mon enfant",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège ",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q674": {
+    "@id": "q:Q674",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Internat ; demi-pension ; externat ",
+    "label": "Régime ",
+    "access": "",
+    "accessMediator": "Dossier inscription élève",
+    "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+    "information": "Qui a le droit de venir chercher mon enfant",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q675": {
+    "@id": "q:Q675",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Inscrit à l'étude O/N",
+    "label": "Cours du soir ",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q676": {
+    "@id": "q:Q676",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Boursier O/N, montant, date de versement, ...",
+    "label": "Bourses scolaires",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q677": {
+    "@id": "q:Q677",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date de versement",
+    "label": "Allocation de rentrée scolaire (ARS)",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q678": {
+    "@id": "q:Q678",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Heures des cours, matière suivie, nom de l'enseignant",
+    "label": "Agenda des cours",
+    "access": "",
+    "accessMediator": "ENT - LaClasse.com",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q679": {
+    "@id": "q:Q679",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date, matière, contenu",
+    "label": "Travail à réaliser",
+    "access": "",
+    "accessMediator": "ENT - LaClasse.com",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q683": {
+    "@id": "q:Q683",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Evaluation par compétence",
+    "label": "Résultats scolaires",
+    "access": "",
+    "accessMediator": "ENT - LaClasse.com",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q684": {
+    "@id": "q:Q684",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom de la LV1, Nom de la LV2",
+    "label": "Langues vivantes étrangères",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q685": {
+    "@id": "q:Q685",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Latin, Grec ancien, filière européenne, LV3, théâtre...",
+    "label": "Options choisies",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q686": {
+    "@id": "q:Q686",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date, heure et matière concernée, justifiée/injustifiée, motif",
+    "label": "Retards & Absences ",
+    "access": "",
+    "accessMediator": "ENT - LaClasse.com",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q687": {
+    "@id": "q:Q687",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Type de la sanction/punition, nom de l'enseignant, motif",
+    "label": "Punitions & Sanctions ",
+    "access": "",
+    "accessMediator": "ENT - LaClasse.com",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q688": {
+    "@id": "q:Q688",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Forfait choisi, prix, particuliers/en groupe, heures de cours dispensées, crédit d’heures de cours, solde",
+    "label": "Cours privés : contrat",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "Oui",
+    "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q689": {
+    "@id": "q:Q689",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Heures des cours, matière suivie, nom de l'enseignant",
+    "label": "Cours privés : agenda",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "Oui",
+    "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q690": {
+    "@id": "q:Q690",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Progression, résultats et activités sur la plateforme",
+    "label": "Cours privés : résultats",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q691": {
+    "@id": "q:Q691",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "ISBN du livre emprunté, date de l’emprunt, date du retour ",
+    "label": "Livres empruntés",
+    "access": "",
+    "accessMediator": "Pass traboule - SI du CDI",
+    "defi": "",
+    "information": "goût de lecture",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Médiathèque, Collège - Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "loisirs"
+  },
+  "q:Q692": {
+    "@id": "q:Q692",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom de l'exposition, Musée, date, prix",
+    "label": "Expositions vues",
+    "access": "",
+    "accessMediator": "Pass traboule ",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Métropole de Lyon",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q693": {
+    "@id": "q:Q693",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Exploits : wildfire, champion, big spender, wizard, ...",
+    "label": "Pratiques linguistiques en ligne : trophés",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "",
+    "information": "Pratiques linguistiques",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "DuoLingo",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q694": {
+    "@id": "q:Q694",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom des unités complétées / nom des unités à complétées / nom des unités à débloquer ",
+    "label": "Pratiques linguistiques en ligne : parcours",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "",
+    "information": "Pratiques linguistiques",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "DuoLingo",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q695": {
+    "@id": "q:Q695",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nombre de \"lingots\" accumulés, pourcentage de maîtrise, niveau",
+    "label": "Pratiques linguistiques en ligne: niveau",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "",
+    "information": "Pratiques linguistiques",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "DuoLingo",
+    "thematique": "Ados",
+    "typology": "travail/ecole,"
+  },
+  "q:Q696": {
+    "@id": "q:Q696",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Identifiants, mots de passe",
+    "label": "Liste des comptes en ligne ouverts",
+    "access": "",
+    "accessMediator": "Trousseau du navigateur",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Individu",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q697": {
+    "@id": "q:Q697",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "photos, vidéos, stories, profil, commentaires, messages privés, personnes suivies/bloquées/followers, historique de recherche...",
+    "label": "Historique Instagram",
+    "access": "",
+    "accessMediator": "Téléchargement\n",
+    "defi": "Evaluer autrement",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Instagram",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q698": {
+    "@id": "q:Q698",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Historique de connexion et informations de compte, Historique de Snaps, Historique de Chats, Story et contenu alimenté par les utilisateurs, Historique d'achats, Historique d'Assistance Snapchat, Profil d'utilisateur, Amis, Classement, Historique de compte, Historique des localisations, Historique des recherches, Historique des conditions générales, Abonnements, Bitmoji, Sondages in-app, Contenu signalé, Kit Bitmoji\n",
+    "label": "Historique Snapchat",
+    "access": "",
+    "accessMediator": "Téléchargement\n",
+    "defi": "Evaluer autrement",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Snapchat",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q699": {
+    "@id": "q:Q699",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "URL, Horodotage",
+    "label": "Historique Youtube",
+    "access": "",
+    "accessMediator": "Téléchargement\n",
+    "defi": "Evaluer autrement",
+    "information": "Vidéos et tutoriels regardés",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Youtube",
+    "thematique": "Ados",
+    "typology": "loisirs"
+  },
+  "q:Q700": {
+    "@id": "q:Q700",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Historique Netflix",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "Evaluer autrement",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Netflix",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q701": {
+    "@id": "q:Q701",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom du jeu joué, nombre d'heures jouées, ...",
+    "label": "Pratiques jeux vidéos",
+    "access": "",
+    "accessMediator": "Espace personnel du site web/de l'application",
+    "defi": "Evaluer autrement",
+    "information": "Jeux joués",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "Plateformes d'achats de jeux (Steam), Editeurs de jeux (Epic Game), ... ",
+    "thematique": "Ados",
+    "typology": "loisirs"
+  },
+  "q:Q702": {
+    "@id": "q:Q702",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Résultats au test PIX ",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q703": {
+    "@id": "q:Q703",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Choix des lycées, souhaits pour les enseignements au choix, avis/conseil d'orientation",
+    "label": "Orientation 3e ",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q704": {
+    "@id": "q:Q704",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Stage 3e",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q706": {
+    "@id": "q:Q706",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Activités péri-scolaires",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q710": {
+    "@id": "q:Q710",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Activités extra-scolaires",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q715": {
+    "@id": "q:Q715",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Enseignants",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q716": {
+    "@id": "q:Q716",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Transport / TCL",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "Personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "Ados",
+    "typology": ""
+  },
+  "q:Q717": {
+    "@id": "q:Q717",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Les non perso",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q718": {
+    "@id": "q:Q718",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "CGU : comprendre les infos qu'il y a dedans",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q719": {
+    "@id": "q:Q719",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "outils de médiation à lire les CGU",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q720": {
+    "@id": "q:Q720",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "état socio-économique du quartier, carte scolaire, taux de décrochage scolaire, réussite au brevet/au bac (et nombre de mentions), perception de l’ambiance, \n",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q721": {
+    "@id": "q:Q721",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": ": agenda, offre culturelle et sportive, horaires d’ouverture, géolocalisation,",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q722": {
+    "@id": "q:Q722",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Détenteurs : grand lyon connect (API), TOODEGO (API), GAFA, data.grandlyon.com",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q724": {
+    "@id": "q:Q724",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Evenements",
+    "label": "Actualités école",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q725": {
+    "@id": "q:Q725",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": ": agenda des débats et événements politiques, associations, ordre du jour des conseils municipaux/communautaires et compte-rendus, à proximité de chez moi, sujets qui m’intéressent selon mon profil ou sujets que je ne connais \nEvénement facebook, france connect, data.grandlyon.com, Journal officiel, civocracy, GAFAM, trésor public",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q726": {
+    "@id": "q:Q726",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Liste etablissements scolaires",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q727": {
+    "@id": "q:Q727",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Code barre, prix, date/heure/lieu d'achat, ",
+    "label": "Achats alimentaires",
+    "access": "",
+    "accessMediator": "carte fidélité, espace client",
+    "defi": "consommation à domicile",
+    "information": "Consommation alimentaire, habitudes de consommation",
+    "kind": "personnelle",
+    "portable": "oui",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q728": {
+    "@id": "q:Q728",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Historique des produits scannés, caractéristiques du produit (nom, poids, volume, type (épicerie, surgelé, fruit, légume,...), marque, prix, DLC,...), date de l'achat",
+    "label": "Historique des produits scannés",
+    "access": "",
+    "accessMediator": "Compte utilisateur",
+    "defi": "consommation à domicile",
+    "information": "Intérêts et habitudes alimentaire",
+    "kind": "seulement historique des produits scannés",
+    "portable": "",
+    "sourceDataController": "Yuka",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q729": {
+    "@id": "q:Q729",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Caractéristiques du produit (quantité, packaging (bouteille, plastique, green dot, ...), marque, catégorie (boisson, smoothie,..), magasin, pays de distribution), Ingrédients(liste d'ingérdients, NOVA group), Informations nutritionnelles (NutriScore, analyse nutritionnelle pour 100g, serving size, comparaison par rapport à des produits équivalents), ",
+    "label": "Caractéristiques des produits alimentaires",
+    "access": "",
+    "accessMediator": "Site ou app",
+    "defi": "consommation à domicile",
+    "information": "Référentiel culinaire",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Openfoodfacts",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q730": {
+    "@id": "q:Q730",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "composition du plat, prix du plat, nom du restaurant, adresse du restaurant, délais de livraison, coordonnées bancaires, adresse",
+    "label": "Consommation de restauration livrée",
+    "access": "",
+    "accessMediator": "Compte utilisateur",
+    "defi": "consommation à domicile",
+    "information": "Habitudes alimentaires",
+    "kind": "oui",
+    "portable": "",
+    "sourceDataController": "Deliveroo, Shopopop",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q731": {
+    "@id": "q:Q731",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "ingrédients, temps de cuisson, modes de cuisson, popularité des recettes",
+    "label": "Recettes de cuisine",
+    "access": "",
+    "accessMediator": "Site web",
+    "defi": "consommation à domicile",
+    "information": "Référentiel culinaire",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Marmiton",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q732": {
+    "@id": "q:Q732",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "kgCO2/ kg de poids vif ou kg de matière brute ou kg de produit fini",
+    "label": "empreinte carbone alimentaire",
+    "access": "",
+    "accessMediator": "AGRIBALYSE,  Base Carbone®",
+    "defi": "consommation à domicile",
+    "information": "Référentiel environnemental",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Ademe",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q733": {
+    "@id": "q:Q733",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "objets connectés",
+    "label": "Utilisation de l'électroménager",
+    "access": "",
+    "accessMediator": "App, compte utilisateur",
+    "defi": "consommation à domicile",
+    "information": "Usages culinaire",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Thermomix (Vorwek, présent à Nantes), Cookéo (Seb, Moulinex, etc).",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q734": {
+    "@id": "q:Q734",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "nombre de personnes, tranche d’âge, revenus, adresse",
+    "label": "Profil du foyer",
+    "access": "",
+    "accessMediator": "France Connect (impôts)",
+    "defi": "consommation à domicile",
+    "information": "Profil du foyer",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "DGFIP",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q735": {
+    "@id": "q:Q735",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nombre de restaurants dans l’année/le mois : lieux, prix, date",
+    "label": "Consommation au restaurant",
+    "access": "",
+    "accessMediator": "Espace personnel",
+    "defi": "consommation hors domicile",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Banques, EdenRed, Chèques Déjeuner, Chèques Vacances",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q736": {
+    "@id": "q:Q736",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date, montant",
+    "label": "Consommation au restaurant d'entreprise",
+    "access": "",
+    "accessMediator": "",
+    "defi": "Consommation hors domicile",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Comptabilité, Trésor Public, prestataire",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q737": {
+    "@id": "q:Q737",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Menu ",
+    "label": "Menus",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "Référentiel",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Cantines",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q738": {
+    "@id": "q:Q738",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "date, noms achats, …",
+    "label": "Commande en ligne de repas dans le train, avion :",
+    "access": "",
+    "accessMediator": "Apps, mails de confirmation",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "SNCF, compagnies aériennes",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q739": {
+    "@id": "q:Q739",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date Limite de Consommation ",
+    "label": "Date de péremption",
+    "access": "",
+    "accessMediator": "?",
+    "defi": "Mesurer les déchets et le gaspillage",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "?",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q740": {
+    "@id": "q:Q740",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom du produit, prix, poids",
+    "label": "Achat vrac",
+    "access": "",
+    "accessMediator": "carte fidélité, espace client",
+    "defi": "Mesurer les déchets et le gaspillage",
+    "information": "produits achetés sans emballage/ emballages évités",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q741": {
+    "@id": "q:Q741",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nombre de sacs réutilisables achetés, date d'achat, prix, lieu d'achat",
+    "label": "Achat de sacs réutilisables",
+    "access": "",
+    "accessMediator": "carte fidélité, espace client",
+    "defi": "Mesurer les déchets et le gaspillage",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q742": {
+    "@id": "q:Q742",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de structure (réemploi, conteneurs, déchèteries/écopoints, composteurs, conteneurs vêtements, vente vrac, trisac, collecteurs bouchons), nombre de structures par type, Nom, Adresse, horaires d'ouverture, statut, coordonnées tel, mail, site, réseaux sociaux",
+    "label": "Lieux pour le tri à Nantes",
+    "access": "",
+    "accessMediator": "OpenDataNantes",
+    "defi": "Mesurer les déchets et le gaspillage",
+    "information": "référentiel",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "mieuxtrieranantes.fr",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q743": {
+    "@id": "q:Q743",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "point de départ et point d'arrivé (itinéraire emprunté), km parcourus, moyen de transport, temps de transport, date, heure",
+    "label": "Distance parcourue pour les courses",
+    "access": "",
+    "accessMediator": "espace personnel, googe takeout, ",
+    "defi": "empreinte carbone des achats alimentaires",
+    "information": "émissions de CO2 engendrée par les courses alimentaires et meilleur itinéraire possible",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Opérateurs de transpoprt, constructeurs automobiles, Google, Waze",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q744": {
+    "@id": "q:Q744",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "produits acheté (graines, plants, terreau, engrais, pesticide,...)",
+    "label": "production potager",
+    "access": "",
+    "accessMediator": "carte de fidélité, espace client",
+    "defi": "empreinte carbone des achats alimentaires",
+    "information": "",
+    "kind": "",
+    "portable": "oui",
+    "sourceDataController": "Distributeurs de produits de jardin (Jardiland, GammVert, Truffaut, ...) et marketplace (monpotager.com), Lilo",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q745": {
+    "@id": "q:Q745",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "montant dépensé, jour et heure, type de carte (gratuite ou payante), crédit disponible",
+    "label": "droits liés à l'alimentaire",
+    "access": "",
+    "accessMediator": "?",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "non",
+    "sourceDataController": "CCAS",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q746": {
+    "@id": "q:Q746",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "végétarien, casher, sans porc, végétalien, sans gluten",
+    "label": "régime alimentaire",
+    "access": "",
+    "accessMediator": "?",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "non",
+    "sourceDataController": "école, médecins",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q747": {
+    "@id": "q:Q747",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "liste des allergies (individuelle, foyer)",
+    "label": "allergies alimentaires",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q748": {
+    "@id": "q:Q748",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "sport pratiqué, fréquence des entraînements, durée, ...",
+    "label": "pratiques sportives",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "objets connectés (trackers, Wtithings...), clubs de sport (club med gym, gym suédoise,...)",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q749": {
+    "@id": "q:Q749",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "consommation annuelle d'un IRIS",
+    "label": "Consommation énergétique moyenne ",
+    "access": "",
+    "accessMediator": "open data",
+    "defi": "",
+    "information": "open data",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Enedis, GRDF",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q751": {
+    "@id": "q:Q751",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
+    "label": "Consommation pour la chauffe du logement",
+    "access": "",
+    "accessMediator": "facture, relevé bancaire",
+    "defi": "",
+    "information": "consommation d'énergie selon mon comportement",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Banque",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q752": {
+    "@id": "q:Q752",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "puissance installée, production annuelle, consommation annuelle nationale",
+    "label": "Consommation d'énergie hors réseaux",
+    "access": "",
+    "accessMediator": "études",
+    "defi": "",
+    "information": "open data",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "cibe, eurostat",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q753": {
+    "@id": "q:Q753",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "CO2/kwh produit",
+    "label": "empreinte carbone des énergies en temps réel",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "RTE, Ademe",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q755": {
+    "@id": "q:Q755",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "surface, orientation, étage, classe énergétique",
+    "label": "caractéristiques des logements",
+    "access": "",
+    "accessMediator": "contrat de vente, contrat de location, SIG",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Notaire, service d'urbanisme, DFIP",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q756": {
+    "@id": "q:Q756",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "kwh consommé pour un cycle",
+    "label": "consommation des équipement",
+    "access": "",
+    "accessMediator": "déperdition de chaleur d’un bâtiment",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "TopTen, les Numérique, UFC Que Choisir, constructeurs électroménager (Samsung, ...), \nQivivo, ",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q757": {
+    "@id": "q:Q757",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "écogestes à réaliser, date, défis relevés, consommation d'eau évitée, CO2 évité, € économisés",
+    "label": "écogestes",
+    "access": "",
+    "accessMediator": "espace personnel",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "90jours, Défi Familles à Energie Positive, We Act For Good, ...",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q758": {
+    "@id": "q:Q758",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "crédits d'impôts, subventions, montant, selon profil (caractéristiques de votre logement (surface, année de construction...),des devis d'entreprises, Revenu Fiscal de Référence (RFR)), type de travaux envisagés",
+    "label": "aides disponibles selon profil",
+    "access": "",
+    "accessMediator": "simulaide",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "ADEME",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q759": {
+    "@id": "q:Q759",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "retour sur investissement d’une installation de production d’énergie propre",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q760": {
+    "@id": "q:Q760",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "déperdition de chaleur d’un bâtiment",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q761": {
+    "@id": "q:Q761",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel de production d'energies éolienne",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q762": {
+    "@id": "q:Q762",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de bâtiment, coe postal, nombre de chambre, montant de la facture annuelle, fournisseur d'électricité, installation de chauffage (type, nombre), facture, type et nombre d'équipement possédé (dont voiture électrique), simulation d'économies réalisées",
+    "label": "potentiel de production photovoltaïque",
+    "access": "",
+    "accessMediator": "simulateur",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Comwatt, In Sun We Trust, Open Solar Map",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q763": {
+    "@id": "q:Q763",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel de production géothermique",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q764": {
+    "@id": "q:Q764",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel de production biomasse",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "thematique": "",
+    "typology": ""
+  },
+  "q:Q765": {
+    "@id": "q:Q765",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel récupération de chaleur sur les eaux usées",
+    "access": "",
+    "accessMediator": "",
+    "defi": "",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Thermiup, Eko, Gaïa Green",
+    "thematique": "",
+    "typology": ""
   }
 }

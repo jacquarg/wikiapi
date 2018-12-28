@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q695",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques linguistiques en ligne: niveau",
+  "description": "Nombre de \"lingots\" accumulés, pourcentage de maîtrise, niveau",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "DuoLingo",
+  "accessMediator": "Espace personnel du site web/de l'application",
+  "defi": "",
+  "information": "Pratiques linguistiques",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

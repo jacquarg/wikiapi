@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q746",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "régime alimentaire",
+  "description": "végétarien, casher, sans porc, végétalien, sans gluten",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "école, médecins",
+  "accessMediator": "?",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": "non"
+}

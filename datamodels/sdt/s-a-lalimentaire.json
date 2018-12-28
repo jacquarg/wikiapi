@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q745",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "droits liés à l'alimentaire",
+  "description": "montant dépensé, jour et heure, type de carte (gratuite ou payante), crédit disponible",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "CCAS",
+  "accessMediator": "?",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": "non"
+}

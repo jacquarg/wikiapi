@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q673",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Droit à l’image",
+  "description": "",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège ",
+  "accessMediator": "Dossier inscription élève",
+  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "information": "Qui a le droit de venir chercher mon enfant",
+  "access": "",
+  "kind": "Personnelle",
+  "portable": ""
+}

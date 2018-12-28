@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q653",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "géolocalisation",
+  "description": "Ma position  géographique sur une période de temps (Latitude, Longitude, horodatage)",
+  "thematique": "",
+  "typology": "Déplacements",
+  "sourceDataController": "Google, Waze, ",
+  "accessMediator": "",
+  "defi": "Maîtriser son budget mobilité",
+  "information": "Ma position",
+  "access": "Google Take Out",
+  "kind": "Personnelles - transaction",
+  "portable": "portable"
+}

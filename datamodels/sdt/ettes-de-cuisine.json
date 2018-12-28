@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q731",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Recettes de cuisine",
+  "description": "ingrédients, temps de cuisson, modes de cuisson, popularité des recettes",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Marmiton",
+  "accessMediator": "Site web",
+  "defi": "consommation à domicile",
+  "information": "Référentiel culinaire",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

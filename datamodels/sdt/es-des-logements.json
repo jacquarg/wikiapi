@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q755",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "caractéristiques des logements",
+  "description": "surface, orientation, étage, classe énergétique",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Notaire, service d'urbanisme, DFIP",
+  "accessMediator": "contrat de vente, contrat de location, SIG",
+  "defi": "",
+  "information": "",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

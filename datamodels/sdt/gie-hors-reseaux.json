@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q752",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation d'énergie hors réseaux",
+  "description": "puissance installée, production annuelle, consommation annuelle nationale",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "cibe, eurostat",
+  "accessMediator": "études",
+  "defi": "",
+  "information": "open data",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}

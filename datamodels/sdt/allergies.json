@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q668",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Allergies",
+  "description": "Allergies alimentaires, au pollen, ... ",
+  "thematique": "Ados",
+  "typology": "santé",
+  "sourceDataController": "Laboratoire d'analyse",
+  "accessMediator": "https://www.mesanalyses.fr/",
+  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "information": "Santé de l'enfant",
+  "access": "PDF",
+  "kind": "Personnelle",
+  "portable": "Oui"
+}

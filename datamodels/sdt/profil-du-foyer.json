@@ -1,0 +1,19 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q734",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Profil du foyer",
+  "description": "nombre de personnes, tranche d’âge, revenus, adresse",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "DGFIP",
+  "accessMediator": "France Connect (impôts)",
+  "defi": "consommation à domicile",
+  "information": "Profil du foyer",
+  "access": "",
+  "kind": "",
+  "portable": ""
+}
