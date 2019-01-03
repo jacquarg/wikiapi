@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q678",
+  "@id": "q:Qe0477c09-e7cf-42df-9893-87d89e441771",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Agenda des cours",
-  "description": "Heures des cours, matière suivie, nom de l'enseignant",
+  "description": "Numéro de la classe, Heures des cours, matière suivie, nom de l'enseignant",
   "thematique": "Ados",
   "typology": "",
   "sourceDataController": "Collège - Métropole de Lyon",
-  "accessMediator": "ENT - LaClasse.com",
-  "defi": "",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

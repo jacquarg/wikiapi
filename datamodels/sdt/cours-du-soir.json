@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q675",
+  "@id": "q:Q63c7f60b-3774-49e1-ac0c-550c799f1769",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -9,11 +9,13 @@
   "description": "Inscrit à l'étude O/N",
   "thematique": "Ados",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

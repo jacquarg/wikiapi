@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q663",
+  "@id": "q:Q45be03ae-ed15-4300-8707-b1bb494bd0a0",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "Collège - Métropole de Lyon",
-  "accessMediator": "Dossier inscription élève",
-  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
   "information": "Qui a le droit de venir chercher mon enfant",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

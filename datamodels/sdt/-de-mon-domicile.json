@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2b930d7e-afc0-4385-8135-c5ed266470ac",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date de construction de mon domicile",
+  "description": "date",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire",
+  "support": "DPE (Diagnostic de Performance énergétique) ; Plan ; Bail ",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

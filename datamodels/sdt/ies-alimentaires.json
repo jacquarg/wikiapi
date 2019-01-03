@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q747",
+  "@id": "q:Qcb4e1d74-8816-4d90-87fd-932d419f40d7",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "allergies alimentaires",
-  "description": "liste des allergies (individuelle, foyer)",
-  "thematique": "",
+  "description": "profil allergique, crises, géolocalisation, traitements, RDV médicaux\n",
+  "thematique": "TEE",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "sourceDataController": "Apps (allergiks), carnet de santé",
+  "support": "espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

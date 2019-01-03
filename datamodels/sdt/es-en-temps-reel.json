@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q753",
+  "@id": "q:Q5f3bbfb7-e8bc-40dd-bc9e-7df9cb30e15e",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "empreinte carbone des énergies en temps réel",
   "description": "CO2/kwh produit",
-  "thematique": "",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "RTE, Ademe",
-  "accessMediator": "",
-  "defi": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

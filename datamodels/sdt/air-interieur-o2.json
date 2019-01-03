@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7d22dcf1-f56f-4e9e-a661-438d38955d62",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Qualité air interieur (O2)",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Capteur de mesure (ex : Foobot)",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

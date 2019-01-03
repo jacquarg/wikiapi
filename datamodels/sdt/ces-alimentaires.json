@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q78a6635f-6ea3-42ba-8386-703739174049",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "préférences alimentaires",
+  "description": "aliments recherchés, restaurants recherchés",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "moteurs de recherche (google, qwant,...)",
+  "support": "Google Takeout",
+  "defi": [
+    "préférences"
+  ],
+  "kind": "personnelle",
+  "information": "profil alimentaire",
+  "access": "",
+  "portable": ""
+}

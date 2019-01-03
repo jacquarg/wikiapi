@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q739",
+  "@id": "q:Q3c49f6e0-b483-4822-bc40-cce971451678",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Date de péremption",
   "description": "Date Limite de Consommation ",
-  "thematique": "",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "?",
-  "accessMediator": "?",
-  "defi": "Mesurer les déchets et le gaspillage",
+  "support": "?",
+  "defi": [
+    "Mesurer les déchets et le gaspillage"
+  ],
+  "kind": "",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

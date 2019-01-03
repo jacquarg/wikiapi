@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q92af471b-8ea2-4bec-941f-438124e82c1d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Profil du foyer : adresse",
+  "description": "adresse",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "DGFIP, Deliveroo, Amazon, Waze, Uber, fournisseur d'énergie...",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

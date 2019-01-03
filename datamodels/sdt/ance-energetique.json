@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q1b298a4f-7db1-4cda-873c-cb5d75b0152d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Diagnotic de performance énergétique",
+  "description": "Etiquette énergie, étiquette climat",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire",
+  "support": "Diagnostic de performance énergétique (DPE)",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

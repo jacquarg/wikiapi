@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q668",
+  "@id": "q:Qb491ee46-f57f-4906-9ff0-a7256c21c5c1",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "santé",
   "sourceDataController": "Laboratoire d'analyse",
-  "accessMediator": "https://www.mesanalyses.fr/",
-  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "support": "https://www.mesanalyses.fr/",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
   "information": "Santé de l'enfant",
   "access": "PDF",
-  "kind": "Personnelle",
   "portable": "Oui"
 }

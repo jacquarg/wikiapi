@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q667",
+  "@id": "q:Q63386d74-8be1-4122-bb12-cc16d5b7faed",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -9,11 +9,13 @@
   "description": "nom, prénom, date de naissance, lieu de naissance, adresse, date de validité, ...",
   "thematique": "Ados",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "sourceDataController": "Etat",
+  "support": "/",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

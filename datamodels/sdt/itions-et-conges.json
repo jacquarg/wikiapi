@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0c670baa-4785-49f5-b93b-46d558d1b876",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Enseignants : positions et congés",
+  "description": "Maladie ; Garde d’enfant malade , Sortie pédagogique , Formation...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Académie de Lyon",
+  "support": "Iprof",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

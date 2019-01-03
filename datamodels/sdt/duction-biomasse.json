@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q764",
+  "@id": "q:Qb9b8a6d6-760a-457a-8880-8da5f3cca03e",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "potentiel de production biomasse",
   "description": "",
-  "thematique": "",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

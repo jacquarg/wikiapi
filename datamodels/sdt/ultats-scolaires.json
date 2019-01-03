@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q683",
+  "@id": "q:Q2772d4fb-bd26-43e3-a36a-598150cacf37",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "Collège - Métropole de Lyon",
-  "accessMediator": "ENT - LaClasse.com",
-  "defi": "",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

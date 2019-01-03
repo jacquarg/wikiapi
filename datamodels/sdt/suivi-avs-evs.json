@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qd6661483-280b-4355-bbbe-679a5082732a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Suivi AVS / EVS",
+  "description": "",
+  "thematique": "Ados",
+  "typology": "santé",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève - fiche sanitaire de liaison",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "Santé de l'enfant",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q056a21b3-228c-479e-8f20-c44f1369e02a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date d'achat de mes équipements",
+  "description": "Date d'achat",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Facture ; Garantie",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

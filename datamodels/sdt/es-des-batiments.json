@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q6126c5b5-911a-404e-891a-2d0e4594dfa9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Données thermographiques des bâtiments",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "collectivités locales",
+  "support": "Photos aériennes thermiques",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

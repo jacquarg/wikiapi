@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfc004c2e-1c5e-4a72-a156-242a4c0c36f9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Enseignants : formations et diplômes",
+  "description": "Formations suivie en interne ; Formations externes ; Diplôme ; Certifications ; Bénévolats ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Académie de Lyon",
+  "support": "Iprof",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

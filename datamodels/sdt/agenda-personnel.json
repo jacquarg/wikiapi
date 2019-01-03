@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0f9c93bc-12ca-49ea-ae6e-3f7453fdb395",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Agenda personnel",
+  "description": "type de rendez-vous, adresse, horaires",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Agenda en ligne",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

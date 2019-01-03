@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q38620c53-ebaf-4fb2-87eb-49c621ab5923",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Répertoire pour le tri",
+  "description": "type de structure (réemploi, conteneurs, déchèteries/écopoints, composteurs, conteneurs vêtements, vente vrac, trisac, collecteurs bouchons), nombre de structures par type, Nom, Adresse, horaires d'ouverture, statut, coordonnées tel, mail, site, réseaux sociaux",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "mieuxtrieranantes.fr",
+  "support": "OpenDataNantes",
+  "defi": [
+    "Mesurer les déchets et le gaspillage"
+  ],
+  "kind": "open data",
+  "information": "référentiel",
+  "access": "",
+  "portable": ""
+}

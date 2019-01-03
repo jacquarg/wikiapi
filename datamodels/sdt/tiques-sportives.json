@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q748",
+  "@id": "q:Q70b1a158-2419-4a25-954b-107664cc38e1",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "pratiques sportives",
   "description": "sport pratiqué, fréquence des entraînements, durée, ...",
-  "thematique": "",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "objets connectés (trackers, Wtithings...), clubs de sport (club med gym, gym suédoise,...)",
-  "accessMediator": "",
-  "defi": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

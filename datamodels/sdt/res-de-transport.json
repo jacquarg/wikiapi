@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q657",
+  "@id": "q:Qf8c09fee-5c70-4371-b919-1f9b798b731f",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "coût des titres de transport",
   "description": "Coût d’un ticket, grille tarifaire des titres de transports",
-  "thematique": "",
+  "thematique": "Mobilité",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "coût d'un trajet (en transports en communs)",
-  "defi": "Déplacements",
-  "information": "Délégataire de transport ?",
-  "access": "",
+  "sourceDataController": "Délégataire de transport ?",
+  "support": "coût d'un trajet (en transports en communs)",
+  "defi": [
+    "Maîtriser son budget mobilité"
+  ],
   "kind": "Référentiel",
+  "information": "",
+  "access": "",
   "portable": ""
 }

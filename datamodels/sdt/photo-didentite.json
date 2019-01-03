@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q672",
+  "@id": "q:Qec032a54-a6b9-476f-ac52-fcb73d323b9f",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Photo d'identité ",
-  "description": "",
+  "description": "Fichier transmis ou scanné",
   "thematique": "Ados",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève - fiche sanitaire de liaison",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

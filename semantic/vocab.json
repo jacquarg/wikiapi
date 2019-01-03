@@ -201,12 +201,12 @@
           "description": "Thématique traité dans le cadre du projet Self Data Territorial (Fing 2018)."
         },
         {
-          "@id": "accessMediator",
+          "@id": "support",
           "label": {
-            "@value": "intermediaire d'accès",
+            "@value": "Support",
             "@language": "fr"
           },
-          "description": "Intermédiaire d'accès à la donnée. Ex: un aggrégateur de prix."
+          "description": "Support, immatériel (ou matériel) où est là donnée."
         },
         {
           "@id": "defi",

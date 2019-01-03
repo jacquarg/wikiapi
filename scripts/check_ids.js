@@ -18,7 +18,6 @@ const processAFile = (filePath) => {
 }
 
 const processFiles = (files) => {
-
   return Promise.all(files.map(processAFile))
   .then((idsLists) => {
     const ids = idsLists.reduce((res, list) => res.concat(list), []).sort((a, b) => a.id > b.id ? -1 : 1)

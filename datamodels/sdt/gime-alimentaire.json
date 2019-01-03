@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q746",
+  "@id": "q:Q57f16af4-ef6a-4833-959f-7fcbbde78b8e",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "régime alimentaire",
   "description": "végétarien, casher, sans porc, végétalien, sans gluten",
-  "thematique": "",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "école, médecins",
-  "accessMediator": "?",
-  "defi": "",
+  "support": "?",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": "non"
 }

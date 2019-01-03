@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q673",
+  "@id": "q:Q4e94eda7-7154-4b3d-bc0e-bb647be85722",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Droit à l’image",
-  "description": "",
+  "description": "Projet pédagogique concerné, modes d’exploitation envisagés, Consentement de \nl’élève, Autorisation parentale, ...",
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "Collège ",
-  "accessMediator": "Dossier inscription élève",
-  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
-  "information": "Qui a le droit de venir chercher mon enfant",
-  "access": "",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
   "kind": "Personnelle",
+  "information": "",
+  "access": "",
   "portable": ""
 }

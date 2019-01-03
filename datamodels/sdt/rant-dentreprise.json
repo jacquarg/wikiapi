@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q736",
+  "@id": "q:Q7dc550f8-a68f-4098-a849-e03468ca2c94",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Consommation au restaurant d'entreprise",
-  "description": "Date, montant",
-  "thematique": "",
+  "description": "Heure, date, montant",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Comptabilité, Trésor Public, prestataire",
-  "accessMediator": "",
-  "defi": "Consommation hors domicile",
+  "support": "",
+  "defi": [
+    "Consommation hors domicile"
+  ],
+  "kind": "personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

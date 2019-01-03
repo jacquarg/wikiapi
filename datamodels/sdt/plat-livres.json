@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q205506bf-4642-4b3a-a626-1d40c9244ca0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Plat livrés",
+  "description": "nom du plat, prix du plat, nom du restaurant, adresse du restaurant, type de restaurant (asiatique, végétalien, sans gluten,...)\n",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
+  "support": "Compte utilisateur",
+  "defi": [
+    "consommation à domicile"
+  ],
+  "kind": "personnelle",
+  "information": "Habitudes alimentaires",
+  "access": "Scrapping ou API",
+  "portable": ""
+}

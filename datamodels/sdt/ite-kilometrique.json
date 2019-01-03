@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q660",
+  "@id": "q:Qf8199bfb-4182-42f6-b01a-1469086fa897",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Indemnité kilométrique",
   "description": "Montant des indemnité kilométriques remboursées sur ma fiche de paie",
-  "thematique": "",
+  "thematique": "Mobilité",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "indemnité kilométrique",
-  "defi": "",
-  "information": "Moi / Mon employeur",
-  "access": "Analyser PDF",
+  "sourceDataController": "Moi / Mon employeur",
+  "support": "indemnité kilométrique",
+  "defi": [
+    "Maîtriser son budget mobilité"
+  ],
   "kind": "Personnelles – transaction",
+  "information": "",
+  "access": "Analyser PDF",
   "portable": "?"
 }

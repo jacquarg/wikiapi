@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q684",
+  "@id": "q:Qfffaf7db-f540-4df9-b336-d0aa7d3d5a64",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -9,11 +9,13 @@
   "description": "Nom de la LV1, Nom de la LV2",
   "thematique": "Ados",
   "typology": "",
-  "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

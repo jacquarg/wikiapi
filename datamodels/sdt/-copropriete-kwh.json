@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa879d89f-f031-4f77-9d49-cc39b9dd8be1",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation énergie de ma copropriété (kWh)",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Procés-verbal d'assemblée générale de copropriété",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

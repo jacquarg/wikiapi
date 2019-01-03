@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q737",
+  "@id": "q:Q1c982de1-2e61-4736-86da-7bab7f192f45",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Menus",
-  "description": "Menu ",
-  "thematique": "",
+  "description": "composition du menu, entrée, plat, dessert",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Cantines",
-  "accessMediator": "",
-  "defi": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "",
   "information": "Référentiel",
   "access": "",
-  "kind": "",
   "portable": ""
 }

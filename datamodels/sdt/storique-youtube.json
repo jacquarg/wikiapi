@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q699",
+  "@id": "q:Q7d711f2b-d704-4edb-a2f2-4e8984e39c91",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,13 @@
   "thematique": "Ados",
   "typology": "loisirs",
   "sourceDataController": "Youtube",
-  "accessMediator": "Téléchargement\n",
-  "defi": "Evaluer autrement",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
   "information": "Vidéos et tutoriels regardés",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

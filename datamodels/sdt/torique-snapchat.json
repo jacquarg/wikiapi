@@ -1,19 +1,22 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q698",
+  "@id": "q:Q07fa385e-01bc-4327-82e2-0e5b2ef8748c",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Historique Snapchat",
-  "description": "Historique de connexion et informations de compte, Historique de Snaps, Historique de Chats, Story et contenu alimenté par les utilisateurs, Historique d'achats, Historique d'Assistance Snapchat, Profil d'utilisateur, Amis, Classement, Historique de compte, Historique des localisations, Historique des recherches, Historique des conditions générales, Abonnements, Bitmoji, Sondages in-app, Contenu signalé, Kit Bitmoji\n",
+  "description": "Snaps, Chats, Story, Achats, Amis, Classement, Localisations, Recherches, Abonnements, Bitmoji, Sondages in-app, Contenu signalé...\n",
   "thematique": "Ados",
   "typology": "",
   "sourceDataController": "Snapchat",
-  "accessMediator": "Téléchargement\n",
-  "defi": "Evaluer autrement",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

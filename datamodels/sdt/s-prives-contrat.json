@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q688",
+  "@id": "q:Q788c53f0-2a13-4d69-afaf-2eb8d7cb51e7",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
-  "accessMediator": "Espace personnel du site web/de l'application",
-  "defi": "",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": "Oui"
 }

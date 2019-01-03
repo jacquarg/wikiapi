@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q655",
+  "@id": "q:Q1d5e0194-f165-417d-b860-61c7cf89d9a6",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "référentiel PRK",
   "description": "Prix de revient kilométrique moyen",
-  "thematique": "",
+  "thematique": "Mobilité",
   "typology": "",
   "sourceDataController": "Argus",
-  "accessMediator": "",
-  "defi": "",
+  "support": "",
+  "defi": [
+    "Maîtriser son budget mobilité"
+  ],
+  "kind": "Référentiel",
   "information": "prix de revient kilométrique",
   "access": "",
-  "kind": "Référentiel",
   "portable": ""
 }

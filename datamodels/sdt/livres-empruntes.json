@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q691",
+  "@id": "q:Qde4d6bb7-4a4c-44da-8535-cba2f73da54b",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "loisirs",
   "sourceDataController": "Médiathèque, Collège - Métropole de Lyon",
-  "accessMediator": "Pass traboule - SI du CDI",
-  "defi": "",
+  "support": "Pass traboule",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "goût de lecture",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

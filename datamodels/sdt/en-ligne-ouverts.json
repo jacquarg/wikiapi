@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q696",
+  "@id": "q:Q4a051cd3-fb70-471a-ab94-b48bf6668995",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "",
   "sourceDataController": "Individu",
-  "accessMediator": "Trousseau du navigateur",
-  "defi": "",
+  "support": "Trousseau du navigateur",
+  "defi": [
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

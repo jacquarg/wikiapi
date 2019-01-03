@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q09f644a5-4420-4d6c-91d5-bac5f74873e9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Lieux de compost",
+  "description": "localisation",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "ADEME",
+  "support": "Site web de Sinoé déchets, site d'associations locales (Les compostiers) ",
+  "defi": [
+    "Open Data"
+  ],
+  "kind": "open data",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

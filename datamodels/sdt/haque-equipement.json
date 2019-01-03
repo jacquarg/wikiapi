@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2d47d80e-e6e9-467b-bca4-88749ca90019",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation réelle de chaque équipement",
+  "description": "KWh",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Etiquette environnementale ; Capteur sur le compteur ; Capteurs sur l'équipement",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

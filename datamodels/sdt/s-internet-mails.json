@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q75a4d765-785f-4450-ada6-82257118f3c0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes pratiques internet : mails",
+  "description": "nombre de mail envoyés/reçus par h/ jour",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Messageries (Gmail, Roundcube,...)",
+  "support": "Google takeout",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

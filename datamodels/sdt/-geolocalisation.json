@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q721",
+  "@id": "q:Q921aa895-2046-4d58-855d-f87e0b517017",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
-  "label": ": agenda, offre culturelle et sportive, horaires d’ouverture, géolocalisation,",
-  "description": "",
-  "thematique": "",
+  "label": "Historique de géolocalisation",
+  "description": "coordonnées GPS",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
-  "accessMediator": "",
-  "defi": "",
+  "support": "Compte en ligne de mon opérateur ; Google TakeOut  ; Application de mon smartphone",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

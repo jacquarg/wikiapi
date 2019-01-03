@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q07829d9b-3d3c-481f-aed1-4c2d2094c172",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "qualité de l'air",
+  "description": "Taux de particule fines (PM), et poluants",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "agence de l'air (?)",
+  "support": "",
+  "defi": [
+    "Maîtriser son budget mobilité"
+  ],
+  "kind": "Statistiques",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

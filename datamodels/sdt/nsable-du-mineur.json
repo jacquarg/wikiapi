@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q664",
+  "@id": "q:Q4b2a7566-4fa5-408d-bbac-617f90207fb9",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "Collège ",
-  "accessMediator": "Dossier inscription élève - Fiche sanitaire de liaison",
-  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
+  "support": "Dossier inscription élève - Fiche sanitaire de liaison",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
   "information": "Qui a le droit de venir chercher mon enfant",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

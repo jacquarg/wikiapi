@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q757",
+  "@id": "q:Q184c9b35-b770-4a21-9f3a-c7f6b64816ce",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "écogestes",
   "description": "écogestes à réaliser, date, défis relevés, consommation d'eau évitée, CO2 évité, € économisés",
-  "thematique": "",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "90jours, Défi Familles à Energie Positive, We Act For Good, ...",
-  "accessMediator": "espace personnel",
-  "defi": "",
+  "support": "espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
   "information": "",
   "access": "",
-  "kind": "",
   "portable": ""
 }

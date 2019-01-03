@@ -1,19 +1,22 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q700",
+  "@id": "q:Q4b447bcb-de81-4f42-afac-a2e9b3021d50",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Historique Netflix",
-  "description": "",
+  "description": "Type de l'abonnement (individuel, famille) ; URL, Horodotage titre vu ; URL, Horodotage titre évalué",
   "thematique": "Ados",
   "typology": "",
   "sourceDataController": "Netflix",
-  "accessMediator": "Espace personnel du site web/de l'application",
-  "defi": "Evaluer autrement",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

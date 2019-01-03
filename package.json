@@ -22,6 +22,7 @@
     "prototype-ld": "git+https://github.com/jacquarg/prototype-ld.git",
     "slug": "^0.9.3",
     "swagger-parser": "^4.0.0",
+    "uuid": "^3.3.2",
     "walktree": "git+https://github.com/jacquarg/walktree.git"
   }
 }

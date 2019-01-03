@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q511e6d77-a3e0-4d9e-a71e-1af097f15cc3",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Justificatif de domicile",
+  "description": "Nom, prénom, adresse, date, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Fournisseurs divers, Etat, ...",
+  "support": "Facture, Avis d'imposition ou de non-imposition, quittance de loyer/acte de propriété",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

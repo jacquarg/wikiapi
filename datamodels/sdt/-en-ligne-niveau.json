@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q695",
+  "@id": "q:Q59168a82-8052-49e4-801a-e4b334931117",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "DuoLingo",
-  "accessMediator": "Espace personnel du site web/de l'application",
-  "defi": "",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
   "information": "Pratiques linguistiques",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

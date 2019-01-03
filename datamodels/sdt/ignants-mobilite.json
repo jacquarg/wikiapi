@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q06a5e7e7-c861-4337-b63d-6664030c90ab",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Enseignants : mobilité",
+  "description": "Voeux saisis ; Pièces justificatives bonification ; Résultats ",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Académie de Lyon",
+  "support": "Iprof / Siam",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

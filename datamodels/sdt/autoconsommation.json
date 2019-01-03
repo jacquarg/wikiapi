@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q64e9ba3d-1e8b-4434-a212-9f5942c7331b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "production photovoltaïque (autoconsommation)",
+  "description": "courbe de charge production",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "individu",
+  "support": "\nContrat achat énergie photovoltaique EDF ; Approximation avec dynamo",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

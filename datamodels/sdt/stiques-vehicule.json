@@ -1,19 +1,21 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q654",
+  "@id": "q:Qf79ab2b4-d84c-4311-85fb-0b88648d78ec",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "caractéristiques véhicule",
   "description": "modèle, marque, puissance, age, immatriculation, ...",
-  "thematique": "",
+  "thematique": "Mobilité",
   "typology": "Déplacements",
   "sourceDataController": "assureur",
-  "accessMediator": "",
-  "defi": "",
+  "support": "",
+  "defi": [
+    "Maîtriser son budget mobilité"
+  ],
+  "kind": "Personnelles - caractéristiques",
   "information": "prix de revient kilométrique",
   "access": "art 20?",
-  "kind": "Personnelles - caractéristiques",
   "portable": "portables"
 }

@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q674",
+  "@id": "q:Qc0361dca-3aa6-4472-b3fc-7ffbeeddc604",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -9,11 +9,13 @@
   "description": "Internat ; demi-pension ; externat ",
   "thematique": "Ados",
   "typology": "travail/ecole,",
-  "sourceDataController": "Collège - Métropole de Lyon",
-  "accessMediator": "Dossier inscription élève",
-  "defi": "Améliorer le partage d’information entre parents, enfants, professionnels ",
-  "information": "Qui a le droit de venir chercher mon enfant",
-  "access": "",
+  "sourceDataController": "Collège",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
   "kind": "Personnelle",
+  "information": "",
+  "access": "",
   "portable": ""
 }

@@ -1,6 +1,6 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q686",
+  "@id": "q:Qf7d59699-8585-49e3-a467-30e07f46f0a3",
   "@type": [
     "object",
     "wq:Q1397073"
@@ -10,10 +10,12 @@
   "thematique": "Ados",
   "typology": "travail/ecole,",
   "sourceDataController": "Collège - Métropole de Lyon",
-  "accessMediator": "ENT - LaClasse.com",
-  "defi": "",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
   "information": "",
   "access": "",
-  "kind": "Personnelle",
   "portable": ""
 }

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfa8801a6-b449-45a6-9a92-9adcfacc0a26",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique d'achat de mes biens de consommation hors alimentation (petit équipement, biens divers, ...)",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Ticket de caisse ; Données de ma carte de fidélité ; Espace client en ligne de ma banque",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

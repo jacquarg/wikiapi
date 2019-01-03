@@ -1,19 +1,24 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q729",
+  "@id": "q:Qf0d099bf-6cf4-4f15-a4ba-ef78ff4ab9a6",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
-  "label": "Caractéristiques des produits alimentaires",
-  "description": "Caractéristiques du produit (quantité, packaging (bouteille, plastique, green dot, ...), marque, catégorie (boisson, smoothie,..), magasin, pays de distribution), Ingrédients(liste d'ingérdients, NOVA group), Informations nutritionnelles (NutriScore, analyse nutritionnelle pour 100g, serving size, comparaison par rapport à des produits équivalents), ",
-  "thematique": "",
+  "label": "Composition des produits alimentaires",
+  "description": "Ingrédients (liste d'ingérdients, NOVA group), \n",
+  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Openfoodfacts",
-  "accessMediator": "Site ou app",
-  "defi": "consommation à domicile",
-  "information": "Référentiel culinaire",
-  "access": "",
+  "support": "Site ou app",
+  "defi": [
+    "Réduire la production de déchets alimentaires",
+    "Consommer local et de saison",
+    "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
+    "Trier et recycler"
+  ],
   "kind": "open data",
+  "information": "Référentiel culinaire",
+  "access": "API",
   "portable": ""
 }

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qabdeba70-eecb-4bbf-8b02-77aa369c02bc",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes pratiques internet : navigation\n",
+  "description": "pages ouvertes",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Navigateur",
+  "support": "Historique de navigation",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}
