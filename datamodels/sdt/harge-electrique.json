@@ -1,20 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q528dd434-12cb-477a-92f5-7f225f68c4ff",
+  "@id": "q:Q3ee9581f-4c7b-4b80-94c3-9194ebb5e0b0",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
-  "label": "véhicule des agents",
-  "description": "Quel véhicule",
-  "thematique": "Mobilité",
+  "label": "présence et disponibilité d’une borne de recharge électrique",
+  "description": "",
   "typology": "",
   "sourceDataController": "",
   "support": "",
   "defi": [
     ""
   ],
-  "kind": "",
+  "kind": "personnelle",
   "information": "",
   "access": "",
   "portable": ""

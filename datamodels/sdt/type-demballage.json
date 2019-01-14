@@ -1,19 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qeb427220-509b-4c0b-95ec-cd2a8967f42a",
+  "@id": "q:Qee184c87-4f30-4739-a29f-fe8ec136245a",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Type d'emballage",
   "description": "Bouteille, plastique, green dot, ...",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Openfoodfacts",
   "support": "Site ou app",
   "defi": [
-    "Réduire la production de déchets alimentaires",
-    "Trier et recycler"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "open data",
   "information": "Référentiel culinaire",

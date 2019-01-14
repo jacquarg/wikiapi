@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q205506bf-4642-4b3a-a626-1d40c9244ca0",
+  "@id": "q:Q673740dc-0c43-4c05-bad9-04d80eb12fc1",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Plat livrés",
   "description": "nom du plat, prix du plat, nom du restaurant, adresse du restaurant, type de restaurant (asiatique, végétalien, sans gluten,...)\n",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
   "support": "Compte utilisateur",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "Habitudes alimentaires",

@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q91f19da1-8809-4225-b3ca-fa321248ac2e",
+  "@id": "q:Q72ce9af4-ab57-4c5a-b573-ae4952a44592",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Estimation de la quantité d'énergie consommée (sur la base de standards) du bâtiment ou du logement",
   "description": "kWh",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Notaire",
   "support": "DPE (Diagnostic de Performance énergétique)",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

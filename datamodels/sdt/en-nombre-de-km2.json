@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q3da6ec98-dad6-4042-b656-e2d452422cee",
+  "@id": "q:Q6bb196c1-f7cd-404b-ad20-94fab31bfc48",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Caractéristique de mon quartier : commerces de proximité ; revenu moyen ; nombre de km2 ; ...",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "Sites divers (ici : Kelquartier)",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q50f3a9fa-58b0-482c-bb24-3cad5bd76e58",
+  "@id": "q:Qe20fbdd4-b75c-4b55-a8b9-38a17271c5d5",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Empreinte carbone alimentaire",
   "description": "kgCO2/ kg de poids vif ou kg de matière brute ou kg de produit fini",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Ademe",
   "support": "AGRIBALYSE,  Base Carbone®",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "open data",
   "information": "Référentiel environnemental",

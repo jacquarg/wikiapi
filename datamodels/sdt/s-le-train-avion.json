@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qc07c2237-0723-448f-a983-1d9c7ee8d59f",
+  "@id": "q:Q5260da6f-ed50-42fd-8aa0-cf9e7cf7298a",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Commande en ligne de repas dans le train, avion :",
   "description": "date, noms achats, …",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "SNCF, compagnies aériennes",
   "support": "Apps, mails de confirmation",
   "defi": [
-    "Consommation hors domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "",

@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qd95a09f9-d7dd-408b-b170-6907280d73cb",
+  "@id": "q:Q1dfdea67-0e5c-4303-a445-efb688ab7069",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Goûts et habitudes alimentaires",
   "description": "photo, commentaire, hashtag, date de publication",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Instagram, facebook",
   "support": "Photographies smartphone ; Déclaratif",
   "defi": [
-    "Calculer et/ou réduire l'empreinte carbone de mon alimentation"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "Intérêts et habitudes alimentaire",

@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q1c982de1-2e61-4736-86da-7bab7f192f45",
+  "@id": "q:Q8032b9f0-f10f-4889-967c-e5bd01fcf71c",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Menus",
   "description": "composition du menu, entrée, plat, dessert",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Cantines",
   "support": "",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "",
   "information": "Référentiel",

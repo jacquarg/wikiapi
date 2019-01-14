@@ -1,20 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qba47d17a-3ffb-4a7a-bca6-73fedda31840",
+  "@id": "q:Qc1fc7e99-bfe9-4bc4-a433-9e96db6622e2",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Historique des produits scannés Yuka",
   "description": "Historique des produits scannés, caractéristiques du produit (nom, poids, volume, type (épicerie, surgelé, fruit, légume,...), marque, prix)",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Yuka",
   "support": "Compte utilisateur",
   "defi": [
-    "Réduire la production de déchets alimentaires",
-    "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-    "Trier et recycler"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "Intérêts et habitudes alimentaire",

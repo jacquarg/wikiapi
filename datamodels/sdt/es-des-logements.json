@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qcc927817-11bb-4a86-8bf1-41fd3fbad7b8",
+  "@id": "q:Q7a35bc9d-ce6b-4424-bd20-7faf2087fa36",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "caractéristiques des logements",
   "description": "surface, orientation, nombre d'étages",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Notaire, service d'urbanisme, DFIP",
   "support": "contrat de vente, contrat de location, SIG",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

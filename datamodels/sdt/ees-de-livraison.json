@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qacf80528-7e15-4417-8a6c-c2fe4c86939e",
+  "@id": "q:Q439bc816-7134-4909-8ce2-69fd4acbb072",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "coordonnées de livraison",
   "description": "adresse de livraison, numéro de contact",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
   "support": "Compte utilisateur",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "Habitudes alimentaires",

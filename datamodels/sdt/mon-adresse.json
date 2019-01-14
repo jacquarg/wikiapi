@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qdfdf5122-4653-4933-9e75-94277aa22759",
+  "@id": "q:Q0bf2fdec-8076-4bd4-b1b3-501cae8f4d90",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Mon adresse",
   "description": "N° voie, nom de la voie, code postal, ville, pays",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "France Connect",
   "support": "Carte d'identité ; Passeport ; Profil sécurité sociale, assurances, mutuelles, banques, CAF, MonSP, impôts, employeurs, etc...",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

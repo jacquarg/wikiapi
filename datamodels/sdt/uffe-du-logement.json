@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q3dfa3fb3-7e31-4264-825f-8a9dde48d282",
+  "@id": "q:Qdac44888-cba3-40b8-bade-69044fa50921",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Consommation pour la chauffe du logement",
   "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Banque",
   "support": "facture, relevé bancaire",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "consommation d'énergie selon mon comportement",

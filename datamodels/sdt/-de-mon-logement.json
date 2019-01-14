@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qb74ab3f7-6236-44e0-8cb1-5c98dd8ae22a",
+  "@id": "q:Q88c2ad52-4dd7-4f83-a3f0-3761f4930e75",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Equipement de refroidissement et de ventilation de mon logement",
   "description": "type et nombre",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Notaire",
   "support": "DPE (Diagnostic de Performance énergétique) ; Plan",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

@@ -1,19 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qe4972dfd-445a-4d47-a434-589c0c8cf302",
+  "@id": "q:Q93fca40c-7a4a-435e-aa44-3c59de054ea0",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Provenance des fruits et légumes achetés",
   "description": "pays d'origine",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
   "support": "Etiquettes dans les rayons ou marché",
   "defi": [
-    "Consommer local et de saison",
-    "Calculer et/ou réduire l'empreinte carbone de mon alimentation"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "donnée privée",
   "information": "km parcouru par les produits ",

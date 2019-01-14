@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q71392ee1-d808-4967-b0b3-1a37049edd6d",
+  "@id": "q:Qfde86b7c-9dc4-4254-b6d2-46269b9ceffe",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "rendement photovoltaïque",
   "description": "type de silicium, puissance (kWc), situation géographique, inclinaison et orientation du panneau solaire ",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "installateurs de panneaux solaires, autoconsommation.io",
   "support": "",
   "defi": [
-    ""
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

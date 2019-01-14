@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q6864596e-d852-4a36-b6c3-125c1c5d95c1",
+  "@id": "q:Q97fb2857-e13e-4b11-9635-f73293f0a2b2",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Poids de mes déchets",
   "description": "kg, date",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Poubelle connectée ; Balance",
   "support": "Site ou app",
   "defi": [
-    "Réduire la production de déchets alimentaires"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "",

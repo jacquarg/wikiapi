@@ -1,17 +1,16 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q0276fb6d-e8a4-4d17-966f-7e36fe735cbe",
+  "@id": "q:Q2ce9a7d1-63ea-47b1-acd8-42bd91592643",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
-  "label": "Nombre de tantième de chauffage de mon appartement",
+  "label": "Météo : luminosité, vent, température exterieure",
   "description": "",
   "typology": "",
-  "sourceDataController": "",
-  "support": "Règlement de copropriété",
+  "sourceDataController": "Météo en ligne ; Station météo connectée",
+  "support": "Scraping ; API",
   "defi": [
-    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
     "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",

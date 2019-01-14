@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q511c3d13-70ac-4834-87b8-db9c77be5c1c",
+  "@id": "q:Qf80c5deb-80cd-412b-8345-1fa662d0e372",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Consommation énergétique moyenne ",
   "description": "consommation annuelle d'un IRIS",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Enedis, GRDF",
   "support": "open data",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "open data",
   "information": "open data",

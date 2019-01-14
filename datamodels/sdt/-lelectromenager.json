@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qc7821cbf-6195-456b-a6ef-576e4129ef71",
+  "@id": "q:Q871bbcc7-b557-4453-8d20-4771de95eeb5",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Utilisation de l'électroménager",
   "description": "temps d'utilisation, température",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Thermomix, Vorwek, présent à Nantes), Cookéo, Seb, Moulinex, etc).",
   "support": "App, compte utilisateur",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0"
   ],
   "kind": "personnelle",
   "information": "Usages culinaire",

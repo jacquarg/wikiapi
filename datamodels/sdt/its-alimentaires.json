@@ -1,21 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qf0d099bf-6cf4-4f15-a4ba-ef78ff4ab9a6",
+  "@id": "q:Q2b0173de-9a8d-42a3-804c-b13416baf6b2",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Composition des produits alimentaires",
   "description": "Ingrédients (liste d'ingérdients, NOVA group), \n",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Openfoodfacts",
   "support": "Site ou app",
   "defi": [
-    "Réduire la production de déchets alimentaires",
-    "Consommer local et de saison",
-    "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-    "Trier et recycler"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "open data",
   "information": "Référentiel culinaire",

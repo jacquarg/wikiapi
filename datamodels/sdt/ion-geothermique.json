@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q4e386a08-6a81-484a-a2e5-eaaba33edad1",
+  "@id": "q:Q3873bd16-8cc7-4994-8438-7c30ff7a6675",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "potentiel de production géothermique",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "",
   "defi": [
-    ""
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

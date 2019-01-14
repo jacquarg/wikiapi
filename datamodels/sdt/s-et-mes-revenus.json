@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qedd29ef6-4cbc-47b0-915b-a688bc0a8af3",
+  "@id": "q:Qf49b04b9-bc3b-4e33-a926-4cf305080f0b",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Mes dépenses et mes revenus",
   "description": "solde, crédit, débit, date",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Banque",
   "support": "Espace client en ligne de ma banque",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

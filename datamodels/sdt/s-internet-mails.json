@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q75a4d765-785f-4450-ada6-82257118f3c0",
+  "@id": "q:Q7955a4d9-325a-40c5-acb4-588b309e4a55",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Mes pratiques internet : mails",
   "description": "nombre de mail envoyés/reçus par h/ jour",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Messageries (Gmail, Roundcube,...)",
   "support": "Google takeout",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

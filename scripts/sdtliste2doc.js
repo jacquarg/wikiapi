@@ -13,15 +13,9 @@ const DEFIS = {
     D4 : "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
   },
   "TEE": {
-    D1: "Réduire la production de déchets alimentaires",
-    D2: "Consommer local et de saison",
-    D3 : "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-    D4 :"Maîtriser mon budget énergie",
-    D5: "Trier et recycler",
-    D6: "Adopter des éco-gestes",
-    D7: "Connaître et bénéficier des aides ''transition énergétique''  auxquelles j'ai droit",
-    D8: "Calculer l'empreinte carbone de mon logement",
-    D9: "Aider à identifier le potentiel de production d'énergies propres sur mon territoire",
+    D1:	"q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    D2: "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    D3: "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   },
   "Mobilité": {}
 }
@@ -51,7 +45,7 @@ rowToDoc = (row) => {
       // "@type": "object",
       "label": row[0],
       "description": row[1],
-      "thematique": thematique,
+      //"thematique": thematique,
       "typology": row[8],
       "sourceDataController": row[3],
       "support": row[4],

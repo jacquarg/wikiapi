@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q5dfd361f-f51e-4564-84c4-f9d46a8f0c86",
+  "@id": "q:Q066c41fe-66e1-40ad-969b-f98cf792a360",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Performance énergétique estimée de mon logement et de mon bâtiment",
   "description": "consommation d'énergie et impact en terme d'émission de gaz à effet de serre",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Notaire",
   "support": "DPE (Diagnostic de Performance énergétique) : étiquette climat et étiquette énergie",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

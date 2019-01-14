@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q6c10fe27-1027-4ef0-a02a-174f768e23da",
+  "@id": "q:Qa2541103-ecc1-4f42-b357-0de0e2796bfc",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Consommation d'énergie hors réseaux",
   "description": "puissance installée, production annuelle, consommation annuelle nationale",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "cibe, eurostat",
   "support": "études",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "open data",
   "information": "open data",

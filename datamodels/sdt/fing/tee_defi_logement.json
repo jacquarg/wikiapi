@@ -1,0 +1,9 @@
+{
+  "@context": "semantic/context.json",
+
+  "@id": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+  "@type": "defiItem",
+  "label": "Alimentation",
+  "description": "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+  "thematic": "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c"
+}

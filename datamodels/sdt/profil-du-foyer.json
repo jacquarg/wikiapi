@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q10b53f77-44a1-406e-9d14-2834b5079f78",
+  "@id": "q:Q314474d6-9df6-4b31-9b0c-51ae656f0000",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Profil du foyer",
   "description": "nombre de personnes",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "DGFIP",
   "support": "France Connect (impôts)",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "Profil du foyer",

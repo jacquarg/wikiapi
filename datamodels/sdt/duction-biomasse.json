@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qb9b8a6d6-760a-457a-8880-8da5f3cca03e",
+  "@id": "q:Qc4444e62-e2a3-47a9-a335-15f1018cef5d",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "potentiel de production biomasse",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "",
   "defi": [
-    ""
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

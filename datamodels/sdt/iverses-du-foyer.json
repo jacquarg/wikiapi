@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q1bec1b55-3a90-45c7-ba88-32d7124c651e",
+  "@id": "q:Q45e0eb88-647d-4ff6-ba70-bdf3f574bc96",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Pratiques diverses du foyer ",
   "description": "température de confort, usage d'appareils, nombre de douches, h de rentrée du travail...",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Famille à Energie Positive, apps éco-geste (90jours, etc)",
   "support": "espace perso",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qde554c7f-ef20-4d43-b139-48db22539c35",
+  "@id": "q:Q6e7c729b-c847-4416-ab0c-d8a0f420232f",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "potentiel de production photovoltaïque",
   "description": "type de bâtiment, code postal, nombre de chambre, montant de la facture annuelle, fournisseur d'électricité, installation de chauffage (type, nombre), facture, type et nombre d'équipement possédé (dont voiture électrique), ",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Comwatt, In Sun We Trust, Open Solar Map",
   "support": "simulateur",
   "defi": [
-    ""
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "économies réalisées",

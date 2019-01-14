@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q392cf038-ad1b-436a-9e0a-974760111eb1",
+  "@id": "q:Q12cbcdd5-8f5a-4678-bb24-c8a7abc7d939",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Lieux de distribution alimentaire",
   "description": "Magasin, pays de distribution",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Openfoodfacts",
   "support": "Site ou app",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "open data",
   "information": "Référentiel culinaire",

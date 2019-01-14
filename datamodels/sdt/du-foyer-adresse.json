@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q92af471b-8ea2-4bec-941f-438124e82c1d",
+  "@id": "q:Q6304df58-c495-4491-95eb-0e34b35078df",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Profil du foyer : adresse",
   "description": "adresse",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "DGFIP, Deliveroo, Amazon, Waze, Uber, fournisseur d'énergie...",
   "support": "",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

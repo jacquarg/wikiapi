@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qef92b870-3057-4421-975b-41951856f447",
+  "@id": "q:Q984f9028-a5ad-453d-a71d-8bc64e38b031",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "droits liés à l'alimentaire",
   "description": "montant dépensé, jour et heure, type de carte (gratuite ou payante), crédit disponible",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "CCAS",
   "support": "?",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "",

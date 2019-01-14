@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q364846e1-21d6-4ed8-8b78-499919871def",
+  "@id": "q:Qebeaab25-07a8-4a5f-a042-1b7b9985de5c",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Profil du foyer : âge",
   "description": "âges des membres du foyer",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

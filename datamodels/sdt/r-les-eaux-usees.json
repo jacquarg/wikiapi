@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q45102a76-871f-4b30-98ee-4fc5406acde3",
+  "@id": "q:Q0492c05d-5ece-4e0e-a3bb-4680aad85728",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "potentiel récupération de chaleur sur les eaux usées",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Thermiup, Eko, Gaïa Green",
   "support": "",
   "defi": [
-    ""
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

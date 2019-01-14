@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q412c3878-c08f-43db-a93a-01b854a44029",
+  "@id": "q:Q5baaf75b-67d2-4f38-b707-3b9384cb418d",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
-  "label": "Consommation des équipements municipaux (en KW/H, eau, gaz, bois, charbon...)",
-  "description": "",
-  "thematique": "TEE",
+  "label": "Consommation des équipements municipaux",
+  "description": "(en KW/H, eau, gaz, bois, charbon...)",
   "typology": "",
   "sourceDataController": "",
   "support": "Compteurs intelligents ; Factures  ; Compte en ligne",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

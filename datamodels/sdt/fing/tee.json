@@ -1,0 +1,13 @@
+{
+  "@context": "semantic/context.json",
+
+  "@id": "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c",
+  "@type": "thematicItem",
+  "label": "TEE",
+  "description": "Transition énergétique et écologique.",
+  "defi": [
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+  ]
+}

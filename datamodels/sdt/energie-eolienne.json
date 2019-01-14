@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q2aa0180e-a50d-429e-ae2f-b18ce83c2194",
+  "@id": "q:Qbe3c914f-ead9-465a-9d94-b4bede0ee1c4",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "potentiel de production d'énergie éolienne",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "",
   "defi": [
-    ""
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

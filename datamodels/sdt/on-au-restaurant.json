@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q20e1ae9e-7b93-43a1-82b1-0950cd19d887",
+  "@id": "q:Q0e3d6a23-1413-4cb5-8682-8d356fb38ee0",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Consommation au restaurant",
   "description": "Nombre de restaurants dans l’année/le mois : lieux, prix, date",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Banques, EdenRed, Chèques Déjeuner, Chèques Vacances",
   "support": "Espace personnel",
   "defi": [
-    "consommation hors domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "",

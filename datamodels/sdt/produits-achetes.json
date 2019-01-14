@@ -1,20 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q0e9cde69-40f4-4d5e-8cce-bbb1cbc2757a",
+  "@id": "q:Qbeaf6115-3b29-4a3d-80f4-1a489472067c",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Historique des produits achetés",
   "description": "Code barre, nom du produit, marque, prix, date/heure/lieu d'achat, ",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
   "support": "carte fidélité, espace client",
   "defi": [
-    "Réduire la production de déchets alimentaires",
-    "Consommer local et de saison",
-    "Calculer et/ou réduire l'empreinte carbone de mon alimentation"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "Consommation alimentaire, habitudes de consommation",

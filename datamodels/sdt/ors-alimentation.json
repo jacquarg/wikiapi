@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qf83ac4c9-45ef-4ffc-bc15-35a066bc315b",
+  "@id": "q:Q31c6ede8-88a0-4922-bd36-72750cb438b5",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Labellisation EcoLabel Européen de mes biens de consommation (hors alimentation)",
   "description": "Cahiers des charges par type de produit",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Commission Européenne",
   "support": "The Ecolabel Catalogue - Commission Européenne croisé avec historique d'achat produits divers",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0"
   ],
   "kind": "référentiel",
   "information": "",

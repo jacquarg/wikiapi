@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qb212fd52-93f4-4958-9db6-7cf7763c997f",
+  "@id": "q:Q0f7a135f-1b63-4b56-8a17-b9ff5c9fc4e9",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Empreinte carbone internet",
   "description": "CO2 et kWh/ mail envoyé, reçu, stocké, /pages chargées",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "ADEME, Shiftproject",
   "support": "",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0"
   ],
   "kind": "référentiel",
   "information": "",

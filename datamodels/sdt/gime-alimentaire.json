@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q57f16af4-ef6a-4833-959f-7fcbbde78b8e",
+  "@id": "q:Q5d89fc6a-c92b-4e50-9153-b1abc8970b90",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "régime alimentaire",
   "description": "végétarien, casher, sans porc, végétalien, sans gluten",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "école, médecins",
   "support": "?",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "",

@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q2d47d80e-e6e9-467b-bca4-88749ca90019",
+  "@id": "q:Q6f14102f-1a27-42e2-9dae-8bcc0f9ddb12",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Consommation réelle de chaque équipement",
   "description": "KWh",
-  "thematique": "TEE",
   "typology": "",
-  "sourceDataController": "",
+  "sourceDataController": "Equipementiers, Distributeurs, ADEME",
   "support": "Etiquette environnementale ; Capteur sur le compteur ; Capteurs sur l'équipement",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

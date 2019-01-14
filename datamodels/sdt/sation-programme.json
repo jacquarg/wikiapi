@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qdfa5f754-c46a-4b3b-97d7-c1b5dfed5102",
+  "@id": "q:Qe9520864-7131-42e4-918e-416bd60d6e83",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Usage de chaque équipement : nombre d'heures et fréquence d'utilisation, programme, ...",
   "description": "heures et fréquence d'utilisation, programme, ...",
-  "thematique": "TEE",
   "typology": "",
-  "sourceDataController": "",
+  "sourceDataController": "Equipementier ",
   "support": "Déclaratif ; Capteur sur le compteurs ; Capteurs sur l'équipement",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

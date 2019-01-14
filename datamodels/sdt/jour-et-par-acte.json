@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q2d2a5046-01f5-43b1-a2b3-9f6356a6eb59",
+  "@id": "q:Q690dc045-eedd-4eea-9c7f-1b5fb0571fc2",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Nombre de calories brûlées par jour et par acte",
-  "description": "",
-  "thematique": "TEE",
+  "description": "kcal",
   "typology": "",
   "sourceDataController": "",
   "support": "Tracker d'activité",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "",

@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qabdeba70-eecb-4bbf-8b02-77aa369c02bc",
+  "@id": "q:Q6013901c-09e8-44de-baef-a46586263b8e",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Mes pratiques internet : navigation\n",
   "description": "pages ouvertes",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Navigateur",
   "support": "Historique de navigation",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

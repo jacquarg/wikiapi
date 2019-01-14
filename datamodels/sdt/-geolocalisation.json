@@ -1,18 +1,19 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q921aa895-2046-4d58-855d-f87e0b517017",
+  "@id": "q:Q86b04746-32bd-48f6-b8e1-da9686d6510c",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Historique de géolocalisation",
   "description": "coordonnées GPS",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "Compte en ligne de mon opérateur ; Google TakeOut  ; Application de mon smartphone",
   "defi": [
-    ""
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

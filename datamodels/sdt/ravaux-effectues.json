@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q5c75738b-1528-4c3b-8a1a-6863c1f0c9b8",
+  "@id": "q:Q0b890304-d766-40ef-955e-3c2e32beb127",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Date, prix et caractéristiques des travaux effectués",
   "description": "type de travaux, montant, date",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "propriétaire, locataire",
   "support": "Factures des différents prestataires",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "personnelle",
   "information": "",

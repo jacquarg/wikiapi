@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q4dab5bdf-f7c8-42fe-bda8-9f3a1404f5e4",
+  "@id": "q:Q6992fc94-b21f-4422-a5ce-c1cfe60ad3a9",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Recettes de cuisine",
   "description": "recettes sauvegardées, type (entrée, plat, dessert), nom, ingrédients",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Marmiton",
   "support": "espace personnel",
   "defi": [
-    "consommation à domicile"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "Habitudes alimentaires",

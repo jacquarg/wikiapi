@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q5f3bbfb7-e8bc-40dd-bc9e-7df9cb30e15e",
+  "@id": "q:Qdbe8389c-2791-4eb1-9a9f-df8304bdef3b",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "empreinte carbone des énergies en temps réel",
   "description": "CO2/kwh produit",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "RTE, Ademe",
   "support": "",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

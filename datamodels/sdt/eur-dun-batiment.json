@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q797ed9bf-571b-4975-ac15-0eb86aea8088",
+  "@id": "q:Q4b3cc7ee-4439-45d1-b57d-6225d2498697",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "déperdition de chaleur d’un bâtiment",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "",
   "support": "",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",

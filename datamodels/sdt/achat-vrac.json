@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q7675a303-f804-4b65-8abe-2e4bdc43c974",
+  "@id": "q:Q72b6c06c-e0a6-41fc-a94d-639f18dbef98",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Achat vrac",
   "description": "Nom du produit, prix, poids",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
   "support": "carte fidélité, espace client",
   "defi": [
-    "Mesurer les déchets et le gaspillage"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "personnelle",
   "information": "produits achetés sans emballage/ emballages évités",

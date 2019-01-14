@@ -193,7 +193,7 @@
           "description": "Propriétés désignant la même chose (réel), dans d'autres sets de données, "
         },
         {
-          "@id": "thematique",
+          "@id": "thematic",
           "label": {
             "@value": "thématique",
             "@language": "fr"
@@ -241,6 +241,18 @@
           "description": "Cette données est-elle portable dans le cadre de l'article 20 du RGPD ?"
         }
       ]
+    },
+    {
+      "@id": "defiItem",
+      "@type": "wq:Q175263",
+      "label": "Défi",
+      "descrition": "Défi formulé dans le cadre du projet Self Data Territorial (Fing 2018)."
+    },
+    {
+      "@id": "thematicItem",
+      "@type": "wq:Q175263",
+      "label": "Thématique",
+      "descrition": "Thématique traitée dans le cadre du projet Self Data Territorial (Fing 2018)."
     }
   ]
 }

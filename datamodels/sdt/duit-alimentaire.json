@@ -1,21 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Qa0e9bc99-ac92-4c99-92ef-d07f2e2f2fb8",
+  "@id": "q:Qefb5d9f9-febc-4672-8aa8-49783010b1cb",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Caractéristiques du produit alimentaire",
   "description": "Quantité, marque, catégorie (boisson, smoothie,..), magasin, pays de distribution",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Openfoodfacts",
   "support": "Site ou app",
   "defi": [
-    "Réduire la production de déchets alimentaires",
-    "Consommer local et de saison",
-    "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-    "Trier et recycler"
+    "q:Qb2cfa974-d153-4600-aca5-a051626145ac"
   ],
   "kind": "open data",
   "information": "Référentiel culinaire",

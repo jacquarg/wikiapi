@@ -1,18 +1,17 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q587739dc-02c5-42c3-9749-3ce6bc8fabe9",
+  "@id": "q:Q8ecfcaac-2296-4e13-9a3a-f60832d5aec4",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "caractéristiques énergétiques des équipements",
   "description": "étiquette environnementale et énergie",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "Darty/FNAC",
   "support": "Catalogue",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0"
   ],
   "kind": "référentiel",
   "information": "",

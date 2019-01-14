@@ -1,18 +1,18 @@
 {
   "@context": "semantic/context.json",
-  "@id": "q:Q6126c5b5-911a-404e-891a-2d0e4594dfa9",
+  "@id": "q:Qb6e0e3ef-b25a-47e2-b3d8-c666521907bc",
   "@type": [
     "object",
     "wq:Q1397073"
   ],
   "label": "Données thermographiques des bâtiments",
   "description": "",
-  "thematique": "TEE",
   "typology": "",
   "sourceDataController": "collectivités locales",
   "support": "Photos aériennes thermiques",
   "defi": [
-    ""
+    "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
   ],
   "kind": "",
   "information": "",
