@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q476a42cd-9d39-4718-85df-deb414b50c9f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Trajet en taxi, VTC, ...",
+  "description": "prix, distance, nombre de personnes",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Compagnie de taxi",
+  "support": "Espace personnel, App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

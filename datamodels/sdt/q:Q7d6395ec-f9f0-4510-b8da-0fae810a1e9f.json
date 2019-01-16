@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7d6395ec-f9f0-4510-b8da-0fae810a1e9f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation au restaurant",
+  "description": "Nombre de restaurants dans l’année/le mois : lieux, prix, date",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Banques, EdenRed, Chèques Déjeuner, Chèques Vacances",
+  "support": "Espace personnel",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

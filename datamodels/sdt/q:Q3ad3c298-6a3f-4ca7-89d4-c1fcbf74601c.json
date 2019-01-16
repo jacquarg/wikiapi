@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q3ad3c298-6a3f-4ca7-89d4-c1fcbf74601c",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Informations nutritionnelles",
+  "description": "NutriScore, analyse nutritionnelle pour 100g, serving size, comparaison par rapport à des produits équivalents",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "open data",
+  "information": "Référentiel culinaire",
+  "access": "API",
+  "portable": ""
+}

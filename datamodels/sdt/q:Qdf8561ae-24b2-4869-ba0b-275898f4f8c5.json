@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qdf8561ae-24b2-4869-ba0b-275898f4f8c5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Qualité air interieur (O2)",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Capteur de mesure (ex : Foobot)",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

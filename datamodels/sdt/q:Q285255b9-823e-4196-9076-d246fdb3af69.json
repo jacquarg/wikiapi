@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q285255b9-823e-4196-9076-d246fdb3af69",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "empreinte carbone des énergies en temps réel",
+  "description": "CO2/kwh produit",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "RTE, Ademe",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb4a55dcf-1699-4298-8bbf-543b48f86c51",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Information collège",
+  "description": "Nombre d'élève ; Type de classes ; Taux de décrochage scolaire ; Taux de réussite au brevet (et nombre de mentions)...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "MEN",
+  "support": "Site web",
+  "defi": [
+    "Développer son esprit civique"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

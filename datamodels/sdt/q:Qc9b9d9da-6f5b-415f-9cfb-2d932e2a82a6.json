@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc9b9d9da-6f5b-415f-9cfb-2d932e2a82a6",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes pratiques internet : navigation\n",
+  "description": "pages ouvertes",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Navigateur",
+  "support": "Historique de navigation",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2cfbe145-8449-475b-8ef8-9e5e41c2b904",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Trajet en avion",
+  "description": "date du vol, durée du vol, départ/destination",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Compagnie aérienne, services d'achats, ...",
+  "support": "Espace personnel, Facture, Agenda/Mails, ...",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

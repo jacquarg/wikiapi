@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb753580f-f126-48df-ac93-921607d354d2",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques diverses du foyer ",
+  "description": "température de confort, usage d'appareils, nombre de douches, h de rentrée du travail...",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Famille à Energie Positive, apps éco-geste (90jours, etc)",
+  "support": "espace perso",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

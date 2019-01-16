@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc3768bb3-b49d-462c-b934-b21497656d72",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours privés : résultats",
+  "description": "Activités sur la plateforme ; Appréciations trimestrielles et conseils enseignants",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

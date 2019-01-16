@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2545d4c5-053d-41b1-9229-54d89b1c1a83",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Moyens de transport propres disponibles",
+  "description": "",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

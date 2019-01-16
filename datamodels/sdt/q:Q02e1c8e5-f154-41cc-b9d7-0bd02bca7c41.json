@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q02e1c8e5-f154-41cc-b9d7-0bd02bca7c41",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Equipement de refroidissement et de ventilation de mon logement",
+  "description": "type et nombre",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire",
+  "support": "DPE (Diagnostic de Performance énergétique) ; Plan",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

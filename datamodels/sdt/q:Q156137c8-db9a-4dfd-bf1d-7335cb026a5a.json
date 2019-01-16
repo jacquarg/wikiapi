@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q156137c8-db9a-4dfd-bf1d-7335cb026a5a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "consommation de mon véhicule électrique",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5ecd6b97-118e-4f0b-b068-8c1f29389973",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Activités extrascolaires : évenements",
+  "description": "Type (compétition, concert, ...) ; dates ; lieux ; accompagnateurs, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Clubs, Conservatoires, ...",
+  "support": "/",
+  "defi": [
+    "S'évaluer autrement",
+    "Développer son esprit civique"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5ca80834-83b3-43f2-a1e2-11c243563743",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Parcours touristiques crowdsourcés",
+  "description": "",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

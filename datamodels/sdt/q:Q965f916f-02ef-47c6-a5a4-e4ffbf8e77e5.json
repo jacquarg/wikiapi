@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q965f916f-02ef-47c6-a5a4-e4ffbf8e77e5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Flux de mobilité : parcours bus, horaires, points d’arrêts, fréquences",
+  "description": "lignes de bus, stations, (coordonnées GPS ou adresse), horaires ou fréquence de passage selon les jours et heures",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Opérateur de transport",
+  "support": "Open data et/ou Système d'information (privé)",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

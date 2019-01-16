@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q04d49677-e026-4a14-8509-073ba7a464c3",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Liste des comptes en ligne ouverts",
+  "description": "Identifiants, mots de passe",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Individu",
+  "support": "Trousseau du navigateur",
+  "defi": [
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

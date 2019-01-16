@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5544364d-0551-4f2a-9fbd-f69501506bfc",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique de géolocalisation",
+  "description": "coordonnées GPS",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Compte en ligne de mon opérateur ; Google TakeOut  ; Application de mon smartphone",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

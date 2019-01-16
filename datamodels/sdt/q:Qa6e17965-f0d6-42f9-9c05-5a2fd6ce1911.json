@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa6e17965-f0d6-42f9-9c05-5a2fd6ce1911",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Caractéristiques de mon véhicule",
+  "description": "modèle, marque, puissance, âge, date d'achat, immatriculation, ...",
+  "thematique": "Mobilité",
+  "typology": "Déplacements",
+  "sourceDataController": "Assureur, ANTS",
+  "support": "Contrat, carte grise (espace personnel)",
+  "defi": [
+    "D2"
+  ],
+  "kind": "Personnelle",
+  "information": "prix de revient kilométrique",
+  "access": "art 20?",
+  "portable": "portables"
+}

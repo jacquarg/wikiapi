@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q18a6ef49-460e-4f95-9549-8a7bde028742",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Empreinte CO2 des transports en commun",
+  "description": "",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

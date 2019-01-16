@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qaac3adf9-5cb7-4d0b-8454-cda620d259c6",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "déperdition de chaleur d’un bâtiment",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

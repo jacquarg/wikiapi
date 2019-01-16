@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qcfed719d-0bd0-4eab-9644-f7188ecaef6e",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation des équipements municipaux",
+  "description": "(en KW/H, eau, gaz, bois, charbon...)",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Compteurs intelligents ; Factures  ; Compte en ligne",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

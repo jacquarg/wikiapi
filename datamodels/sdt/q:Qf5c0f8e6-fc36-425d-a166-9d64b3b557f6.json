@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qf5c0f8e6-fc36-425d-a166-9d64b3b557f6",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Livres empruntés",
+  "description": "ISBN du livre emprunté, date de l’emprunt, date du retour ",
+  "thematique": "Ados",
+  "typology": "loisirs",
+  "sourceDataController": "Médiathèque, Collège - Métropole de Lyon",
+  "support": "Pass trabool",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "goût de lecture",
+  "access": "",
+  "portable": ""
+}

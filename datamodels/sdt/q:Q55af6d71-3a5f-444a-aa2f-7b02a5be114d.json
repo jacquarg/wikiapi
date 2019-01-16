@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q55af6d71-3a5f-444a-aa2f-7b02a5be114d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation de mon domicile ",
+  "description": "€, moyenne, détail",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "fournisseur énergie et eau",
+  "support": "Compteur intelligent ; Espace client ; Factures (relevé tous les 6 mois)",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

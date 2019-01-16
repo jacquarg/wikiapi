@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2ce85dd5-45d5-471c-a0cd-3066cfe1374d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Caractéristique de mon quartier : commerces de proximité ; revenu moyen ; nombre de km2 ; ...",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Sites divers (ici : Kelquartier)",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

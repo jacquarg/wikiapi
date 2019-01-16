@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q771d357f-0bf5-49bd-9710-c4d1511c856d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Labellisation EcoLabel Européen de mes biens de consommation (hors alimentation)",
+  "description": "Cahiers des charges par type de produit",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Commission Européenne",
+  "support": "The Ecolabel Catalogue - Commission Européenne croisé avec historique d'achat produits divers",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "référentiel",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q47089372-d0ef-47dc-b3f9-b134c1495887",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Distance parcourue pour les courses",
+  "description": "point de départ et point d'arrivé (itinéraire emprunté), km parcourus, moyen de transport, temps de transport, date, heure",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Opérateurs de transpoprt, constructeurs automobiles, Google, Waze",
+  "support": "espace personnel, googe takeout, ",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "personnelle",
+  "information": "émissions de CO2 engendrée par les courses alimentaires et meilleur itinéraire possible",
+  "access": "",
+  "portable": ""
+}

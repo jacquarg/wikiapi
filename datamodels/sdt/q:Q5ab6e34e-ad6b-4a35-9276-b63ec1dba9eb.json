@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5ab6e34e-ad6b-4a35-9276-b63ec1dba9eb",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Yélomobile : Abonnement ",
+  "description": "Particulier/Professionel ; Durée abonnement (semaine/mensuel) ; Prix de l'abonnement, unités restantes, unités payées",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Espace client",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

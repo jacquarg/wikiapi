@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q38dffe07-534b-4507-837e-e3c8aa56cdb1",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Activités périscolaires : évenements",
+  "description": "Type (compétition, concert, ...), dates, lieux, accompagnateurs, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège ",
+  "support": "",
+  "defi": [
+    "S'évaluer autrement",
+    "Développer son esprit civique"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

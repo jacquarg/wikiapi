@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qe1fe6b18-074a-4283-944e-b4247a5eb620",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date, prix et caractéristiques des travaux effectués",
+  "description": "type de travaux, montant, date",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "propriétaire, locataire",
+  "support": "Factures des différents prestataires",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

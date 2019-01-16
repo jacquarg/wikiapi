@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q65058ed9-bda3-4a18-b909-c1851341c305",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Vélos libre service : trajets",
+  "description": "nombre de kilomètre, distance, lieux, lieu de récupération, lieu d’arrivée, date",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Compte en ligne / App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

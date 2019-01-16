@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9925dafc-8ee7-4a4e-8c01-49a3906e1b85",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Emissions de CO2 et de polluants des véhicules commercialisés en France",
+  "description": "",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ademe",
+  "support": "Jeu de données Ademe",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Open Data",
+  "portable": ""
+}

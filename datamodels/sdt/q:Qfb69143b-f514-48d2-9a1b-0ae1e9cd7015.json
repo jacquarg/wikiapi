@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfb69143b-f514-48d2-9a1b-0ae1e9cd7015",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contrôle technique : procès-verbal ",
+  "description": "Favorable (A) ; Défavorable pour défaillances majeures (S). Défavorable pour défaillances critiques (R)",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "UTAC-OTC",
+  "support": "/",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

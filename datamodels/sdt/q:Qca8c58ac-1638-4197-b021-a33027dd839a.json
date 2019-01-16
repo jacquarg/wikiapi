@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qca8c58ac-1638-4197-b021-a33027dd839a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contrôle technique : prix",
+  "description": "décompte, en quantité et en prix, de chaque prestation et produit fourni ou vendu ; somme totale à payer ;",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "UTAC-OTC",
+  "support": "/",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

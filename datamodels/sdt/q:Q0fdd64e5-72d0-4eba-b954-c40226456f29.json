@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0fdd64e5-72d0-4eba-b954-c40226456f29",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Commentaires des touristes sur les lieux, les visites, ...",
+  "description": "",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

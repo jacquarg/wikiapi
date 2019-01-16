@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qdf819dd7-9c78-49fc-a353-92ba14ce8d24",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Plans et trafic annuel par station de bus, de tramway...",
+  "description": "nombre de voyageurs",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Agglo La Rochelle",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Open Data",
+  "portable": ""
+}

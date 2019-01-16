@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5d2aa3b1-7e7c-4d2b-9c76-b049dcdcac0c",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation de mon domicile en eau (quantité et débit)",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "fournisseur eau (véolia, régie,...)",
+  "support": "Débitmètre (connecté ou non) ; Compteur d'eau intelligent",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

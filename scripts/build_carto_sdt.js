@@ -8,12 +8,12 @@ const context = require('../semantic/context.json')
 
 const enedisbaseuri = 'https://gitlab.cozycloud.cc/gjacquart/cozy-konnector-enedis/raw/master/docs/data_models/'
 const remote = [
-  enedisbaseuri + 'customers_identity.json-ld',
-  enedisbaseuri + 'customers_usagepointaddress.json-ld',
-  enedisbaseuri + 'customers_usagepoints.json-ld',
-  enedisbaseuri + 'enedis_energy.json-ld',
-  enedisbaseuri + 'enedis_loadcurve.json-ld',
-  enedisbaseuri + 'enedis_maxpower.json-ld',
+  // enedisbaseuri + 'customers_identity.json-ld',
+  // enedisbaseuri + 'customers_usagepointaddress.json-ld',
+  // enedisbaseuri + 'customers_usagepoints.json-ld',
+  // enedisbaseuri + 'enedis_energy.json-ld',
+  // enedisbaseuri + 'enedis_loadcurve.json-ld',
+  // enedisbaseuri + 'enedis_maxpower.json-ld',
 ]
 // walk the all tree, and, each times, add flatten.
 
@@ -73,6 +73,8 @@ const processFiles = (files) => {
     fs.writeFileSync('build/items.json', JSON.stringify(data, null, 2));
     console.log(`Writen : ${Object.keys(res).length} objects in build/items.json`)
 
+  }).catch(e => {
+    console.log(e)
   })
   // .then(data => console.log(JSON.stringify(res, null, 2)))
 }

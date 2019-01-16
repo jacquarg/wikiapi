@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb976a50f-433d-4f30-899c-85e23800d54d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation d'énergie hors réseaux",
+  "description": "puissance installée, production annuelle, consommation annuelle nationale",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "cibe, eurostat",
+  "support": "études",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "open data",
+  "information": "open data",
+  "access": "",
+  "portable": ""
+}

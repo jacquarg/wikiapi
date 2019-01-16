@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q068c6c20-a9c4-444b-b650-b74371916bc1",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": " ",
+  "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Banque",
+  "support": "facture, relevé bancaire",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "consommation d'énergie selon mon comportement",
+  "access": "",
+  "portable": ""
+}

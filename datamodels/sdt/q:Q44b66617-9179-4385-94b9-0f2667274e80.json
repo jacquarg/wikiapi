@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q44b66617-9179-4385-94b9-0f2667274e80",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Allergies",
+  "description": "Allergies alimentaires, au pollen, ... ",
+  "thematique": "Ados",
+  "typology": "santé",
+  "sourceDataController": "Laboratoire d'analyse",
+  "support": "https://www.mesanalyses.fr/",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "Santé de l'enfant",
+  "access": "PDF",
+  "portable": "Oui"
+}

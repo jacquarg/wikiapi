@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb8475289-677f-4ceb-bcd8-a799c3e694f4",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Transports ",
+  "description": "Numéro de Pass Scolaire, Formule d'abonnement, Trajets réalisés, Prix...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "TCL - Métropole de Lyon",
+  "support": "Pass Traboule",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q62f2f218-3564-4c5e-8b7a-4bd4c134f9b8",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Température intérieure de mon appartement",
+  "description": "degrés celsius, humidité, variations",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Stations météo, fournisseurs de thermomètre connecté, thermostats connectés (Qivivo)",
+  "support": "Cadran du thermomètre ; Thermomètre connecté ; Station météo connectée",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa290294b-ad88-43af-ba8c-8f933b946735",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Energie par trajet : type ",
+  "description": "Essence, électricité, cinétique, hydrogène, …",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

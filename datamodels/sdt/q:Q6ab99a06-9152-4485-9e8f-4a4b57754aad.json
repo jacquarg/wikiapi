@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q6ab99a06-9152-4485-9e8f-4a4b57754aad",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Quantité d'énergie effectivement consommée (sur la base de factures) du bâtiment ou du logement",
+  "description": "kWh",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire",
+  "support": "DPE (Diagnostic de Performance énergétique) ",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

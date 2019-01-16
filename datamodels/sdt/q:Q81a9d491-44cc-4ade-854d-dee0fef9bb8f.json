@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q81a9d491-44cc-4ade-854d-dee0fef9bb8f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Options choisies",
+  "description": "Latin, Grec ancien, filière européenne, LV3, théâtre...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

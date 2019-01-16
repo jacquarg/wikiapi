@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q8734b6d6-97c9-4427-84a2-b16f32817d55",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation au restaurant d'entreprise",
+  "description": "Heure, date, montant",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Comptabilité, Trésor Public, prestataire",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

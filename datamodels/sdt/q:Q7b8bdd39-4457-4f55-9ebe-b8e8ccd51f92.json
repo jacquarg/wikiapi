@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7b8bdd39-4457-4f55-9ebe-b8e8ccd51f92",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "présence et disponibilité d’une borne de recharge électrique",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

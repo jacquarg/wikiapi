@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0dcf4ca7-0020-4ef4-aedb-f38b6dfb2fef",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Usage de chaque équipement : nombre d'heures et fréquence d'utilisation, programme, ...",
+  "description": "heures et fréquence d'utilisation, programme, ...",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Equipementier ",
+  "support": "Déclaratif ; Capteur sur le compteurs ; Capteurs sur l'équipement",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

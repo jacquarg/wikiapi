@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q3fd13ead-7825-489c-a10d-36d5b0c27533",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "caractéristiques énergétiques des équipements",
+  "description": "étiquette environnementale et énergie",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Darty/FNAC",
+  "support": "Catalogue",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "référentiel",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

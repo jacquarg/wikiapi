@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qba3e82d9-293b-405c-95cb-899bede396ca",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation de mon domicile ",
+  "description": "kWh",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "fournisseur d'électricité (EDF, Direct Energie,...)",
+  "support": "Compteur intelligent ; Espace client ; Factures (relevé tous les 6 mois)",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

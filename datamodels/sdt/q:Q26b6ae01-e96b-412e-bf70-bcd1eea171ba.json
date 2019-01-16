@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q26b6ae01-e96b-412e-bf70-bcd1eea171ba",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours du soir ",
+  "description": "Inscrit à l'étude O/N",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

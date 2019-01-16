@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb0c6a8a7-0953-44f7-b59e-d288e538c62b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Résultats scolaires",
+  "description": "Evaluation par compétence",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

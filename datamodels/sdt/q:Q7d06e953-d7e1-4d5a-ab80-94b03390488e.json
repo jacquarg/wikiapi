@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7d06e953-d7e1-4d5a-ab80-94b03390488e",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation de carburant par trajet ",
+  "description": "nombre de kilomètres",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "/",
+  "support": "Site de conversion (ex : Via Michelin)",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

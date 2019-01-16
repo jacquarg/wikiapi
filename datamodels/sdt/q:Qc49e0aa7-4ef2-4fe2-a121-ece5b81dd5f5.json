@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc49e0aa7-4ef2-4fe2-a121-ece5b81dd5f5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "potentiel de production géothermique",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

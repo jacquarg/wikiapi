@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q1e2c39b1-e585-4a90-ace0-17c798b2bdbf",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Composition des produits alimentaires",
+  "description": "Ingrédients (liste d'ingérdients, NOVA group), \n",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "open data",
+  "information": "Référentiel culinaire",
+  "access": "API",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc84cbc73-ba92-4b21-94d7-193e198d050b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Lieux de compost",
+  "description": "localisation",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "ADEME",
+  "support": "Site web de Sinoé déchets, site d'associations locales (Les compostiers) ",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "open data",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

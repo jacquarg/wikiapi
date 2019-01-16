@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q16d45fc0-af6a-4645-b7f2-02461236187b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours privés : contrat",
+  "description": "Forfait choisi, prix, particuliers/en groupe, heures de cours dispensées, crédit d’heures de cours, solde",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": "Oui"
+}
