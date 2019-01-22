@@ -15,3165 +15,8 @@
       "@reverse": "rdfs:subClassOf"
     }
   },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q101": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q101",
-    "@type": "q:Q161",
-    "description": "Numéro client chez Enedis",
-    "label": "Id client",
-    "exampleValue": "12346579878",
-    "propName": "customer_id"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q102": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q102",
-    "@type": "q:Q104",
-    "description": "Catégorie, segment du client",
-    "label": "Segment client",
-    "exampleValue": "C5",
-    "propName": "segment"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q103": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q103",
-    "@type": "object",
-    "description": "Objet encapsulant les informations sur l'identité du client.",
-    "label": "identityItem",
-    "hasOptionalProperty": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q104"
-    },
-    "propName": "identity"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q104": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q104",
-    "@type": "object",
-    "description": "Objet encapsulant les informations sur l'identité d'un client personne physique.",
-    "label": "Personne physique",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q105"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q106"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q107"
-      }
-    ],
-    "propName": "natural_person"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q105": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q105",
-    "@type": "q:Q194",
-    "description": "Catégorie, segment du client",
-    "label": "Civilité",
-    "exampleValue": "Mme",
-    "propName": "title",
-    "values": [
-      "Mme",
-      "M"
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q106": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q106",
-    "@type": "q:Q196",
-    "description": "Prénom de la personne",
-    "label": "Prénom",
-    "exampleValue": "GERMAINE",
-    "propName": "name"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q107": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q107",
-    "@type": "q:Q195",
-    "description": "Nom de famille de la personne.",
-    "label": "Nom",
-    "exampleValue": "DUPOND",
-    "propName": "last_name"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q108": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q108",
-    "@type": "q:Q102",
-    "description": "Adresse du compteur.",
-    "label": "Adresse du point de livraison",
-    "cozyDoctypeName": "fr.enedis.api.customers.usagepointaddress",
-    "cozyIndex": "[\"_id\"]",
-    "cozySelector": "{\"_id\": { \"$gte\": null } }",
-    "generatedBy": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnecteor-enedis/master/software",
-    "hasProperty": [
-      {
-        "@id": "q:Q133"
-      },
-      {
-        "@id": "q:Q134"
-      },
-      {
-        "@id": "q:Q109"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q101"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q102"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q109"
-      }
-    ],
-    "sourceDataController": "Enedis",
-    "syntheticSet": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/doc/synthetic_dataset/enedis_customer_usagepointaddress.json",
-    "typology": "Domicile",
-    "updateFrequency": "P6M",
-    "updateLatency": "P1D",
-    "usedBy": []
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q109": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q109",
-    "@type": "object",
-    "description": "Adresse postale du compteur.",
-    "label": "addressItem",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q110"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q111"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q112"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q113"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q114"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q115"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q116"
-      },
-      "q:Q167",
-      "q:Q168"
-    ],
-    "propName": "usage_point_address",
-    "sameAs": "q:Q166"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q110": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q110",
-    "@type": "q:Q104",
-    "description": "Complément d'adresse.",
-    "label": "Complément d'adresse 1",
-    "exampleValue": "",
-    "propName": "additional_adress1"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q111": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q111",
-    "@type": "q:Q104",
-    "description": "Complément d'adresse.",
-    "label": "Complément d'adresse 2",
-    "exampleValue": "",
-    "propName": "additional_adress2"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q112": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q112",
-    "@type": "q:Q104",
-    "description": "Numéro dans la rue.",
-    "label": "Numéro de rue",
-    "exampleValue": "2",
-    "propName": "street_number"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q113": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q113",
-    "@type": "q:Q104",
-    "description": "Nom de la rue, sans le numéro.",
-    "label": "Nom de la rue",
-    "exampleValue": "BOULEVARD DES BELGES",
-    "propName": "street"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q114": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q114",
-    "@type": "q:Q104",
-    "description": "Localité.",
-    "label": "Localité",
-    "exampleValue": "",
-    "propName": "locality"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q115": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q115",
-    "@type": "q:Q104",
-    "description": "Code postal",
-    "label": "Code postal",
-    "exampleValue": "69006",
-    "propName": "zip",
-    "sameAs": "q:Q169"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q116": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q116",
-    "@type": "q:Q104",
-    "description": "Code INSEE de la commune.",
-    "label": "Code INSEE",
-    "exampleValue": "69386",
-    "propName": "geo_point",
-    "sameAs": "q:Q303"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q117": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q117",
-    "@type": "object",
-    "description": "Informations sur le point de livraison.",
-    "label": "Point de livraison",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q118"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q119"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q120"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q154"
-      }
-    ],
-    "propName": "usage_points"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q118": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q118",
-    "@type": "q:Q104",
-    "description": "Numéro du point de livraison.",
-    "label": "Numéro PDL",
-    "exampleValue": "1324654321",
-    "propName": "usage_point_id",
-    "sameAs": "q:Q386"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q119": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q119",
-    "@type": "q:Q104",
-    "description": "Puissance maximale du compteur.",
-    "label": "Puissance souscrite",
-    "exampleValue": "6",
-    "propName": "power_subscribed",
-    "sameAs": "q:Q391"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q120": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q120",
-    "@type": "q:Q104",
-    "description": "time_slot",
-    "label": "time_slot",
-    "exampleValue": "",
-    "kind": "Metadata",
-    "propName": "time_slot"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q121": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q121",
-    "@type": "q:Q102",
-    "description": "Identification et catégorisation du client. (nom, prénom, segment, ...)",
-    "label": "Identité du client Enedis",
-    "availability": "soon",
-    "cozyDoctypeName": "fr.enedis.api.customers.identity",
-    "cozyIndex": "[\"_id\"]",
-    "cozySelector": "{\"_id\": { \"$gte\": null } }",
-    "generatedBy": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnecteor-enedis/master/software",
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134",
-      "q:Q109",
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q101"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q102"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q103"
-      }
-    ],
-    "sourceDataController": "Enedis",
-    "syntheticSet": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/doc/synthetic_dataset/enedis_customer_usagepointaddress.json",
-    "typology": "Domicile",
-    "updateFrequency": "P6M",
-    "updateLatency": "P1D",
-    "usedBy": []
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q122": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q122",
-    "@type": "q:Q102",
-    "description": "Consommation d'électricité, au pas de 30 minutes.",
-    "label": "Courbe de charge journalière",
-    "availability": "soon",
-    "cozyDoctypeName": "fr.enedis.api.meteringdata.loadcurve",
-    "cozyIndex": "[\"_id\"]",
-    "cozySelector": "{\"_id\": { \"$gte\": null } }",
-    "generatedBy": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/software"
-    },
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134",
-      "q:Q109",
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q123"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q124"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q125"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q126"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q127"
-      }
-    ],
-    "sourceDataController": "Enedis",
-    "syntheticSet": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/doc/synthetic_dataset/enedis_loadcurve.json",
-    "typology": "Domicile",
-    "updateFrequency": "P1D",
-    "updateLatency": "P1D",
-    "usedBy": []
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q123": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q123",
-    "@type": "q:Q104",
-    "description": "Puissance maximale du compteur.",
-    "label": "Puissance souscrite",
-    "exampleValue": "6",
-    "kind": "Metadata",
-    "propName": "contract_power",
-    "sameAs": "l:Q119"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q124": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q124",
-    "@type": "q:Q104",
-    "description": "Type de tarif (base, heure creuse, ...).",
-    "label": "Type de tarif",
-    "exampleValue": "Base",
-    "kind": "Caracterisation",
-    "propName": "fee_schedule"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q125": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q125",
-    "@type": "q:Q104",
-    "description": "Code INSEE de la commune.",
-    "label": "Code insee",
-    "exampleValue": "69386",
-    "kind": "Metadata",
-    "propName": "INSEE_code",
-    "sameAs": "l:Q116"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q126": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q126",
-    "@type": "q:Q104",
-    "description": "business_step",
-    "label": "business_step",
-    "exampleValue": "comptage brut",
-    "kind": "Metadata",
-    "propName": "business_step",
-    "sameAs": "l:Q116",
-    "values": "comptage brut"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q127": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q127",
-    "@type": "array",
-    "description": "Liste des mesures (un seul élément)",
-    "label": "Mesures",
-    "items": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q128"
-    },
-    "propName": "usage_point"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q128": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q128",
-    "@type": "object",
-    "description": "Une mesure.",
-    "label": "Mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q118"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q129"
-      }
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q129": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q129",
-    "@type": "object",
-    "description": "Une mesure.",
-    "label": "Mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q130"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q138"
-      }
-    ],
-    "propName": "meter_reading"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q130": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q130",
-    "@type": "object",
-    "description": "Caractéristiques de la mesure.",
-    "label": "Caractéristiques.",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q131"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q132"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q133"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q134"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q135"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q136"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q137"
-      }
-    ],
-    "propName": "reading_type"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q131": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q131",
-    "@type": "q:Q104",
-    "description": "Type de mesure.",
-    "label": "Type de mesure",
-    "exampleValue": "CDC",
-    "kind": "Metadata",
-    "propName": "measurement_kind",
-    "values": "CDC"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q132": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q132",
-    "@type": "q:Q104",
-    "description": "Début de la mesure (première valeur à 00h30, du jour indiqué).",
-    "label": "Début",
-    "exampleValue": "2017-08-17",
-    "propName": "start_measurement_period",
-    "sameAs": "q:Q112"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q133": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q133",
-    "@type": "q:Q104",
-    "description": "Fin de la mesure (dernière valeur à 00h00, du jour indiqué, donc portant sur les 30 dernière minute du jour précédent).",
-    "label": "Fin",
-    "exampleValue": "2017-08-18",
-    "propName": "end_measurement_period",
-    "sameAs": "q:Q113"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q134": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q134",
-    "@type": "q:Q104",
-    "description": "interval_length",
-    "label": "interval_length",
-    "exampleValue": "",
-    "kind": "Metadata",
-    "propName": "interval_length"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q135": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q135",
-    "@type": "q:Q104",
-    "description": "Intervale de temps entre chaque point de mesure. Ici, toujours 30mn.",
-    "label": "Période de mesure",
-    "exampleValue": "30mn",
-    "kind": "Metadata",
-    "propName": "time_attribute",
-    "values": [
-      "30mn",
-      "month",
-      "day",
-      "hour"
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q136": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q136",
-    "@type": "q:Q104",
-    "description": "Unité de mesure de la grandeur physique.",
-    "label": "Unité.",
-    "exampleValue": "W",
-    "kind": "Metadata",
-    "propName": "unit",
-    "values": "W"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q137": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q137",
-    "@type": "q:Q104",
-    "description": "Direction du flux d'énergie : forward, consommation par le point de livraison. Reverse : production par le point de livraison.",
-    "label": "Production - consommation",
-    "exampleValue": "forward",
-    "kind": "Metadata",
-    "propName": "flow_direction",
-    "values": [
-      "forward",
-      "reverse"
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q138": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q138",
-    "@type": "array",
-    "description": "Liste des points de mesures.",
-    "label": "Points de mesure",
-    "items": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q139"
-    },
-    "propName": "interval_block"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q139": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q139",
-    "@type": "object",
-    "description": "Un point de mesure.",
-    "label": "Point de mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q140"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q141"
-      }
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q140": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q140",
-    "@type": "q:Q104",
-    "description": "Valeur mesurée.",
-    "label": "Valeur",
-    "exampleValue": "230",
-    "propName": "value"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q141": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q141",
-    "@type": "q:Q104",
-    "description": "Indice de la mesure, dans la liste des mesures.",
-    "label": "Indice",
-    "exampleValue": "3",
-    "propName": "reading_number"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q142": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q142",
-    "@type": "q:Q102",
-    "description": "Puissance maximale atteinte sur un jour.",
-    "label": "Pic de puissance",
-    "availability": "soon",
-    "cozyDoctypeName": "fr.enedis.api.meteringdata.maxpower",
-    "cozyIndex": "[\"_id\"]",
-    "cozySelector": "{\"_id\": { \"$gte\": null } }",
-    "generatedBy": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/software",
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134",
-      "q:Q109",
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q123"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q124"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q125"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q126"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q143"
-      }
-    ],
-    "sourceDataController": "Enedis",
-    "syntheticSet": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/doc/synthetic_dataset/enedis_maxpower.json",
-    "typology": "Domicile",
-    "updateFrequency": "P1D",
-    "updateLatency": "P1D",
-    "usedBy": []
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q143": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q143",
-    "@type": "array",
-    "description": "Liste des mesures (un seul élément)",
-    "label": "Mesures",
-    "items": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q144"
-    },
-    "propName": "usage_point"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q144": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q144",
-    "@type": "object",
-    "description": "Une mesure.",
-    "label": "Mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q118"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q145"
-      }
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q145": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q145",
-    "@type": "object",
-    "description": "Une mesure.",
-    "label": "Mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q146"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q138"
-      }
-    ],
-    "propName": "meter_reading"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q146": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q146",
-    "@type": "object",
-    "description": "Caractéristiques de la mesure.",
-    "label": "Caractéristiques.",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q147"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q132"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q133"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q134"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q135"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q136"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q137"
-      }
-    ],
-    "propName": "reading_type"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q147": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q147",
-    "@type": "q:Q104",
-    "description": "Type de mesure.",
-    "label": "Type de mesure",
-    "exampleValue": "PMAX",
-    "kind": "Metadata",
-    "propName": "measurement_kind",
-    "values": "PMAX"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q148": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q148",
-    "@type": "q:Q102",
-    "description": "Consommation d'électricité sur 24 heures.",
-    "label": "Électricité cosommée en 1 jour.",
-    "availability": "soon",
-    "cozyDoctypeName": "fr.enedis.api.meteringdata.energy",
-    "cozyIndex": "[\"_id\"]",
-    "cozySelector": "{\"_id\": { \"$gte\": null } }",
-    "generatedBy": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/software",
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134",
-      "q:Q109",
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q123"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q124"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q125"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q126"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q149"
-      }
-    ],
-    "sourceDataController": "Enedis",
-    "syntheticSet": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/doc/synthetic_dataset/enedis_energy.json",
-    "typology": "Domicile",
-    "updateFrequency": "P1D",
-    "updateLatency": "P1D",
-    "usedBy": []
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q149": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q149",
-    "@type": "array",
-    "description": "Liste des mesures (un seul élément)",
-    "label": "Mesures",
-    "items": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q150"
-    },
-    "propName": "usage_point"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q150": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q150",
-    "@type": "object",
-    "description": "Une mesure.",
-    "label": "Mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q118"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q151"
-      }
-    ]
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q151": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q151",
-    "@type": "object",
-    "description": "Une mesure.",
-    "label": "Mesure",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q152"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q138"
-      }
-    ],
-    "propName": "meter_reading"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q152": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q152",
-    "@type": "object",
-    "description": "Caractéristiques de la mesure.",
-    "label": "Caractéristiques.",
-    "hasProperty": [
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q153"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q154"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q132"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q133"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q134"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q135"
-      },
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q137"
-      }
-    ],
-    "propName": "reading_type"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q153": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q153",
-    "@type": "q:Q104",
-    "description": "Type de mesure.",
-    "label": "Type de mesure",
-    "exampleValue": "ENERGIEGLO",
-    "kind": "Metadata",
-    "propName": "measurement_kind",
-    "values": "ENERGIEGLO"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q154": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q154",
-    "@type": "q:Q104",
-    "description": "Unité de mesure de la grandeur physique.",
-    "label": "Unité.",
-    "exampleValue": "Wh",
-    "kind": "Metadata",
-    "propName": "unit",
-    "sameAs": "l:Q136",
-    "values": "Wh"
-  },
-  "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q160": {
-    "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q160",
-    "@type": "q:Q102",
-    "description": "Point de livraison (raccordement au réseau) d'un client Enedis.",
-    "label": "Compteur Enedis",
-    "availability": "soon",
-    "cozyDoctypeName": "fr.enedis.api.customers.usagepoints",
-    "cozyIndex": "[\"_id\"]",
-    "cozySelector": "{\"_id\": { \"$gte\": null } }",
-    "generatedBy": {
-      "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/software"
-    },
-    "hasProperty": [
-      "q:Q133",
-      "q:Q134",
-      "q:Q109",
-      {
-        "@id": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/Q117"
-      }
-    ],
-    "sourceDataController": "Enedis",
-    "syntheticSet": "https://raw.githubusesrcontent.com/jacquarg/cozy-konnector-enedis/master/doc/synthetic_dataset/enedis_customer_usagepointaddress.json",
-    "typology": "Domicile",
-    "updateFrequency": "P6M",
-    "updateLatency": "P1D",
-    "usedBy": []
-  },
-  "q:Q056a21b3-228c-479e-8f20-c44f1369e02a": {
-    "@id": "q:Q056a21b3-228c-479e-8f20-c44f1369e02a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Date d'achat",
-    "label": "Date d'achat de mes équipements",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Facture ; Garantie",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q06a5e7e7-c861-4337-b63d-6664030c90ab": {
-    "@id": "q:Q06a5e7e7-c861-4337-b63d-6664030c90ab",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Voeux saisis ; Pièces justificatives bonification ; Résultats ",
-    "label": "Enseignants : mobilité",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof / Siam",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q07829d9b-3d3c-481f-aed1-4c2d2094c172": {
-    "@id": "q:Q07829d9b-3d3c-481f-aed1-4c2d2094c172",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Taux de particule fines (PM), et poluants",
-    "label": "qualité de l'air",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Statistiques",
-    "portable": "",
-    "sourceDataController": "agence de l'air (?)",
-    "support": "",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q07fa385e-01bc-4327-82e2-0e5b2ef8748c": {
-    "@id": "q:Q07fa385e-01bc-4327-82e2-0e5b2ef8748c",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Snaps, Chats, Story, Achats, Amis, Classement, Localisations, Recherches, Abonnements, Bitmoji, Sondages in-app, Contenu signalé...\n",
-    "label": "Historique Snapchat",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Se sensibiliser aux usages numériques"
-    ],
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Snapchat",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q09f644a5-4420-4d6c-91d5-bac5f74873e9": {
-    "@id": "q:Q09f644a5-4420-4d6c-91d5-bac5f74873e9",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "localisation",
-    "label": "Lieux de compost",
-    "access": "",
-    "defi": "Open Data",
-    "information": "",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "ADEME",
-    "support": "Site web de Sinoé déchets, site d'associations locales (Les compostiers) ",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q0c3ac761-d85c-49d7-a15d-16203cf7ce25": {
-    "@id": "q:Q0c3ac761-d85c-49d7-a15d-16203cf7ce25",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Notation administrative et/ou pédagogique ; Historique des évolutions ; Inspections...",
-    "label": "Enseignants : notations",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q0c670baa-4785-49f5-b93b-46d558d1b876": {
-    "@id": "q:Q0c670baa-4785-49f5-b93b-46d558d1b876",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Maladie ; Garde d’enfant malade , Sortie pédagogique , Formation...",
-    "label": "Enseignants : positions et congés",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q0e9cde69-40f4-4d5e-8cce-bbb1cbc2757a": {
-    "@id": "q:Q0e9cde69-40f4-4d5e-8cce-bbb1cbc2757a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Code barre, nom du produit, marque, prix, date/heure/lieu d'achat, ",
-    "label": "Historique des produits achetés",
-    "access": "Scraping ou API",
-    "defi": [
-      "Réduire la production de déchets alimentaires",
-      "Consommer local et de saison",
-      "Calculer et/ou réduire l'empreinte carbone de mon alimentation"
-    ],
-    "information": "Consommation alimentaire, habitudes de consommation",
-    "kind": "personnelle",
-    "portable": "oui",
-    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
-    "support": "carte fidélité, espace client",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q0f9c93bc-12ca-49ea-ae6e-3f7453fdb395": {
-    "@id": "q:Q0f9c93bc-12ca-49ea-ae6e-3f7453fdb395",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "type de rendez-vous, adresse, horaires",
-    "label": "Agenda personnel",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Agenda en ligne",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q10b53f77-44a1-406e-9d14-2834b5079f78": {
-    "@id": "q:Q10b53f77-44a1-406e-9d14-2834b5079f78",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "nombre de personnes",
-    "label": "Profil du foyer",
-    "access": "",
-    "defi": "consommation à domicile",
-    "information": "Profil du foyer",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "DGFIP",
-    "support": "France Connect (impôts)",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q136ff551-5ac8-416f-99aa-6062d173a419": {
-    "@id": "q:Q136ff551-5ac8-416f-99aa-6062d173a419",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Grile tarifaire des vélo en livre service (coût de prise en charge, durée, …)",
-    "label": "coût location vélo libre service",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Référentiel",
-    "portable": "",
-    "sourceDataController": "Yelo",
-    "support": "coût d'un trajet (en transports en communs)",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q184c9b35-b770-4a21-9f3a-c7f6b64816ce": {
-    "@id": "q:Q184c9b35-b770-4a21-9f3a-c7f6b64816ce",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "écogestes à réaliser, date, défis relevés, consommation d'eau évitée, CO2 évité, € économisés",
-    "label": "écogestes",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "90jours, Défi Familles à Energie Positive, We Act For Good, ...",
-    "support": "espace personnel",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q188d0c59-5c57-442f-8af2-a981e53f906c": {
-    "@id": "q:Q188d0c59-5c57-442f-8af2-a981e53f906c",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Numéro de Pass Scolaire, Formule d'abonnement, Trajets réalisés, Prix...",
-    "label": "Transports ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "TCL - Métropole de Lyon",
-    "support": "Pass Traboule",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q1b298a4f-7db1-4cda-873c-cb5d75b0152d": {
-    "@id": "q:Q1b298a4f-7db1-4cda-873c-cb5d75b0152d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Etiquette énergie, étiquette climat",
-    "label": "Diagnotic de performance énergétique",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Notaire",
-    "support": "Diagnostic de performance énergétique (DPE)",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q1bec1b55-3a90-45c7-ba88-32d7124c651e": {
-    "@id": "q:Q1bec1b55-3a90-45c7-ba88-32d7124c651e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "température de confort, usage d'appareils, nombre de douches, h de rentrée du travail...",
-    "label": "Pratiques diverses du foyer ",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Famille à Energie Positive, apps éco-geste (90jours, etc)",
-    "support": "espace perso",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q1c982de1-2e61-4736-86da-7bab7f192f45": {
-    "@id": "q:Q1c982de1-2e61-4736-86da-7bab7f192f45",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "composition du menu, entrée, plat, dessert",
-    "label": "Menus",
-    "access": "",
-    "defi": "",
-    "information": "Référentiel",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Cantines",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q1d5e0194-f165-417d-b860-61c7cf89d9a6": {
-    "@id": "q:Q1d5e0194-f165-417d-b860-61c7cf89d9a6",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Prix de revient kilométrique moyen",
-    "label": "référentiel PRK",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "prix de revient kilométrique",
-    "kind": "Référentiel",
-    "portable": "",
-    "sourceDataController": "Argus",
-    "support": "",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q1db65da9-e4a6-4df6-903c-67f2d3b1ead5": {
-    "@id": "q:Q1db65da9-e4a6-4df6-903c-67f2d3b1ead5",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "point de départ et point d'arrivé (itinéraire emprunté), km parcourus, moyen de transport, temps de transport, date, heure",
-    "label": "Distance parcourue pour les courses",
-    "access": "",
-    "defi": "empreinte carbone des achats alimentaires",
-    "information": "émissions de CO2 engendrée par les courses alimentaires et meilleur itinéraire possible",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Opérateurs de transpoprt, constructeurs automobiles, Google, Waze",
-    "support": "espace personnel, googe takeout, ",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q1df1eefd-3bc3-4f23-aefe-41c72a0a5fb8": {
-    "@id": "q:Q1df1eefd-3bc3-4f23-aefe-41c72a0a5fb8",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nombre d'élève ; Type de classes ; Taux de décrochage scolaire ; Taux de réussite au brevet (et nombre de mentions)...",
-    "label": "Information collège",
-    "access": "",
-    "defi": "Développer son esprit civique",
-    "information": "",
-    "kind": "Non personnelle",
-    "portable": "",
-    "sourceDataController": "MEN",
-    "support": "Site web",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q205506bf-4642-4b3a-a626-1d40c9244ca0": {
-    "@id": "q:Q205506bf-4642-4b3a-a626-1d40c9244ca0",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "nom du plat, prix du plat, nom du restaurant, adresse du restaurant, type de restaurant (asiatique, végétalien, sans gluten,...)\n",
-    "label": "Plat livrés",
-    "access": "Scrapping ou API",
-    "defi": "consommation à domicile",
-    "information": "Habitudes alimentaires",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
-    "support": "Compte utilisateur",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q20e1ae9e-7b93-43a1-82b1-0950cd19d887": {
-    "@id": "q:Q20e1ae9e-7b93-43a1-82b1-0950cd19d887",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nombre de restaurants dans l’année/le mois : lieux, prix, date",
-    "label": "Consommation au restaurant",
-    "access": "",
-    "defi": "consommation hors domicile",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Banques, EdenRed, Chèques Déjeuner, Chèques Vacances",
-    "support": "Espace personnel",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q2772d4fb-bd26-43e3-a36a-598150cacf37": {
-    "@id": "q:Q2772d4fb-bd26-43e3-a36a-598150cacf37",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Evaluation par compétence",
-    "label": "Résultats scolaires",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q2aa0180e-a50d-429e-ae2f-b18ce83c2194": {
-    "@id": "q:Q2aa0180e-a50d-429e-ae2f-b18ce83c2194",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "potentiel de production d'énergie éolienne",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q2b930d7e-afc0-4385-8135-c5ed266470ac": {
-    "@id": "q:Q2b930d7e-afc0-4385-8135-c5ed266470ac",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "date",
-    "label": "Date de construction de mon domicile",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Notaire",
-    "support": "DPE (Diagnostic de Performance énergétique) ; Plan ; Bail ",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q2d2a5046-01f5-43b1-a2b3-9f6356a6eb59": {
-    "@id": "q:Q2d2a5046-01f5-43b1-a2b3-9f6356a6eb59",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Nombre de calories brûlées par jour et par acte",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Tracker d'activité",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q2d47d80e-e6e9-467b-bca4-88749ca90019": {
-    "@id": "q:Q2d47d80e-e6e9-467b-bca4-88749ca90019",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "KWh",
-    "label": "Consommation réelle de chaque équipement",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Etiquette environnementale ; Capteur sur le compteur ; Capteurs sur l'équipement",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q2dbac0cc-b888-4a0d-abe9-34777473c30e": {
-    "@id": "q:Q2dbac0cc-b888-4a0d-abe9-34777473c30e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Indemnité kilométrique à laquelle je peut prétendre par kilomètre parcourus",
-    "label": "Indemnité au kilomètre",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "indemnité kilométrique",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q3154a5ff-b465-4bcb-89a9-a2171073dd2d": {
-    "@id": "q:Q3154a5ff-b465-4bcb-89a9-a2171073dd2d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Activités sur la plateforme ; Appréciations trimestrielles et conseils enseignants",
-    "label": "Cours privés : résultats",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q31942696-b13d-4e6d-a928-fb237f4f0aab": {
-    "@id": "q:Q31942696-b13d-4e6d-a928-fb237f4f0aab",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Latin, Grec ancien, filière européenne, LV3, théâtre...",
-    "label": "Options choisies",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q3217b419-ad6a-4e28-a521-023fd42a3366": {
-    "@id": "q:Q3217b419-ad6a-4e28-a521-023fd42a3366",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Type de l'abonnement (individuel, famille) ; artiste ; morceaux ; temps d'écoute ; ...",
-    "label": "Historique Deezer, Spotify",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Se sensibiliser aux usages numériques"
-    ],
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Plateforme d'écoute (Deezer, Spotify, ...)",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q3247f939-2d22-4928-8d08-4f4cf69d0198": {
-    "@id": "q:Q3247f939-2d22-4928-8d08-4f4cf69d0198",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Type de la sanction/punition, nom de l'enseignant, motif",
-    "label": "Punitions & Sanctions ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q364846e1-21d6-4ed8-8b78-499919871def": {
-    "@id": "q:Q364846e1-21d6-4ed8-8b78-499919871def",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "âges des membres du foyer",
-    "label": "Profil du foyer : âge",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q3700673d-9db2-45b5-a3ef-e724b556a831": {
-    "@id": "q:Q3700673d-9db2-45b5-a3ef-e724b556a831",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nom des unités complétées / nom des unités à compléter / nom des unités à débloquer ",
-    "label": "Pratiques linguistiques en ligne : parcours",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "Pratiques linguistiques",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "DuoLingo",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q38620c53-ebaf-4fb2-87eb-49c621ab5923": {
-    "@id": "q:Q38620c53-ebaf-4fb2-87eb-49c621ab5923",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "type de structure (réemploi, conteneurs, déchèteries/écopoints, composteurs, conteneurs vêtements, vente vrac, trisac, collecteurs bouchons), nombre de structures par type, Nom, Adresse, horaires d'ouverture, statut, coordonnées tel, mail, site, réseaux sociaux",
-    "label": "Répertoire pour le tri",
-    "access": "",
-    "defi": "Mesurer les déchets et le gaspillage",
-    "information": "référentiel",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "mieuxtrieranantes.fr",
-    "support": "OpenDataNantes",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q392a0073-a7cd-472d-b26d-41247a726a90": {
-    "@id": "q:Q392a0073-a7cd-472d-b26d-41247a726a90",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nombre de sacs réutilisables achetés, date d'achat, prix, lieu d'achat",
-    "label": "Achat de sacs réutilisables",
-    "access": "",
-    "defi": "Mesurer les déchets et le gaspillage",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
-    "support": "carte fidélité, espace client",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q392cf038-ad1b-436a-9e0a-974760111eb1": {
-    "@id": "q:Q392cf038-ad1b-436a-9e0a-974760111eb1",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Magasin, pays de distribution",
-    "label": "Lieux de distribution alimentaire",
-    "access": "API",
-    "defi": "consommation à domicile",
-    "information": "Référentiel culinaire",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Openfoodfacts",
-    "support": "Site ou app",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q3a5d5a67-caa8-46cf-a8a9-ea66fc026924": {
-    "@id": "q:Q3a5d5a67-caa8-46cf-a8a9-ea66fc026924",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Echelon ; Type de passage (ancienneté, choix, grand choix...) ; Durée de l’ancienneté ; Date de titularisation et de stagiarisation",
-    "label": "Enseignants : carrière",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q3a7b619f-fb65-432a-bded-204713310a09": {
-    "@id": "q:Q3a7b619f-fb65-432a-bded-204713310a09",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Ma position  géographique sur une période de temps (Latitude, Longitude, horodatage)",
-    "label": "géolocalisation",
-    "access": "Google Take Out",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "Ma position",
-    "kind": "Personnelles - transaction",
-    "portable": "portable",
-    "sourceDataController": "Google, Waze, ",
-    "support": "",
-    "thematique": "Mobilité",
-    "typology": "Déplacements"
-  },
-  "q:Q3c49f6e0-b483-4822-bc40-cce971451678": {
-    "@id": "q:Q3c49f6e0-b483-4822-bc40-cce971451678",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Date Limite de Consommation ",
-    "label": "Date de péremption",
-    "access": "",
-    "defi": "Mesurer les déchets et le gaspillage",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "?",
-    "support": "?",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q3ce63620-06a6-413b-8f64-60dce0a253b7": {
-    "@id": "q:Q3ce63620-06a6-413b-8f64-60dce0a253b7",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Date, matière, contenu",
-    "label": "Travail à réaliser",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q3da6ec98-dad6-4042-b656-e2d452422cee": {
-    "@id": "q:Q3da6ec98-dad6-4042-b656-e2d452422cee",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Caractéristique de mon quartier : commerces de proximité ; revenu moyen ; nombre de km2 ; ...",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Sites divers (ici : Kelquartier)",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q3dfa3fb3-7e31-4264-825f-8a9dde48d282": {
-    "@id": "q:Q3dfa3fb3-7e31-4264-825f-8a9dde48d282",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
-    "label": "Consommation pour la chauffe du logement",
-    "access": "",
-    "defi": "",
-    "information": "consommation d'énergie selon mon comportement",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Banque",
-    "support": "facture, relevé bancaire",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q3e66abaf-6f77-4acf-a613-42119900ea45": {
-    "@id": "q:Q3e66abaf-6f77-4acf-a613-42119900ea45",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "produits acheté (graines, plants, terreau, engrais, pesticide,...)",
-    "label": "production potager",
-    "access": "",
-    "defi": "empreinte carbone des achats alimentaires",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "oui",
-    "sourceDataController": "Distributeurs de produits de jardin (Jardiland, GammVert, Truffaut, ...) et marketplace (monpotager.com), Lilo",
-    "support": "carte de fidélité, espace client",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q3eb0a7dc-73dd-4032-870b-d967fc2aec90": {
-    "@id": "q:Q3eb0a7dc-73dd-4032-870b-d967fc2aec90",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Lieu du stage / n°Siret, nom du tuteur de stage, dates du stage, autoévaluation, appréciations par entreprise, ...",
-    "label": "Stage 3e",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège ",
-    "support": "",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q412c3878-c08f-43db-a93a-01b854a44029": {
-    "@id": "q:Q412c3878-c08f-43db-a93a-01b854a44029",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Consommation des équipements municipaux (en KW/H, eau, gaz, bois, charbon...)",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Compteurs intelligents ; Factures  ; Compte en ligne",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q41f4f1f5-3d49-40d9-b284-275cb8c318f2": {
-    "@id": "q:Q41f4f1f5-3d49-40d9-b284-275cb8c318f2",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nombre de jours par semaine de télétravail, ...",
-    "label": "autorisation de télétravail",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "RH",
-    "support": "",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q45102a76-871f-4b30-98ee-4fc5406acde3": {
-    "@id": "q:Q45102a76-871f-4b30-98ee-4fc5406acde3",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "potentiel récupération de chaleur sur les eaux usées",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Thermiup, Eko, Gaïa Green",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q45be03ae-ed15-4300-8707-b1bb494bd0a0": {
-    "@id": "q:Q45be03ae-ed15-4300-8707-b1bb494bd0a0",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Numéro national d’identification (INE), nom, prénom, date de naissance",
-    "label": "Contact ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "Qui a le droit de venir chercher mon enfant",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "Dossier inscription élève",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q4a051cd3-fb70-471a-ab94-b48bf6668995": {
-    "@id": "q:Q4a051cd3-fb70-471a-ab94-b48bf6668995",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Identifiants, mots de passe",
-    "label": "Liste des comptes en ligne ouverts",
-    "access": "",
-    "defi": "Se sensibiliser aux usages numériques",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Individu",
-    "support": "Trousseau du navigateur",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q4b2a7566-4fa5-408d-bbac-617f90207fb9": {
-    "@id": "q:Q4b2a7566-4fa5-408d-bbac-617f90207fb9",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nom, prénom, téléphone domicile/travail/portable, n° sécurité sociale dont dépend l'enfant",
-    "label": "Contact responsable du mineur",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "Qui a le droit de venir chercher mon enfant",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège ",
-    "support": "Dossier inscription élève - Fiche sanitaire de liaison",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q4b447bcb-de81-4f42-afac-a2e9b3021d50": {
-    "@id": "q:Q4b447bcb-de81-4f42-afac-a2e9b3021d50",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Type de l'abonnement (individuel, famille) ; URL, Horodotage titre vu ; URL, Horodotage titre évalué",
-    "label": "Historique Netflix",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Se sensibiliser aux usages numériques"
-    ],
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Netflix",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q4dab5bdf-f7c8-42fe-bda8-9f3a1404f5e4": {
-    "@id": "q:Q4dab5bdf-f7c8-42fe-bda8-9f3a1404f5e4",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "recettes sauvegardées, type (entrée, plat, dessert), nom, ingrédients",
-    "label": "Recettes de cuisine",
-    "access": "Scrapping",
-    "defi": "consommation à domicile",
-    "information": "Habitudes alimentaires",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Marmiton",
-    "support": "espace personnel",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q4e386a08-6a81-484a-a2e5-eaaba33edad1": {
-    "@id": "q:Q4e386a08-6a81-484a-a2e5-eaaba33edad1",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "potentiel de production géothermique",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q4e94eda7-7154-4b3d-bc0e-bb647be85722": {
-    "@id": "q:Q4e94eda7-7154-4b3d-bc0e-bb647be85722",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Projet pédagogique concerné, modes d’exploitation envisagés, Consentement de \nl’élève, Autorisation parentale, ...",
-    "label": "Droit à l’image",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège ",
-    "support": "Dossier inscription élève",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q50f3a9fa-58b0-482c-bb24-3cad5bd76e58": {
-    "@id": "q:Q50f3a9fa-58b0-482c-bb24-3cad5bd76e58",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "kgCO2/ kg de poids vif ou kg de matière brute ou kg de produit fini",
-    "label": "Empreinte carbone alimentaire",
-    "access": "",
-    "defi": "consommation à domicile",
-    "information": "Référentiel environnemental",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Ademe",
-    "support": "AGRIBALYSE,  Base Carbone®",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q511c3d13-70ac-4834-87b8-db9c77be5c1c": {
-    "@id": "q:Q511c3d13-70ac-4834-87b8-db9c77be5c1c",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "consommation annuelle d'un IRIS",
-    "label": "Consommation énergétique moyenne ",
-    "access": "",
-    "defi": "",
-    "information": "open data",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Enedis, GRDF",
-    "support": "open data",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q511e6d77-a3e0-4d9e-a71e-1af097f15cc3": {
-    "@id": "q:Q511e6d77-a3e0-4d9e-a71e-1af097f15cc3",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nom, prénom, adresse, date, ...",
-    "label": "Justificatif de domicile",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Fournisseurs divers, Etat, ...",
-    "support": "Facture, Avis d'imposition ou de non-imposition, quittance de loyer/acte de propriété",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q52338db1-50d6-405e-aad3-eb17330c0bf7": {
-    "@id": "q:Q52338db1-50d6-405e-aad3-eb17330c0bf7",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Exploits : wildfire, champion, big spender, wizard, ...",
-    "label": "Pratiques linguistiques en ligne : trophés",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "Pratiques linguistiques",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "DuoLingo",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q528dd434-12cb-477a-92f5-7f225f68c4ff": {
-    "@id": "q:Q528dd434-12cb-477a-92f5-7f225f68c4ff",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Quel véhicule",
-    "label": "véhicule des agents",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q53a2bf98-c789-4926-9845-ec712dce1cca": {
-    "@id": "q:Q53a2bf98-c789-4926-9845-ec712dce1cca",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Agenda des évenements, liste des clubs, ...",
-    "label": "Offre culturelle et sportive",
-    "access": "",
-    "defi": "Développer son esprit civique",
-    "information": "",
-    "kind": "Non personnelle",
-    "portable": "",
-    "sourceDataController": "Grand Lyon",
-    "support": "Site web",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q57f16af4-ef6a-4833-959f-7fcbbde78b8e": {
-    "@id": "q:Q57f16af4-ef6a-4833-959f-7fcbbde78b8e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "végétarien, casher, sans porc, végétalien, sans gluten",
-    "label": "régime alimentaire",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "non",
-    "sourceDataController": "école, médecins",
-    "support": "?",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q587739dc-02c5-42c3-9749-3ce6bc8fabe9": {
-    "@id": "q:Q587739dc-02c5-42c3-9749-3ce6bc8fabe9",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "étiquette environnementale et énergie",
-    "label": "caractéristiques énergétiques des équipements",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "référentiel",
-    "portable": "",
-    "sourceDataController": "Darty/FNAC",
-    "support": "Catalogue",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q59168a82-8052-49e4-801a-e4b334931117": {
-    "@id": "q:Q59168a82-8052-49e4-801a-e4b334931117",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nombre de \"lingots\" accumulés, pourcentage de maîtrise, niveau",
-    "label": "Pratiques linguistiques en ligne: niveau",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "Pratiques linguistiques",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "DuoLingo",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q592a996c-cb1a-4fbe-a23e-683e9ab43621": {
-    "@id": "q:Q592a996c-cb1a-4fbe-a23e-683e9ab43621",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Contenu ; Notation ; ...",
-    "label": "CGU des services utilisés",
-    "access": "",
-    "defi": "Se sensibiliser aux usages numériques",
-    "information": "",
-    "kind": "Non personnelle",
-    "portable": "",
-    "sourceDataController": "Terms of service didn't read",
-    "support": "Site web",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q5ad440c1-a069-44fb-a619-f1ec935b9d69": {
-    "@id": "q:Q5ad440c1-a069-44fb-a619-f1ec935b9d69",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nom du jeu joué, nombre d'heures jouées, ...",
-    "label": "Pratiques jeux vidéos",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Se sensibiliser aux usages numériques"
-    ],
-    "information": "Jeux joués",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Plateformes d'achats de jeux (Steam), Editeurs de jeux (Epic Game), ... ",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "loisirs"
-  },
-  "q:Q5c75738b-1528-4c3b-8a1a-6863c1f0c9b8": {
-    "@id": "q:Q5c75738b-1528-4c3b-8a1a-6863c1f0c9b8",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "type de travaux, montant, date",
-    "label": "Date, prix et caractéristiques des travaux effectués",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "propriétaire, locataire",
-    "support": "Factures des différents prestataires",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q5dfd361f-f51e-4564-84c4-f9d46a8f0c86": {
-    "@id": "q:Q5dfd361f-f51e-4564-84c4-f9d46a8f0c86",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "consommation d'énergie et impact en terme d'émission de gaz à effet de serre",
-    "label": "Performance énergétique estimée de mon logement et de mon bâtiment",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Notaire",
-    "support": "DPE (Diagnostic de Performance énergétique) : étiquette climat et étiquette énergie",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q5f3bbfb7-e8bc-40dd-bc9e-7df9cb30e15e": {
-    "@id": "q:Q5f3bbfb7-e8bc-40dd-bc9e-7df9cb30e15e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "CO2/kwh produit",
-    "label": "empreinte carbone des énergies en temps réel",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "RTE, Ademe",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q6126c5b5-911a-404e-891a-2d0e4594dfa9": {
-    "@id": "q:Q6126c5b5-911a-404e-891a-2d0e4594dfa9",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Données thermographiques des bâtiments",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "collectivités locales",
-    "support": "Photos aériennes thermiques",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q63386d74-8be1-4122-bb12-cc16d5b7faed": {
-    "@id": "q:Q63386d74-8be1-4122-bb12-cc16d5b7faed",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "nom, prénom, date de naissance, lieu de naissance, adresse, date de validité, ...",
-    "label": "Pièce d'identité enfant & parent",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Etat",
-    "support": "/",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q63c7f60b-3774-49e1-ac0c-550c799f1769": {
-    "@id": "q:Q63c7f60b-3774-49e1-ac0c-550c799f1769",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Inscrit à l'étude O/N",
-    "label": "Cours du soir ",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège ",
-    "support": "Dossier inscription élève",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q64077c1c-4004-4263-9d13-5c951be2866a": {
-    "@id": "q:Q64077c1c-4004-4263-9d13-5c951be2866a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Type (compétition, concert, ...) ; dates ; lieux ; accompagnateurs, ...",
-    "label": "Activités extrascolaires : évenements",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Développer son esprit civique"
-    ],
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Clubs, Conservatoires, ...",
-    "support": "/",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q64e9ba3d-1e8b-4434-a212-9f5942c7331b": {
-    "@id": "q:Q64e9ba3d-1e8b-4434-a212-9f5942c7331b",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "courbe de charge production",
-    "label": "production photovoltaïque (autoconsommation)",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "individu",
-    "support": "\nContrat achat énergie photovoltaique EDF ; Approximation avec dynamo",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q683e810e-c117-4a1c-8666-1af3eafc1961": {
-    "@id": "q:Q683e810e-c117-4a1c-8666-1af3eafc1961",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Photos, vidéos, stories, profil, commentaires, messages privés, personnes suivies/bloquées/followers, historique de recherche...",
-    "label": "Historique Instagram",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Se sensibiliser aux usages numériques"
-    ],
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Instagram",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q6864596e-d852-4a36-b6c3-125c1c5d95c1": {
-    "@id": "q:Q6864596e-d852-4a36-b6c3-125c1c5d95c1",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "kg, date",
-    "label": "Poids de mes déchets",
-    "access": "Scrapping ou API",
-    "defi": "Réduire la production de déchets alimentaires",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Poubelle connectée ; Balance",
-    "support": "Site ou app",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q6acc1ce5-f5c2-4669-921e-0a8db9dd8950": {
-    "@id": "q:Q6acc1ce5-f5c2-4669-921e-0a8db9dd8950",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Agenda des débats, liste des associations, ordre du jour des conseils municipaux/communautaires, ...",
-    "label": "Evenements civiques",
-    "access": "",
-    "defi": "Développer son esprit civique",
-    "information": "",
-    "kind": "Non personnelle",
-    "portable": "",
-    "sourceDataController": "Grand Lyon",
-    "support": "Site web",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q6c10fe27-1027-4ef0-a02a-174f768e23da": {
-    "@id": "q:Q6c10fe27-1027-4ef0-a02a-174f768e23da",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "puissance installée, production annuelle, consommation annuelle nationale",
-    "label": "Consommation d'énergie hors réseaux",
-    "access": "",
-    "defi": "",
-    "information": "open data",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "cibe, eurostat",
-    "support": "études",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q70851b5a-e01b-4db7-a224-1d8069613528": {
-    "@id": "q:Q70851b5a-e01b-4db7-a224-1d8069613528",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Résultat test de positionnement ; Résultat test de certification ; Niveaux (1 à 8) par compétence (1 à 16) ; Nombre de pix acquis par niveau",
-    "label": "Résultats au test PIX ",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Etat - PIX",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q70b1a158-2419-4a25-954b-107664cc38e1": {
-    "@id": "q:Q70b1a158-2419-4a25-954b-107664cc38e1",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "sport pratiqué, fréquence des entraînements, durée, ...",
-    "label": "pratiques sportives",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "objets connectés (trackers, Wtithings...), clubs de sport (club med gym, gym suédoise,...)",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q71392ee1-d808-4967-b0b3-1a37049edd6d": {
-    "@id": "q:Q71392ee1-d808-4967-b0b3-1a37049edd6d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "type de silicium, puissance (kWc), situation géographique, inclinaison et orientation du panneau solaire ",
-    "label": "rendement photovoltaïque",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "installateurs de panneaux solaires, autoconsommation.io",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q75a4d765-785f-4450-ada6-82257118f3c0": {
-    "@id": "q:Q75a4d765-785f-4450-ada6-82257118f3c0",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "nombre de mail envoyés/reçus par h/ jour",
-    "label": "Mes pratiques internet : mails",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Messageries (Gmail, Roundcube,...)",
-    "support": "Google takeout",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q7675a303-f804-4b65-8abe-2e4bdc43c974": {
-    "@id": "q:Q7675a303-f804-4b65-8abe-2e4bdc43c974",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nom du produit, prix, poids",
-    "label": "Achat vrac",
-    "access": "",
-    "defi": "Mesurer les déchets et le gaspillage",
-    "information": "produits achetés sans emballage/ emballages évités",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
-    "support": "carte fidélité, espace client",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q788c53f0-2a13-4d69-afaf-2eb8d7cb51e7": {
-    "@id": "q:Q788c53f0-2a13-4d69-afaf-2eb8d7cb51e7",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Forfait choisi, prix, particuliers/en groupe, heures de cours dispensées, crédit d’heures de cours, solde",
-    "label": "Cours privés : contrat",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "Oui",
-    "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Q78a6635f-6ea3-42ba-8386-703739174049": {
-    "@id": "q:Q78a6635f-6ea3-42ba-8386-703739174049",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "aliments recherchés, restaurants recherchés",
-    "label": "préférences alimentaires",
-    "access": "",
-    "defi": "préférences",
-    "information": "profil alimentaire",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "moteurs de recherche (google, qwant,...)",
-    "support": "Google Takeout",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q797ed9bf-571b-4975-ac15-0eb86aea8088": {
-    "@id": "q:Q797ed9bf-571b-4975-ac15-0eb86aea8088",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "déperdition de chaleur d’un bâtiment",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q7bb2ecf6-f2e5-43e2-9693-37f781efe537": {
-    "@id": "q:Q7bb2ecf6-f2e5-43e2-9693-37f781efe537",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Choix des lycées, souhaits pour les enseignements au choix, avis/conseil d'orientation",
-    "label": "Orientation 3e ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Affelnet-lycée",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q7d22dcf1-f56f-4e9e-a661-438d38955d62": {
-    "@id": "q:Q7d22dcf1-f56f-4e9e-a661-438d38955d62",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Qualité air interieur (O2)",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Capteur de mesure (ex : Foobot)",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q7d711f2b-d704-4edb-a2f2-4e8984e39c91": {
-    "@id": "q:Q7d711f2b-d704-4edb-a2f2-4e8984e39c91",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "URL, Horodotage",
-    "label": "Historique Youtube",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Se sensibiliser aux usages numériques"
-    ],
-    "information": "Vidéos et tutoriels regardés",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Youtube",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "loisirs"
-  },
-  "q:Q7dc550f8-a68f-4098-a849-e03468ca2c94": {
-    "@id": "q:Q7dc550f8-a68f-4098-a849-e03468ca2c94",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Heure, date, montant",
-    "label": "Consommation au restaurant d'entreprise",
-    "access": "",
-    "defi": "Consommation hors domicile",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Comptabilité, Trésor Public, prestataire",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q82d6cabd-4d29-4187-a322-728458e04f24": {
-    "@id": "q:Q82d6cabd-4d29-4187-a322-728458e04f24",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Consommation de mon domicile en eau (quantité et débit)",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "fournisseur eau (véolia, régie,...)",
-    "support": "Débitmètre (connecté ou non) ; Compteur d'eau intelligent",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q91f19da1-8809-4225-b3ca-fa321248ac2e": {
-    "@id": "q:Q91f19da1-8809-4225-b3ca-fa321248ac2e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "kWh",
-    "label": "Estimation de la quantité d'énergie consommée (sur la base de standards) du bâtiment ou du logement",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Notaire",
-    "support": "DPE (Diagnostic de Performance énergétique)",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q921aa895-2046-4d58-855d-f87e0b517017": {
-    "@id": "q:Q921aa895-2046-4d58-855d-f87e0b517017",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "coordonnées GPS",
-    "label": "Historique de géolocalisation",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Compte en ligne de mon opérateur ; Google TakeOut  ; Application de mon smartphone",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q92af471b-8ea2-4bec-941f-438124e82c1d": {
-    "@id": "q:Q92af471b-8ea2-4bec-941f-438124e82c1d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "adresse",
-    "label": "Profil du foyer : adresse",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "DGFIP, Deliveroo, Amazon, Waze, Uber, fournisseur d'énergie...",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q9461bf30-9c5a-45a4-8bfd-090bb1b25a9f": {
-    "@id": "q:Q9461bf30-9c5a-45a4-8bfd-090bb1b25a9f",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Lieu d'accueil ; Nom des activités choisies ; Horaires ; Nom de l'encadrant, ...",
-    "label": "Activités extrascolaires : activités",
-    "access": "",
-    "defi": [
-      "S'évaluer autrement",
-      "Développer son esprit civique"
-    ],
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Clubs, Conservatoires, ...",
-    "support": "/",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Q963e7fc4-8853-4e4b-af31-131a01787c0b": {
-    "@id": "q:Q963e7fc4-8853-4e4b-af31-131a01787c0b",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "crédits d'impôts, subventions, montant, selon profil (caractéristiques de votre logement (surface, année de construction...),des devis d'entreprises, Revenu Fiscal de Référence (RFR)), type de travaux envisagés",
-    "label": "aides disponibles selon profil",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "ADEME",
-    "support": "simulaide",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Q96475a4f-740e-4c74-b7fb-743be7dc723d": {
-    "@id": "q:Q96475a4f-740e-4c74-b7fb-743be7dc723d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "liste des étapes et moyens de transports à prendre pour effectuer le trajet",
-    "label": "itinéraire multimodal",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Référentiel",
-    "portable": "",
-    "sourceDataController": "Google (et beaucoup d’autres !)",
-    "support": "coût d'un trajet (en transports en communs)",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Q9a7453c0-7911-4fef-a058-0fda2c617773": {
-    "@id": "q:Q9a7453c0-7911-4fef-a058-0fda2c617773",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Nom de l'exposition, Musée, date, prix",
-    "label": "Expositions vues",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Musées - Métropole de Lyon",
-    "support": "Pass traboule ",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Qa0e9bc99-ac92-4c99-92ef-d07f2e2f2fb8": {
-    "@id": "q:Qa0e9bc99-ac92-4c99-92ef-d07f2e2f2fb8",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Quantité, marque, catégorie (boisson, smoothie,..), magasin, pays de distribution",
-    "label": "Caractéristiques du produit alimentaire",
-    "access": "API",
-    "defi": [
-      "Réduire la production de déchets alimentaires",
-      "Consommer local et de saison",
-      "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-      "Trier et recycler"
-    ],
-    "information": "Référentiel culinaire",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Openfoodfacts",
-    "support": "Site ou app",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qa1e06e45-3fd5-4f25-af1e-7c744bd9123a": {
-    "@id": "q:Qa1e06e45-3fd5-4f25-af1e-7c744bd9123a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Distance en voiture de mon trajet domicile travail",
-    "label": "distance trajet domicile travail",
-    "access": "API trajet",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Référentiel",
-    "portable": "",
-    "sourceDataController": "Google",
-    "support": "indemnité kilométrique",
-    "thematique": "Mobilité",
-    "typology": "Google Map"
-  },
-  "q:Qa51ad078-4368-4baa-8289-37d7a7ada620": {
-    "@id": "q:Qa51ad078-4368-4baa-8289-37d7a7ada620",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Heures des cours, matière suivie, nom de l'enseignant",
-    "label": "Cours privés : agenda",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "Oui",
-    "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
-    "support": "Espace personnel du site web/de l'application",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Qa879d89f-f031-4f77-9d49-cc39b9dd8be1": {
-    "@id": "q:Qa879d89f-f031-4f77-9d49-cc39b9dd8be1",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Consommation énergie de ma copropriété (kWh)",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Procés-verbal d'assemblée générale de copropriété",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qabdeba70-eecb-4bbf-8b02-77aa369c02bc": {
-    "@id": "q:Qabdeba70-eecb-4bbf-8b02-77aa369c02bc",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "pages ouvertes",
-    "label": "Mes pratiques internet : navigation\n",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Navigateur",
-    "support": "Historique de navigation",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qacf80528-7e15-4417-8a6c-c2fe4c86939e": {
-    "@id": "q:Qacf80528-7e15-4417-8a6c-c2fe4c86939e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "adresse de livraison, numéro de contact",
-    "label": "coordonnées de livraison",
-    "access": "Scrapping ou API",
-    "defi": "consommation à domicile",
-    "information": "Habitudes alimentaires",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
-    "support": "Compte utilisateur",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qb1222382-994c-4a20-85ed-c90fa3641c1c": {
-    "@id": "q:Qb1222382-994c-4a20-85ed-c90fa3641c1c",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Numéro d'identification de l'Education Nationale (NUMEN), Nom, Prénom, Situation familiale, ...",
-    "label": "Enseignants : contact ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qb212fd52-93f4-4958-9db6-7cf7763c997f": {
-    "@id": "q:Qb212fd52-93f4-4958-9db6-7cf7763c997f",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "CO2 et kWh/ mail envoyé, reçu, stocké, /pages chargées",
-    "label": "Empreinte carbone internet",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "référentiel",
-    "portable": "",
-    "sourceDataController": "ADEME, Shiftproject",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qb491ee46-f57f-4906-9ff0-a7256c21c5c1": {
-    "@id": "q:Qb491ee46-f57f-4906-9ff0-a7256c21c5c1",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Allergies alimentaires, au pollen, ... ",
-    "label": "Allergies",
-    "access": "PDF",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "Santé de l'enfant",
-    "kind": "Personnelle",
-    "portable": "Oui",
-    "sourceDataController": "Laboratoire d'analyse",
-    "support": "https://www.mesanalyses.fr/",
-    "thematique": "Ados",
-    "typology": "santé"
-  },
-  "q:Qb74ab3f7-6236-44e0-8cb1-5c98dd8ae22a": {
-    "@id": "q:Qb74ab3f7-6236-44e0-8cb1-5c98dd8ae22a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "type et nombre",
-    "label": "Equipement de refroidissement et de ventilation de mon logement",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Notaire",
-    "support": "DPE (Diagnostic de Performance énergétique) ; Plan",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qb95291ab-04f5-41e7-8665-376c0aceb0c7": {
-    "@id": "q:Qb95291ab-04f5-41e7-8665-376c0aceb0c7",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Boursier O/N, montant, date de versement, ...",
-    "label": "Bourses scolaires",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Portail Scolarité-Services",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qb9b8a6d6-760a-457a-8880-8da5f3cca03e": {
-    "@id": "q:Qb9b8a6d6-760a-457a-8880-8da5f3cca03e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "potentiel de production biomasse",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qba47d17a-3ffb-4a7a-bca6-73fedda31840": {
-    "@id": "q:Qba47d17a-3ffb-4a7a-bca6-73fedda31840",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Historique des produits scannés, caractéristiques du produit (nom, poids, volume, type (épicerie, surgelé, fruit, légume,...), marque, prix)",
-    "label": "Historique des produits scannés Yuka",
-    "access": "Scraping ou API",
-    "defi": [
-      "Réduire la production de déchets alimentaires",
-      "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-      "Trier et recycler"
-    ],
-    "information": "Intérêts et habitudes alimentaire",
-    "kind": "personnelle",
-    "portable": "oui",
-    "sourceDataController": "Yuka",
-    "support": "Compte utilisateur",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qbb85c8d1-ed80-4fe8-aaa5-08f6b50b1e96": {
-    "@id": "q:Qbb85c8d1-ed80-4fe8-aaa5-08f6b50b1e96",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "NutriScore, analyse nutritionnelle pour 100g, serving size, comparaison par rapport à des produits équivalents",
-    "label": "Informations nutritionnelles",
-    "access": "API",
-    "defi": [
-      "Réduire la production de déchets alimentaires",
-      "Consommer local et de saison",
-      "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-      "Trier et recycler"
-    ],
-    "information": "Référentiel culinaire",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Openfoodfacts",
-    "support": "Site ou app",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qc0361dca-3aa6-4472-b3fc-7ffbeeddc604": {
-    "@id": "q:Qc0361dca-3aa6-4472-b3fc-7ffbeeddc604",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Internat ; demi-pension ; externat ",
-    "label": "Régime ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège",
-    "support": "Dossier inscription élève",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Qc07c2237-0723-448f-a983-1d9c7ee8d59f": {
-    "@id": "q:Qc07c2237-0723-448f-a983-1d9c7ee8d59f",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "date, noms achats, …",
-    "label": "Commande en ligne de repas dans le train, avion :",
-    "access": "",
-    "defi": "Consommation hors domicile",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "SNCF, compagnies aériennes",
-    "support": "Apps, mails de confirmation",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qc7821cbf-6195-456b-a6ef-576e4129ef71": {
-    "@id": "q:Qc7821cbf-6195-456b-a6ef-576e4129ef71",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "temps d'utilisation, température",
-    "label": "Utilisation de l'électroménager",
-    "access": " ",
-    "defi": "consommation à domicile",
-    "information": "Usages culinaire",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Thermomix, Vorwek, présent à Nantes), Cookéo, Seb, Moulinex, etc).",
-    "support": "App, compte utilisateur",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qcb168634-3f1c-415b-a636-5f59808ff35c": {
-    "@id": "q:Qcb168634-3f1c-415b-a636-5f59808ff35c",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Evenements",
-    "label": "Actualités école",
-    "access": "",
-    "defi": "Développer son esprit civique",
-    "information": "",
-    "kind": "Non personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qcb4e1d74-8816-4d90-87fd-932d419f40d7": {
-    "@id": "q:Qcb4e1d74-8816-4d90-87fd-932d419f40d7",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "profil allergique, crises, géolocalisation, traitements, RDV médicaux\n",
-    "label": "allergies alimentaires",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Apps (allergiks), carnet de santé",
-    "support": "espace personnel",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qcbd59b8f-35e2-4053-9c64-270db962b20d": {
-    "@id": "q:Qcbd59b8f-35e2-4053-9c64-270db962b20d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Historique d'établissements d’affectation ; Nombre d’heure de cours ; Heures supplémentaires ; Discipline ; Corps\n",
-    "label": "Enseignants : affectations",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qcc927817-11bb-4a86-8bf1-41fd3fbad7b8": {
-    "@id": "q:Qcc927817-11bb-4a86-8bf1-41fd3fbad7b8",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "surface, orientation, nombre d'étages",
-    "label": "caractéristiques des logements",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Notaire, service d'urbanisme, DFIP",
-    "support": "contrat de vente, contrat de location, SIG",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qd038198c-17c6-41ed-9872-d9fddd5b7d1d": {
-    "@id": "q:Qd038198c-17c6-41ed-9872-d9fddd5b7d1d",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "N° de l'acte, date de délivrance, prénom, nom, date/lieu/heure de naissance, nom des parents ",
-    "label": "Acte de naissance",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Etat",
-    "support": "Livret famille",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qd1c71fef-ca71-4cac-ad07-85b6c0fc55a8": {
-    "@id": "q:Qd1c71fef-ca71-4cac-ad07-85b6c0fc55a8",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Liste des établissements ; structure pédagogique ;  Projet d'établissement ; Priorités politique éducative",
-    "label": "Carte scolaire",
-    "access": "",
-    "defi": "Développer son esprit civique",
-    "information": "",
-    "kind": "Non personnelle",
-    "portable": "",
-    "sourceDataController": "MEN",
-    "support": "Site web",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qd359dde3-9805-4a62-af65-25196c0b5b05": {
-    "@id": "q:Qd359dde3-9805-4a62-af65-25196c0b5b05",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Date de versement",
-    "label": "Allocation de rentrée scolaire (ARS)",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Etat - CAF",
-    "support": "Compte en ligne",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qd6661483-280b-4355-bbbe-679a5082732a": {
-    "@id": "q:Qd6661483-280b-4355-bbbe-679a5082732a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "",
-    "label": "Suivi AVS / EVS",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "Santé de l'enfant",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège ",
-    "support": "Dossier inscription élève - fiche sanitaire de liaison",
-    "thematique": "Ados",
-    "typology": "santé"
-  },
-  "q:Qd95a09f9-d7dd-408b-b170-6907280d73cb": {
-    "@id": "q:Qd95a09f9-d7dd-408b-b170-6907280d73cb",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "photo, commentaire, hashtag, date de publication",
-    "label": "Goûts et habitudes alimentaires",
-    "access": "API",
-    "defi": "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-    "information": "Intérêts et habitudes alimentaire",
-    "kind": "personnelle",
-    "portable": "oui",
-    "sourceDataController": "Instagram, facebook",
-    "support": "Photographies smartphone ; Déclaratif",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qde4d6bb7-4a4c-44da-8535-cba2f73da54b": {
-    "@id": "q:Qde4d6bb7-4a4c-44da-8535-cba2f73da54b",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "ISBN du livre emprunté, date de l’emprunt, date du retour ",
-    "label": "Livres empruntés",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "goût de lecture",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Médiathèque, Collège - Métropole de Lyon",
-    "support": "Pass traboule",
-    "thematique": "Ados",
-    "typology": "loisirs"
-  },
-  "q:Qde554c7f-ef20-4d43-b139-48db22539c35": {
-    "@id": "q:Qde554c7f-ef20-4d43-b139-48db22539c35",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "type de bâtiment, code postal, nombre de chambre, montant de la facture annuelle, fournisseur d'électricité, installation de chauffage (type, nombre), facture, type et nombre d'équipement possédé (dont voiture électrique), ",
-    "label": "potentiel de production photovoltaïque",
-    "access": "",
-    "defi": "",
-    "information": "économies réalisées",
-    "kind": "",
-    "portable": "",
-    "sourceDataController": "Comwatt, In Sun We Trust, Open Solar Map",
-    "support": "simulateur",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qdfa5f754-c46a-4b3b-97d7-c1b5dfed5102": {
-    "@id": "q:Qdfa5f754-c46a-4b3b-97d7-c1b5dfed5102",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "heures et fréquence d'utilisation, programme, ...",
-    "label": "Usage de chaque équipement : nombre d'heures et fréquence d'utilisation, programme, ...",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "",
-    "support": "Déclaratif ; Capteur sur le compteurs ; Capteurs sur l'équipement",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qdfdf5122-4653-4933-9e75-94277aa22759": {
-    "@id": "q:Qdfdf5122-4653-4933-9e75-94277aa22759",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "N° voie, nom de la voie, code postal, ville, pays",
-    "label": "Mon adresse",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "France Connect",
-    "support": "Carte d'identité ; Passeport ; Profil sécurité sociale, assurances, mutuelles, banques, CAF, MonSP, impôts, employeurs, etc...",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qe0477c09-e7cf-42df-9893-87d89e441771": {
-    "@id": "q:Qe0477c09-e7cf-42df-9893-87d89e441771",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Numéro de la classe, Heures des cours, matière suivie, nom de l'enseignant",
-    "label": "Agenda des cours",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qe40e4f2b-bdf8-423f-8224-bbf8f1e26b2e": {
-    "@id": "q:Qe40e4f2b-bdf8-423f-8224-bbf8f1e26b2e",
+  "q:Q0276fb6d-e8a4-4d17-966f-7e36fe735cbe": {
+    "@id": "q:Q0276fb6d-e8a4-4d17-966f-7e36fe735cbe",
     "@type": [
       "object",
       "wq:Q1397073"
@@ -3181,244 +24,243 @@
     "description": "",
     "label": "Nombre de tantième de chauffage de mon appartement",
     "access": "",
-    "defi": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
     "information": "",
     "kind": "",
     "portable": "",
     "sourceDataController": "",
     "support": "Règlement de copropriété",
-    "thematique": "TEE",
     "typology": ""
   },
-  "q:Qe4972dfd-445a-4d47-a434-589c0c8cf302": {
-    "@id": "q:Qe4972dfd-445a-4d47-a434-589c0c8cf302",
+  "q:Q0492c05d-5ece-4e0e-a3bb-4680aad85728": {
+    "@id": "q:Q0492c05d-5ece-4e0e-a3bb-4680aad85728",
     "@type": [
       "object",
       "wq:Q1397073"
     ],
-    "description": "pays d'origine",
-    "label": "Provenance des fruits et légumes achetés",
-    "access": "NC",
-    "defi": [
-      "Consommer local et de saison",
-      "Calculer et/ou réduire l'empreinte carbone de mon alimentation"
-    ],
-    "information": "km parcouru par les produits ",
-    "kind": "donnée privée",
-    "portable": "non",
-    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
-    "support": "Etiquettes dans les rayons ou marché",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qeb427220-509b-4c0b-95ec-cd2a8967f42a": {
-    "@id": "q:Qeb427220-509b-4c0b-95ec-cd2a8967f42a",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Bouteille, plastique, green dot, ...",
-    "label": "Type d'emballage",
-    "access": "API",
-    "defi": [
-      "Réduire la production de déchets alimentaires",
-      "Trier et recycler"
-    ],
-    "information": "Référentiel culinaire",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Openfoodfacts",
-    "support": "Site ou app",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qec032a54-a6b9-476f-ac52-fcb73d323b9f": {
-    "@id": "q:Qec032a54-a6b9-476f-ac52-fcb73d323b9f",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Fichier transmis ou scanné",
-    "label": "Photo d'identité ",
+    "description": "",
+    "label": "potentiel récupération de chaleur sur les eaux usées",
     "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
     "information": "",
-    "kind": "Personnelle",
+    "kind": "",
     "portable": "",
-    "sourceDataController": "Collège ",
-    "support": "Dossier inscription élève - fiche sanitaire de liaison",
-    "thematique": "Ados",
-    "typology": ""
-  },
-  "q:Qedd29ef6-4cbc-47b0-915b-a688bc0a8af3": {
-    "@id": "q:Qedd29ef6-4cbc-47b0-915b-a688bc0a8af3",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "solde, crédit, débit, date",
-    "label": "Mes dépenses et mes revenus",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "",
-    "sourceDataController": "Banque",
-    "support": "Espace client en ligne de ma banque",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qef92b870-3057-4421-975b-41951856f447": {
-    "@id": "q:Qef92b870-3057-4421-975b-41951856f447",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "montant dépensé, jour et heure, type de carte (gratuite ou payante), crédit disponible",
-    "label": "droits liés à l'alimentaire",
-    "access": "",
-    "defi": "",
-    "information": "",
-    "kind": "personnelle",
-    "portable": "non",
-    "sourceDataController": "CCAS",
-    "support": "?",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qf0d099bf-6cf4-4f15-a4ba-ef78ff4ab9a6": {
-    "@id": "q:Qf0d099bf-6cf4-4f15-a4ba-ef78ff4ab9a6",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Ingrédients (liste d'ingérdients, NOVA group), \n",
-    "label": "Composition des produits alimentaires",
-    "access": "API",
-    "defi": [
-      "Réduire la production de déchets alimentaires",
-      "Consommer local et de saison",
-      "Calculer et/ou réduire l'empreinte carbone de mon alimentation",
-      "Trier et recycler"
-    ],
-    "information": "Référentiel culinaire",
-    "kind": "open data",
-    "portable": "",
-    "sourceDataController": "Openfoodfacts",
-    "support": "Site ou app",
-    "thematique": "TEE",
-    "typology": ""
-  },
-  "q:Qf59964f4-6b34-4203-bde2-8409ed6ac05e": {
-    "@id": "q:Qf59964f4-6b34-4203-bde2-8409ed6ac05e",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Fréquentation temporel de stransports en communs, ex : nombre d’usager par 10’",
-    "label": "heures de pointes",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Statistiques",
-    "portable": "donnée d’intérêt général ?",
-    "sourceDataController": "Délégataire de transport ?",
-    "support": "Niveau de confort dans les transports en commun",
-    "thematique": "Mobilité",
-    "typology": ""
-  },
-  "q:Qf79ab2b4-d84c-4311-85fb-0b88648d78ec": {
-    "@id": "q:Qf79ab2b4-d84c-4311-85fb-0b88648d78ec",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "modèle, marque, puissance, age, immatriculation, ...",
-    "label": "caractéristiques véhicule",
-    "access": "art 20?",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "prix de revient kilométrique",
-    "kind": "Personnelles - caractéristiques",
-    "portable": "portables",
-    "sourceDataController": "assureur",
+    "sourceDataController": "Thermiup, Eko, Gaïa Green",
     "support": "",
-    "thematique": "Mobilité",
-    "typology": "Déplacements"
-  },
-  "q:Qf7d59699-8585-49e3-a467-30e07f46f0a3": {
-    "@id": "q:Qf7d59699-8585-49e3-a467-30e07f46f0a3",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Date, heure et matière concernée, justifiée/injustifiée, motif",
-    "label": "Retards & Absences ",
-    "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
-    "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
-    "typology": "travail/ecole,"
-  },
-  "q:Qf8199bfb-4182-42f6-b01a-1469086fa897": {
-    "@id": "q:Qf8199bfb-4182-42f6-b01a-1469086fa897",
-    "@type": [
-      "object",
-      "wq:Q1397073"
-    ],
-    "description": "Montant des indemnité kilométriques remboursées sur ma fiche de paie",
-    "label": "Indemnité kilométrique",
-    "access": "Analyser PDF",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Personnelles – transaction",
-    "portable": "?",
-    "sourceDataController": "Moi / Mon employeur",
-    "support": "indemnité kilométrique",
-    "thematique": "Mobilité",
     "typology": ""
   },
-  "q:Qf83ac4c9-45ef-4ffc-bc15-35a066bc315b": {
-    "@id": "q:Qf83ac4c9-45ef-4ffc-bc15-35a066bc315b",
+  "q:Q0588320d-0335-4e54-804a-c374edbe4fdd": {
+    "@id": "q:Q0588320d-0335-4e54-804a-c374edbe4fdd",
     "@type": [
       "object",
       "wq:Q1397073"
     ],
-    "description": "Cahiers des charges par type de produit",
-    "label": "Labellisation EcoLabel Européen de mes biens de consommation (hors alimentation)",
+    "description": "",
+    "label": "Consommation énergie de ma copropriété (kWh)",
     "access": "",
-    "defi": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Procés-verbal d'assemblée générale de copropriété",
+    "typology": ""
+  },
+  "q:Q066c41fe-66e1-40ad-969b-f98cf792a360": {
+    "@id": "q:Q066c41fe-66e1-40ad-969b-f98cf792a360",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "consommation d'énergie et impact en terme d'émission de gaz à effet de serre",
+    "label": "Performance énergétique estimée de mon logement et de mon bâtiment",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Notaire",
+    "support": "DPE (Diagnostic de Performance énergétique) : étiquette climat et étiquette énergie",
+    "typology": ""
+  },
+  "q:Q0926ea9c-e64f-43dd-b67c-73e316eeef72": {
+    "@id": "q:Q0926ea9c-e64f-43dd-b67c-73e316eeef72",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "courbe de charge production",
+    "label": "production photovoltaïque (autoconsommation)",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "\nContrat achat énergie photovoltaique EDF ; Approximation avec dynamo",
+    "typology": ""
+  },
+  "q:Q0b890304-d766-40ef-955e-3c2e32beb127": {
+    "@id": "q:Q0b890304-d766-40ef-955e-3c2e32beb127",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de travaux, montant, date",
+    "label": "Date, prix et caractéristiques des travaux effectués",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "propriétaire, locataire",
+    "support": "Factures des différents prestataires",
+    "typology": ""
+  },
+  "q:Q0bf2fdec-8076-4bd4-b1b3-501cae8f4d90": {
+    "@id": "q:Q0bf2fdec-8076-4bd4-b1b3-501cae8f4d90",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "N° voie, nom de la voie, code postal, ville, pays",
+    "label": "Mon adresse",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "France Connect",
+    "support": "Carte d'identité ; Passeport ; Profil sécurité sociale, assurances, mutuelles, banques, CAF, MonSP, impôts, employeurs, etc...",
+    "typology": ""
+  },
+  "q:Q0cf3f4f5-0a01-4a40-8f4f-9ed6e9cdc1fe": {
+    "@id": "q:Q0cf3f4f5-0a01-4a40-8f4f-9ed6e9cdc1fe",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "écogestes à réaliser, date, défis relevés, consommation d'eau évitée, CO2 évité, € économisés",
+    "label": "écogestes",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "90jours, Défi Familles à Energie Positive, We Act For Good, ...",
+    "support": "espace personnel",
+    "typology": ""
+  },
+  "q:Q0e3d6a23-1413-4cb5-8682-8d356fb38ee0": {
+    "@id": "q:Q0e3d6a23-1413-4cb5-8682-8d356fb38ee0",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nombre de restaurants dans l’année/le mois : lieux, prix, date",
+    "label": "Consommation au restaurant",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Banques, EdenRed, Chèques Déjeuner, Chèques Vacances",
+    "support": "Espace personnel",
+    "typology": ""
+  },
+  "q:Q0f7a135f-1b63-4b56-8a17-b9ff5c9fc4e9": {
+    "@id": "q:Q0f7a135f-1b63-4b56-8a17-b9ff5c9fc4e9",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "CO2 et kWh/ mail envoyé, reçu, stocké, /pages chargées",
+    "label": "Empreinte carbone internet",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
     "information": "",
     "kind": "référentiel",
     "portable": "",
-    "sourceDataController": "Commission Européenne",
-    "support": "The Ecolabel Catalogue - Commission Européenne croisé avec historique d'achat produits divers",
-    "thematique": "TEE",
+    "sourceDataController": "ADEME, Shiftproject",
+    "support": "",
     "typology": ""
   },
-  "q:Qf8c09fee-5c70-4371-b919-1f9b798b731f": {
-    "@id": "q:Qf8c09fee-5c70-4371-b919-1f9b798b731f",
+  "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0": {
+    "@id": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "@type": "defiItem",
+    "description": "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "label": "Logement",
+    "thematic": "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c"
+  },
+  "q:Q12cbcdd5-8f5a-4678-bb24-c8a7abc7d939": {
+    "@id": "q:Q12cbcdd5-8f5a-4678-bb24-c8a7abc7d939",
     "@type": [
       "object",
       "wq:Q1397073"
     ],
-    "description": "Coût d’un ticket, grille tarifaire des titres de transports",
-    "label": "coût des titres de transport",
-    "access": "",
-    "defi": "Maîtriser son budget mobilité",
-    "information": "",
-    "kind": "Référentiel",
+    "description": "Magasin, pays de distribution",
+    "label": "Lieux de distribution alimentaire",
+    "access": "API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel culinaire",
+    "kind": "open data",
     "portable": "",
-    "sourceDataController": "Délégataire de transport ?",
-    "support": "coût d'un trajet (en transports en communs)",
-    "thematique": "Mobilité",
+    "sourceDataController": "Openfoodfacts",
+    "support": "Site ou app",
     "typology": ""
   },
-  "q:Qfa8801a6-b449-45a6-9a92-9adcfacc0a26": {
-    "@id": "q:Qfa8801a6-b449-45a6-9a92-9adcfacc0a26",
+  "q:Q143bdea4-24ac-42b4-89ea-cc5b7ae9f7ce": {
+    "@id": "q:Q143bdea4-24ac-42b4-89ea-cc5b7ae9f7ce",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "profil allergique, crises, géolocalisation, traitements, RDV médicaux\n",
+    "label": "allergies alimentaires",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Apps (allergiks), carnet de santé",
+    "support": "espace personnel",
+    "typology": ""
+  },
+  "q:Q14b2f9d4-566e-43bf-8bda-ca49eb066a28": {
+    "@id": "q:Q14b2f9d4-566e-43bf-8bda-ca49eb066a28",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nombre de sacs réutilisables achetés, date d'achat, prix, lieu d'achat",
+    "label": "Achat de sacs réutilisables",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "support": "carte fidélité, espace client",
+    "typology": ""
+  },
+  "q:Q166f7aba-e6fc-427f-b01a-46bb46167ffb": {
+    "@id": "q:Q166f7aba-e6fc-427f-b01a-46bb46167ffb",
     "@type": [
       "object",
       "wq:Q1397073"
@@ -3426,49 +268,1247 @@
     "description": "",
     "label": "Historique d'achat de mes biens de consommation hors alimentation (petit équipement, biens divers, ...)",
     "access": "",
-    "defi": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
     "information": "",
     "kind": "personnelle",
     "portable": "",
     "sourceDataController": "",
     "support": "Ticket de caisse ; Données de ma carte de fidélité ; Espace client en ligne de ma banque",
-    "thematique": "TEE",
     "typology": ""
   },
-  "q:Qfc004c2e-1c5e-4a72-a156-242a4c0c36f9": {
-    "@id": "q:Qfc004c2e-1c5e-4a72-a156-242a4c0c36f9",
+  "q:Q1d43cf8a-d6de-4324-a311-9731ba2bfec6": {
+    "@id": "q:Q1d43cf8a-d6de-4324-a311-9731ba2bfec6",
     "@type": [
       "object",
       "wq:Q1397073"
     ],
-    "description": "Formations suivie en interne ; Formations externes ; Diplôme ; Certifications ; Bénévolats ...",
-    "label": "Enseignants : formations et diplômes",
+    "description": "produits acheté (graines, plants, terreau, engrais, pesticide,...)",
+    "label": "production potager",
     "access": "",
-    "defi": "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
     "information": "",
-    "kind": "Personnelle",
-    "portable": "",
-    "sourceDataController": "Académie de Lyon",
-    "support": "Iprof",
-    "thematique": "Ados",
+    "kind": "personnelle",
+    "portable": "oui",
+    "sourceDataController": "Distributeurs de produits de jardin (Jardiland, GammVert, Truffaut, ...) et marketplace (monpotager.com), Lilo",
+    "support": "carte de fidélité, espace client",
     "typology": ""
   },
-  "q:Qfffaf7db-f540-4df9-b336-d0aa7d3d5a64": {
-    "@id": "q:Qfffaf7db-f540-4df9-b336-d0aa7d3d5a64",
+  "q:Q1dfdea67-0e5c-4303-a445-efb688ab7069": {
+    "@id": "q:Q1dfdea67-0e5c-4303-a445-efb688ab7069",
     "@type": [
       "object",
       "wq:Q1397073"
     ],
-    "description": "Nom de la LV1, Nom de la LV2",
-    "label": "Langues vivantes étrangères",
-    "access": "",
-    "defi": "S'évaluer autrement",
-    "information": "",
-    "kind": "Personnelle",
+    "description": "photo, commentaire, hashtag, date de publication",
+    "label": "Goûts et habitudes alimentaires",
+    "access": "API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Intérêts et habitudes alimentaire",
+    "kind": "personnelle",
+    "portable": "oui",
+    "sourceDataController": "Instagram, facebook",
+    "support": "Photographies smartphone ; Déclaratif",
+    "typology": ""
+  },
+  "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c": {
+    "@id": "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c",
+    "@type": "thematicItem",
+    "description": "Transition énergétique et écologique.",
+    "label": "TEE",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ]
+  },
+  "q:Q2b0173de-9a8d-42a3-804c-b13416baf6b2": {
+    "@id": "q:Q2b0173de-9a8d-42a3-804c-b13416baf6b2",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Ingrédients (liste d'ingérdients, NOVA group), \n",
+    "label": "Composition des produits alimentaires",
+    "access": "API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel culinaire",
+    "kind": "open data",
     "portable": "",
-    "sourceDataController": "Collège - Métropole de Lyon",
-    "support": "ENT - LaClasse.com",
-    "thematique": "Ados",
+    "sourceDataController": "Openfoodfacts",
+    "support": "Site ou app",
+    "typology": ""
+  },
+  "q:Q2ce9a7d1-63ea-47b1-acd8-42bd91592643": {
+    "@id": "q:Q2ce9a7d1-63ea-47b1-acd8-42bd91592643",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Météo : luminosité, vent, température exterieure",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Météo en ligne ; Station météo connectée",
+    "support": "Scraping ; API",
+    "typology": ""
+  },
+  "q:Q2f5e7d25-3884-4f34-8783-164546cf9e2d": {
+    "@id": "q:Q2f5e7d25-3884-4f34-8783-164546cf9e2d",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Qualité air interieur (O2)",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Capteur de mesure (ex : Foobot)",
+    "typology": ""
+  },
+  "q:Q314474d6-9df6-4b31-9b0c-51ae656f0000": {
+    "@id": "q:Q314474d6-9df6-4b31-9b0c-51ae656f0000",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "nombre de personnes",
+    "label": "Profil du foyer",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "Profil du foyer",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "DGFIP",
+    "support": "France Connect (impôts)",
+    "typology": ""
+  },
+  "q:Q31c6ede8-88a0-4922-bd36-72750cb438b5": {
+    "@id": "q:Q31c6ede8-88a0-4922-bd36-72750cb438b5",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Cahiers des charges par type de produit",
+    "label": "Labellisation EcoLabel Européen de mes biens de consommation (hors alimentation)",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "information": "",
+    "kind": "référentiel",
+    "portable": "",
+    "sourceDataController": "Commission Européenne",
+    "support": "The Ecolabel Catalogue - Commission Européenne croisé avec historique d'achat produits divers",
+    "typology": ""
+  },
+  "q:Q3873bd16-8cc7-4994-8438-7c30ff7a6675": {
+    "@id": "q:Q3873bd16-8cc7-4994-8438-7c30ff7a6675",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel de production géothermique",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q3ee9581f-4c7b-4b80-94c3-9194ebb5e0b0": {
+    "@id": "q:Q3ee9581f-4c7b-4b80-94c3-9194ebb5e0b0",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "présence et disponibilité d’une borne de recharge électrique",
+    "access": "",
+    "defi": "",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q439bc816-7134-4909-8ce2-69fd4acbb072": {
+    "@id": "q:Q439bc816-7134-4909-8ce2-69fd4acbb072",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "adresse de livraison, numéro de contact",
+    "label": "coordonnées de livraison",
+    "access": "Scrapping ou API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Habitudes alimentaires",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
+    "support": "Compte utilisateur",
+    "typology": ""
+  },
+  "q:Q45e0eb88-647d-4ff6-ba70-bdf3f574bc96": {
+    "@id": "q:Q45e0eb88-647d-4ff6-ba70-bdf3f574bc96",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "température de confort, usage d'appareils, nombre de douches, h de rentrée du travail...",
+    "label": "Pratiques diverses du foyer ",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Famille à Energie Positive, apps éco-geste (90jours, etc)",
+    "support": "espace perso",
+    "typology": ""
+  },
+  "q:Q45fcb350-2514-4407-8091-1ca6bf342564": {
+    "@id": "q:Q45fcb350-2514-4407-8091-1ca6bf342564",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "localisation",
+    "label": "Lieux de compost",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "ADEME",
+    "support": "Site web de Sinoé déchets, site d'associations locales (Les compostiers) ",
+    "typology": ""
+  },
+  "q:Q4b3cc7ee-4439-45d1-b57d-6225d2498697": {
+    "@id": "q:Q4b3cc7ee-4439-45d1-b57d-6225d2498697",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "déperdition de chaleur d’un bâtiment",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q5260da6f-ed50-42fd-8aa0-cf9e7cf7298a": {
+    "@id": "q:Q5260da6f-ed50-42fd-8aa0-cf9e7cf7298a",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "date, noms achats, …",
+    "label": "Commande en ligne de repas dans le train, avion :",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "SNCF, compagnies aériennes",
+    "support": "Apps, mails de confirmation",
+    "typology": ""
+  },
+  "q:Q57634f9c-a4df-4262-a88b-4d5d25a92a90": {
+    "@id": "q:Q57634f9c-a4df-4262-a88b-4d5d25a92a90",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Etiquette énergie, étiquette climat",
+    "label": "Diagnotic de performance énergétique",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Notaire",
+    "support": "Diagnostic de performance énergétique (DPE)",
+    "typology": ""
+  },
+  "q:Q5a0ef3d5-c6ce-4bc7-81cd-afa63b9c3a6a": {
+    "@id": "q:Q5a0ef3d5-c6ce-4bc7-81cd-afa63b9c3a6a",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date d'achat",
+    "label": "Date d'achat de mes équipements",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Facture ; Garantie",
+    "typology": ""
+  },
+  "q:Q5baaf75b-67d2-4f38-b707-3b9384cb418d": {
+    "@id": "q:Q5baaf75b-67d2-4f38-b707-3b9384cb418d",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "(en KW/H, eau, gaz, bois, charbon...)",
+    "label": "Consommation des équipements municipaux",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Compteurs intelligents ; Factures  ; Compte en ligne",
+    "typology": ""
+  },
+  "q:Q5d89fc6a-c92b-4e50-9153-b1abc8970b90": {
+    "@id": "q:Q5d89fc6a-c92b-4e50-9153-b1abc8970b90",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "végétarien, casher, sans porc, végétalien, sans gluten",
+    "label": "régime alimentaire",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "non",
+    "sourceDataController": "école, médecins",
+    "support": "?",
+    "typology": ""
+  },
+  "q:Q6013901c-09e8-44de-baef-a46586263b8e": {
+    "@id": "q:Q6013901c-09e8-44de-baef-a46586263b8e",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "pages ouvertes",
+    "label": "Mes pratiques internet : navigation\n",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Navigateur",
+    "support": "Historique de navigation",
+    "typology": ""
+  },
+  "q:Q6304df58-c495-4491-95eb-0e34b35078df": {
+    "@id": "q:Q6304df58-c495-4491-95eb-0e34b35078df",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "adresse",
+    "label": "Profil du foyer : adresse",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "DGFIP, Deliveroo, Amazon, Waze, Uber, fournisseur d'énergie...",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q673740dc-0c43-4c05-bad9-04d80eb12fc1": {
+    "@id": "q:Q673740dc-0c43-4c05-bad9-04d80eb12fc1",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "nom du plat, prix du plat, nom du restaurant, adresse du restaurant, type de restaurant (asiatique, végétalien, sans gluten,...)\n",
+    "label": "Plat livrés",
+    "access": "Scrapping ou API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Habitudes alimentaires",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
+    "support": "Compte utilisateur",
+    "typology": ""
+  },
+  "q:Q690dc045-eedd-4eea-9c7f-1b5fb0571fc2": {
+    "@id": "q:Q690dc045-eedd-4eea-9c7f-1b5fb0571fc2",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "kcal",
+    "label": "Nombre de calories brûlées par jour et par acte",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Tracker d'activité",
+    "typology": ""
+  },
+  "q:Q6992fc94-b21f-4422-a5ce-c1cfe60ad3a9": {
+    "@id": "q:Q6992fc94-b21f-4422-a5ce-c1cfe60ad3a9",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "recettes sauvegardées, type (entrée, plat, dessert), nom, ingrédients",
+    "label": "Recettes de cuisine",
+    "access": "Scrapping",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Habitudes alimentaires",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Marmiton",
+    "support": "espace personnel",
+    "typology": ""
+  },
+  "q:Q6bb196c1-f7cd-404b-ad20-94fab31bfc48": {
+    "@id": "q:Q6bb196c1-f7cd-404b-ad20-94fab31bfc48",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Caractéristique de mon quartier : commerces de proximité ; revenu moyen ; nombre de km2 ; ...",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Sites divers (ici : Kelquartier)",
+    "typology": ""
+  },
+  "q:Q6e7c729b-c847-4416-ab0c-d8a0f420232f": {
+    "@id": "q:Q6e7c729b-c847-4416-ab0c-d8a0f420232f",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de bâtiment, code postal, nombre de chambre, montant de la facture annuelle, fournisseur d'électricité, installation de chauffage (type, nombre), facture, type et nombre d'équipement possédé (dont voiture électrique), ",
+    "label": "potentiel de production photovoltaïque",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "économies réalisées",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Comwatt, In Sun We Trust, Open Solar Map",
+    "support": "simulateur",
+    "typology": ""
+  },
+  "q:Q6f14102f-1a27-42e2-9dae-8bcc0f9ddb12": {
+    "@id": "q:Q6f14102f-1a27-42e2-9dae-8bcc0f9ddb12",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "KWh",
+    "label": "Consommation réelle de chaque équipement",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Equipementiers, Distributeurs, ADEME",
+    "support": "Etiquette environnementale ; Capteur sur le compteur ; Capteurs sur l'équipement",
+    "typology": ""
+  },
+  "q:Q72b6c06c-e0a6-41fc-a94d-639f18dbef98": {
+    "@id": "q:Q72b6c06c-e0a6-41fc-a94d-639f18dbef98",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Nom du produit, prix, poids",
+    "label": "Achat vrac",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "produits achetés sans emballage/ emballages évités",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "support": "carte fidélité, espace client",
+    "typology": ""
+  },
+  "q:Q72ce9af4-ab57-4c5a-b573-ae4952a44592": {
+    "@id": "q:Q72ce9af4-ab57-4c5a-b573-ae4952a44592",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "kWh",
+    "label": "Estimation de la quantité d'énergie consommée (sur la base de standards) du bâtiment ou du logement",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Notaire",
+    "support": "DPE (Diagnostic de Performance énergétique)",
+    "typology": ""
+  },
+  "q:Q77acd735-f240-4e9e-a8fa-74beb8bfada5": {
+    "@id": "q:Q77acd735-f240-4e9e-a8fa-74beb8bfada5",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "sport pratiqué, fréquence des entraînements, durée, ...",
+    "label": "pratiques sportives",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "objets connectés (trackers, Wtithings...), clubs de sport (club med gym, gym suédoise,...)",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q7955a4d9-325a-40c5-acb4-588b309e4a55": {
+    "@id": "q:Q7955a4d9-325a-40c5-acb4-588b309e4a55",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "nombre de mail envoyés/reçus par h/ jour",
+    "label": "Mes pratiques internet : mails",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Messageries (Gmail, Roundcube,...)",
+    "support": "Google takeout",
+    "typology": ""
+  },
+  "q:Q79c87e5a-a82d-4dfc-962a-a7b1cfa24bef": {
+    "@id": "q:Q79c87e5a-a82d-4dfc-962a-a7b1cfa24bef",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "consommation de mon véhicule électrique",
+    "access": "",
+    "defi": "",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q7a35bc9d-ce6b-4424-bd20-7faf2087fa36": {
+    "@id": "q:Q7a35bc9d-ce6b-4424-bd20-7faf2087fa36",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "surface, orientation, nombre d'étages",
+    "label": "caractéristiques des logements",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Notaire, service d'urbanisme, DFIP",
+    "support": "contrat de vente, contrat de location, SIG",
+    "typology": ""
+  },
+  "q:Q7e61d027-dadd-44b8-a4d2-590f392223f0": {
+    "@id": "q:Q7e61d027-dadd-44b8-a4d2-590f392223f0",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Date Limite de Consommation ",
+    "label": "Date de péremption",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "?",
+    "support": "?",
+    "typology": ""
+  },
+  "q:Q7ec0a598-6eef-4a68-be67-e61e69885a22": {
+    "@id": "q:Q7ec0a598-6eef-4a68-be67-e61e69885a22",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Heure, date, montant",
+    "label": "Consommation au restaurant d'entreprise",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Comptabilité, Trésor Public, prestataire",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q8032b9f0-f10f-4889-967c-e5bd01fcf71c": {
+    "@id": "q:Q8032b9f0-f10f-4889-967c-e5bd01fcf71c",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "composition du menu, entrée, plat, dessert",
+    "label": "Menus",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Cantines",
+    "support": "",
+    "typology": ""
+  },
+  "q:Q86b04746-32bd-48f6-b8e1-da9686d6510c": {
+    "@id": "q:Q86b04746-32bd-48f6-b8e1-da9686d6510c",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "coordonnées GPS",
+    "label": "Historique de géolocalisation",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Compte en ligne de mon opérateur ; Google TakeOut  ; Application de mon smartphone",
+    "typology": ""
+  },
+  "q:Q871bbcc7-b557-4453-8d20-4771de95eeb5": {
+    "@id": "q:Q871bbcc7-b557-4453-8d20-4771de95eeb5",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "temps d'utilisation, température",
+    "label": "Utilisation de l'électroménager",
+    "access": " ",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0"
+    ],
+    "information": "Usages culinaire",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Thermomix, Vorwek, présent à Nantes), Cookéo, Seb, Moulinex, etc).",
+    "support": "App, compte utilisateur",
+    "typology": ""
+  },
+  "q:Q88c2ad52-4dd7-4f83-a3f0-3761f4930e75": {
+    "@id": "q:Q88c2ad52-4dd7-4f83-a3f0-3761f4930e75",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type et nombre",
+    "label": "Equipement de refroidissement et de ventilation de mon logement",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Notaire",
+    "support": "DPE (Diagnostic de Performance énergétique) ; Plan",
+    "typology": ""
+  },
+  "q:Q8ecfcaac-2296-4e13-9a3a-f60832d5aec4": {
+    "@id": "q:Q8ecfcaac-2296-4e13-9a3a-f60832d5aec4",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "étiquette environnementale et énergie",
+    "label": "caractéristiques énergétiques des équipements",
+    "access": "",
+    "defi": "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+    "information": "",
+    "kind": "référentiel",
+    "portable": "",
+    "sourceDataController": "Darty/FNAC",
+    "support": "Catalogue",
+    "typology": ""
+  },
+  "q:Q8f7328db-86ec-4ba7-9bb4-abc81e9903d0": {
+    "@id": "q:Q8f7328db-86ec-4ba7-9bb4-abc81e9903d0",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de structure (réemploi, conteneurs, déchèteries/écopoints, composteurs, conteneurs vêtements, vente vrac, trisac, collecteurs bouchons), nombre de structures par type, Nom, Adresse, horaires d'ouverture, statut, coordonnées tel, mail, site, réseaux sociaux",
+    "label": "Répertoire pour le tri",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "référentiel",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "mieuxtrieranantes.fr",
+    "support": "OpenDataNantes",
+    "typology": ""
+  },
+  "q:Q93fca40c-7a4a-435e-aa44-3c59de054ea0": {
+    "@id": "q:Q93fca40c-7a4a-435e-aa44-3c59de054ea0",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "pays d'origine",
+    "label": "Provenance des fruits et légumes achetés",
+    "access": "NC",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "km parcouru par les produits ",
+    "kind": "donnée privée",
+    "portable": "non",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "support": "Etiquettes dans les rayons ou marché",
+    "typology": ""
+  },
+  "q:Q97fb2857-e13e-4b11-9635-f73293f0a2b2": {
+    "@id": "q:Q97fb2857-e13e-4b11-9635-f73293f0a2b2",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "kg, date",
+    "label": "Poids de mes déchets",
+    "access": "Scrapping ou API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Poubelle connectée ; Balance",
+    "support": "Site ou app",
+    "typology": ""
+  },
+  "q:Q984f9028-a5ad-453d-a71d-8bc64e38b031": {
+    "@id": "q:Q984f9028-a5ad-453d-a71d-8bc64e38b031",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "montant dépensé, jour et heure, type de carte (gratuite ou payante), crédit disponible",
+    "label": "droits liés à l'alimentaire",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "",
+    "kind": "personnelle",
+    "portable": "non",
+    "sourceDataController": "CCAS",
+    "support": "?",
+    "typology": ""
+  },
+  "q:Q9f1fc522-2fa7-4096-8339-d65c99eead68": {
+    "@id": "q:Q9f1fc522-2fa7-4096-8339-d65c99eead68",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "NutriScore, analyse nutritionnelle pour 100g, serving size, comparaison par rapport à des produits équivalents",
+    "label": "Informations nutritionnelles",
+    "access": "API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel culinaire",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Openfoodfacts",
+    "support": "Site ou app",
+    "typology": ""
+  },
+  "q:Qa2541103-ecc1-4f42-b357-0de0e2796bfc": {
+    "@id": "q:Qa2541103-ecc1-4f42-b357-0de0e2796bfc",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "puissance installée, production annuelle, consommation annuelle nationale",
+    "label": "Consommation d'énergie hors réseaux",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "open data",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "cibe, eurostat",
+    "support": "études",
+    "typology": ""
+  },
+  "q:Qb2cfa974-d153-4600-aca5-a051626145ac": {
+    "@id": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "@type": "defiItem",
+    "description": "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "label": "Alimentation",
+    "thematic": "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c"
+  },
+  "q:Qb495f141-91a8-4609-9682-967f0580d794": {
+    "@id": "q:Qb495f141-91a8-4609-9682-967f0580d794",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "date",
+    "label": "Date de construction de mon domicile",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "Notaire",
+    "support": "DPE (Diagnostic de Performance énergétique) ; Plan ; Bail ",
+    "typology": ""
+  },
+  "q:Qb6e0e3ef-b25a-47e2-b3d8-c666521907bc": {
+    "@id": "q:Qb6e0e3ef-b25a-47e2-b3d8-c666521907bc",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Données thermographiques des bâtiments",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "collectivités locales",
+    "support": "Photos aériennes thermiques",
+    "typology": ""
+  },
+  "q:Qbe14cbf4-eb67-4fe6-b8b4-d490ba6aae2b": {
+    "@id": "q:Qbe14cbf4-eb67-4fe6-b8b4-d490ba6aae2b",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "aliments recherchés, restaurants recherchés",
+    "label": "préférences alimentaires",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "profil alimentaire",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "moteurs de recherche (google, qwant,...)",
+    "support": "Google Takeout",
+    "typology": ""
+  },
+  "q:Qbe3c914f-ead9-465a-9d94-b4bede0ee1c4": {
+    "@id": "q:Qbe3c914f-ead9-465a-9d94-b4bede0ee1c4",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel de production d'énergie éolienne",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Qbeaf6115-3b29-4a3d-80f4-1a489472067c": {
+    "@id": "q:Qbeaf6115-3b29-4a3d-80f4-1a489472067c",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Code barre, nom du produit, marque, prix, date/heure/lieu d'achat, ",
+    "label": "Historique des produits achetés",
+    "access": "Scraping ou API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Consommation alimentaire, habitudes de consommation",
+    "kind": "personnelle",
+    "portable": "oui",
+    "sourceDataController": "Grande distribution, supermarché coopératifs, épiceries traditionnelles, AMAP, plateformes de livraison (Graine d'ici, Leclerc drive, Restologis, Poiscaille,...)",
+    "support": "carte fidélité, espace client",
+    "typology": ""
+  },
+  "q:Qc1fc7e99-bfe9-4bc4-a433-9e96db6622e2": {
+    "@id": "q:Qc1fc7e99-bfe9-4bc4-a433-9e96db6622e2",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Historique des produits scannés, caractéristiques du produit (nom, poids, volume, type (épicerie, surgelé, fruit, légume,...), marque, prix)",
+    "label": "Historique des produits scannés Yuka",
+    "access": "Scraping ou API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Intérêts et habitudes alimentaire",
+    "kind": "personnelle",
+    "portable": "oui",
+    "sourceDataController": "Yuka",
+    "support": "Compte utilisateur",
+    "typology": ""
+  },
+  "q:Qc4444e62-e2a3-47a9-a335-15f1018cef5d": {
+    "@id": "q:Qc4444e62-e2a3-47a9-a335-15f1018cef5d",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "potentiel de production biomasse",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Qd8cc7f07-d9e5-4f9a-993d-51a0ec26eb10": {
+    "@id": "q:Qd8cc7f07-d9e5-4f9a-993d-51a0ec26eb10",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de rendez-vous, adresse, horaires",
+    "label": "Agenda personnel",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "Agenda en ligne",
+    "typology": ""
+  },
+  "q:Qdac44888-cba3-40b8-bade-69044fa50921": {
+    "@id": "q:Qdac44888-cba3-40b8-bade-69044fa50921",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
+    "label": "Consommation pour la chauffe du logement",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "consommation d'énergie selon mon comportement",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Banque",
+    "support": "facture, relevé bancaire",
+    "typology": ""
+  },
+  "q:Qdbe8389c-2791-4eb1-9a9f-df8304bdef3b": {
+    "@id": "q:Qdbe8389c-2791-4eb1-9a9f-df8304bdef3b",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "CO2/kwh produit",
+    "label": "empreinte carbone des énergies en temps réel",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "RTE, Ademe",
+    "support": "",
+    "typology": ""
+  },
+  "q:Qe080a2d2-68cd-40a3-867c-3ba8523e525f": {
+    "@id": "q:Qe080a2d2-68cd-40a3-867c-3ba8523e525f",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "crédits d'impôts, subventions, montant, selon profil (caractéristiques de votre logement (surface, année de construction...),des devis d'entreprises, Revenu Fiscal de Référence (RFR)), type de travaux envisagés",
+    "label": "aides disponibles selon profil",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "ADEME",
+    "support": "simulaide",
+    "typology": ""
+  },
+  "q:Qe0e03151-b070-40e7-b064-49b439f8b216": {
+    "@id": "q:Qe0e03151-b070-40e7-b064-49b439f8b216",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "point de départ et point d'arrivé (itinéraire emprunté), km parcourus, moyen de transport, temps de transport, date, heure",
+    "label": "Distance parcourue pour les courses",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "émissions de CO2 engendrée par les courses alimentaires et meilleur itinéraire possible",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Opérateurs de transpoprt, constructeurs automobiles, Google, Waze",
+    "support": "espace personnel, googe takeout, ",
+    "typology": ""
+  },
+  "q:Qe20fbdd4-b75c-4b55-a8b9-38a17271c5d5": {
+    "@id": "q:Qe20fbdd4-b75c-4b55-a8b9-38a17271c5d5",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "kgCO2/ kg de poids vif ou kg de matière brute ou kg de produit fini",
+    "label": "Empreinte carbone alimentaire",
+    "access": "",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel environnemental",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Ademe",
+    "support": "AGRIBALYSE,  Base Carbone®",
+    "typology": ""
+  },
+  "q:Qe9520864-7131-42e4-918e-416bd60d6e83": {
+    "@id": "q:Qe9520864-7131-42e4-918e-416bd60d6e83",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "heures et fréquence d'utilisation, programme, ...",
+    "label": "Usage de chaque équipement : nombre d'heures et fréquence d'utilisation, programme, ...",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Equipementier ",
+    "support": "Déclaratif ; Capteur sur le compteurs ; Capteurs sur l'équipement",
+    "typology": ""
+  },
+  "q:Qebeaab25-07a8-4a5f-a042-1b7b9985de5c": {
+    "@id": "q:Qebeaab25-07a8-4a5f-a042-1b7b9985de5c",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "âges des membres du foyer",
+    "label": "Profil du foyer : âge",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "",
+    "support": "",
+    "typology": ""
+  },
+  "q:Qee184c87-4f30-4739-a29f-fe8ec136245a": {
+    "@id": "q:Qee184c87-4f30-4739-a29f-fe8ec136245a",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Bouteille, plastique, green dot, ...",
+    "label": "Type d'emballage",
+    "access": "API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel culinaire",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Openfoodfacts",
+    "support": "Site ou app",
+    "typology": ""
+  },
+  "q:Qefb5d9f9-febc-4672-8aa8-49783010b1cb": {
+    "@id": "q:Qefb5d9f9-febc-4672-8aa8-49783010b1cb",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "Quantité, marque, catégorie (boisson, smoothie,..), magasin, pays de distribution",
+    "label": "Caractéristiques du produit alimentaire",
+    "access": "API",
+    "defi": "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+    "information": "Référentiel culinaire",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Openfoodfacts",
+    "support": "Site ou app",
+    "typology": ""
+  },
+  "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1": {
+    "@id": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "@type": "defiItem",
+    "description": "Accompagner la production d’énergies propres sur mon territoire",
+    "label": "Énergie propre",
+    "thematic": "q:Q24e5e2a2-b036-4efe-aea2-11844fbfa82c"
+  },
+  "q:Qf37c0be9-18be-42e8-b15d-bb1bb642f090": {
+    "@id": "q:Qf37c0be9-18be-42e8-b15d-bb1bb642f090",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "",
+    "label": "Consommation de mon domicile en eau (quantité et débit)",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "fournisseur eau (véolia, régie,...)",
+    "support": "Débitmètre (connecté ou non) ; Compteur d'eau intelligent",
+    "typology": ""
+  },
+  "q:Qf49b04b9-bc3b-4e33-a926-4cf305080f0b": {
+    "@id": "q:Qf49b04b9-bc3b-4e33-a926-4cf305080f0b",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "solde, crédit, débit, date",
+    "label": "Mes dépenses et mes revenus",
+    "access": "",
+    "defi": [
+      "q:Qb2cfa974-d153-4600-aca5-a051626145ac",
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "",
+    "kind": "personnelle",
+    "portable": "",
+    "sourceDataController": "Banque",
+    "support": "Espace client en ligne de ma banque",
+    "typology": ""
+  },
+  "q:Qf80c5deb-80cd-412b-8345-1fa662d0e372": {
+    "@id": "q:Qf80c5deb-80cd-412b-8345-1fa662d0e372",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "consommation annuelle d'un IRIS",
+    "label": "Consommation énergétique moyenne ",
+    "access": "",
+    "defi": [
+      "q:Q111e5b7d-716f-4281-880d-4b27dd6ffce0",
+      "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1"
+    ],
+    "information": "open data",
+    "kind": "open data",
+    "portable": "",
+    "sourceDataController": "Enedis, GRDF",
+    "support": "open data",
+    "typology": ""
+  },
+  "q:Qfde86b7c-9dc4-4254-b6d2-46269b9ceffe": {
+    "@id": "q:Qfde86b7c-9dc4-4254-b6d2-46269b9ceffe",
+    "@type": [
+      "object",
+      "wq:Q1397073"
+    ],
+    "description": "type de silicium, puissance (kWc), situation géographique, inclinaison et orientation du panneau solaire ",
+    "label": "rendement photovoltaïque",
+    "access": "",
+    "defi": "q:Qf226a4f3-fbe8-4881-899b-c014787bc5a1",
+    "information": "",
+    "kind": "",
+    "portable": "",
+    "sourceDataController": "installateurs de panneaux solaires, autoconsommation.io",
+    "support": "",
     "typology": ""
   }
 }

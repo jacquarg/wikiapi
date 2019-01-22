@@ -8,12 +8,12 @@ const context = require('../semantic/context.json')
 
 const enedisbaseuri = 'https://gitlab.cozycloud.cc/gjacquart/cozy-konnector-enedis/raw/master/docs/data_models/'
 const remote = [
-  enedisbaseuri + 'customers_identity.json-ld',
-  enedisbaseuri + 'customers_usagepointaddress.json-ld',
-  enedisbaseuri + 'customers_usagepoints.json-ld',
-  enedisbaseuri + 'enedis_energy.json-ld',
-  enedisbaseuri + 'enedis_loadcurve.json-ld',
-  enedisbaseuri + 'enedis_maxpower.json-ld',
+  // enedisbaseuri + 'customers_identity.json-ld',
+  // enedisbaseuri + 'customers_usagepointaddress.json-ld',
+  // enedisbaseuri + 'customers_usagepoints.json-ld',
+  // enedisbaseuri + 'enedis_energy.json-ld',
+  // enedisbaseuri + 'enedis_loadcurve.json-ld',
+  // enedisbaseuri + 'enedis_maxpower.json-ld',
 ]
 // walk the all tree, and, each times, add flatten.
 
