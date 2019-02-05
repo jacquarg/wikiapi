@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qaf4610b2-1d2f-485f-8625-9e0542cd4dff",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Droits liés à l'alimentaire",
+  "description": "montant dépensé, jour et heure, type de carte (gratuite ou payante), crédit disponible",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "CCAS",
+  "support": "Carte, espace pro du médiateur",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": "non"
+}

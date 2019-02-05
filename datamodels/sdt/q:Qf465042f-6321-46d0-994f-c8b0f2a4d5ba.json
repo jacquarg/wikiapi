@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qf465042f-6321-46d0-994f-c8b0f2a4d5ba",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Classe énergétique de mes équipements",
+  "description": "Etiquette environnementale et énergie (Notice ; Garantie) ou croisement du type/nom de mon équipement avec les référentiels nécessaires (ex: catalogue Darty)",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Distributeurs, ADEME",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

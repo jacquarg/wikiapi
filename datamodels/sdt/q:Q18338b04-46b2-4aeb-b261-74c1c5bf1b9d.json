@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q18338b04-46b2-4aeb-b261-74c1c5bf1b9d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Actualités école",
+  "description": "Evenements",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "Développer son esprit civique"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

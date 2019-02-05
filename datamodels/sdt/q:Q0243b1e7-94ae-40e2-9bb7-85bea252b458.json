@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0243b1e7-94ae-40e2-9bb7-85bea252b458",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Agenda personnel",
+  "description": "intitulé du rendez-vous, jour, horaire, récurrence, lieu, type (professionnel, personnel), statut (propriétaire, invité)",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Google, Apple, ...",
+  "support": "Agenda en ligne",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

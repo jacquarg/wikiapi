@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q734760b7-2ccd-4cbe-81c6-95130a0fd04b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Ecogestes",
+  "description": "écogestes à réaliser, date, défis relevés, consommation d'eau évitée, CO2 évité, € économisés",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "90jours, Défi Familles à Energie Positive, We Act For Good, ...",
+  "support": "Espace personnel site, app",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

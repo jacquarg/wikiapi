@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qe176bca5-a3f3-467d-8371-9729eb654195",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Trajets en train",
+  "description": "Date, lieux de départ, d'arrivée, prix, réduction",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "SNCF",
+  "support": "Espace client, App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

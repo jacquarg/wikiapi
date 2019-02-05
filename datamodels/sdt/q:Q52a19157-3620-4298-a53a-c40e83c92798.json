@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q52a19157-3620-4298-a53a-c40e83c92798",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Enseignants : contact ",
+  "description": "Numéro d'identification de l'Education Nationale (NUMEN), Nom, Prénom, Situation familiale, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Académie de Lyon",
+  "support": "Iprof",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

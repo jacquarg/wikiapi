@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q66d3a299-77a7-4ab5-a23b-5dec749f67ab",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "caractéristiques des logements",
+  "description": "surface, orientation, nombre d'étages",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire, service d'urbanisme, DFIP",
+  "support": "contrat de vente, contrat de location, SIG",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

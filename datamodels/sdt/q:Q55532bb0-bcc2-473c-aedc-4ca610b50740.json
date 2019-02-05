@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q55532bb0-bcc2-473c-aedc-4ca610b50740",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cours privés : agenda",
+  "description": "Heures des cours, matière suivie, nom de l'enseignant",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Services de cours particuliers (acadomia, digischool, etc)",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": "Oui"
+}

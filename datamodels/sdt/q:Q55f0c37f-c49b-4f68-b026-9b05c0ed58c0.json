@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q55f0c37f-c49b-4f68-b026-9b05c0ed58c0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Vélos libre service : abonnement ",
+  "description": "Numéro de carte, date de fin de validité de la carte, prix de l'abonnement, unités restantes, unités payées",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Compte en ligne / App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

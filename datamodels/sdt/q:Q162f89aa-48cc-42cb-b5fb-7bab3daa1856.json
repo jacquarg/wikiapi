@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q162f89aa-48cc-42cb-b5fb-7bab3daa1856",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Météo ",
+  "description": "luminosité, vent, température exterieure",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Météo France ; Station météo connectée",
+  "support": "Site web ",
+  "defi": [
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

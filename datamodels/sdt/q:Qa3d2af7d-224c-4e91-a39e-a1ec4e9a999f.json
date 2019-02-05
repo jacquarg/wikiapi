@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa3d2af7d-224c-4e91-a39e-a1ec4e9a999f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation et émissions polluantes de mon véhicule",
+  "description": "Litres / 100km et Grammes / km",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ademe + Assureur, etc.",
+  "support": "Base de données Ademe \"Emissions de CO2 et de polluants des véhicules commercialisés en France\" + modèle de mon véhicule ",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb65a9e9a-e05e-474b-9ef5-c5845da8f589",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Transport en commun : trajets",
+  "description": "Jours, heures et lieux d’utilisation de la carte, type de transport utilisé : bus, bateau, ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Compte en ligne / App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

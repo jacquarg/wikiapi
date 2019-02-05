@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q099c18c8-0824-4dd3-a6d1-6d95edf55790",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Plats livrés",
+  "description": "nom du plat, prix, nom du restaurant, adresse, type de cuisine\n",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
+  "support": "Compte utilisateur",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "Habitudes alimentaires",
+  "access": "Scrapping ou API",
+  "portable": ""
+}

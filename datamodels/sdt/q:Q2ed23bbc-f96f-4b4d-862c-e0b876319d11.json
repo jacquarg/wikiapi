@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2ed23bbc-f96f-4b4d-862c-e0b876319d11",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Répertoire pour le tri",
+  "description": "type de structure (réemploi, conteneurs, déchèteries/écopoints, composteurs, conteneurs vêtements, vente vrac, trisac, collecteurs bouchons), nombre de structures par type ; Nom, Adresse, horaires d'ouverture, statut, coordonnées tel, mail, site, réseaux sociaux",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "mieuxtrieranantes.fr",
+  "support": "OpenDataNantes",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "référentiel",
+  "access": "",
+  "portable": ""
+}

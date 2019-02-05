@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0edb9d53-8416-4230-bbcb-8961baf1dae5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes coûts d'électricité/gaz",
+  "description": "Données contractuelles, historique de consommation, mode de paiement, mensualités, échéanciers, RIB, date de paiement",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Fournisseur d'électricité/de Gaz",
+  "support": "Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

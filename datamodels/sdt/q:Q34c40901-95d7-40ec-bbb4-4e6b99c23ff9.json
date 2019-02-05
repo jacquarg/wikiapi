@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q34c40901-95d7-40ec-bbb4-4e6b99c23ff9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Empreinte carbone alimentaire",
+  "description": "kgCO2/ kg de poids vif ou kg de matière brute ou kg de produit fini",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Ademe",
+  "support": "AGRIBALYSE,  Base Carbone®",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel environnemental",
+  "access": "",
+  "portable": ""
+}

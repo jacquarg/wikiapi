@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa6d5d21c-6c6e-4ae5-871a-7b908487a7e5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Trajets fréquents ",
+  "description": "Itinéraires, récurrence (carte de transport ; historique GPS ; historique géolocalisation)",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Divers : Agglo La Rochelle, Google/Waze, etc",
+  "support": "Carte de transport ; Historique GPS ; Historique Géolocalisation ",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

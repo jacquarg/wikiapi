@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q93406941-9267-44f5-834e-d6e966370090",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Adresses points d'intérêts ",
+  "description": "N°, voie, CP : domicile, Travail, Ecole, Courses, Rdv réguliers, Arrêt de bus, …",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "/",
+  "support": "Agenda/Répertoire",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

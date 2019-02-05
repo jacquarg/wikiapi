@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q8c838844-9df9-41d3-9ed3-24ee6a64b1c3",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Émissions de CO2 sur les liaisons TGV",
+  "description": "en kg CO2 par km",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "SNCF",
+  "support": "Site de la SNCF ; Données SNCF ",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Open Data",
+  "portable": ""
+}

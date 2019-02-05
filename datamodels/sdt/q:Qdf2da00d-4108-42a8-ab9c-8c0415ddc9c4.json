@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qdf2da00d-4108-42a8-ab9c-8c0415ddc9c4",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Coût unitaire de mon véhicule",
+  "description": "en euros, options choisies, date d'achat",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Constructeur, Revendeur, ...",
+  "support": "Bon de commande ; Facture",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

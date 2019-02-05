@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q12ecd580-b9e7-4233-bece-84aa8ade7d19",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Coût (énergétique ; financier ; CO2) des transports selon le nombre de km",
+  "description": "type de transport, kWh, litre de carburant, €, kgCO2 /km",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Divers",
+  "support": "Sites de calculs (type Quizz Ademe)",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Scraping ; API",
+  "portable": ""
+}

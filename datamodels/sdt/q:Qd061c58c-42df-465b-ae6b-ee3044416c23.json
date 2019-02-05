@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qd061c58c-42df-465b-ae6b-ee3044416c23",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Foyer",
+  "description": "Nombre de personnes, âges, nombre et type de véhicules",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

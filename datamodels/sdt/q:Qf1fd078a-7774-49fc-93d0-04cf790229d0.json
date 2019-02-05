@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qf1fd078a-7774-49fc-93d0-04cf790229d0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Allocation de rentrée scolaire (ARS)",
+  "description": "Date de versement",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Etat - CAF",
+  "support": "Compte en ligne",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

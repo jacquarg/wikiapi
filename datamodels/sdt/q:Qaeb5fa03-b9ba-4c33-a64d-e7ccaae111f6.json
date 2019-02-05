@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qaeb5fa03-b9ba-4c33-a64d-e7ccaae111f6",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Travail à réaliser",
+  "description": "Date, matière, contenu",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

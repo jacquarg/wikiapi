@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qe379b070-1a80-4f61-8225-bcad800435f8",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Caractéristiques du produit alimentaire",
+  "description": "Quantité, marque, catégorie, magasin, pays de distribution",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel culinaire",
+  "access": "API",
+  "portable": ""
+}

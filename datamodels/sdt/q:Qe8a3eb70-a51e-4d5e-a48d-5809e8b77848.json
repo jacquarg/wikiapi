@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qe8a3eb70-a51e-4d5e-a48d-5809e8b77848",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contact ",
+  "description": "Numéro national d’identification (INE), nom, prénom, date de naissance",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "Qui a le droit de venir chercher mon enfant",
+  "access": "",
+  "portable": ""
+}

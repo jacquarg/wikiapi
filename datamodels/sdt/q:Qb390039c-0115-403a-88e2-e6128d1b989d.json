@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb390039c-0115-403a-88e2-e6128d1b989d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Bateaux au port de commerce",
+  "description": "coordonnées du propriétaire, nom, type et longueur du bateau, ",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Port de la Rochelle",
+  "support": "site et SI, espace client",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

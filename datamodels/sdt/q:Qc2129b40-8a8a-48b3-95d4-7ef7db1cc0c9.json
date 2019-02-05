@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc2129b40-8a8a-48b3-95d4-7ef7db1cc0c9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Lieux de distribution alimentaire",
+  "description": "Magasin, pays de distribution",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel culinaire",
+  "access": "API",
+  "portable": ""
+}

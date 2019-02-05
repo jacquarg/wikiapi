@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5a8767a2-9343-4a44-8fda-bea6a5425150",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Qualité de l'air",
+  "description": "Taux de particule fines (PM), et polluants, lieu, heure",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Atmo Nouvelle-Aquitaine, Plume Labs",
+  "support": "Portail open data, site web",
+  "defi": [
+    "D11"
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

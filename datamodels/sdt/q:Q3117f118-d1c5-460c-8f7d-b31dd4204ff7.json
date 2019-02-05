@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q3117f118-d1c5-460c-8f7d-b31dd4204ff7",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Goûts et habitudes alimentaires",
+  "description": "photo, commentaire, hashtag, date de publication",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Instagram, facebook",
+  "support": "Photographies smartphone ; Déclaratif",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "Intérêts et habitudes alimentaires",
+  "access": "API",
+  "portable": "oui"
+}

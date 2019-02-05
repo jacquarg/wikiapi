@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb5275106-a8d8-42b8-829b-c75e2edb7f83",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Enseignants : carrière",
+  "description": "Echelon ; Type de passage (ancienneté, choix, grand choix...) ; Durée de l’ancienneté ; Date de titularisation et de stagiarisation",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Académie de Lyon",
+  "support": "Iprof",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

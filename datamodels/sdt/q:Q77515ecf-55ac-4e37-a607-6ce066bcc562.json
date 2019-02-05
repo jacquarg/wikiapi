@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q77515ecf-55ac-4e37-a607-6ce066bcc562",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "CGU des services utilisés",
+  "description": "Contenu ; Notation ; ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Terms of service didn't read",
+  "support": "Site web",
+  "defi": [
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

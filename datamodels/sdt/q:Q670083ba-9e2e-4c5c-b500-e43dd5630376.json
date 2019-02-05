@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q670083ba-9e2e-4c5c-b500-e43dd5630376",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Ma production d'électricité ",
+  "description": "puissance souscrite, courbe de charge production - heure par heure en kWh",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Enedis",
+  "support": "espace personnel Linky. Services tiers Enedis data Connect",
+  "defi": [
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

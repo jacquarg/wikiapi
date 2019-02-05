@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7ee088bb-b818-401f-8fbe-d4de737ced3f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Commande en ligne de repas transports",
+  "description": "date, noms achats, …",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "SNCF, compagnies aériennes",
+  "support": "Apps, mails de confirmation",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

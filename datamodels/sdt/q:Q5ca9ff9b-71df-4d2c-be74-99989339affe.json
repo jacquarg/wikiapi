@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5ca9ff9b-71df-4d2c-be74-99989339affe",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "coordonnées de livraison",
+  "description": "adresse de livraison, numéro de contact",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Deliveroo, Uber Eats, Shopopop",
+  "support": "Compte utilisateur",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "Habitudes alimentaires",
+  "access": "Scrapping ou API",
+  "portable": ""
+}

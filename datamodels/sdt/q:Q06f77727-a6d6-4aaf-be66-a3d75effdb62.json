@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q06f77727-a6d6-4aaf-be66-a3d75effdb62",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Préférences alimentaires",
+  "description": "aliments recherchés, restaurants recherchés",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "moteurs de recherche (google, qwant,...)",
+  "support": "Google Takeout, ...",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "profil alimentaire",
+  "access": "",
+  "portable": ""
+}

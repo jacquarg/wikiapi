@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q41afbe5d-37fa-49cf-a650-dae52a75f156",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Empreinte CO2 des transports maritimes",
+  "description": "en kg CO2 par km",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ecotransit world",
+  "support": "site  ",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

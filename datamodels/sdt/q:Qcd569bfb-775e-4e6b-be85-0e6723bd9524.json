@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qcd569bfb-775e-4e6b-be85-0e6723bd9524",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date de péremption de mes produits alimentaires",
+  "description": "DLC jour mois année",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Individu",
+  "support": "Emballage produits",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "Temps restant pour consommer le produit",
+  "access": "retranscription",
+  "portable": "non"
+}

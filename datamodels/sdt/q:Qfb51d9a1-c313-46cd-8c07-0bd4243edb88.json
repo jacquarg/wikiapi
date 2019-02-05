@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfb51d9a1-c313-46cd-8c07-0bd4243edb88",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Nombre de calories brûlées par jour et par acte",
+  "description": "temps d'activité, type d'activité, kcal",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Constructeur et app objets connectés, Apple, ...",
+  "support": "Tracker d'activité",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

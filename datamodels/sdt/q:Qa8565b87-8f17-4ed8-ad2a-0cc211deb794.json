@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa8565b87-8f17-4ed8-ad2a-0cc211deb794",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques linguistiques en ligne : parcours",
+  "description": "Nom des unités complétées / nom des unités à compléter / nom des unités à débloquer ",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "DuoLingo",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "Pratiques linguistiques",
+  "access": "",
+  "portable": ""
+}

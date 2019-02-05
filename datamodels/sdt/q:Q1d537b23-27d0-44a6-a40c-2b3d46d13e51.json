@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q1d537b23-27d0-44a6-a40c-2b3d46d13e51",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Diagnostic de performance énergétique",
+  "description": "Etiquette énergie, étiquette climat",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire",
+  "support": "Diagnostic de performance énergétique (DPE)",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

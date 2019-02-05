@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0177d63f-c79a-483c-b23c-4f860598e5d9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Régime alimentaire",
+  "description": "Particularité du régime : végétalien/rien, casher, etc.",
+  "thematique": "Ados",
+  "typology": "santé",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève - fiche sanitaire de liaison",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "Santé de l'enfant",
+  "access": "",
+  "portable": ""
+}

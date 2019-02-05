@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q92a769f4-29cc-45c8-907b-c5aa9adb0e77",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Recettes de cuisine",
+  "description": "ingrédients, temps de cuisson, modes de cuisson, popularité des recettes",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Marmiton",
+  "support": "Site web",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel culinaire",
+  "access": "Scrapping",
+  "portable": ""
+}

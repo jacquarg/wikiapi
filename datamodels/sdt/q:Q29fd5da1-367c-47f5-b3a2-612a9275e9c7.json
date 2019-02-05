@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q29fd5da1-367c-47f5-b3a2-612a9275e9c7",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Parcours touristiques crowdsourcés",
+  "description": "lieu visités, notes, commentaires, itinéraires recommandés",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Tripadvisor, office du tourisme",
+  "support": "site",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

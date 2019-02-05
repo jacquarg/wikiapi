@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q4f6c0c63-5345-4ac7-a0fa-f12bef5cb1c5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Confort et utilité du trajet réalisé ou à réaliser ",
+  "description": "Ex : train avec prises, wifi ",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "SNCF + Individu",
+  "support": "Site web SNCF + Agenda",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

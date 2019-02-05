@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q0e42a6b0-fc53-4971-a38f-9e3542ac5ef9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Type d'emballage",
+  "description": "Bouteille, plastique, consignes de recyclage ...",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel culinaire",
+  "access": "API",
+  "portable": ""
+}

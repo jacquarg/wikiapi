@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qadea6b6c-9548-4119-ace6-44783a7f6112",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Coût des titres de transport",
+  "description": "Coût d’un ticket, grille tarifaire des titres de transports",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Opérateur de transport",
+  "support": "Site web, app",
+  "defi": [
+    "D5"
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

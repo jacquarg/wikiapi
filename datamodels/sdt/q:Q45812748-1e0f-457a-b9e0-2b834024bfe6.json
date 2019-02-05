@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q45812748-1e0f-457a-b9e0-2b834024bfe6",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Classe énergétique des véhicules commercialisés en France",
+  "description": "A, B, C, D, E, F, G (g/km), type de véhicule, options",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ademe",
+  "support": "Car Labelling Ademe",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Scraping",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q92cf9957-2c76-47cc-96e7-e44ffaa7d95f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Prix du carburant en moyenne par département",
+  "description": "€, type de carburant, lieu de vente (nom du département)",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ministère de l'écologie",
+  "support": "Site \"Prix du carburant\" du Ministère de l'Ecologie, du Développement durable et de l'Energie",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Open Data",
+  "portable": ""
+}

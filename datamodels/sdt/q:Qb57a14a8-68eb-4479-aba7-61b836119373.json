@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb57a14a8-68eb-4479-aba7-61b836119373",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "TER Agglo ",
+  "description": "Réseaux des gares, horaires, ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

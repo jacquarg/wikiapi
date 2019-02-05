@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q3c87a1b6-91c2-4e19-a249-3585915885ed",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Type d'énergie consommée par mon véhicule",
+  "description": "Essence, diesel, électricité, hybride...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Constructeur, Assureur, ....",
+  "support": "Etiquette énergie (site web du constructeur ; contrat d'assurance) ou croisement du modèle avec le référentiel Car Labelling Ademe",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

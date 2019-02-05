@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa283cedb-4b8e-4b47-b0d7-c69c5b18a7e7",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Classe énergétique de mon véhicule",
+  "description": "A, B, C, D, E, F, G (g/km)",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ademe + Assureur, etc.",
+  "support": "Etiquette énergie, Car Labelling Ademe",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

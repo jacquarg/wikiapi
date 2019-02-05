@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7230ce5d-1b32-4c5d-b8ac-c15a6243388b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Profil du foyer",
+  "description": "nombre de personnes, âge des membres, adresse",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "DGFIP, etc.",
+  "support": "France Connect (impôts)",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "Profil du foyer",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q1aeac3b6-6001-46e5-bac0-650b5f6bdda5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Température intérieure de mon appartement",
+  "description": "degrés celsius, humidité, variations",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Constructeurs thermomètre connectés, stations météo etc",
+  "support": "Cadran du thermomètre ; Thermomètre connecté ; Station météo connectée",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qcaded4ca-d43e-4c41-ba5b-42b3a11f103d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Utilisation de l'électroménager",
+  "description": "temps d'utilisation, température",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Thermomix, Vorwek, Cookéo, Seb, Moulinex, etc).",
+  "support": "App, compte utilisateur",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "Usages culinaires",
+  "access": " ",
+  "portable": ""
+}

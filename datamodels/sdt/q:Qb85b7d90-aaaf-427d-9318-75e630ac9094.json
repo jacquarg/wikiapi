@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb85b7d90-aaaf-427d-9318-75e630ac9094",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Carte scolaire",
+  "description": "Liste des établissements ; structure pédagogique ;  Projet d'établissement ; Priorités politique éducative",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "MEN",
+  "support": "Site web",
+  "defi": [
+    "Développer son esprit civique"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

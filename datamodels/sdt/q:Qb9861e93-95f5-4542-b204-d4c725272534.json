@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb9861e93-95f5-4542-b204-d4c725272534",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation de mon véhicule électrique",
+  "description": "Consommation moyenne (...kWh/100 km), prix moyen",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

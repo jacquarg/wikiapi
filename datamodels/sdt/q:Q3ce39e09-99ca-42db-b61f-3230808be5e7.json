@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q3ce39e09-99ca-42db-b61f-3230808be5e7",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique Instagram",
+  "description": "Photos, vidéos, stories, profil, commentaires, messages privés, personnes suivies/bloquées/followers, historique de recherche...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Instagram",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

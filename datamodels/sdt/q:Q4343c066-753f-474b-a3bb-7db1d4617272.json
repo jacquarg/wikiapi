@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q4343c066-753f-474b-a3bb-7db1d4617272",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique Youtube",
+  "description": "URL, Horodotage",
+  "thematique": "Ados",
+  "typology": "loisirs",
+  "sourceDataController": "Youtube",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
+  "information": "Vidéos et tutoriels regardés",
+  "access": "",
+  "portable": ""
+}

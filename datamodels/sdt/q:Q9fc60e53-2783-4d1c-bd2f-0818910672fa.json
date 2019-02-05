@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9fc60e53-2783-4d1c-bd2f-0818910672fa",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Classe énergétique des équipements commercialisés en France (hors véhicules)",
+  "description": "A, B, C, D, E, F, G ",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "/",
+  "support": "Sur les sites de vente en ligne (ex : Darty)",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Scraping",
+  "portable": ""
+}

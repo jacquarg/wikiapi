@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa90df919-83d5-4242-88d6-608ef05360d3",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Ma Géolocalisation",
+  "description": "Latitude, Longitude, Horodatage",
+  "thematique": "Mobilité",
+  "typology": "Déplacements",
+  "sourceDataController": "Google, Waze,  Opérateur téléphonique...",
+  "support": "Application, Google Take Out, ...",
+  "defi": [
+    "D1",
+    "D2",
+    "D3"
+  ],
+  "kind": "Personnelle",
+  "information": "Ma position, nb de km parcourus",
+  "access": "Google Take Out",
+  "portable": "portable"
+}

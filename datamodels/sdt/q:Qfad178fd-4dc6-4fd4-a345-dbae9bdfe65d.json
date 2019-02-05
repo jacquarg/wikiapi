@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfad178fd-4dc6-4fd4-a345-dbae9bdfe65d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Etat du trafic",
+  "description": "Géolocalisation (GPS, voie), présence de bouchon, temps de parcours estimé",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Waze, etc",
+  "support": "Site web, applications",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q3764cca0-4cfe-4a79-84ab-08b49fb696e1",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation Electricité/Gaz de l'immeuble",
+  "description": "Données de consommation des occupants, anonymisée et agrégée",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "GRDF, Enedis ",
+  "support": "Via propriétaires/gestionnaires immeubles",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

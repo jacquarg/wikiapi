@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qde761578-9bae-4ea7-a114-e77bef3a02a4",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Points d'intérêts touristiques",
+  "description": "Lieux et espaces à visiter, adresses",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Office du tourisme, Tripadvisor",
+  "support": "Site",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qcb87f2af-c093-454d-b0c6-31dfbd6b1726",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Régime ",
+  "description": "Internat ; demi-pension ; externat ",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qd1d208dc-4d97-4146-908b-e3b479a82757",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "allergies alimentaires",
+  "description": "profil allergique, crises, géolocalisation, traitements, RDV médicaux\n",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Apps (allergiks), carnet de santé",
+  "support": "espace personnel",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

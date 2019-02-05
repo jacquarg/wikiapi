@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qe8193c53-6231-43df-b72c-7c5a04509851",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Droit à l’image",
+  "description": "Projet pédagogique concerné, modes d’exploitation envisagés, Consentement de \nl’élève, Autorisation parentale, ...",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfddde7c9-786b-4df7-bab2-17cff5caec34",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Moyens de transport propres disponibles",
+  "description": "type de véhciule, état, station",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo, opérateurs",
+  "support": "site, apps",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

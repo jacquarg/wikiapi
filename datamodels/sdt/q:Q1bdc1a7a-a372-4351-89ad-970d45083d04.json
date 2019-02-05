@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q1bdc1a7a-a372-4351-89ad-970d45083d04",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Borne de recharge électrique",
+  "description": "lieu, disponibilité",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q769f327d-86d2-43fd-83ab-81b7cc10007a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Usage de mon véhicule ",
+  "description": "nombre d'heures et fréquence d'utilisation, nombre de personnes qui l'utilisent par trajet, type de conduite, vitesse moyenne",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Constructeur, Xee et autres boitiers connectés",
+  "support": "Ordinateur de bord ; Capteurs véhicule",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

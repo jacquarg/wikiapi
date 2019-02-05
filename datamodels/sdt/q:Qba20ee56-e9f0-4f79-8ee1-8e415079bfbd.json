@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qba20ee56-e9f0-4f79-8ee1-8e415079bfbd",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique Snapchat",
+  "description": "Snaps, Chats, Story, Achats, Amis, Classement, Localisations, Recherches, Abonnements, Bitmoji, Sondages in-app, Contenu signalé...\n",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Snapchat",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

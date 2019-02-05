@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q8e583b74-4338-45bd-8b13-c68f603a58e7",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation réelle de mon véhicule ",
+  "description": "Nombre de km, vitsse, véhicule utilisé, prix et litre de carburant consommés",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Divers : constructeur, banque, ...",
+  "support": "Ordinateur de bord ; Capteurs supplémentaires ; Ticket de caisse de station service ; Relevé bancaire",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

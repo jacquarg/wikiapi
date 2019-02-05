@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc3b1cb7b-c6b1-4f78-82ec-8dabfcbdf0c4",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Affluence en gare",
+  "description": "nombre de voyageurs, heure, jour",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Opérateur",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

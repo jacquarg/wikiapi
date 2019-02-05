@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q4edf61af-ff92-4903-b36e-2fb221cbb36c",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contraventions",
+  "description": "Montant, motif, date et mode de paiement, ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Etat/ANTS",
+  "support": "Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

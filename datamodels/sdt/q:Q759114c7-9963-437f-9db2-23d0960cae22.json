@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q759114c7-9963-437f-9db2-23d0960cae22",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Energie par trajet : quantité ",
+  "description": "(ex : 6L au 100, 6kw/h, 6 calories), consommée/produite",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q4fc68f29-fa92-4029-998d-760a67d7483c",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes pratiques internet : navigation\n",
+  "description": "Gigas consommés",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Opérateur télécom",
+  "support": "Espace personnel",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

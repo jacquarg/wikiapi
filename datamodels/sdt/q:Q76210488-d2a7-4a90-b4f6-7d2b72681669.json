@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q76210488-d2a7-4a90-b4f6-7d2b72681669",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Ma consommation chauffage hors électricité/gaz",
+  "description": "volume/poids, prix et type de produit acheté (fioul, copeaux, stères de bois,...), date d'achat",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Banque",
+  "support": "facture, relevé bancaire",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "consommation d'énergie selon mon comportement",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qcea839cf-6eb5-4bcd-93e4-5227e7f65225",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Equipement de chauffage de mon logement\n",
+  "description": "type et nombre",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire, Prestataire DPE, ...",
+  "support": "DPE (Diagnostic de Performance énergétique) ; Plan",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

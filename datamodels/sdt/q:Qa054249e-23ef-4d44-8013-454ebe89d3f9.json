@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa054249e-23ef-4d44-8013-454ebe89d3f9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Actualités école",
+  "description": "Absence enseignants",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement",
+    "Développer son esprit civique"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

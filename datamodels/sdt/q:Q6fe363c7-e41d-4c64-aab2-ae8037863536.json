@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q6fe363c7-e41d-4c64-aab2-ae8037863536",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques jeux vidéos",
+  "description": "Nom du jeu joué, nombre d'heures jouées, ...",
+  "thematique": "Ados",
+  "typology": "loisirs",
+  "sourceDataController": "Plateformes d'achats de jeux (Steam), Editeurs de jeux (Epic Game), ... ",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement",
+    "Se sensibiliser aux usages numériques"
+  ],
+  "kind": "Personnelle",
+  "information": "Jeux joués",
+  "access": "",
+  "portable": ""
+}

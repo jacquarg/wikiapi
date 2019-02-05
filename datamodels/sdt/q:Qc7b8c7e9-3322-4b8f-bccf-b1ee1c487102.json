@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc7b8c7e9-3322-4b8f-bccf-b1ee1c487102",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Orientation 3e ",
+  "description": "Choix des lycées, souhaits pour les enseignements au choix, avis/conseil d'orientation",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Académie de Lyon",
+  "support": "Affelnet-lycée",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

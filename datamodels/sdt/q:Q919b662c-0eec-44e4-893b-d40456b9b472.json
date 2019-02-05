@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q919b662c-0eec-44e4-893b-d40456b9b472",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Prix du carburant dans chaque station",
+  "description": "type de carburant, prix en euros au litre, station et localisation",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Apps : Gasoil now, Essence&co, Carburant moins cher, Zagaz, Fuel Flash,...",
+  "support": "Sites web spécialisés (ex : Zagaz)",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

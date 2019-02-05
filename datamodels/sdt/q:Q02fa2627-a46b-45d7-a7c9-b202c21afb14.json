@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q02fa2627-a46b-45d7-a7c9-b202c21afb14",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Qualité air interieur (O2) de mon domicile",
+  "description": "Niveaux de CO2, de monoxyde de carbone, composants volatiles organiques, particules fines...",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Constructeur Capteur de mesure (ex : Foobot)",
+  "support": "Espace personnel, App",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

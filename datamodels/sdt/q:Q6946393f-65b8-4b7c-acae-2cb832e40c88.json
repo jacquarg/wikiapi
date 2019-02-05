@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q6946393f-65b8-4b7c-acae-2cb832e40c88",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date d'achat de mes équipements",
+  "description": "Date d'achat",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Facture ; Garantie",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

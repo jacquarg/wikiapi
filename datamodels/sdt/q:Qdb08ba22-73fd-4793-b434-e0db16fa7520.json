@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qdb08ba22-73fd-4793-b434-e0db16fa7520",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Géolocalisation de mon véhicule : instant T et historique",
+  "description": "coordonnées GPS",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Constructeur, Xee et autres boitiers connectés",
+  "support": "GPS ; Capteurs véhicule ; Ordinateur de bord",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

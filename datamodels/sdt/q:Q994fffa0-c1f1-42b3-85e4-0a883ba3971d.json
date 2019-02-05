@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q994fffa0-c1f1-42b3-85e4-0a883ba3971d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Punitions & Sanctions ",
+  "description": "Type de la sanction/punition, nom de l'enseignant, motif",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

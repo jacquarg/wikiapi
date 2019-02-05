@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q18b0698b-dbf1-4fa0-8b15-9528c6e726e0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Acte de naissance",
+  "description": "N° de l'acte, date de délivrance, prénom, nom, date/lieu/heure de naissance, nom des parents ",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Etat",
+  "support": "Livret famille",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

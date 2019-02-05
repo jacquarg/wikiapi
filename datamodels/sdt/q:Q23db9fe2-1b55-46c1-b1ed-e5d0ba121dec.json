@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q23db9fe2-1b55-46c1-b1ed-e5d0ba121dec",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Transports en commun : profil abonné",
+  "description": "Adresse, date de naissance, email, téléphone, date de l’abonnement, justificatifs (certificat scolarité, carte invalidité, etc)\n",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Compte en ligne / App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

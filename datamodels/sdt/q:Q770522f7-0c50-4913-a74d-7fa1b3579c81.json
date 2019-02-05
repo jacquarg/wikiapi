@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q770522f7-0c50-4913-a74d-7fa1b3579c81",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Transport en commun : type abonnement",
+  "description": "Classique, Scolaire -18 ans, jeunes - 26 ans ou Liberté",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Compte en ligne / App",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

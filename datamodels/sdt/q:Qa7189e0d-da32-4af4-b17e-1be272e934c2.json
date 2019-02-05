@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa7189e0d-da32-4af4-b17e-1be272e934c2",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Déductions liées aux frais de déplacement",
+  "description": "Montant, motif, date, ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "DGFIP",
+  "support": "Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

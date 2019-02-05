@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q176c5719-4339-4ccf-9c44-65325d320e9a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes équipements ",
+  "description": "Types, noms et modèles",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Notice de l'équipement ; Sur l'équipement ; Garanties",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

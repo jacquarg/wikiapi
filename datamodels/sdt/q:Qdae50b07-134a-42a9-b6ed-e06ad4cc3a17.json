@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qdae50b07-134a-42a9-b6ed-e06ad4cc3a17",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Nombre de calories brûlées par jour et par acte",
+  "description": "kcal",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "Tracker d'activité",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

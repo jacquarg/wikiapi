@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfd84dc0a-7d52-4d6a-982b-82232a022fb6",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Ma consommation gaz/électricité",
+  "description": "courbe de charge (évolution de la consommation d'énergie KwH pendant une durée (1 heure, 1 minute, 10 secondes…), historique d'index quotidiens et puissance maximale quotidienne",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Enedis, GRDF",
+  "support": "espace personnel Linky, Gazpar. Services tiers GRDF Adict et Enedis data Connect",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "consommation d'énergie selon mon comportement",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qbc720572-c029-4754-9b44-da9d4e81e105",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Coût unitaire de mes équipements",
+  "description": "coût en euros",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Bon de commande, facture détaillée",
+  "support": "Reçus ; Tickets de caisses ; Relevé de comptes ; Garantie",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9e2095a2-aa9e-4f1d-a522-e2f3660592fa",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Potentiel de production d'énergie éolienne, biomasse, géothermique",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

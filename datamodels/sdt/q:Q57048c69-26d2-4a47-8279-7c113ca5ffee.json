@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q57048c69-26d2-4a47-8279-7c113ca5ffee",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Description des bâtiments de copropriété à usage habitat",
+  "description": "",
+  "thematique": "",
+  "typology": "",
+  "sourceDataController": "Etat ",
+  "support": "accès : Personnes publiques autorisées (dont Nantes Métropole)",
+  "defi": [
+    ""
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

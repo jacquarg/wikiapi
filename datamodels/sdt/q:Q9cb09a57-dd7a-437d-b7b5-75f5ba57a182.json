@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9cb09a57-dd7a-437d-b7b5-75f5ba57a182",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pièce d'identité enfant & parent",
+  "description": "nom, prénom, date de naissance, lieu de naissance, adresse, date de validité, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Etat",
+  "support": "/",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

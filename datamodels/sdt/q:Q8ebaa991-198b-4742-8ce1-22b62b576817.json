@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q8ebaa991-198b-4742-8ce1-22b62b576817",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Permis B - Droits et aides ",
+  "description": "Justificatif conditions de ressources, montant de l'aide régionale, ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Région",
+  "support": "Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

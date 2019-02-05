@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb2ee1af0-c721-4dc8-9f39-85c0bb90ec5f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Rendement installation photovoltaïque",
+  "description": "type de silicium, puissance (kWc), situation géographique, inclinaison et orientation du panneau solaire ",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "installateurs de panneaux solaires, autoconsommation.io",
+  "support": "",
+  "defi": [
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

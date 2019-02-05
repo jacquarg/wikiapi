@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9edfd448-8938-4f3e-811d-abd8c7706a64",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contrôle technique : récépissé",
+  "description": "Mois et Année du prochain contrôle ; Numéro d'agrément ; ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "UTAC-OTC",
+  "support": "/",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

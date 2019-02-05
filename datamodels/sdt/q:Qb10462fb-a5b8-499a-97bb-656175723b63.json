@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb10462fb-a5b8-499a-97bb-656175723b63",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Type d'énergie consommée des véhicules commercialisés en France",
+  "description": "type de carburant ou véhicule électrique",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Ademe",
+  "support": "Car Labelling Ademe",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "Scraping",
+  "portable": ""
+}

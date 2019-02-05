@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q13b8c961-e5d5-4183-b583-59a3cbb0b5e0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Résultats au test PIX ",
+  "description": "Résultat test de positionnement ; Résultat test de certification ; Niveaux (1 à 8) par compétence (1 à 16) ; Nombre de pix acquis par niveau",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Etat - PIX",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

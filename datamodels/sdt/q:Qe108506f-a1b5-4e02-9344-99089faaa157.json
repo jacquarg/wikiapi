@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qe108506f-a1b5-4e02-9344-99089faaa157",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Recettes de cuisine",
+  "description": "recettes sauvegardées, type (entrée, plat, dessert), nom, ingrédients",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Marmiton",
+  "support": "espace personnel",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "Habitudes alimentaires",
+  "access": "Scrapping",
+  "portable": ""
+}

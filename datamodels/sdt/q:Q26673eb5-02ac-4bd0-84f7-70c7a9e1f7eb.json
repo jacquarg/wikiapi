@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q26673eb5-02ac-4bd0-84f7-70c7a9e1f7eb",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Yélomobile : Trajet ",
+  "description": "nombre de kilomètre, distance, lieux, lieu de récupération, lieu d’arrivée, date",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Yélo / Agglo La Rochelle",
+  "support": "Espace client",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

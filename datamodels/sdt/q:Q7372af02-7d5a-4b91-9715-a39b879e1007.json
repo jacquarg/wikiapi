@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7372af02-7d5a-4b91-9715-a39b879e1007",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Menus",
+  "description": "composition du menu, entrée, plat, dessert",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Cantines",
+  "support": "Site internet de la ville",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel",
+  "access": "",
+  "portable": ""
+}

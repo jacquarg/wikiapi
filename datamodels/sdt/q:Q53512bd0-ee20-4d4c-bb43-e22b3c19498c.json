@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q53512bd0-ee20-4d4c-bb43-e22b3c19498c",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Evenements civiques",
+  "description": "Agenda des débats, liste des associations, ordre du jour des conseils municipaux/communautaires, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Grand Lyon",
+  "support": "Site web",
+  "defi": [
+    "Développer son esprit civique"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

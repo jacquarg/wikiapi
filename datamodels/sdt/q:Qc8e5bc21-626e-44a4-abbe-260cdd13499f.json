@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qc8e5bc21-626e-44a4-abbe-260cdd13499f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Activités périscolaires : activités",
+  "description": "Nom des activités choisies, horaires, nom de l'encadrant, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège ",
+  "support": "",
+  "defi": [
+    "S'évaluer autrement",
+    "Développer son esprit civique"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

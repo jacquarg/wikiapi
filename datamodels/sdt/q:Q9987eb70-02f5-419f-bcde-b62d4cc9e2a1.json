@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9987eb70-02f5-419f-bcde-b62d4cc9e2a1",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Thermographie des bâtiments",
+  "description": "Potentiel thermographique",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Nantes Métropole - AURAN, Open Solar Map",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

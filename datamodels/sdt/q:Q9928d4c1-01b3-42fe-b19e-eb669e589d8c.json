@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9928d4c1-01b3-42fe-b19e-eb669e589d8c",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Expositions vues",
+  "description": "Nom de l'exposition, Musée, date, prix",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Musées - Métropole de Lyon",
+  "support": "Pass trabool",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

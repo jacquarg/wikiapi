@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qd84d3f93-d03f-475e-b056-c37063a31ade",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes pratiques internet : mails",
+  "description": "nombre de mail envoyés/reçus par h/ jour",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Messageries (Gmail, Roundcube,...)",
+  "support": "Google takeout",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

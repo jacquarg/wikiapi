@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7cf4a34e-a9a8-46b3-a3c3-cdee6660a08d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Stage 3e",
+  "description": "Lieu du stage / n°Siret, nom du tuteur de stage, dates du stage, autoévaluation, appréciations par entreprise, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège ",
+  "support": "",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

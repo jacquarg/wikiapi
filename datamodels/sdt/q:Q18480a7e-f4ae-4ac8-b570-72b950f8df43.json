@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q18480a7e-f4ae-4ac8-b570-72b950f8df43",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Langues vivantes étrangères",
+  "description": "Nom de la LV1, Nom de la LV2",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Collège - Métropole de Lyon",
+  "support": "ENT - LaClasse.com",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

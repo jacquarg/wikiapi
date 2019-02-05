@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q92583229-48a5-4d16-bd7c-7e38c56bb840",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Infrastructures des réseaux d'énergie",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Gestionnaires réseaux et collectivités",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

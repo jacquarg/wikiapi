@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q211fb714-7b9c-4458-9a9f-8640dc615d09",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Stationnement : paiement ",
+  "description": "carte (nom, heures stations, durée) ou occasionnel (n° de ticket, empreinte carte bleue), droits de stationnement prioritaire, ...",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "PayByPhone",
+  "support": "App, Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

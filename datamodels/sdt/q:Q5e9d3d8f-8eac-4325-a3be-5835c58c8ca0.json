@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q5e9d3d8f-8eac-4325-a3be-5835c58c8ca0",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Itinéraire multimodal",
+  "description": "Liste des étapes et moyens de transports à prendre pour effectuer un trajet",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Google, OSM (et beaucoup d’autres !)",
+  "support": "Site web, app",
+  "defi": [
+    "D4"
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

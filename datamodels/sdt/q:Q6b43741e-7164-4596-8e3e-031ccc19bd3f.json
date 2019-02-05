@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q6b43741e-7164-4596-8e3e-031ccc19bd3f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation réelle de mes équipements ",
+  "description": "en KWh",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Equipementiers, Distributeurs, ADEME",
+  "support": "Etiquette environnementale ; Capteur sur le compteur ; Capteurs sur l'équipement",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

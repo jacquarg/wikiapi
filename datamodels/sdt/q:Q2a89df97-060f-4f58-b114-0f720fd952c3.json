@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q2a89df97-060f-4f58-b114-0f720fd952c3",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Nombre de tantièmes de chauffage de mon appartement",
+  "description": "",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Propriétaire",
+  "support": "Règlement de copropriété",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qed1ba06d-e4e9-4512-9c46-1d8ba0c4f75a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Droits et aides : carte tremplin",
+  "description": "Numéro de la carte, date de délivrance, date de validité",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Pole Emploi / Région",
+  "support": "Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qf2e9c35a-fc32-4ca1-a36d-7dc9b84ccb35",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Données Majic et/ou Fichiers Fonciers issus de Majic ",
+  "description": "Données descriptives des différents propriétés bâties",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "DGFIP ou DGALN",
+  "support": "Accès : Collectivité ou entité chargé de missions de service public, dont Nantes Métropole",
+  "defi": [
+    ""
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

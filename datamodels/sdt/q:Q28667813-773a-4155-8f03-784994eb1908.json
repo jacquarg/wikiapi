@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q28667813-773a-4155-8f03-784994eb1908",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Trajets effectués avec mon véhicule instant T et historique ",
+  "description": "nombre de kilomètres, distance, lieux",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Constructeur du véhicule, App GPS (Waze, Google Maps, Mappy, Viamichelin)",
+  "support": "Historique GPS (véhicule, smartphone)",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

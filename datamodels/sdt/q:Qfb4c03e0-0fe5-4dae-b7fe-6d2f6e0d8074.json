@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qfb4c03e0-0fe5-4dae-b7fe-6d2f6e0d8074",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Offre culturelle et sportive",
+  "description": "Agenda des évenements, liste des clubs, ...",
+  "thematique": "Ados",
+  "typology": "",
+  "sourceDataController": "Grand Lyon",
+  "support": "Site web",
+  "defi": [
+    "Développer son esprit civique"
+  ],
+  "kind": "Non personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

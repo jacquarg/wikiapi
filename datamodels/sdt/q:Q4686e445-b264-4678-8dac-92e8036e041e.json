@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q4686e445-b264-4678-8dac-92e8036e041e",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Transport en commun : prix tickets et abonnements ",
+  "description": "coût d'un ticket en euros, coût pour 10 tickets, coût abonnement (hebdomadaire, mensuel, annuel), tarifs réduits",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Opérateur de transport",
+  "support": "Sites des transporteurs de ma ville",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

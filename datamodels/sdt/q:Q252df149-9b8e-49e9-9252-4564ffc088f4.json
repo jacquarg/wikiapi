@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q252df149-9b8e-49e9-9252-4564ffc088f4",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date de construction de mon domicile",
+  "description": "date",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Notaire",
+  "support": "DPE (Diagnostic de Performance énergétique) ; Plan ; Bail ",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

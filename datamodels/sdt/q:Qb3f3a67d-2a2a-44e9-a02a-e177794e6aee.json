@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qb3f3a67d-2a2a-44e9-a02a-e177794e6aee",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mes dépenses et mes revenus",
+  "description": "solde, crédit, débit, dates activités",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Banque",
+  "support": "Espace client en ligne de ma banque",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

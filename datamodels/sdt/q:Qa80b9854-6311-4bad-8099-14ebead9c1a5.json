@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qa80b9854-6311-4bad-8099-14ebead9c1a5",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Composition des produits alimentaires",
+  "description": "liste d'ingrédients, Kcal, etc\n",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Openfoodfacts",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "Référentiel culinaire",
+  "access": "API",
+  "portable": ""
+}

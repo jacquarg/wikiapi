@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q17d11c47-8f39-4a67-b1ee-378ff80a5596",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Consommation Electricité/Gaz du bâtiment",
+  "description": "Consommation - au niveau de l'adresse",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "GRDF, Enedis (bientôt en Open Data)",
+  "support": "Via Nantes Métropole",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

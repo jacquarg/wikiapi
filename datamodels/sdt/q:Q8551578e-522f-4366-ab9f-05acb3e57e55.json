@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q8551578e-522f-4366-ab9f-05acb3e57e55",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques linguistiques en ligne : trophés",
+  "description": "Exploits : wildfire, champion, big spender, wizard, ...",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "DuoLingo",
+  "support": "Espace personnel du site web/de l'application",
+  "defi": [
+    "S'évaluer autrement"
+  ],
+  "kind": "Personnelle",
+  "information": "Pratiques linguistiques",
+  "access": "",
+  "portable": ""
+}

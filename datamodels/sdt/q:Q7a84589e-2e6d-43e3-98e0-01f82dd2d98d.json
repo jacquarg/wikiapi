@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q7a84589e-2e6d-43e3-98e0-01f82dd2d98d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Pratiques sportives",
+  "description": "sport pratiqué, fréquence des entraînements, durée, ...",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "objets connectés (trackers, Wtithings...), clubs de sport (club med gym, gym suédoise,...)",
+  "support": "espace personnel",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

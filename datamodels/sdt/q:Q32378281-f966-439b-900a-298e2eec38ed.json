@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q32378281-f966-439b-900a-298e2eec38ed",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Contact responsable du mineur",
+  "description": "Nom, prénom, téléphone domicile/travail/portable, n° sécurité sociale dont dépend l'enfant",
+  "thematique": "Ados",
+  "typology": "travail/ecole,",
+  "sourceDataController": "Collège ",
+  "support": "Dossier inscription élève - Fiche sanitaire de liaison",
+  "defi": [
+    "Gérer ses demandes administratives, se faciliter le quotidien (parents, enfants, enseignants)"
+  ],
+  "kind": "Personnelle",
+  "information": "Qui a le droit de venir chercher mon enfant",
+  "access": "",
+  "portable": ""
+}

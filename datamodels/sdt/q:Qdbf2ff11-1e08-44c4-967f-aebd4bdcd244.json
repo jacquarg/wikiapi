@@ -1,0 +1,22 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qdbf2ff11-1e08-44c4-967f-aebd4bdcd244",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Aides disponibles selon profil",
+  "description": "crédits d'impôts, subventions, montant, selon profil (caractéristiques du logement (surface, année de construction...), devis d'entreprises, Revenu Fiscal de Référence (RFR)), type de travaux envisagés)",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "ADEME",
+  "support": "Simul'Aid€s",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

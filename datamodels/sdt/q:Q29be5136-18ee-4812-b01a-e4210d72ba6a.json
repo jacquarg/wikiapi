@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q29be5136-18ee-4812-b01a-e4210d72ba6a",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Stationnement : profil",
+  "description": "Parkings réguliers, horaires, type de l'abonnement (résident, abonnement mensuel particulier, professionnel mobile)",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "PayByPhone",
+  "support": "App, Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

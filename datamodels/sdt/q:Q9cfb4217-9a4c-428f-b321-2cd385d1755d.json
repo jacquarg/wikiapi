@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9cfb4217-9a4c-428f-b321-2cd385d1755d",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Poids de mes déchets",
+  "description": "kg, date",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Poubelle connectée / calcul sur la base de mes achats",
+  "support": "Site ou app",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "Scrapping ou API",
+  "portable": ""
+}

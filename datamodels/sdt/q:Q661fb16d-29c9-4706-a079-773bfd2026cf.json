@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q661fb16d-29c9-4706-a079-773bfd2026cf",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Horaires des marchés",
+  "description": "Lieux, horaires, type de marché",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Collectivité locale",
+  "support": "Sites web municipaux ",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

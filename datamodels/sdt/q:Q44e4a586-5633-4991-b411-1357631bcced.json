@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q44e4a586-5633-4991-b411-1357631bcced",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Empreinte carbone des pratiques numériques",
+  "description": "CO2 et kWh/ mail envoyé, reçu, stocké, /pages chargées",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "ADEME, Shiftproject",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

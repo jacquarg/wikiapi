@@ -1,0 +1,23 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q8b39b130-521b-4f7f-b1ef-2272c1be5c7b",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Mon adresse",
+  "description": "N° voie, nom de la voie, code postal, ville, pays",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "France Connect",
+  "support": "Carte d'identité ; Passeport ; Profil sécurité sociale, assurances, mutuelles, banques, CAF, MonSP, impôts, employeurs, etc...",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts",
+    "Calculer et/ou réduire la consommation d’énergie de mon logement",
+    "Accompagner la production d’énergies propres sur mon territoire"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

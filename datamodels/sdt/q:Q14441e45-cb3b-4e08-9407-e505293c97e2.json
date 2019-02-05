@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q14441e45-cb3b-4e08-9407-e505293c97e2",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Historique d'achat de mes biens de consommation hors alimentation ",
+  "description": "date d'achat, type d'achat (petit équipement, biens divers, ...), nom du produit, ...",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "GMS, Banque, ...",
+  "support": "Ticket de caisse ; Données de ma carte de fidélité ; Espace client en ligne de ma banque",
+  "defi": [
+    "Calculer et/ou réduire la consommation d’énergie de mon logement"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

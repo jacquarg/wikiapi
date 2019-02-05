@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q9df02496-a591-4bf3-a76a-894c22c1fe1e",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Permis A, B, C,...",
+  "description": "Identité, date d'obtention, n°",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "Préfecture",
+  "support": "Espace personnel",
+  "defi": [
+    ""
+  ],
+  "kind": "",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

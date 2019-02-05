@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q36abdf8a-cac8-4a90-9dfe-218de4df4ca9",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Cadastre solaire",
+  "description": "Irradiation solaire / potentiel solaire en kWh",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Nantes Métropole - Insunwetrust, Open Solar Map",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

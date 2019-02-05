@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qcf649e25-10ba-4acb-a649-89f139348d9f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "régime alimentaire",
+  "description": "végétarien, casher, sans porc, végétalien, sans gluten",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "école, médecins",
+  "support": "",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "Personnelle",
+  "information": "",
+  "access": "",
+  "portable": "non"
+}

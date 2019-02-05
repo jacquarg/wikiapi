@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Q825aa7ec-925d-4a6c-a27a-cae545088847",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Données péages autoroutes ",
+  "description": "Péages à Niort et à Rochefort",
+  "thematique": "Mobilité",
+  "typology": "",
+  "sourceDataController": "",
+  "support": "",
+  "defi": [
+    ""
+  ],
+  "kind": "Non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}

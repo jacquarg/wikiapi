@@ -1,0 +1,21 @@
+{
+  "@context": "semantic/context.json",
+  "@id": "q:Qf95a36da-2e52-443b-8411-5e420174be9f",
+  "@type": [
+    "object",
+    "wq:Q1397073"
+  ],
+  "label": "Date de péremption",
+  "description": "Date Limite de Consommation ",
+  "thematique": "TEE",
+  "typology": "",
+  "sourceDataController": "Fournisseur",
+  "support": "Emballage",
+  "defi": [
+    "Calculer et/ou réduire l'empreinte écologique de mon alimentation #déchets #circuits-courts"
+  ],
+  "kind": "non",
+  "information": "",
+  "access": "",
+  "portable": ""
+}
